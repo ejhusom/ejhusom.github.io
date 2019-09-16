@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>C++ cheatsheet</title>
+
+    <link href="../minimalistWhite.css" rel="stylesheet" type="text/css" title="Default">
+
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <meta name="author" content="Erik Johannes Husom">
+  	<meta name="description" content="Cheatsheet for C++.">
+
+  </head>
+
+
+  <body>
+    <header>
+      <a href='../index.html' class='ghost'>
+        <h1>Erik Johannes Husom</h1>
+      </a>
+      <a href='../cheatsheets.html' class='ghost'>
+        <h2>Cheatsheets:</h2>
+      </a>
+      <h2>c++</h2>
+    </header>
+
+    <h3 class=cheatsheet>Basics</h3>
+    <section class=masonry>
+
+      <section class=item>
+        <h4>Data Types</h4>
+        <ul>
+          <li class=codelist><code class=entry>int</code><span class=definition>integer</span></li>
+          <li class=codelist><code class=entry>float</code><span class=definition>floating point</span></li>
+          <li class=codelist><code class=entry>double</code><span class=definition>double floating </span></li>
+          <li class=codelist><code class=entry>char</code><span class=definition>character</span></li>
+        </ul>
+      </section>
+    </section>
+
+    <h3 class=cheatsheet>Snippets</h3>
+    <section class=masonry>
+      <section class=item>
+        <h4>Print Matrix</h4>
+        <span class=description>Print out a square matrix A with N elements.</span>
+        <pre>
+#include &lt;iostream&gt;
+#include &lt;iomanip&gt;
+for (int i=0; i < N; i++){
+  for (int j=0; j < N; j++){
+    cout << setw(8) << setprecision(4) << A[i][j];
+  }
+  cout << endl;
+}
+        </pre>
+      </section>
+    </section class=container>
+
+    <!-- <footer>
+      Copyright 2018 by Erik Johannes Husom. All rights reserved.
+    </footer> -->
+  </body>
+
+</html>

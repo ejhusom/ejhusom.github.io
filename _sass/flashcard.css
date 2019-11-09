@@ -1,0 +1,15 @@
+dl {
+    background: white;
+}
+
+dd {
+    display: none;
+}
+
+dt:active + dd{
+    display: block;
+}
+
+dt:hover + dd{
+    display: block;
+}

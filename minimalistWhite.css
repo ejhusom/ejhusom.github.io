@@ -114,6 +114,10 @@ a.ghost:link, a.ghost:visited, a.ghost:hover {
   overflow: hidden;
 }
 
+.image_logo {
+    width: 30%;
+}
+
 .imagerow {
   display: inline-block;
   position: relative;
@@ -184,6 +188,9 @@ a.ghost:link, a.ghost:visited, a.ghost:hover {
 
 /*======= Tablets and mobile devices =======*/
 @media screen and (max-width: 992px) {
+    .image_logo {
+        width: 70%;
+    }
     .masonry {
         column-count: 2;
     }

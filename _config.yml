@@ -1,8 +1,0 @@
-title: Erik Johannes Husom
-author: Erik Johannes Husom
-email: erikjohannes@protonmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Personal website.
-baseurl: "/personal" # the subpath of your site, e.g. /blog
-url: "https://ejhusom.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  ejhusom

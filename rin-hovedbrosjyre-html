@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Retreat i Nidaros - hovedbrosjyre 2020</title>
+    <link rel='stylesheet' href='./minimalistWhite.css'>
+
+
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+  </head>
+
+
+  <body>
+    <header>
+      <a href='./rin.html' class='ghost'>
+        <h1>Retreat i Nidaros</h1>
+      <h2>::</h2>
+      <h2>Hovedbrosjyre 2020</h2>
+    </header>
+
+    <section class=imagemasonry>
+        <section class=imageitem>
+            <a href='files/rin/web/rin-hovedbrosjyre-2020-web-1.png'><img
+                class="image_thumb"
+                src='files/rin/web/rin-hovedbrosjyre-2020-web-1.png'/></a>
+        </section>
+        <section class=imageitem>
+            <a href='files/rin/web/rin-hovedbrosjyre-2020-web-2.png'><img
+                class="image_thumb"
+                src='files/rin/web/rin-hovedbrosjyre-2020-web-2.png'/></a>
+        </section>
+        <section class=imageitem>
+            <a href='files/rin/web/rin-hovedbrosjyre-2020-web-3.png'><img
+                class="image_thumb"
+                src='files/rin/web/rin-hovedbrosjyre-2020-web-3.png'/></a>
+        </section>
+        <section class=imageitem>
+            <a href='files/rin/web/rin-hovedbrosjyre-2020-web-4.png'><img
+                class="image_thumb"
+                src='files/rin/web/rin-hovedbrosjyre-2020-web-4.png'/></a>
+        </section>
+    </section>
+    <footer>
+      Copyright 2019 by Erik Johannes Husom. All rights reserved.
+    </footer>
+  </body>
+
+</html>

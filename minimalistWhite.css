@@ -11,8 +11,8 @@ body {
     margin-right: 5%;
     box-sizing: border-box;
     /* Constraining width, and centering */
-    /*max-width: 50em;
-    margin: auto;*/
+    max-width: 50em;
+    margin: auto;
 }
 
 header {

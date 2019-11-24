@@ -127,13 +127,13 @@ a.ghost:link, a.ghost:visited, a.ghost:hover {
 }
 
 .imagemasonry {
-  column-count: 1;
-  column-gap: 0.2rem;
-  margin-right: 3%;
+    column-count: 1;
+    column-gap: 0.2rem;
+    margin-right: 3%;
 }
 
 .imagemasonry4 {
-  column-count: 1;
+  column-count: 2;
   column-gap: 0.2rem;
   margin-right: 3%;
 }
@@ -175,7 +175,7 @@ a.ghost:link, a.ghost:visited, a.ghost:hover {
 
 /* ========== WEBCAM ========== */
 .webcam {
-    width: 50%;
+    width: 100%;
     display: block;
     padding-bottom: 1em;    
 }    

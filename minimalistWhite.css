@@ -136,14 +136,14 @@ a.ghost:link, a.ghost:visited, a.ghost:hover {
     margin-right: 3%;
 }
 
-.imagemasonry4 {
-  column-count: 2;
+.imagemasonry2 {
+  column-count: 1;
   column-gap: 0.2rem;
   margin-right: 3%;
 }
 
-.imagemasonry-small {
-  column-count: 1;
+.imagemasonry4 {
+  column-count: 2;
   column-gap: 0.2rem;
   margin-right: 3%;
 }
@@ -227,11 +227,11 @@ a.ghost:link, a.ghost:visited, a.ghost:hover {
     .imagemasonry {
         column-count: 3;
     }
+    .imagemasonry2 {
+        column-count: 1;
+    }
     .imagemasonry4 {
         column-count: 4;
-    }
-    .imagemasonry-small {
-        column-count: 3;
     }
 }
 

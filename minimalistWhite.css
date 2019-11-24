@@ -7,12 +7,12 @@
 body {
     font-family: sans-serif;
     color: var(--main-font-color);
-    margin-left: 5%;
-    margin-right: 5%;
-    box-sizing: border-box;
     /* Constraining width, and centering */
     max-width: 50em;
     margin: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-sizing: border-box;
 }
 
 header {
@@ -188,6 +188,9 @@ a.ghost:link, a.ghost:visited, a.ghost:hover {
 
 /*======= Tablets and mobile devices =======*/
 @media screen and (max-width: 992px) {
+    body {
+        max-width: none;
+    }
     .image_logo {
         width: 70%;
     }

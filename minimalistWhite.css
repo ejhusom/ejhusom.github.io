@@ -1,9 +1,14 @@
+/* File:        minimalistWhite.css
+ * Author:      Erik Johannes Husom
+ * Description: Style for personal website.
+ */
+
 :root {
     --main-font-color: rgb(57, 56, 56);
     --secondary-font-color: rgb(142, 142, 142);
 }
 
-
+/*Body{{{*/
 body {
     font-family: sans-serif;
     color: var(--main-font-color);
@@ -18,7 +23,9 @@ body {
 body.wide {
     max-width: none;
 }
+/*}}}*/
 
+/*Header{{{*/
 header {
     top: 0;
     right: 0;
@@ -26,15 +33,18 @@ header {
     padding-top: 5rem;
     padding-bottom: 2rem;
 }
+/*}}}*/
 
-
+/*Nav{{{*/
 nav {
   font-size: 1em;
   font-weight: 600;
   color: var(--secondary-font-color);
   text-transform: lowercase;
 }
+/*}}}*/
 
+/*Headers{{{*/
 h1, h2, h3 {
   display: inline;
   font-size: 16px;
@@ -68,11 +78,15 @@ h4 {
     text-transform: lowercase;
     color: var(--secondary-font-color);
 }
+/*}}}*/
 
+/*Hr (line){{{*/
 hr {
   border: 0.1rem solid rgb(233, 233, 233);
 }
+/*}}}*/
 
+/*Lists{{{*/
 ul {
   list-style-type: none;
   padding-left: 0;
@@ -81,9 +95,9 @@ ul {
 li {
   padding-top: 0.1rem;
 }
+/*}}}*/
 
-
-/* ========= LINKS ========= */
+/*Links{{{*/
 a:link, a:visited {
   color:  var(--secondary-font-color);
   text-decoration: none;
@@ -97,9 +111,9 @@ a.ghost:link, a.ghost:visited, a.ghost:hover {
   color: var(--main-font-color);
   text-decoration: none;
 }
+/*}}}*/
 
-/* ========== GALLERY ========== */
-
+/*Gallery{{{*/
 .image_feed {
   display: block;
   position: relative;
@@ -176,21 +190,24 @@ a.ghost:link, a.ghost:visited, a.ghost:hover {
     color: white;
     font-weight: 400;
 }
+/*}}}*/
 
-/* ========== WEBCAM ========== */
+/*Webcam{{{*/
 .webcam {
     width: 100%;
     display: block;
     padding-bottom: 1em;    
 }    
+/*}}}*/
 
-/* ========= MAP STYLE ========== */
+/*Map style{{{*/
 #map {
     width: 50%;
     height: 70vh;
 } 
+/*}}}*/
 
-/*======= Tablets and mobile devices =======*/
+/*Tablets and mobile devices{{{*/
 @media screen and (max-width: 992px) {
     body {
         max-width: none;
@@ -210,15 +227,15 @@ a.ghost:link, a.ghost:visited, a.ghost:hover {
         height: 70vh;
     }
 }
-
 /* ======== Tablets ========= */
 /* @media screen and (min-width: 481px) and (max-width: 991px) { */
 /*     .imagemasonry4 { */
 /*         column-count: 2; */
 /*     } */
 /* } */
+/*}}}*/
 
-/* ======== Laptops and large screens ========= */
+/*Laptops and large screens{{{*/
 @media screen and (min-width: 992px) {
 
     .masonry {
@@ -234,8 +251,9 @@ a.ghost:link, a.ghost:visited, a.ghost:hover {
         column-count: 4;
     }
 }
+/*}}}*/
 
-/* ========= CODE BOXES ========= */
+/*Code boxes{{{*/
 
 .masonry {
   column-count: 1;
@@ -280,15 +298,9 @@ pre {
   font-size: 0.7rem;
   color: rgb(122, 122, 122);
 }
+/*}}}*/
 
-/* =========== UPDATE COMMENT ON PDF FILES ======== */
-.comment {
-  font-size: 0.7rem;
-  font-style: italic;
-}
-
-
-/* ======== FOOTER ======= */
+/*Footer{{{*/
 footer {
   right: 0;
   bottom: 0;
@@ -298,9 +310,27 @@ footer {
   text-align: center;
   font-size: 0.6rem;
 }
+/*}}}*/
 
-/******************************************/
-/* Not sure why I wrote this code
+/*Defintion/description{{{*/
+dl {
+    background: white;
+}
+
+dd {
+    display: none;
+}
+
+dt:active + dd{
+    display: block;
+}
+
+dt:hover + dd{
+    display: block;
+}
+/*}}}*/
+
+/* Not sure why I wrote this code{{{
 
 .notes h1 {
   font-size: 2em;
@@ -328,4 +358,4 @@ footer {
   padding-top: 0.1rem;
 }
 */
-
+/*}}}*/

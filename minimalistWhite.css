@@ -10,11 +10,13 @@
 
 /*Body{{{*/
 body {
-    font-family: sans-serif;
+    /* font-family: sans-serif; */
+    /* font-family: 'IBM Plex Mono', 'Menlo', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', Courier, monospace; */
+    font-family: monospace;
     color: var(--main-font-color);
     box-sizing: border-box;
     /* Constraining width, and centering */
-    max-width: 50em;
+    max-width: 55em;
     margin: auto;
     padding-left: 5%;
     padding-right: 5%;

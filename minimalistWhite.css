@@ -192,6 +192,17 @@ a.ghost:link, a.ghost:visited, a.ghost:hover {
     color: white;
     font-weight: 400;
 }
+
+.imageheader {
+  position: absolute;
+  display: inline-block;
+  position: relative;
+  /* margin-left: -15em; */
+  /* margin-top: -80px; */
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
 /*}}}*/
 
 /*Webcam{{{*/

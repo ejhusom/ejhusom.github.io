@@ -15,17 +15,22 @@ body {
     font-family: monospace;
     color: var(--main-font-color);
     box-sizing: border-box;
-    /* Constraining width, and centering */
-    max-width: 55em;
-    margin: auto;
-    padding-left: 5%;
-    padding-right: 5%;
 }
 
 body.wide {
     max-width: none;
 }
 /*}}}*/
+
+/* Main content{{{ */
+.main-content {
+    /* Constraining width, and centering */
+    max-width: 55em;
+    margin: auto;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+/* }}} */
 
 /*Header{{{*/
 header {

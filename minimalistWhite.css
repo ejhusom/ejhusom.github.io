@@ -157,7 +157,7 @@ a.ghost:link, a.ghost:visited, a.ghost:hover {
   margin-right: 3%;
 }
 
-.imagemasonry3 {
+.imagemasonry4 {
   column-count: 2;
   column-gap: 0.2rem;
   margin-right: 3%;
@@ -260,8 +260,8 @@ a.ghost:link, a.ghost:visited, a.ghost:hover {
     .imagemasonry2 {
         column-count: 1;
     }
-    .imagemasonry3 {
-        column-count: 3;
+    .imagemasonry4 {
+        column-count: 4;
     }
 }
 /*}}}*/

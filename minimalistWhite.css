@@ -365,6 +365,12 @@ dt:hover + dd{
 }
 /* }}} */
 
+/* {{{Video */
+video {
+  width: 100%;
+}
+/* }}} */
+
 /* Not sure why I wrote this code{{{
 
 .notes h1 {

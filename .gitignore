@@ -32,7 +32,7 @@ build*
 .jekyll-metadata
 
 # misc:
-.DS_Store
+*.DS_Store
 Trash
 *.copyright
 *.copyright

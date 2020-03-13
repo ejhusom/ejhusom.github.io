@@ -6,6 +6,7 @@
 :root {
     --main-font-color: rgb(57, 56, 56);
     --secondary-font-color: rgb(142, 142, 142);
+    --max-body-width: 70em;
 }
 
 /*Body{{{*/
@@ -15,7 +16,7 @@ body {
     font-family: monospace;
     color: var(--main-font-color);
     box-sizing: border-box;
-    max-width: 70em;
+    max-width: var(--max-body-width);
     margin: auto;
     padding-left: 5%;
     padding-right: 5%;
@@ -115,16 +116,6 @@ a.ghost:link, a.ghost:visited, a.ghost:hover {
 /*}}}*/
 
 /*Gallery{{{*/
-.image_feed {
-  display: block;
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  height: 50%;
-  overflow: hidden;
-}
-
 .image_thumb {
   display: inline-block;
   position: relative;
@@ -135,14 +126,6 @@ a.ghost:link, a.ghost:visited, a.ghost:hover {
 
 .image_logo {
     width: 30%;
-}
-
-.imagerow {
-  display: inline-block;
-  position: relative;
-  width: 50%;
-  height: 50%;
-  overflow: hidden;
 }
 
 .imagemasonry {
@@ -181,27 +164,8 @@ a.ghost:link, a.ghost:visited, a.ghost:hover {
     width: 100%;
 }
 
-.imagetext {
-    position: absolute;
-    bottom: 20px;
-    right: 20px; 
-    padding-left: 20px;
-    padding-right: 20px;
-    background-color: black;
-    color: white;
-    font-weight: 400;
-}
-
 .imageheader {
-  /* position: absolute; */
-  /* display: inline-block; */
-  /* position: relative; */
-  /* margin-left: -15em; */
-  /* margin-top: -80px; */
   width: 100%;
-  /* height: 100%; */
-  /* overflow: hidden; */
-  object-fit: cover;
 }
 
 figcaption {
@@ -227,23 +191,26 @@ figcaption {
 
 /*Tablets and mobile devices{{{*/
 @media screen and (max-width: 992px) {
-    body {
-        max-width: none;
-    }
-    .image_logo {
-        width: 70%;
-    }
-    .masonry {
-        column-count: 2;
-    }
-    .webcam {
-        width: 100%;
-        height: 100%;
-    }
-    #map {
-        width: 100%;
-        height: 70vh;
-    }
+  body {
+      max-width: none;
+  }
+  .image_logo {
+      width: 70%;
+  }
+  .masonry {
+      column-count: 2;
+  }
+  .webcam {
+      width: 100%;
+      height: 100%;
+  }
+  #map {
+      width: 100%;
+      height: 70vh;
+  }
+  nav a {
+    display: block;
+  }
 }
 /* ======== Tablets ========= */
 /* @media screen and (min-width: 481px) and (max-width: 991px) { */

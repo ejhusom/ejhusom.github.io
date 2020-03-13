@@ -235,6 +235,14 @@ figcaption {
     .imagemasonry4 {
         column-count: 4;
     }
+
+    #fixedMenu {
+      position: fixed;
+      bottom: 10px;
+      left: 6%;
+      padding: .5px;
+      background-color: white;
+    }
 }
 /*}}}*/
 
@@ -332,15 +340,6 @@ dt:hover + dd{
 }
 /* }}} */
 
-/* Fixed menu{{{ */
-#fixedMenu {
-  position: fixed;
-  bottom: 10px;
-  left: 6%;
-  padding: .5px;
-  background-color: white;
-}
-/* }}} */
 
 /* {{{Video */
 video {

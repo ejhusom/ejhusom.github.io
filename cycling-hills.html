@@ -38,11 +38,11 @@
                         startIconUrl: 'images/pin-icon-start.png',
                         endIconUrl:   'images/pin-icon-end.png',
                         shadowUrl:    'images/pin-shadow.png',
-                        startIconSize:     [38, 95]
+                        iconSize:     [38, 95],
                     },
                 }).on('loaded', function(e) {
                     //map.fitBounds(e.target.getBounds());
-                    var min_ele = e.target.get_elevation_min();
+                    e.target.get_elevation_min();
                 }).addTo(map);
                 new L.GPX("cycling-hills/Gressbanen-Tryvann.gpx", {
                     async: true,

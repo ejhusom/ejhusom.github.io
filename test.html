@@ -32,27 +32,6 @@
                 L.tileLayer('http://opencache.statkart.no/gatekeeper/gk/gk.open_gmaps?layers=topo4&zoom={z}&x={x}&y={y}', {
                     attribution: '<a href="http://www.kartverket.no/">Kartverket</a>'
                 }).addTo(map);
-                new L.GPX("cycling-hills/Stavne-LilleGråkallen.gpx", {
-                    async: true,
-                    marker_options: {
-                        startIconUrl: 'http://github.com/mpetazzoni/leaflet-gpx/raw/master/pin-icon-start.png',
-                        endIconUrl:   'http://github.com/mpetazzoni/leaflet-gpx/raw/master/pin-icon-end.png',
-                        shadowUrl:    'http://github.com/mpetazzoni/leaflet-gpx/raw/master/pin-shadow.png',
-                    },
-                }).on('loaded', function(e) {
-                    map.fitBounds(e.target.getBounds());
-                    map.get_elevation_min(e.target);
-                }).addTo(map);
-                new L.GPX("cycling-hills/Gressbanen-Tryvann.gpx", {
-                    async: true,
-                    marker_options: {
-                        startIconUrl: 'http://github.com/mpetazzoni/leaflet-gpx/raw/master/pin-icon-start.png',
-                        endIconUrl:   'http://github.com/mpetazzoni/leaflet-gpx/raw/master/pin-icon-end.png',
-                        shadowUrl:    'http://github.com/mpetazzoni/leaflet-gpx/raw/master/pin-shadow.png',
-                    },
-                }).on('loaded', function(e) {
-                    map.fitBounds(e.target.getBounds());
-                }).addTo(map);
         </script>
             
         <footer>

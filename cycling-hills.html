@@ -45,10 +45,11 @@
                     iconSize:     [38, 95],
                 },
             }).on('loaded', function(e) {
-                control.addOverlay(e.target, e.target.get_name());
+                control.addOverlay(e.target, e.target.get_name() + ", elevation gain: " + e.target.get_elevation_gain() + ", distance: " + e.target.get_distance());
                 e.target.get_elevation_min();
             }).addTo(map);
-            new L.GPX("cycling-hills/Gressbanen-Tryvann.gpx", {
+            var url02 = "cycling-hills/Gressbanen-Tryvann.gpx";
+            new L.GPX(url02, {
                 async: true,
                 marker_options: {
                     startIconUrl: 'images/pin-icon-start.png',
@@ -56,7 +57,7 @@
                     shadowUrl:    'images/pin-shadow.png',
                 },
             }).on('loaded', function(e) {
-                //map.fitBounds(e.target.getBounds());
+                control.addOverlay(e.target, e.target.get_name());
             }).addTo(map);
         </script>
             

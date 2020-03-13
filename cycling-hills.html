@@ -40,8 +40,8 @@
                         shadowUrl:    'http://github.com/mpetazzoni/leaflet-gpx/raw/master/pin-shadow.png',
                     },
                 }).on('loaded', function(e) {
-                    map.fitBounds(e.target.getBounds());
-                    map.get_elevation_min(e.target);
+                    //map.fitBounds(e.target.getBounds());
+                    var min_ele = e.target.get_elevation_min();
                 }).addTo(map);
                 new L.GPX("cycling-hills/Gressbanen-Tryvann.gpx", {
                     async: true,
@@ -51,7 +51,7 @@
                         shadowUrl:    'http://github.com/mpetazzoni/leaflet-gpx/raw/master/pin-shadow.png',
                     },
                 }).on('loaded', function(e) {
-                    map.fitBounds(e.target.getBounds());
+                    //map.fitBounds(e.target.getBounds());
                 }).addTo(map);
         </script>
             

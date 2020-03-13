@@ -45,7 +45,13 @@
                     iconSize:     [38, 95],
                 },
             }).on('loaded', function(e) {
-                control.addOverlay(e.target, e.target.get_name() + ", elevation gain: " + e.target.get_elevation_gain() + ", distance: " + e.target.get_distance());
+                control.addOverlay(
+                    e.target, e.target.get_name() 
+                    + ", distance: " + e.target.get_distance().toFixed(0)
+                    + ", elevation gain: " + e.target.get_elevation_gain().toFixed(0)
+                    + ", elevation min: " + e.target.get_elevation_min().toFixed(0)
+                    + ", elevation max: " + e.target.get_elevation_max().toFixed(0)
+                );
                 e.target.get_elevation_min();
             }).addTo(map);
             var url02 = "cycling-hills/Gressbanen-Tryvann.gpx";

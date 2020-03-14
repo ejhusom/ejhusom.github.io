@@ -530,8 +530,8 @@ L.GPX = L.FeatureGroup.extend({
           + ": "
           + (this._info.length/1000).toFixed(2) + " km.\n"
           + "Elev. gain: " + this._info.elevation.gain.toFixed(0) + " m"
-          + " (" + this._info.elevation.min().toFixed(0) + "/"
-          + this._info.elevation.max().toFixed(0) + " masl)."
+          + " (" + this._info.elevation.min.toFixed(0) + "/"
+          + this._info.elevation.max.toFixed(0) + " masl)."
       ).openPopup();
       layers.push(marker);
     }

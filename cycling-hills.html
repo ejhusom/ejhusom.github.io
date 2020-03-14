@@ -24,21 +24,24 @@
   
         <p>On this page you will find a collection of hills that are perfect for testing your bike climbing skills. Use the overlay menu in the top right corner of the map to select/deselect the routes you want to see. GPX-files can be download from <a href="https://github.com/ejhusom/ejhusom.github.io/tree/master/cycling-hills">this link</a>.</p>
 
-        <div id="map" style="height: 600px; width: 100%;"></div>
+        <div id="norwayMap" style="height: 600px; width: 100%;"></div>
+        <figcaption>Cycling hills in Norway.</figcaption>
+
+        <div id="franceMap" style="height: 600px; width: 100%;"></div>
         <figcaption>Cycling hills in Norway.</figcaption>
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.3.1/leaflet.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.4.0/gpx.min.js"></script>
         <script>
-            var map = L.map('map').setView([65.50, 13.00], 4);
+            var norwayMap = L.map('norwayMap').setView([65.50, 13.00], 4);
             L.tileLayer('http://opencache.statkart.no/gatekeeper/gk/gk.open_gmaps?layers=topo4&zoom={z}&x={x}&y={y}', {
                 attribution: '<a href="http://www.kartverket.no/">Kartverket</a>'
-            }).addTo(map);
+            }).addTo(norwayMap);
 
-            var control = L.control.layers(null, null).addTo(map);
+            var control = L.control.layers(null, null).addTo(norwayMap);
 
 
-            function plotGPX(url, startLat, startLon) {
+            function plotGPX(map, url, startLat, startLon) {
                 new L.GPX(url, {
                     async: true,
                     marker_options: {
@@ -46,6 +49,9 @@
                         endIconUrl:   'images/pin-icon-end.png',
                         shadowUrl:    'images/pin-shadow.png',
                         iconSize: [16, 25],
+                        shadowSize: [25, 25],
+                        iconAnchor: [32, 90],
+                        shadowAnchor: [32, 94],
                     },
                 }).on('loaded', function(e) {
                     control.addOverlay(
@@ -54,21 +60,21 @@
                         + ", elev. gain: " + e.target.get_elevation_gain().toFixed(0) + " m"
                         + " (" + e.target.get_elevation_min().toFixed(0) + "/"
                         + e.target.get_elevation_max().toFixed(0) + " masl)."
+                    L.marker([startLat, startLon]).addTo(map)
+                        .bindPopup(e.target.get_name())
+                        .openPopup();
                     );
                 }).addTo(map);
-                L.marker([startLat, startLon]).addTo(map)
-                    .bindPopup(e.target.get_name())
-                    .openPopup();
             }
 
             var dir = "cycling-hills/"
-            plotGPX(dir + "Gressbanen-Tryvann.gpx", 59.95177, 10.67428);
-            plotGPX(dir + "Kvål-Vassfjellet.gpx", 0, 0);
-            plotGPX(dir + "Vengedalen.gpx", 0, 0);
-            plotGPX(dir + "Ljabrubakken.gpx", 0, 0);
-            plotGPX(dir + "Skeidbanen-Grefsenkollen.gpx", 0, 0);
-            plotGPX(dir + "Stavne-LilleGråkallen.gpx", 0, 0);
-            plotGPX(dir + "Trollstigen.gpx", 0, 0);
+            plotGPX(norwayMap, dir + "Gressbanen-Tryvann.gpx", 59.95177, 10.67428);
+            plotGPX(norwayMap, dir + "Kvål-Vassfjellet.gpx", 0, 0);
+            plotGPX(norwayMap, dir + "Vengedalen.gpx", 0, 0);
+            plotGPX(norwayMap, dir + "Ljabrubakken.gpx", 0, 0);
+            plotGPX(norwayMap, dir + "Skeidbanen-Grefsenkollen.gpx", 0, 0);
+            plotGPX(norwayMap, dir + "Stavne-LilleGråkallen.gpx", 0, 0);
+            plotGPX(norwayMap, dir + "Trollstigen.gpx", 0, 0);
         </script>
             
         <footer>

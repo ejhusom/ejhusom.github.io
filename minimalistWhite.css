@@ -44,6 +44,10 @@ nav {
   color: var(--secondary-font-color);
   text-transform: lowercase;
 }
+
+/* nav a { */
+/*   display: block; */
+/* } */
 /*}}}*/
 
 /*Headers{{{*/
@@ -339,7 +343,6 @@ dt:hover + dd{
     border-radius: 4px;
 }
 /* }}} */
-
 
 /* {{{Video */
 video {

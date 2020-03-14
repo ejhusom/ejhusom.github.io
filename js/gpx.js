@@ -525,7 +525,14 @@ L.GPX = L.FeatureGroup.extend({
         icon: options.marker_options.startIcon || new L.GPXTrackIcon({iconUrl: options.marker_options.startIconUrl})
       });
       this.fire('addpoint', { point: marker, point_type: 'start', element: el[0] });
-      marker.bindPopup(this._info.name).openPopup();
+      marker.bindPopup(
+          this._info.name
+          + ": "
+          + (this._info.length/1000).toFixed(2) + " km.\n"
+          + "Elev. gain: " + this._info.elevation.gain.toFixed(0) + " m"
+          + " (" + this._info.elevation.min().toFixed(0) + "/"
+          + this._info.elevation.max().toFixed(0) + " masl)."
+      ).openPopup();
       layers.push(marker);
     }
 

@@ -1,4 +1,5 @@
 <?xml version="1.0"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" creator="GoldenCheetah (build 3991)" xmlns:gpxpx="http://www.garmin.com/xmlschemas/PowerExtension/v1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd http://www.garmin.com/xmlschemas/PowerExtension/v1 http://www.garmin.com/xmlschemas/PowerExtensionv1.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" version="1.1">
     <trk>
         <trkseg>
             <trkpt lat="56.71383024" lon="-4.9618792278">

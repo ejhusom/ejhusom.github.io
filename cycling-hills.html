@@ -42,10 +42,10 @@
 
 
             function plotGPX(map, url, startLat, startLon) {
-                new L.GPX(url, {
+                var yo = new L.GPX(url, {
                     async: true,
                     marker_options: {
-                        startIconUrl: 'images/pin-icon-start.png',
+                        //startIconUrl: 'images/pin-icon-start.png',
                         endIconUrl:   'images/pin-icon-end.png',
                         shadowUrl:    'images/pin-shadow.png',
                         //iconSize: [16, 25],
@@ -69,7 +69,7 @@
             }
 
             var dir = "cycling-hills/"
-            var test = plotGPX(norwayMap, dir + "Gressbanen-Tryvann.gpx", 59.95177, 10.67428);
+            plotGPX(norwayMap, dir + "Gressbanen-Tryvann.gpx", 59.95177, 10.67428);
             plotGPX(norwayMap, dir + "Kvål-Vassfjellet.gpx", 0, 0);
             plotGPX(norwayMap, dir + "Vengedalen.gpx", 0, 0);
             plotGPX(norwayMap, dir + "Ljabrubakken.gpx", 0, 0);

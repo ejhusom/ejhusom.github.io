@@ -48,10 +48,11 @@
                         startIconUrl: 'images/pin-icon-start.png',
                         endIconUrl:   'images/pin-icon-end.png',
                         shadowUrl:    'images/pin-shadow.png',
-                        iconSize: [16, 25],
-                        shadowSize: [25, 25],
-                        iconAnchor: [32, 90],
-                        shadowAnchor: [32, 94],
+                        //iconSize: [16, 25],
+                        //shadowSize: [25, 25],
+                        //iconAnchor: [32, 90],
+                        //shadowAnchor: [32, 94],
+                        clickable: true
                     },
                 }).on('loaded', function(e) {
                     control.addOverlay(
@@ -68,7 +69,7 @@
             }
 
             var dir = "cycling-hills/"
-            plotGPX(norwayMap, dir + "Gressbanen-Tryvann.gpx", 59.95177, 10.67428);
+            var test = plotGPX(norwayMap, dir + "Gressbanen-Tryvann.gpx", 59.95177, 10.67428);
             plotGPX(norwayMap, dir + "Kvål-Vassfjellet.gpx", 0, 0);
             plotGPX(norwayMap, dir + "Vengedalen.gpx", 0, 0);
             plotGPX(norwayMap, dir + "Ljabrubakken.gpx", 0, 0);

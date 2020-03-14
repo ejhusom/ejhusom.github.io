@@ -60,7 +60,8 @@ var _DEFAULT_MARKER_OPTS = {
   shadowSize: [50, 50],
   iconAnchor: [16, 45],
   shadowAnchor: [16, 47],
-  clickable: false
+  clickable: false,
+  showRouteInfo: false
 };
 var _DEFAULT_POLYLINE_OPTS = {
   color: 'blue'
@@ -525,14 +526,16 @@ L.GPX = L.FeatureGroup.extend({
         icon: options.marker_options.startIcon || new L.GPXTrackIcon({iconUrl: options.marker_options.startIconUrl})
       });
       this.fire('addpoint', { point: marker, point_type: 'start', element: el[0] });
-      marker.bindPopup(
-          this._info.name
-          + ": "
-          + (this._info.length/1000).toFixed(2) + " km.\n"
-          + "Elev. gain: " + this._info.elevation.gain.toFixed(0) + " m"
-          + " (" + this._info.elevation.min.toFixed(0) + "/"
-          + this._info.elevation.max.toFixed(0) + " masl)."
-      ).openPopup();
+      if (showRouteInfo) {
+          marker.bindPopup(
+              this._info.name
+              + ": "
+              + (this._info.length/1000).toFixed(2) + " km.\n"
+              + "Elev. gain: " + this._info.elevation.gain.toFixed(0) + " m"
+              + " (" + this._info.elevation.min.toFixed(0) + "/"
+              + this._info.elevation.max.toFixed(0) + " masl)."
+          ).openPopup();
+      }
       layers.push(marker);
     }
 

@@ -526,7 +526,7 @@ L.GPX = L.FeatureGroup.extend({
         icon: options.marker_options.startIcon || new L.GPXTrackIcon({iconUrl: options.marker_options.startIconUrl})
       });
       this.fire('addpoint', { point: marker, point_type: 'start', element: el[0] });
-      if (showRouteInfo) {
+      if (options.marker_options.showRouteInfo) {
           marker.bindPopup(
               this._info.name
               + ": "

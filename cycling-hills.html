@@ -29,11 +29,22 @@
             <li>GPX-files can be download from <a href="https://github.com/ejhusom/ejhusom.github.io/tree/master/cycling-hills">this link</a>.</li>
         </ul>
 
-        <div id="norwayMap" style="height: 600px; width: 100%;"></div>
-        <figcaption>Cycling hills in Norway.</figcaption>
+        <nav id="fixedMenu">
+            <h3>Areas:</h3>
+            <ul>
+                <li><a href="#Norway">Norway</a></li>
+                <li><a href="#France">France</a></li>
+            </ul>
+        </nav>
 
+        <br>
+        <hr>
+
+        <h3 class=space id="Norway">Cycling hills in Norway</h3>
+        <div id="norwayMap" style="height: 600px; width: 100%;"></div>
+
+        <h3 class=space id="France">Cycling hills in France</h3>
         <div id="franceMap" style="height: 600px; width: 100%;"></div>
-        <figcaption>Cycling hills in France.</figcaption>
 
         <script>
             var norwayMap = L.map('norwayMap').setView([65.50, 13.00], 4);
@@ -42,7 +53,7 @@
             }).addTo(norwayMap);
             var norwayControl = L.control.layers(null, null).addTo(norwayMap);
 
-            var franceMap = L.map('franceMap').setView([48.00, 2.00], 6);
+            var franceMap = L.map('franceMap').setView([48.00, 1.90], 5);
             L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png', {
                 maxZoom: 17,
                 attribution: 'Map data: &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, <a href="http://viewfinderpanoramas.org">SRTM</a> | Map style: &copy; <a href="https://opentopomap.org">OpenTopoMap</a> (<a href="https://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>)'

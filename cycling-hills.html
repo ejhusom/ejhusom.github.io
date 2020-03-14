@@ -38,13 +38,14 @@
             var control = L.control.layers(null, null).addTo(map);
 
 
-            function plotGPX(url) {
+            function plotGPX(url, startLat, startLon) {
                 new L.GPX(url, {
                     async: true,
                     marker_options: {
                         startIconUrl: 'images/pin-icon-start.png',
                         endIconUrl:   'images/pin-icon-end.png',
                         shadowUrl:    'images/pin-shadow.png',
+                        iconSize: [16, 25],
                     },
                 }).on('loaded', function(e) {
                     control.addOverlay(
@@ -55,16 +56,19 @@
                         + e.target.get_elevation_max().toFixed(0) + " masl)."
                     );
                 }).addTo(map);
+                L.marker([startLat, startLon]).addTo(map)
+                    .bindPopup(e.target.get_name())
+                    .openPopup();
             }
 
             var dir = "cycling-hills/"
-            plotGPX(dir + "Gressbanen-Tryvann.gpx");
-            plotGPX(dir + "Kvål-Vassfjellet.gpx");
-            plotGPX(dir + "Vengedalen.gpx");
-            plotGPX(dir + "Ljabrubakken.gpx");
-            plotGPX(dir + "Skeidbanen-Grefsenkollen.gpx");
-            plotGPX(dir + "Stavne-LilleGråkallen.gpx");
-            plotGPX(dir + "Trollstigen.gpx");
+            plotGPX(dir + "Gressbanen-Tryvann.gpx", 59.95177, 10.67428);
+            plotGPX(dir + "Kvål-Vassfjellet.gpx", 0, 0);
+            plotGPX(dir + "Vengedalen.gpx", 0, 0);
+            plotGPX(dir + "Ljabrubakken.gpx", 0, 0);
+            plotGPX(dir + "Skeidbanen-Grefsenkollen.gpx", 0, 0);
+            plotGPX(dir + "Stavne-LilleGråkallen.gpx", 0, 0);
+            plotGPX(dir + "Trollstigen.gpx", 0, 0);
         </script>
             
         <footer>

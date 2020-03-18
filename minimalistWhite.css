@@ -338,7 +338,7 @@ dt:hover + dd{
     /* width: 100%; */
     /* font-size: 12px; */
     /* border-color: rgba(85, 85, 85, 0.2); */
-    /* background-color: rgb(100,100,100); */
+    background-color: #ffffff;
     padding: .5px;
     border-radius: 4px;
 }

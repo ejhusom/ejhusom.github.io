@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Scrambling - Erik Johannes Husom</title>
+        <link rel='stylesheet' href='./minimalistWhite.css'>
+        <meta name="author" content="Erik Johannes Husom">
+        <meta name="description" content="Overview over scrambling sites.">
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <meta charset="UTF-8">
+
+        <link rel="stylesheet" href="js/leaflet/leaflet.css" />
+        <script src="js/leaflet/leaflet.js"></script>
+        <script src="js/gpx.js"></script>
+    </head>
+    
+    <body>
+        <header>
+          <a href='index.html'>
+            <h1>Erik Johannes Husom</h1>
+          </a>
+          <h2>::</h2>
+          <h2>Scrambling</h2>
+        </header>
+  
+        <p>On this page you will find a collection of places to do scrambling, bouldering and light climbing.</p>
+        <!-- <ul> -->
+        <!--     <li>Use the overlay menu in the top right corner of the map to select/deselect the routes you want to see.</li> -->
+        <!--     <li>Click on the start marker to get info about the route.</li> -->
+        <!--     <li>If you have suggestions for hills to be added, send them to me using my <a href="index.html#about">contact info</a>.</li> -->
+        <!-- </ul> -->
+
+        <!-- <nav id="fixedMenu"> -->
+        <!--     <h3>Areas:</h3> -->
+        <!--     <ul> -->
+        <!--         <li><a href="#Norway">Norway</a></li> -->
+        <!--         <li><a href="#France">France</a></li> -->
+        <!--     </ul> -->
+        <!-- </nav> -->
+
+        <br>
+        <hr>
+
+        <h3 class=space id="Norway">Scrambling in Norway</h3>
+        <div id="norwayMap" style="height: 600px; width: 100%;"></div>
+        <br>
+        
+        <script>
+            var norwayMap = L.map('norwayMap').setView([65.50, 13.00], 4);
+            L.tileLayer('https://opencache.statkart.no/gatekeeper/gk/gk.open_gmaps?layers=topo4&zoom={z}&x={x}&y={y}', {
+                attribution: '<a href="http://www.kartverket.no/">Kartverket</a>'
+            }).addTo(norwayMap);
+            var norwayControl = L.control.layers(null, null).addTo(norwayMap);
+
+            function plotGPX(map, control, url) {
+                var yo = new L.GPX(url, {
+                    async: true,
+                    marker_options: {
+                        startIconUrl: 'images/pin-icon-start.png',
+                        endIconUrl:   'images/pin-icon-end.png',
+                        shadowUrl:    'images/pin-shadow.png',
+                        //iconSize: [16, 25],
+                        //shadowSize: [25, 25],
+                        //iconAnchor: [32, 90],
+                        //shadowAnchor: [32, 94],
+                        clickable: true,
+                        showRouteInfo: true
+                    },
+                }).on('loaded', function(e) {
+                    control.addOverlay(
+                        e.target, e.target.get_name() 
+                        + ": " + (e.target.get_distance()/1000).toFixed(2) + " km"
+                        + ", elev. gain: " + e.target.get_elevation_gain().toFixed(0) + " m"
+                        + " (" + e.target.get_elevation_min().toFixed(0) + "/"
+                        + e.target.get_elevation_max().toFixed(0) + " masl)."
+                    );
+                }).addTo(map);
+            }
+
+            var dir = "cycling-hills/"
+            plotGPX(norwayMap, norwayControl, dir + "Gressbanen-Tryvann.gpx");
+            plotGPX(norwayMap, norwayControl, dir + "Kvål-Vassfjellet.gpx");
+            plotGPX(norwayMap, norwayControl, dir + "Vengedalen.gpx");
+            plotGPX(norwayMap, norwayControl, dir + "Ljabrubakken.gpx");
+            plotGPX(norwayMap, norwayControl, dir + "Skeidbanen-Grefsenkollen.gpx");
+            plotGPX(norwayMap, norwayControl, dir + "Stavne-LilleGråkallen.gpx");
+            plotGPX(norwayMap, norwayControl, dir + "Trollstigen.gpx");
+            plotGPX(franceMap, franceControl, dir + "AlpedHuez.gpx");
+        </script>
+            
+        <footer>
+          Copyright 2019 by Erik Johannes Husom. All rights reserved.
+        </footer>
+    </body>
+
+</html>
+
+

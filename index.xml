@@ -1,0 +1,18 @@
+-<rss version="2.0">
+        -<channel>
+            <title>Erik Johannes Husom's Posts</title>
+            <link>https://erikjohannes.no/</link>
+            <description>New posts from the website of Erik Johannes Husom</description>
+            <generator>Handwritten XML - just because</generator>
+            <lastBuildDate>Thu, 21 May 2020 22:41:42 +0100</lastBuildDate>
+            <atom:link href="https://erikjohannes.no/index.xml" rel="self" type="application/rss+xml"/>
+            -<item>
+                    -<title>
+                            Test
+                    </title>
+                        -<description>
+                                Test of description.
+                        </description>
+            </item>
+        </channel>
+</rss>

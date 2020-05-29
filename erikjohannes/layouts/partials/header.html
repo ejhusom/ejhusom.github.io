@@ -1,0 +1,43 @@
+
+    <header>
+        <nav class="main-nav">
+
+            <a href="posts">blog posts</a>
+            <a href="notes">social posts</a>
+            <a href="links">links</a>
+            <a href="science">science projects</a>
+            <a href="cycling-hills">cycling hills</a>
+            <a href="mountain-conditions">mountain conditions</a>
+
+        </nav>
+
+
+        </nav>
+
+
+        <div class="h-card">
+            <a class="u-url ghost" href="https://erikjohannes.no">
+                <h1 class="p-name" rel="me">Erik Johannes Husom</h1>
+            </a>
+        <nav class="main-nav">
+        <!--     <span style="padding-right:1em;">Find me elsewhere:</span> -->
+
+            {{ if isset .Site.Params "twitter" }}
+              <a class="fa fa-twitter fa-lg" href="{{ .Site.Params.twitter }}">twitter</a>
+            {{ end }}
+
+            {{ if isset .Site.Params "github" }}
+              <a class="fa fa-github fa-lg" href="{{ .Site.Params.github }}">github</a>
+            {{ end }}
+
+            {{ if isset .Site.Params "mastodon" }}
+              <a class="fa fa-github fa-lg" href="{{ .Site.Params.mastodon }}">mastodon</a>
+            {{ end }}
+
+            {{ if isset .Site.Params "pixelfed" }}
+              <a class="fa fa-github fa-lg" href="{{ .Site.Params.pixelfed }}">pixelfed</a>
+            {{ end }}
+
+            <a class="fa fa-rss fa-lg" href="/index.xml">RSS</a>
+        </div>
+    </header>

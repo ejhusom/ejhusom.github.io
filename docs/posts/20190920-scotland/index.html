@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+
+
+        <title>Erik Johannes Husom - Erik Johannes Husom</title>
+        <meta name="description" content="">
+
+        
+        
+        <link rel="stylesheet" href="https://erikjohannes.no//css/style.css">
+
+        <base href="https://erikjohannes.no/">
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+        <meta name="author" content="Erik Johannes Husom">
+        <meta name="description" content="Personal website.">
+
+        
+        </head>
+<body>
+    <header>
+        <nav class="main-nav">
+
+            <a href="posts">blog posts</a>
+            <a href="notes">social posts</a>
+            <a href="links">links</a>
+            <a href="science">science projects</a>
+            <a href="cycling-hills">cycling hills</a>
+            <a href="mountain-conditions">mountain conditions</a>
+
+        </nav>
+
+
+        </nav>
+
+
+        <div class="h-card">
+            <a class="u-url ghost" href="https://erikjohannes.no">
+                <h1 class="p-name" rel="me">Erik Johannes Husom</h1>
+            </a>
+        <nav class="main-nav">
+        
+
+            
+
+            
+              <a class="fa fa-github fa-lg" href="https://github.com/ejhusom">github</a>
+            
+
+            
+              <a class="fa fa-github fa-lg" href="https://mastodon.social/@erikjohannes">mastodon</a>
+            
+
+            
+              <a class="fa fa-github fa-lg" href="https://pixelfed.social/erikjohannes">pixelfed</a>
+            
+
+            <a class="fa fa-rss fa-lg" href="/index.xml">RSS</a>
+        </div>
+    </header>
+<div id="content">
+<section id="main">
+  <h1 id="title">Skyline Scotland</h1>
+    <aside id="meta">
+        <div>
+        <section>
+          <h4 id="date"> Fri Sep 20, 2019 </h4>
+          
+        </section>
+        
+        
+        <h5>Tags:</h5>
+        <ul id="tags">
+          
+            <li> <a href="https://erikjohannes.no/tagsrunning">running</a> </li>
+          
+        </ul>
+        
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        
+    </aside>
+
+      <div>
+        <article id="content">
+           <link rel="stylesheet" href="/js/leaflet/leaflet.css" />
+<script src="/js/leaflet/leaflet.js"></script>
+<script src="/js/gpx.js"></script>
+
+<div id="map" style="height: 400px; width: 100%;"></div>
+<figcaption>Map of the Glen Coe Skyline route.</figcaption>
+
+<script>
+        var map = L.map('map');//.setView([60.14, 10.25], 11);
+        L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png', {
+            maxZoom: 17,
+            attribution: 'Map data: &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, <a href="http://viewfinderpanoramas.org">SRTM</a> | Map style: &copy; <a href="https://opentopomap.org">OpenTopoMap</a> (<a href="https://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>)'
+        }).addTo(map);
+        var gpx = '/posts/20190920-scotland/activity-20190922-glen-coe-skyline.gpx'; 
+        new L.GPX(gpx, {
+            async: true,
+            marker_options: {
+                startIconUrl: '../images/pin-icon-start.png',
+                endIconUrl:   '../images/pin-icon-end.png',
+                shadowUrl:    '../images/pin-shadow.png',
+                //clickable: true,
+                //showRouteInfo: true
+            },
+        }).on('loaded', function(e) {
+            map.fitBounds(e.target.getBounds());
+        }).addTo(map);
+</script>
+
+
+<p><img src="/posts/20190920-scotland/scotland01.jpg" alt="">
+View from Na Gruagaichean, the finish line of Mamores VK.</p>
+<p><img src="/posts/20190920-scotland/scotland02.jpg" alt="">
+The final ridge of Mamores VK.</p>
+<p><img src="/posts/20190920-scotland/scotland03.jpg" alt="">
+Scottish sunset 1.</p>
+<p><img src="/posts/20190920-scotland/scotland04.jpg" alt="">
+Scottish sunset 2.</p>
+<p><img src="/posts/20190920-scotland/scotland05.jpg" alt="">
+Scottish sunset 3.</p>
+<p><img src="/posts/20190920-scotland/scotland06.jpg" alt="">
+The gear I used during Glen Coe Skyline (I brought only some of the food
+shown in the picture.)</p>
+<p><img src="/posts/20190920-scotland/scotland07.jpg" alt="">
+Nervous atmosphere before the start of Glen Coe Skyline.</p>
+<p><img src="/posts/20190920-scotland/scotland08.jpg" alt="">
+I was running at the tail of the lead pack during the first kilometers
+of the race.</p>
+<p><img src="/posts/20190920-scotland/scotland09.jpg" alt="">
+This was the last picture I took during the race. At this point I
+understood that things were going much better than expected, and I
+needed to stop fumbling around with my GoPro camera.</p>
+<p><img src="/posts/20190920-scotland/scotland10.jpg" alt="">
+Finally done.</p>
+<p><img src="/posts/20190920-scotland/scotland11.jpg" alt="">
+Can't describe the feelings I had at this moment.</p>
+<p><img src="/posts/20190920-scotland/scotland12.jpg" alt="">
+A trophy and money. Best prize ever.</p>
+<p><img src="/posts/20190920-scotland/scotland13.jpg" alt="">
+Rather happy to be on that list of names. Photo credit: Skyline
+Scotland.</p>
+        </article>
+  </div>
+</section>
+
+        </div>
+        
+            <footer>
+        <h2 id="about">About</h2>
+            
+        <p>
+            I'm a runner and a mountain lover. 
+        </p>
+        <p>
+        On this webpage I post photos, route descriptions, science projects and other stuff. Some text is in Norwegian, and some in English. 
+        </p>
+        <p>Find me through:
+        </p>
+
+        <ul>
+            <li><a href="mailto:erikjohannes@protonmail.com">erikjohannes@protonmail.com</a>, a privacy-friendly alternative to Gmail.</li>
+            
+            <li><a href="https://mastodon.social/@erikjohannes" class="u-url" rel="me" target="_blank">mastodon</a>, a privacy-friendly alternative to Twitter/Facebook.</li>
+            <li><a href="https://pixelfed.social/erikjohannes" class="u-url" rel="me" target="_blank">pixelfed</a>, a privacy-friendly alternative to <a href="https://instagram.com/erikjohannes.husom" target="_blank">instagram</a>.</li>
+            <li><a href="https://codeberg.org/erikjohannes" target="_blank">codeberg</a>, a non-commercial alternative to <a href="https://github.com/ejhusom" target="_blank">github</a>.</li>
+        </p>
+
+        <p>No tracking. Website built with Hugo. &copy;2018-<script>document.write((new Date()).getFullYear())</script> by Erik Johannes Husom. All rights reserved.</p>
+    </footer>
+
+    </body>
+</html>

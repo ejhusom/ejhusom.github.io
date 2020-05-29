@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Photographies on Erik Johannes Husom</title>
+    <link>https://erikjohannes.no/photography/</link>
+    <description>Recent content in Photographies on Erik Johannes Husom</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://erikjohannes.no/photography/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://erikjohannes.no/photography/adventure/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikjohannes.no/photography/adventure/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://erikjohannes.no/photography/landscape/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikjohannes.no/photography/landscape/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://erikjohannes.no/photography/mans-best-friend/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikjohannes.no/photography/mans-best-friend/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://erikjohannes.no/photography/plants/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikjohannes.no/photography/plants/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://erikjohannes.no/photography/urban/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikjohannes.no/photography/urban/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://erikjohannes.no/photography/wildlife/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikjohannes.no/photography/wildlife/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

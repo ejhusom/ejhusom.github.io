@@ -2,57 +2,57 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Science projects on Erik Johannes Husom</title>
-    <link>https://erikjohannes.no/science/</link>
+    <link>https://ejhusom.github.io/science/</link>
     <description>Recent content in Science projects on Erik Johannes Husom</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 26 Mar 2020 21:40:08 +0200</lastBuildDate>
     
-	<atom:link href="https://erikjohannes.no/science/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ejhusom.github.io/science/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>DeepVentilation</title>
-      <link>https://erikjohannes.no/science/deepventilation/</link>
+      <link>https://ejhusom.github.io/science/deepventilation/</link>
       <pubDate>Thu, 26 Mar 2020 21:40:08 +0200</pubDate>
       
-      <guid>https://erikjohannes.no/science/deepventilation/</guid>
+      <guid>https://ejhusom.github.io/science/deepventilation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>RespiratoryPatterns</title>
-      <link>https://erikjohannes.no/science/respiratorypatterns/</link>
+      <link>https://ejhusom.github.io/science/respiratorypatterns/</link>
       <pubDate>Thu, 26 Mar 2020 21:40:08 +0200</pubDate>
       
-      <guid>https://erikjohannes.no/science/respiratorypatterns/</guid>
+      <guid>https://ejhusom.github.io/science/respiratorypatterns/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Classifying human activity using tree ensembles</title>
-      <link>https://erikjohannes.no/science/classifying-human-activity-using-tree-ensembles/</link>
+      <link>https://ejhusom.github.io/science/classifying-human-activity-using-tree-ensembles/</link>
       <pubDate>Sun, 26 May 2019 21:40:08 +0200</pubDate>
       
-      <guid>https://erikjohannes.no/science/classifying-human-activity-using-tree-ensembles/</guid>
+      <guid>https://ejhusom.github.io/science/classifying-human-activity-using-tree-ensembles/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Predicting default on credit card</title>
-      <link>https://erikjohannes.no/science/predicting-default-on-credit-card/</link>
+      <link>https://ejhusom.github.io/science/predicting-default-on-credit-card/</link>
       <pubDate>Sun, 26 May 2019 21:40:08 +0200</pubDate>
       
-      <guid>https://erikjohannes.no/science/predicting-default-on-credit-card/</guid>
+      <guid>https://ejhusom.github.io/science/predicting-default-on-credit-card/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Regression and Resampling</title>
-      <link>https://erikjohannes.no/science/regression-and-resampling/</link>
+      <link>https://ejhusom.github.io/science/regression-and-resampling/</link>
       <pubDate>Sun, 26 May 2019 21:40:08 +0200</pubDate>
       
-      <guid>https://erikjohannes.no/science/regression-and-resampling/</guid>
+      <guid>https://ejhusom.github.io/science/regression-and-resampling/</guid>
       <description></description>
     </item>
     

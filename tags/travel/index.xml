@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>travel on Erik Johannes Husom</title>
-    <link>https://erikjohannes.no/tags/travel/</link>
+    <link>https://ejhusom.github.io/tags/travel/</link>
     <description>Recent content in travel on Erik Johannes Husom</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 05 Jul 2019 13:27:23 +0200</lastBuildDate>
     
-	<atom:link href="https://erikjohannes.no/tags/travel/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ejhusom.github.io/tags/travel/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>France</title>
-      <link>https://erikjohannes.no/posts/20190705-france/</link>
+      <link>https://ejhusom.github.io/posts/20190705-france/</link>
       <pubDate>Fri, 05 Jul 2019 13:27:23 +0200</pubDate>
       
-      <guid>https://erikjohannes.no/posts/20190705-france/</guid>
+      <guid>https://ejhusom.github.io/posts/20190705-france/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Andøya</title>
-      <link>https://erikjohannes.no/posts/20180128-andoya/</link>
+      <link>https://ejhusom.github.io/posts/20180128-andoya/</link>
       <pubDate>Mon, 28 May 2018 13:27:23 +0200</pubDate>
       
-      <guid>https://erikjohannes.no/posts/20180128-andoya/</guid>
+      <guid>https://ejhusom.github.io/posts/20180128-andoya/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Svalbard</title>
-      <link>https://erikjohannes.no/posts/20160530-svalbard/</link>
+      <link>https://ejhusom.github.io/posts/20160530-svalbard/</link>
       <pubDate>Mon, 30 May 2016 13:27:23 +0200</pubDate>
       
-      <guid>https://erikjohannes.no/posts/20160530-svalbard/</guid>
+      <guid>https://ejhusom.github.io/posts/20160530-svalbard/</guid>
       <description></description>
     </item>
     

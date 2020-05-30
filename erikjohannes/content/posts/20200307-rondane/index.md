@@ -3,9 +3,7 @@ title: "Rondane"
 date: 2020-03-07T13:27:23+02:00
 type: "posts"
 draft: false
-tags:
-    - outdoors
-    - skimo
+tags: ["outdoors", "skimo"]
 mastodonurl: ""
 twitterurl: ""
 instagramurl: ""

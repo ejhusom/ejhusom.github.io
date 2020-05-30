@@ -8,22 +8,29 @@
           <!-- <h5 id="wordcount"> {{ .WordCount }} Words </h5> -->
         </section>
 
-        <a href="{{ .Params.scienceurl }}">Link to project.</a>
+
 
         {{ with .Params.tags }}
-        <h5>Tags:</h5>
-        <ul id="tags">
+        <h5 style="display:inline;">Tags:</h5>
           {{ range . }}
-            <li> <a href="{{ "tags" | absURL }}{{ . | urlize }}">{{ . }}</a> </li>
+            <span> <a href="{{ "tags" | absURL }}/{{ . | urlize }}">{{ . }}</a></span>
           {{ end }}
-        </ul>
         {{ end }}
         </div>
+        <!-- <div> -->
+        <!--     {{ with .PrevInSection }} -->
+        <!--       <a class="previous" href="{{.Permalink}}"> {{.Title}}</a> -->
+        <!--     {{ end }} -->
+        <!--     {{ with .NextInSection }} -->
+        <!--       <a class="next" href="{{.Permalink}}"> {{.Title}}</a> -->
+        <!--     {{ end }} -->
+        <!-- </div> -->
     </aside>
 
       <div>
         <article id="content">
            {{ .Content }}
+        <a href="{{ .Params.scienceurl }}">Link to project.</a>
         </article>
   </div>
 </section>

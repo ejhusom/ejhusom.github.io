@@ -3,6 +3,7 @@ title: "Article on Facebook's targeted advertising"
 linktitle: "Want to Find a Misinformed Public? Facebook's Already Done It"
 date: 2020-05-30T12:58:52+02:00
 type: "links"
+tags: ["facebook", "mass-surveillance"]
 draft: false
 linkurl: "https://themarkup.org/coronavirus/2020/04/23/want-to-find-a-misinformed-public-facebooks-already-done-it"
 writer: "Aaron Sankin"

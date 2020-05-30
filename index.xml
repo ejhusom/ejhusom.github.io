@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Erik Johannes Husom</title>
@@ -8,220 +7,37 @@
     <language>en-us</language>
     <lastBuildDate>Sat, 30 May 2020 12:58:52 +0200</lastBuildDate>
     
-	<atom:link href="https://erikjohannes.no/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://erikjohannes.no/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Article on Facebook&#39;s targeted advertising</title>
-      <link>https://erikjohannes.no/links/20200530-facebook-targeted-advertising/</link>
+      <title>Links</title>
+      <link>https://erikjohannes.no/links/</link>
       <pubDate>Sat, 30 May 2020 12:58:52 +0200</pubDate>
       
-      <guid>https://erikjohannes.no/links/20200530-facebook-targeted-advertising/</guid>
-      <description>Some interesting revelations on Facebook&amp;rsquo;s targeted advertising.
- This isn’t the first time Facebook has faced scrutiny for the ways its ad tool can target conspiracy-minded people. A 2019 Guardian investigation found that advertisers could reach people interested in “vaccine controversies.” In 2017, ProPublica reporters (two of whom are now at The Markup) found that advertisers could target people who were interested in terms like “Jew hater,” and “History of ‘why jews ruin the world.</description>
+      <guid>https://erikjohannes.no/links/</guid>
+      <description>&lt;p&gt;This is where I post links to articles and websites I find interesting.&lt;/p&gt;
+</description>
     </item>
     
     <item>
-      <title>DeepVentilation</title>
-      <link>https://erikjohannes.no/science/deepventilation/</link>
+      <title>Science projects</title>
+      <link>https://erikjohannes.no/science/</link>
       <pubDate>Thu, 26 Mar 2020 21:40:08 +0200</pubDate>
       
-      <guid>https://erikjohannes.no/science/deepventilation/</guid>
-      <description></description>
+      <guid>https://erikjohannes.no/science/</guid>
+      <description>&lt;p&gt;Here are some links to science projects I have (co-)authored.&lt;/p&gt;
+</description>
     </item>
     
     <item>
-      <title>RespiratoryPatterns</title>
-      <link>https://erikjohannes.no/science/respiratorypatterns/</link>
-      <pubDate>Thu, 26 Mar 2020 21:40:08 +0200</pubDate>
-      
-      <guid>https://erikjohannes.no/science/respiratorypatterns/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Dogs relaxing</title>
-      <link>https://erikjohannes.no/posts/20200325-dogs-relaxing/</link>
+      <title>Blog posts</title>
+      <link>https://erikjohannes.no/posts/</link>
       <pubDate>Wed, 25 Mar 2020 13:27:23 +0200</pubDate>
       
-      <guid>https://erikjohannes.no/posts/20200325-dogs-relaxing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Rondane</title>
-      <link>https://erikjohannes.no/posts/20200307-rondane/</link>
-      <pubDate>Sat, 07 Mar 2020 13:27:23 +0200</pubDate>
-      
-      <guid>https://erikjohannes.no/posts/20200307-rondane/</guid>
-      <description>&lt;p&gt;Tidlig i mars hadde det kommet unormalt mye snø i Rondane, og jeg
-utnytta muligheten til å dra på topptur i området. Planen var egentlig å
-få gått en runde over noen av toppene over 2000 moh, men mye dyp snø og
-skredfare gjorde at jeg snudde ved Midtronden, og gikk samme vei
-tilbake.&lt;/p&gt;
-&lt;p&gt;Nederst på sida ligger en video fra turen.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Skyline Scotland</title>
-      <link>https://erikjohannes.no/posts/20190920-scotland/</link>
-      <pubDate>Fri, 20 Sep 2019 13:27:23 +0200</pubDate>
-      
-      <guid>https://erikjohannes.no/posts/20190920-scotland/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Nordmarka</title>
-      <link>https://erikjohannes.no/posts/20190910-nordmarka/</link>
-      <pubDate>Tue, 10 Sep 2019 13:27:23 +0200</pubDate>
-      
-      <guid>https://erikjohannes.no/posts/20190910-nordmarka/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>France</title>
-      <link>https://erikjohannes.no/posts/20190705-france/</link>
-      <pubDate>Fri, 05 Jul 2019 13:27:23 +0200</pubDate>
-      
-      <guid>https://erikjohannes.no/posts/20190705-france/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Classifying human activity using tree ensembles</title>
-      <link>https://erikjohannes.no/science/classifying-human-activity-using-tree-ensembles/</link>
-      <pubDate>Sun, 26 May 2019 21:40:08 +0200</pubDate>
-      
-      <guid>https://erikjohannes.no/science/classifying-human-activity-using-tree-ensembles/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Predicting default on credit card</title>
-      <link>https://erikjohannes.no/science/predicting-default-on-credit-card/</link>
-      <pubDate>Sun, 26 May 2019 21:40:08 +0200</pubDate>
-      
-      <guid>https://erikjohannes.no/science/predicting-default-on-credit-card/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Regression and Resampling</title>
-      <link>https://erikjohannes.no/science/regression-and-resampling/</link>
-      <pubDate>Sun, 26 May 2019 21:40:08 +0200</pubDate>
-      
-      <guid>https://erikjohannes.no/science/regression-and-resampling/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Maridalen</title>
-      <link>https://erikjohannes.no/posts/20190310-maridalen/</link>
-      <pubDate>Sun, 10 Mar 2019 13:27:23 +0200</pubDate>
-      
-      <guid>https://erikjohannes.no/posts/20190310-maridalen/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Grefsenkollen</title>
-      <link>https://erikjohannes.no/posts/20190217-grefsenkollen/</link>
-      <pubDate>Sun, 17 Feb 2019 13:27:23 +0200</pubDate>
-      
-      <guid>https://erikjohannes.no/posts/20190217-grefsenkollen/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Storlidalen</title>
-      <link>https://erikjohannes.no/posts/20190127-storlidalen/</link>
-      <pubDate>Sun, 27 Jan 2019 13:27:23 +0200</pubDate>
-      
-      <guid>https://erikjohannes.no/posts/20190127-storlidalen/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Andøya</title>
-      <link>https://erikjohannes.no/posts/20180128-andoya/</link>
-      <pubDate>Mon, 28 May 2018 13:27:23 +0200</pubDate>
-      
-      <guid>https://erikjohannes.no/posts/20180128-andoya/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Svalbard</title>
-      <link>https://erikjohannes.no/posts/20160530-svalbard/</link>
-      <pubDate>Mon, 30 May 2016 13:27:23 +0200</pubDate>
-      
-      <guid>https://erikjohannes.no/posts/20160530-svalbard/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Femundløpet</title>
-      <link>https://erikjohannes.no/posts/20140131-femundlopet/</link>
-      <pubDate>Sun, 02 Feb 2014 13:27:23 +0200</pubDate>
-      
-      <guid>https://erikjohannes.no/posts/20140131-femundlopet/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://erikjohannes.no/photography/adventure/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://erikjohannes.no/photography/adventure/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://erikjohannes.no/photography/landscape/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://erikjohannes.no/photography/landscape/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://erikjohannes.no/photography/mans-best-friend/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://erikjohannes.no/photography/mans-best-friend/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://erikjohannes.no/photography/plants/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://erikjohannes.no/photography/plants/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://erikjohannes.no/photography/urban/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://erikjohannes.no/photography/urban/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://erikjohannes.no/photography/wildlife/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://erikjohannes.no/photography/wildlife/</guid>
-      <description></description>
+      <guid>https://erikjohannes.no/posts/</guid>
+      <description>&lt;p&gt;Here are some stuff I have written and some photos I have taken.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -230,8 +46,93 @@ tilbake.&lt;/p&gt;
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://erikjohannes.no/cycling-hills/</guid>
-      <description>On this page you will find a collection of hills that are perfect for testing your bike climbing skills.
- Use the overlay menu in the top right corner of the map to select/deselect the routes you want to see. Click on the start marker to get info about the route. GPX-files can be download from this link. If you have suggestions for hills to be added, send them to me using my contact info.</description>
+      <description>
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://erikjohannes.no/js/leaflet/leaflet.css&#34; /&gt;
+&lt;script src=&#34;https://erikjohannes.no/js/leaflet/leaflet.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://erikjohannes.no/js/gpx.js&#34;&gt;&lt;/script&gt;
+  
+&lt;p&gt;On this page you will find a collection of hills that are perfect for testing your bike climbing skills.&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;Use the overlay menu in the top right corner of the map to select/deselect the routes you want to see.&lt;/li&gt;
+    &lt;li&gt;Click on the start marker to get info about the route.&lt;/li&gt;
+    &lt;li&gt;GPX-files can be download from &lt;a href=&#34;https://github.com/ejhusom/ejhusom.github.io/tree/master/cycling-hills&#34;&gt;this link&lt;/a&gt;.&lt;/li&gt;
+    &lt;li&gt;If you have suggestions for hills to be added, send them to me using my &lt;a href=&#34;index.html#about&#34;&gt;contact info&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;nav id=&#34;fixedMenu&#34;&gt;
+    &lt;h3&gt;Areas:&lt;/h3&gt;
+    &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#Norway&#34;&gt;Norway&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#France&#34;&gt;France&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/nav&gt;
+
+&lt;br&gt;
+&lt;hr&gt;
+
+&lt;h3 class=space id=&#34;Norway&#34;&gt;Cycling hills in Norway&lt;/h3&gt;
+&lt;div id=&#34;norwayMap&#34; style=&#34;height: 600px; width: 100%;&#34;&gt;&lt;/div&gt;
+&lt;br&gt;
+
+&lt;hr&gt;
+&lt;h3 class=space id=&#34;France&#34;&gt;Cycling hills in France&lt;/h3&gt;
+&lt;div id=&#34;franceMap&#34; style=&#34;height: 600px; width: 100%;&#34;&gt;&lt;/div&gt;
+
+&lt;script&gt;
+    var norwayMap = L.map(&#39;norwayMap&#39;).setView([65.50, 13.00], 4);
+    L.tileLayer(&#39;https://opencache.statkart.no/gatekeeper/gk/gk.open_gmaps?layers=topo4&amp;zoom={z}&amp;x={x}&amp;y={y}&#39;, {
+        attribution: &#39;&lt;a href=&#34;http://www.kartverket.no/&#34;&gt;Kartverket&lt;/a&gt;&#39;
+    }).addTo(norwayMap);
+    var norwayControl = L.control.layers(null, null).addTo(norwayMap);
+
+    var franceMap = L.map(&#39;franceMap&#39;).setView([48.00, 1.90], 5);
+    L.tileLayer(&#39;https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png&#39;, {
+        maxZoom: 17,
+        attribution: &#39;Map data: &amp;copy; &lt;a href=&#34;https://www.openstreetmap.org/copyright&#34;&gt;OpenStreetMap&lt;/a&gt; contributors, &lt;a href=&#34;http://viewfinderpanoramas.org&#34;&gt;SRTM&lt;/a&gt; | Map style: &amp;copy; &lt;a href=&#34;https://opentopomap.org&#34;&gt;OpenTopoMap&lt;/a&gt; (&lt;a href=&#34;https://creativecommons.org/licenses/by-sa/3.0/&#34;&gt;CC-BY-SA&lt;/a&gt;)&#39;
+    }).addTo(franceMap);
+    var franceControl = L.control.layers(null, null).addTo(franceMap);
+
+    function plotGPX(map, control, url) {
+        var yo = new L.GPX(url, {
+            async: true,
+            marker_options: {
+                startIconUrl: &#39;img/pin-icon-start.png&#39;,
+                endIconUrl:   &#39;img/pin-icon-end.png&#39;,
+                shadowUrl:    &#39;img/pin-shadow.png&#39;,
+                //iconSize: [16, 25],
+                //shadowSize: [25, 25],
+                //iconAnchor: [32, 90],
+                //shadowAnchor: [32, 94],
+                clickable: true,
+                showRouteInfo: true
+            },
+        }).on(&#39;loaded&#39;, function(e) {
+            control.addOverlay(
+                e.target, e.target.get_name() 
+                + &#34;: &#34; + (e.target.get_distance()/1000).toFixed(2) + &#34; km&#34;
+                + &#34;, elev. gain: &#34; + e.target.get_elevation_gain().toFixed(0) + &#34; m&#34;
+                + &#34; (&#34; + e.target.get_elevation_min().toFixed(0) + &#34;/&#34;
+                + e.target.get_elevation_max().toFixed(0) + &#34; masl).&#34;
+            );
+        }).addTo(map);
+    }
+
+    var dir = &#34;/cycling-hills/&#34;
+    plotGPX(norwayMap, norwayControl, dir + &#34;Gressbanen-Tryvann.gpx&#34;);
+    plotGPX(norwayMap, norwayControl, dir + &#34;Kvål-Vassfjellet.gpx&#34;);
+    plotGPX(norwayMap, norwayControl, dir + &#34;Vengedalen.gpx&#34;);
+    plotGPX(norwayMap, norwayControl, dir + &#34;Ljabrubakken.gpx&#34;);
+    plotGPX(norwayMap, norwayControl, dir + &#34;Skeidbanen-Grefsenkollen.gpx&#34;);
+    plotGPX(norwayMap, norwayControl, dir + &#34;Stavne-LilleGråkallen.gpx&#34;);
+    plotGPX(norwayMap, norwayControl, dir + &#34;Trollstigen.gpx&#34;);
+    plotGPX(franceMap, franceControl, dir + &#34;AlpedHuez.gpx&#34;);
+&lt;/script&gt;
+
+
+
+
+</description>
     </item>
     
     <item>
@@ -240,7 +141,362 @@ tilbake.&lt;/p&gt;
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://erikjohannes.no/mountain-conditions/</guid>
-      <description>This page provides a collection of webcameras from various sources and weather forecasts from yr.no for some of the most popular alpine/mountain areas in southern Norway. The page is under development. Areas:  Dovrefjell Folldal Jotunheimen - Sognefjellet Jotunheimen - Valdresflye Meråker Oslo Romsdal Rondane Sunndalsøra Sylan Todalen Trollheimen Trondheim   Other useful tools:   Varsom - avalanche forecast regObs - avalanche observations yr.no - weather forecast senorge.</description>
+      <description>
+
+&lt;p&gt; 
+    This page provides a collection of webcameras from various
+    sources and weather forecasts from &lt;a
+    href=&#34;https://www.yr.no/&#34;&gt;yr.no&lt;/a&gt; for some of the most popular
+    alpine/mountain areas in southern Norway. The page is under
+    development.
+&lt;/p&gt;
+
+&lt;nav id=&#34;fixedMenu&#34;&gt;
+    &lt;h3&gt;Areas:&lt;/h3&gt;
+    &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#Dovrefjell&#34;&gt;Dovrefjell&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#Folldal&#34;&gt;Folldal&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#Jotunheimen-Sognefjellet&#34;&gt;Jotunheimen - Sognefjellet&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#Jotunheimen-Valdresflye&#34;&gt;Jotunheimen - Valdresflye&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#Meråker&#34;&gt;Meråker&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#Oslo&#34;&gt;Oslo&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#Romsdal&#34;&gt;Romsdal&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#Rondane&#34;&gt;Rondane&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#Sunndalsøra&#34;&gt;Sunndalsøra&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#Sylan&#34;&gt;Sylan&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#Todalen&#34;&gt;Todalen&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#Trollheimen&#34;&gt;Trollheimen&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#Trondheim&#34;&gt;Trondheim&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/nav&gt;
+
+&lt;h3&gt;Other useful tools:&lt;/h3&gt;
+&lt;nav&gt;
+    &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;https://www.varsom.no/snoskredvarsling/&#34;&gt;Varsom - avalanche forecast&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://www.regobs.no/Avalanche/SearchObservations/#/Map/?SelectedNumberOfDays=3&#34;&gt;regObs - avalanche observations&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://www.yr.no/&#34;&gt;yr.no - weather forecast&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://www.senorge.no/index.html?p=senorgeny&amp;st=snow&#34;&gt;senorge.no - snow conditions&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://geodata.ngi.no/arcgisportal/apps/webappviewer/index.html?id=fd597e0179fe479b9274d95a90b00931&#34;&gt;geodata.ngi.no - slopes and topography (bratthetskart)&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/nav&gt;
+
+
+&lt;section&gt;
+    &lt;hr&gt;
+    &lt;h3 class=space id=&#34;Dovrefjell&#34;&gt;Dovrefjell&lt;/h3&gt;
+    &lt;hr&gt;
+
+    &lt;section&gt;
+        &lt;h4&gt;Grønbakken&lt;/h4&gt;
+        &lt;a href=&#34;http://www.vegvesen.no/public/webkamera/kamera?id=109026&#34;&gt;&lt;img src=&#34;http://www.vegvesen.no/public/webkamera/kamera?id=109026&#34; data-src=&#34;http://www.vegvesen.no/public/webkamera/kamera?id=109026&#34; class=webcam alt=&#34;https://www.vegvesen.no/public/webkamera/kamera?id=109026&#34;&gt;&lt;/a&gt;
+    &lt;/section&gt;
+    &lt;section&gt;
+        &lt;h4&gt;E6 Hjerkinn&lt;/h4&gt;
+        &lt;a href=&#34;http://webkamera.vegvesen.no/kamera?id=298294&#34; &gt;&lt;img src=&#34;http://webkamera.vegvesen.no/kamera?id=298294&#34; alt=&#34;http://webkamera.vegvesen.no/kamera?id=298294&#34; class=webcam&gt;&lt;/a&gt;
+        &lt;img src=&#34;https://www.yr.no/place/Norway/Oppland/Dovre/Hjerkinn/meteogram.png&#34; class=webcam&gt;
+    &lt;/section&gt;
+
+&lt;/section&gt;
+
+&lt;section&gt;
+    &lt;hr&gt;
+    &lt;h3 class=space id=&#34;Folldal&#34;&gt;Folldal&lt;/h3&gt;
+    &lt;hr&gt;
+
+    &lt;section&gt;
+        &lt;img src=&#34;https://www.yr.no/place/Norway/Innlandet/Folldal/Folldal/meteogram.png&#34; class=webcam&gt;
+   &lt;/section&gt;
+
+&lt;/section&gt;
+
+&lt;section&gt;
+    &lt;hr&gt;
+    &lt;h3 class=space id=&#34;Jotunheimen-Sognefjellet&#34;&gt;Jotunheimen - Sognefjellet&lt;/h3&gt;
+    &lt;hr&gt;
+    &lt;section&gt;
+        &lt;h4&gt;Turtagrø&lt;/h4&gt;
+        &lt;img class=&#39;webcam&#39; src=&#34;https://www.mkit.no/images/image_00001.jpg&#34;&gt;
+    &lt;!-- &lt;a name=&#34;lkr-timelapse-player&#34; data-id=&#34;1315029812&#34; data-play=&#34;day&#34; href=&#34;https://lookr.com/1315029812&#34; target=&#34;_blank&#34;&gt;Bjørk: Turtagrø&lt;/a&gt;&lt;script async type=&#34;text/javascript&#34; src=&#34;https://api.lookr.com/embed/script/player.js&#34;&gt;&lt;/script&gt; --&gt;
+        &lt;img src=&#34;https://www.yr.no/place/Norway/Sogn_og_Fjordane/Luster/Turtagr%C3%B8_hotell/meteogram.png&#34; class=webcam&gt;
+    &lt;/section&gt;
+    &lt;hr&gt;
+    &lt;section&gt;
+        &lt;h4&gt;Sognefjellshytta (retning Lom)&lt;/h4&gt;
+            &lt;!-- &lt;a name=&#34;lkr-timelapse-player&#34; data-id=&#34;1479077020&#34; data-play=&#34;day&#34; href=&#34;https://lookr.com/1479077020&#34; target=&#34;_blank&#34;&gt;Bøverkinnhalsen: F55 Sognefjellet (Retning mot Lom)&lt;/a&gt;&lt;script async type=&#34;text/javascript&#34; src=&#34;https://api.lookr.com/embed/script/player.js&#34;&gt;&lt;/script&gt;
+            --&gt;
+            &lt;a href=&#34;https://www.vegvesen.no/Trafikkinformasjon/Reiseinformasjon/Trafikkmeldinger/Webkamera?kamera=1608508&amp;zoom=7&#34; target=&#34;_blank&#34; &gt;&lt;img class=&#39;webcam&#39; src=&#34;http://www.vegvesen.no/public/webkamera/kamera?id=1608508&#34; alt=&#34;https://www.vegvesen.no/public/webkamera/kamera?id=1608508&#34;&gt;&lt;/a&gt;
+            &lt;img src=&#34;https://www.yr.no/place/Norway/Oppland/Lom/Sognefjellshytta/meteogram.png&#34; class=webcam&gt;
+    &lt;/section&gt;
+    &lt;hr&gt;
+    &lt;section&gt;
+        &lt;h4&gt;Leirvassbu&lt;/h4&gt;
+        &lt;!-- &lt;a name=&#34;lkr-timelapse-player&#34; data-id=&#34;1309791419&#34; data-play=&#34;day&#34; href=&#34;https://lookr.com/1309791419&#34; target=&#34;_blank&#34;&gt;Leirvassbu&lt;/a&gt;&lt;script async type=&#34;text/javascript&#34; src=&#34;https://api.lookr.com/embed/script/player.js&#34;&gt;&lt;/script&gt;
+        --&gt;
+        &lt;img alt=&#34;&#34; src=&#34;http://kamera.leirvassbu.no/bilde/bilde.jpg&#34; class=webcam&gt;
+        &lt;img src=&#34;https://www.yr.no/place/Norway/Oppland/Lom/Leirvassbu/meteogram.png&#34; class=webcam&gt;
+    &lt;/section&gt;
+
+    &lt;hr&gt;
+    &lt;section&gt;
+        &lt;h4&gt;Spiterstulen&lt;/h4&gt;
+        &lt;img alt=&#34;&#34; src=&#34;https://www.spiterstulen.no/weather/video.jpg&#34; class=webcam&gt;
+        &lt;!-- &lt;img src=&#34;https://www.yr.no/place/Norway/Oppland/Lom/Leirvassbu/meteogram.png&#34; class=webcam&gt; --&gt;
+    &lt;/section&gt;
+    &lt;hr&gt;
+    &lt;section&gt;
+        &lt;h4&gt;Galdhøpiggen skisenter&lt;/h4&gt;
+        &lt;img alt=&#34;&#34; src=&#34;https://gpss.no/foto/image.jpg&#34; class=webcam&gt;
+        &lt;!-- &lt;img src=&#34;https://www.yr.no/place/Norway/Oppland/Lom/Leirvassbu/meteogram.png&#34; class=webcam&gt; --&gt;
+    &lt;/section&gt;
+&lt;/section&gt;
+
+&lt;section&gt;
+    &lt;hr&gt;
+    &lt;h3 class=space id=&#34;Jotunheimen-Valdresflye&#34;&gt;Jotunheimen - Valdresflye&lt;/h3&gt;
+    &lt;hr&gt;
+
+    &lt;section&gt;
+        &lt;h4&gt;Gjendesheim (retning Besseggen)&lt;/h4&gt;
+        &lt;!--
+        &lt;section class=webcam&gt;
+            &lt;a name=&#34;lkr-timelapse-player&#34; data-id=&#34;1386180161&#34; data-play=&#34;day&#34; href=&#34;https://lookr.com/1386180161&#34; target=&#34;_blank&#34;&gt;Gjende: Vågå&lt;/a&gt;&lt;script async type=&#34;text/javascript&#34; src=&#34;https://api.lookr.com/embed/script/player.js&#34;&gt;&lt;/script&gt;
+        &lt;/section&gt;
+        --&gt;
+        &lt;a href=&#34;https://www.vaga.kommune.no/sjolvbetening/webkamera/&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://webfile.regiondata.no/vaga/webcam/gjende.jpg&#34; alt=&#34;https://webfile.regiondata.no/vaga/webcam/gjende.jpg&#34; class=&#34;webcam&#34;&gt;&lt;/a&gt;
+        &lt;img src=&#34;https://www.yr.no/place/Norway/Oppland/V%C3%A5g%C3%A5/Gjendesheim/meteogram.png&#34; class=webcam&gt;
+    &lt;/section&gt;
+    &lt;hr&gt;
+    &lt;section&gt;
+        &lt;h4&gt;Valdresflye&lt;/h4&gt;
+        &lt;a href=&#34;https://www.vegvesen.no/Trafikkinformasjon/Reiseinformasjon/Trafikkmeldinger/Webkamera?kamera=2072869&amp;zoom=7&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://www.vegvesen.no/public/webkamera/kamera?id=2072869&#34; alt=&#34;Fv. 51 Valdresflye&#34; class=webcam&gt;&lt;/a&gt;
+        &lt;img src=&#34;https://www.yr.no/place/Norway/Oppland/%C3%98ystre_Slidre/Valdresflye/meteogram.png&#34; class=webcam&gt;
+    &lt;/section&gt;
+&lt;/section&gt;
+
+&lt;section&gt;
+    &lt;hr&gt;
+    &lt;h3 class=space id=&#34;Meråker&#34;&gt;Meråker&lt;/h3&gt;
+    &lt;hr&gt;
+
+    &lt;section&gt;
+        &lt;h4&gt;Meråker alpinsenter&lt;/h4&gt;
+        &lt;a href=&#34;https://embed.metnet.no/?dash=MeTQuTvYKf&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://metnet.no/custcams/merakeralpin1/laget/webcam_semihd.jpg?t=1584125300500&#34; data-src=&#34;https://metnet.no/custcams/merakeralpin1/laget/webcam_semihd.jpg?t=1584125300500&#34; class=webcam&gt;&lt;/a&gt;
+        &lt;img src=&#34;https://www.yr.no/place/Norway/Tr%C3%B8ndelag/Mer%C3%A5ker/Mer%C3%A5ker_alpinsenter/meteogram.png&#34; class=webcam&gt;
+    &lt;/section&gt;
+    &lt;hr&gt;
+
+    &lt;section&gt;
+        &lt;h4&gt;Grova skisenter (Knutbukjølen)&lt;/h4&gt;
+        &lt;a href=&#34;https://embed.metnet.no/?dash=Fh62OYQaAI&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://metnet.no/custcams/grova2/laget/webcam_hd.jpg&#34; data-src=&#34;https://metnet.no/custcams/grova2/laget/webcam_hd.jpg&#34; class=webcam&gt;&lt;/a&gt;
+        &lt;img src=&#34;https://www.yr.no/place/Norway/Tr%C3%B8ndelag/Mer%C3%A5ker/Knutbukj%C3%B8len/meteogram.png&#34; class=webcam&gt;
+    &lt;/section&gt;
+    &lt;hr&gt;
+&lt;/section&gt;
+
+&lt;section&gt;
+    &lt;hr&gt;
+    &lt;h3 class=space id=&#34;Oslo&#34;&gt;Oslo&lt;/h3&gt;
+    &lt;hr&gt;
+
+    &lt;section&gt;
+        &lt;h4&gt;Holmenkollen&lt;/h4&gt;
+        &lt;a href=&#34;https://www.skiforeningen.no/img/publish/346.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://www.skiforeningen.no/img/publish/346.jpg&#34; data-src=&#34;https://www.skiforeningen.no/img/publish/346.jpg&#34; class=webcam&gt;&lt;/a&gt;
+        &lt;img src=&#34;https://www.yr.no/place/Norway/Oslo/Oslo/Holmenkollen/meteogram.png&#34; class=webcam&gt;
+    &lt;/section&gt;
+    &lt;hr&gt;
+
+    &lt;section&gt;
+        &lt;h4&gt;Kikutstua&lt;/h4&gt;
+        &lt;a href=&#34;https://www.skiforeningen.no/img/publish/8166.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://www.skiforeningen.no/img/publish/8166.jpg&#34; data-src=&#34;https://www.skiforeningen.no/img/publish/8166.jpg&#34; class=webcam&gt;&lt;/a&gt;
+        &lt;img src=&#34;https://www.yr.no/place/Norway/Oslo/Oslo/Kikutstua/meteogram.png&#34; class=webcam&gt;
+    &lt;/section&gt;
+    &lt;hr&gt;
+&lt;/section&gt;
+
+&lt;section&gt;
+    &lt;hr&gt;
+    &lt;h3 class=space id=&#34;Romsdal&#34;&gt;Romsdal&lt;/h3&gt;
+    &lt;hr&gt;
+
+    &lt;p&gt;&lt;a href=&#34;https://romsdal.com/romsdal/romsdal2010.nsf/webcam.xsp&#34;&gt;Link til oversikt over flere webkamera i Romsdal&lt;/a&gt;&lt;/p&gt;
+
+    &lt;section&gt;
+        &lt;h4&gt;Kyrkjetaket&lt;/h4&gt;
+           &lt;img src=&#34;https://romsdal.com/kamera/0036A8BC/$File/RH-Kavli.jpg&#34; class=webcam&gt;
+           &lt;img src=&#34;https://www.yr.no/place/Norway/M%C3%B8re_og_Romsdal/Rauma/Isfjorden/meteogram.png&#34; class=webcam&gt;
+    &lt;/section&gt;
+    &lt;hr&gt;
+
+    &lt;section&gt;
+        &lt;h4&gt;Soggemoen (mot Kongen, Dronninga og Bispen)&lt;/h4&gt;
+        &lt;img src=&#34;https://78.31.82.215/mjpg/video.mjpg&#34; class=webcam&gt;
+        &lt;img src=&#34;https://www.yr.no/place/Norway/M%C3%B8re_og_Romsdal/Rauma/Trollstigen/meteogram.png&#34; class=webcam&gt;
+    &lt;/section&gt;
+    &lt;hr&gt;
+
+    &lt;section&gt;
+        &lt;h4&gt;Vengedalen&lt;/h4&gt;
+        &lt;img src=&#34;https://78.31.81.211:2245/img/video.mjpeg&#34; class=&#34;webcam&#34; alt=&#34;live image&#34;&gt;
+        &lt;img src=&#34;https://www.yr.no/place/Norway/M%C3%B8re_og_Romsdal/Rauma/Venjesdalen/meteogram.png&#34; class=webcam&gt;
+    &lt;/section&gt;
+    &lt;hr&gt;
+
+    &lt;section&gt;
+        &lt;h4&gt;Berillvatnet mot Alnestinden/Finnan&lt;/h4&gt;
+        &lt;img src=&#34;https://romsdal.com/kamera/003B7EDC/$File/BS-Berdalen.jpg&#34; class=&#34;webcam&#34; alt=&#34;live image&#34;&gt;
+        &lt;img src=&#34;https://www.yr.no/place/Norway/M%C3%B8re_og_Romsdal/Rauma/Finnan/meteogram.png&#34; class=webcam&gt;
+    &lt;/section&gt;
+&lt;/section&gt;
+
+&lt;section&gt;
+    &lt;hr&gt;
+    &lt;h3 class=space id=&#34;Rondane&#34;&gt;Rondane&lt;/h3&gt;
+    &lt;hr&gt;
+
+    &lt;section&gt;
+        &lt;h4&gt;Sollia mot Rondane&lt;/h4&gt;
+
+        &lt;img id=&#34;img1_17&#34; src=&#34;https://webcam.sollia.net/image.jpg?t=0.059994813142290604&#34; style=&#34;&#34; alt=&#34;Netcam&#34; class=webcam&gt;
+        &lt;img src=&#34;https://www.yr.no/place/Norway/Oppland/Dovre/Rondane/meteogram.png&#34; class=webcam&gt;
+   &lt;/section&gt;
+
+&lt;/section&gt;
+
+&lt;section&gt;
+    &lt;hr&gt;
+    &lt;h3 class=space id=&#34;Sunndalsøra&#34;&gt;Sunndalsøra&lt;/h3&gt;
+    &lt;hr&gt;
+
+    &lt;section&gt;
+        &lt;h4&gt;Vinnu airfield&lt;/h4&gt;
+        &lt;a href=&#34;http://www.sunndalflyklubb.no/Webkamera/East-10.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;http://www.sunndalflyklubb.no/Webkamera/East-10.jpg&#34; data-src=&#34;https://www.sunndalflyklubb.no/Webkamera/East-10.jpg&#34; class=webcam alt=&#34;http://www.sunndalflyklubb.no/Webkamera/East-10.jpg&#34;&gt;&lt;/a&gt;
+        &lt;img src=&#34;https://www.yr.no/place/Norway/M%C3%B8re_og_Romsdal/Sunndal/Sunndals%C3%B8ra/meteogram.png&#34; class=webcam&gt;
+    &lt;/section&gt;
+    &lt;hr&gt;
+
+&lt;/section&gt;
+
+&lt;section&gt;
+    &lt;hr&gt;
+    &lt;h3 class=space id=&#34;Sylan&#34;&gt;Sylan&lt;/h3&gt;
+    &lt;hr&gt;
+
+    &lt;section&gt;
+        &lt;h4&gt;Nedalshytta&lt;/h4&gt;
+        &lt;a href=&#34;https://embed.metnet.no/?dash=W8ekncjFyL&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://metnet.no/custcams/nedalshytta/laget/webcam_hd.jpg?t=1584124243100&#34; data-src=&#34;https://metnet.no/custcams/nedalshytta/laget/webcam_hd.jpg?t=1584124243100&#34; class=webcam&gt;&lt;/a&gt;
+        &lt;img src=&#34;https://www.yr.no/place/Norway/Tr%C3%B8ndelag/Tydal/Nedalshytta/meteogram.png&#34; class=webcam&gt;
+    &lt;/section&gt;
+    &lt;hr&gt;
+
+&lt;/section&gt;
+
+&lt;section&gt;
+    &lt;hr&gt;
+    &lt;h3 class=space id=&#34;Todalen&#34;&gt;Todalen&lt;/h3&gt;
+    &lt;hr&gt;
+
+    &lt;section&gt;
+        &lt;h4&gt;Kårvatn - View towards Kårvatn from Talgøsetra (Reiret)&lt;/h4&gt;
+        &lt;a href=&#34;https://svorka.no/webcam/kaarvatn/kaarvatn000M.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://svorka.no/webcam/kaarvatn/kaarvatn000M.jpg&#34; data-src=&#34;https://svorka.no/webcam/kaarvatn/kaarvatn000M.jpg&#34; class=webcam&gt;&lt;/a&gt;
+        &lt;img src=&#34;https://www.yr.no/place/Norway/M%C3%B8re_og_Romsdal/Aure/Todalen/meteogram.png&#34; class=webcam&gt;
+    &lt;/section&gt;
+    &lt;hr&gt;
+
+&lt;/section&gt;
+
+&lt;section&gt;
+    &lt;hr&gt;
+    &lt;h3 class=space id=&#34;Trollheimen&#34;&gt;Trollheimen&lt;/h3&gt;
+    &lt;hr&gt;
+
+    &lt;section&gt;
+        &lt;h4&gt;Gjevilvasshytta&lt;/h4&gt;
+        &lt;img src=&#34;https://metnet.no/custcams/gjevillvasshytta1/laget/webcam_hd.jpg?t=1548865059500&#34; data-src=&#34;https://metnet.no/custcams/gjevillvasshytta1/laget/webcam_hd.jpg?t=1548865059500&#34; class=webcam&gt;
+        &lt;img src=&#34;https://www.yr.no/place/Norway/Tr%C3%B8ndelag/Oppdal/Gjevilvasshytta/meteogram.png&#34; class=webcam&gt;
+    &lt;/section&gt;
+    &lt;hr&gt;
+
+    &lt;section&gt;
+        &lt;h4&gt;Oppdal sentrum&lt;/h4&gt;
+        &lt;img src=&#34;http://moldewebcams.net/____impro/1/oppdal/002.jpg?etag=%222c89b-5afc067f%22&amp;sourceContentType=image%2Fjpeg&amp;quality=85&amp;ignoreAspectRatio&amp;resize=1500,844&#34; data-src=&#34;http://moldewebcams.net/____impro/1/oppdal/002.jpg?etag=%222c89b-5afc067f%22&amp;sourceContentType=image%2Fjpeg&amp;quality=85&amp;ignoreAspectRatio&amp;resize=1500,844&#34; class=&#34;webcam&#34;&gt;
+    &lt;/section&gt;
+
+    &lt;section&gt;
+        &lt;h4&gt;Oppdal skisenter - Stølen&lt;/h4&gt;
+        &lt;img src=&#34;http://www.norwaysafari.no/webcam/oppdal/rockoss-webcam.jpg&#34; data-src=&#34;http://www.norwaysafari.no/webcam/oppdal/rockoss-webcam.jpg&#34; class=&#34;webcam&#34;&gt;
+        &lt;img src=&#34;https://www.yr.no/place/Norway/Tr%C3%B8ndelag/Oppdal/Oppdal_skisenter/meteogram.png&#34; class=webcam&gt;
+    &lt;/section&gt;
+
+    &lt;section&gt;
+        &lt;h4&gt;E6 Oppdal&lt;/h4&gt;
+        &lt;img src=&#34;http://webkamera.vegvesen.no/kamera?id=112296&#34; data-src=&#34;http://webkamera.vegvesen.no/kamera?id=112296&#34; class=&#34;webcam&#34;&gt;
+    &lt;/section&gt;
+&lt;/section&gt;
+
+
+&lt;section&gt;
+    &lt;hr&gt;
+    &lt;h3 class=space id=&#34;Trondheim&#34;&gt;Trondheim&lt;/h3&gt;
+    &lt;hr&gt;
+
+    &lt;p&gt;&lt;a href=&#34;https://www.adressa.no/kamera/&#34;&gt;Link to overview over several other webcams in the Trondheim/Trøndelag area.&lt;/a&gt;&lt;/p&gt;
+    &lt;hr&gt;
+
+    &lt;img src=&#34;https://www.yr.no/place/Norway/Tr%C3%B8ndelag/Trondheim/Trondheim/meteogram.png&#34; class=webcam&gt;
+    &lt;hr&gt;
+
+    &lt;section&gt;
+        &lt;h4&gt;Granåsen/Søremshallan&lt;/h4&gt;
+        &lt;a href=&#34;https://embed.metnet.no/?dash=otItgiNuM5&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://metnet.no/custcams/granasen1/laget/webcam_hd.jpg&#34; data-src=&#34;https://metnet.no/custcams/granasen1/laget/webcam_hd.jpg&#34; class=webcam&gt;&lt;/a&gt;
+        &lt;img src=&#34;https://www.yr.no/sted/Norge/Tr%C3%B8ndelag/Trondheim/S%C3%B8remshallan/meteogram.png&#34; class=webcam&gt;
+    &lt;/section&gt;
+    &lt;hr&gt;
+
+    &lt;section&gt;
+        &lt;h4&gt;Rønningen (Bymarka)&lt;/h4&gt;
+        &lt;a href=&#34;https://embed.metnet.no/?dash=uYKrFdCYqd&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://metnet.no/custcams/ronningen2/laget/webcam_hd.jpg&#34; data-src=&#34;https://metnet.no/custcams/ronningen2/laget/webcam_hd.jpg&#34; class=webcam&gt;&lt;/a&gt;
+        &lt;img src=&#34;https://www.yr.no/place/Norway/Tr%C3%B8ndelag/Trondheim/R%C3%B8nningen/meteogram.png&#34; class=webcam&gt;
+    &lt;/section&gt;
+    &lt;hr&gt;
+
+    &lt;section&gt;
+        &lt;h4&gt;Skistua (Bymarka)&lt;/h4&gt;
+        &lt;a href=&#34;https://embed.metnet.no/?dash=wvNtBWvFXm&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://metnet.no/custcams/skiklubben1/laget/webcam_semihd.jpg?t=1584123868700&#34; data-src=&#34;https://metnet.no/custcams/skiklubben1/laget/webcam_semihd.jpg?t=1584123868700&#34; class=webcam&gt;&lt;/a&gt;
+        &lt;img src=&#34;https://www.yr.no/place/Norway/Tr%C3%B8ndelag/Trondheim/Skistua/meteogram.png&#34; class=webcam&gt;
+    &lt;/section&gt;
+    &lt;hr&gt;
+
+    &lt;section&gt;
+        &lt;h4&gt;Vassfjellet&lt;/h4&gt;
+        &lt;a href=&#34;https://www.adressa.no/kamera/2015/12/18/Vassfjellet-Skisenter-11938457.ece&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://metnet.no/custcams/vassfjellet1/laget/webcam_hd.jpg&#34; data-src=&#34;https://metnet.no/custcams/vassfjellet1/laget/webcam_hd.jpg&#34; class=webcam&gt;&lt;/a&gt;
+        &lt;img src=&#34;https://www.yr.no/place/Norway/Tr%C3%B8ndelag/Trondheim/Vassfjellet_skisenter/meteogram.png&#34; class=webcam&gt;
+    &lt;/section&gt;
+    &lt;hr&gt;
+&lt;/section&gt;
+
+
+</description>
+    </item>
+    
+    <item>
+      <title>Photographies</title>
+      <link>https://erikjohannes.no/photography/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikjohannes.no/photography/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Social posts</title>
+      <link>https://erikjohannes.no/notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikjohannes.no/notes/</guid>
+      <description>&lt;p&gt;This is stuff I post on social media (&lt;a href=&#34;https://joinmastodon.org&#34;&gt;Mastodon&lt;/a&gt;,
+&lt;a href=&#34;https://pixelfed.org&#34;&gt;Pixelfed&lt;/a&gt; etc).&lt;/p&gt;
+</description>
     </item>
     
   </channel>

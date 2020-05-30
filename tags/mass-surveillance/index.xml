@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>mass-surveillance on Erik Johannes Husom</title>
@@ -8,7 +7,7 @@
     <language>en-us</language>
     <lastBuildDate>Sat, 30 May 2020 12:58:52 +0200</lastBuildDate>
     
-	<atom:link href="https://erikjohannes.no/tags/mass-surveillance/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://erikjohannes.no/tags/mass-surveillance/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -17,8 +16,11 @@
       <pubDate>Sat, 30 May 2020 12:58:52 +0200</pubDate>
       
       <guid>https://erikjohannes.no/links/20200530-facebook-targeted-advertising/</guid>
-      <description>Some interesting revelations on Facebook&amp;rsquo;s targeted advertising.
- This isn’t the first time Facebook has faced scrutiny for the ways its ad tool can target conspiracy-minded people. A 2019 Guardian investigation found that advertisers could reach people interested in “vaccine controversies.” In 2017, ProPublica reporters (two of whom are now at The Markup) found that advertisers could target people who were interested in terms like “Jew hater,” and “History of ‘why jews ruin the world.</description>
+      <description>&lt;p&gt;Some interesting revelations on Facebook&amp;rsquo;s targeted advertising.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;This isn’t the first time Facebook has faced scrutiny for the ways its ad tool can target conspiracy-minded people. A 2019 Guardian investigation found that advertisers could reach people interested in “vaccine controversies.” In 2017, ProPublica reporters (two of whom are now at The Markup) found that advertisers could target people who were interested in terms like “Jew hater,” and “History of ‘why jews ruin the world.’ ”&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
     </item>
     
   </channel>

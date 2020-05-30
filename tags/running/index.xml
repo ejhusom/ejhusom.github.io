@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>running on Erik Johannes Husom</title>
@@ -8,7 +7,7 @@
     <language>en-us</language>
     <lastBuildDate>Fri, 20 Sep 2019 13:27:23 +0200</lastBuildDate>
     
-	<atom:link href="https://erikjohannes.no/tags/running/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://erikjohannes.no/tags/running/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -17,7 +16,66 @@
       <pubDate>Fri, 20 Sep 2019 13:27:23 +0200</pubDate>
       
       <guid>https://erikjohannes.no/posts/20190920-scotland/</guid>
-      <description></description>
+      <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;https://erikjohannes.no/js/leaflet/leaflet.css&#34; /&gt;
+&lt;script src=&#34;https://erikjohannes.no/js/leaflet/leaflet.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://erikjohannes.no/js/gpx.js&#34;&gt;&lt;/script&gt;
+
+&lt;div id=&#34;map&#34; style=&#34;height: 400px; width: 100%;&#34;&gt;&lt;/div&gt;
+&lt;figcaption&gt;Map of the Glen Coe Skyline route.&lt;/figcaption&gt;
+
+&lt;script&gt;
+        var map = L.map(&#39;map&#39;);//.setView([60.14, 10.25], 11);
+        L.tileLayer(&#39;https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png&#39;, {
+            maxZoom: 17,
+            attribution: &#39;Map data: &amp;copy; &lt;a href=&#34;https://www.openstreetmap.org/copyright&#34;&gt;OpenStreetMap&lt;/a&gt; contributors, &lt;a href=&#34;http://viewfinderpanoramas.org&#34;&gt;SRTM&lt;/a&gt; | Map style: &amp;copy; &lt;a href=&#34;https://opentopomap.org&#34;&gt;OpenTopoMap&lt;/a&gt; (&lt;a href=&#34;https://creativecommons.org/licenses/by-sa/3.0/&#34;&gt;CC-BY-SA&lt;/a&gt;)&#39;
+        }).addTo(map);
+        var gpx = &#39;/posts/20190920-scotland/activity-20190922-glen-coe-skyline.gpx&#39;; 
+        new L.GPX(gpx, {
+            async: true,
+            marker_options: {
+                startIconUrl: &#39;img/pin-icon-start.png&#39;,
+                endIconUrl:   &#39;img/pin-icon-end.png&#39;,
+                shadowUrl:    &#39;img/pin-shadow.png&#39;,
+                //clickable: true,
+                //showRouteInfo: true
+            },
+        }).on(&#39;loaded&#39;, function(e) {
+            map.fitBounds(e.target.getBounds());
+        }).addTo(map);
+&lt;/script&gt;
+
+
+&lt;p&gt;&lt;img src=&#34;https://erikjohannes.no/posts/20190920-scotland/scotland01.jpg&#34; alt=&#34;&#34;&gt;
+View from Na Gruagaichean, the finish line of Mamores VK.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://erikjohannes.no/posts/20190920-scotland/scotland02.jpg&#34; alt=&#34;&#34;&gt;
+The final ridge of Mamores VK.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://erikjohannes.no/posts/20190920-scotland/scotland03.jpg&#34; alt=&#34;&#34;&gt;
+Scottish sunset 1.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://erikjohannes.no/posts/20190920-scotland/scotland04.jpg&#34; alt=&#34;&#34;&gt;
+Scottish sunset 2.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://erikjohannes.no/posts/20190920-scotland/scotland05.jpg&#34; alt=&#34;&#34;&gt;
+Scottish sunset 3.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://erikjohannes.no/posts/20190920-scotland/scotland06.jpg&#34; alt=&#34;&#34;&gt;
+The gear I used during Glen Coe Skyline (I brought only some of the food
+shown in the picture.)&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://erikjohannes.no/posts/20190920-scotland/scotland07.jpg&#34; alt=&#34;&#34;&gt;
+Nervous atmosphere before the start of Glen Coe Skyline.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://erikjohannes.no/posts/20190920-scotland/scotland08.jpg&#34; alt=&#34;&#34;&gt;
+I was running at the tail of the lead pack during the first kilometers
+of the race.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://erikjohannes.no/posts/20190920-scotland/scotland09.jpg&#34; alt=&#34;&#34;&gt;
+This was the last picture I took during the race. At this point I
+understood that things were going much better than expected, and I
+needed to stop fumbling around with my GoPro camera.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://erikjohannes.no/posts/20190920-scotland/scotland10.jpg&#34; alt=&#34;&#34;&gt;
+Finally done.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://erikjohannes.no/posts/20190920-scotland/scotland11.jpg&#34; alt=&#34;&#34;&gt;
+Can&#39;t describe the feelings I had at this moment.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://erikjohannes.no/posts/20190920-scotland/scotland12.jpg&#34; alt=&#34;&#34;&gt;
+A trophy and money. Best prize ever.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://erikjohannes.no/posts/20190920-scotland/scotland13.jpg&#34; alt=&#34;&#34;&gt;
+Rather happy to be on that list of names. Photo credit: Skyline
+Scotland.&lt;/p&gt;</description>
     </item>
     
   </channel>

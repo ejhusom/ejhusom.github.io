@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Erik Johannes Husom</title>
@@ -7,37 +8,412 @@
     <language>en-us</language>
     <lastBuildDate>Sat, 30 May 2020 12:58:52 +0200</lastBuildDate>
     
-        <atom:link href="https://erikjohannes.no/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://erikjohannes.no/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Links</title>
-      <link>https://erikjohannes.no/links/</link>
+      <title>Article on Facebook&#39;s targeted advertising</title>
+      <link>https://erikjohannes.no/links/20200530-facebook-targeted-advertising/</link>
       <pubDate>Sat, 30 May 2020 12:58:52 +0200</pubDate>
       
-      <guid>https://erikjohannes.no/links/</guid>
-      <description>&lt;p&gt;This is where I post links to articles and websites I find interesting.&lt;/p&gt;
+      <guid>https://erikjohannes.no/links/20200530-facebook-targeted-advertising/</guid>
+      <description>&lt;p&gt;Some interesting revelations on Facebook&amp;rsquo;s targeted advertising.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;This isn’t the first time Facebook has faced scrutiny for the ways its ad tool can target conspiracy-minded people. A 2019 Guardian investigation found that advertisers could reach people interested in “vaccine controversies.” In 2017, ProPublica reporters (two of whom are now at The Markup) found that advertisers could target people who were interested in terms like “Jew hater,” and “History of ‘why jews ruin the world.’ ”&lt;/p&gt;
+&lt;/blockquote&gt;
 </description>
     </item>
     
     <item>
-      <title>Science projects</title>
-      <link>https://erikjohannes.no/science/</link>
+      <title>DeepVentilation</title>
+      <link>https://erikjohannes.no/science/deepventilation/</link>
       <pubDate>Thu, 26 Mar 2020 21:40:08 +0200</pubDate>
       
-      <guid>https://erikjohannes.no/science/</guid>
-      <description>&lt;p&gt;Here are some links to science projects I have (co-)authored.&lt;/p&gt;
+      <guid>https://erikjohannes.no/science/deepventilation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RespiratoryPatterns</title>
+      <link>https://erikjohannes.no/science/respiratorypatterns/</link>
+      <pubDate>Thu, 26 Mar 2020 21:40:08 +0200</pubDate>
+      
+      <guid>https://erikjohannes.no/science/respiratorypatterns/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dogs relaxing</title>
+      <link>https://erikjohannes.no/posts/20200325-dogs-relaxing/</link>
+      <pubDate>Wed, 25 Mar 2020 13:27:23 +0200</pubDate>
+      
+      <guid>https://erikjohannes.no/posts/20200325-dogs-relaxing/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://erikjohannes.no/posts/20200325-dogs-relaxing/1.jpg&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;https://erikjohannes.no/posts/20200325-dogs-relaxing/2.jpg&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;https://erikjohannes.no/posts/20200325-dogs-relaxing/3.jpg&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;https://erikjohannes.no/posts/20200325-dogs-relaxing/4.jpg&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;https://erikjohannes.no/posts/20200325-dogs-relaxing/5.jpg&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;https://erikjohannes.no/posts/20200325-dogs-relaxing/6.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Blog posts</title>
-      <link>https://erikjohannes.no/posts/</link>
-      <pubDate>Wed, 25 Mar 2020 13:27:23 +0200</pubDate>
+      <title>Rondane</title>
+      <link>https://erikjohannes.no/posts/20200307-rondane/</link>
+      <pubDate>Sat, 07 Mar 2020 13:27:23 +0200</pubDate>
       
-      <guid>https://erikjohannes.no/posts/</guid>
-      <description>&lt;p&gt;Here are some stuff I have written and some photos I have taken.&lt;/p&gt;
+      <guid>https://erikjohannes.no/posts/20200307-rondane/</guid>
+      <description>&lt;p&gt;Tidlig i mars hadde det kommet unormalt mye snø i Rondane, og jeg
+utnytta muligheten til å dra på topptur i området. Planen var egentlig å
+få gått en runde over noen av toppene over 2000 moh, men mye dyp snø og
+skredfare gjorde at jeg snudde ved Midtronden, og gikk samme vei
+tilbake.&lt;/p&gt;
+&lt;p&gt;Nederst på sida ligger en video fra turen.&lt;/p&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://erikjohannes.no/js/leaflet/leaflet.css&#34; /&gt;
+&lt;script src=&#34;https://erikjohannes.no/js/leaflet/leaflet.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://erikjohannes.no/js/gpx.js&#34;&gt;&lt;/script&gt;
+
+&lt;div id=&#34;map&#34; style=&#34;height: 400px; width: 100%;&#34;&gt;&lt;/div&gt;
+
+&lt;script&gt;
+        var map = L.map(&#39;map&#39;);//.setView([60.14, 10.25], 11);
+        L.tileLayer(&#39;https://opencache.statkart.no/gatekeeper/gk/gk.open_gmaps?layers=topo4&amp;zoom={z}&amp;x={x}&amp;y={y}&#39;, {
+            attribution: &#39;&lt;a href=&#34;http://www.kartverket.no/&#34;&gt;Kartverket&lt;/a&gt;&#39;
+        }).addTo(map);
+        var gpx = &#39;/posts/20200307-rondane/activity-20200307.gpx&#39;; 
+        new L.GPX(gpx, {
+            async: true,
+            marker_options: {
+                startIconUrl: &#39;img/pin-icon-start.png&#39;,
+                endIconUrl:   &#39;img/pin-icon-end.png&#39;,
+                shadowUrl:    &#39;img/pin-shadow.png&#39;,
+                //clickable: true,
+                //showRouteInfo: true
+            },
+        }).on(&#39;loaded&#39;, function(e) {
+            map.fitBounds(e.target.getBounds());
+        }).addTo(map);
+&lt;/script&gt;
+
+
+&lt;p&gt;&lt;img src=&#34;https://erikjohannes.no/posts/20200307-rondane/20200307-rondane-1.jpg&#34; alt=&#34;&#34;&gt;
+På vei oppover bjørkeskogen.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://erikjohannes.no/posts/20200307-rondane/20200307-rondane-3.jpg&#34; alt=&#34;&#34;&gt;
+På toppen av Høgronden med utsikt mot Rondeslottet.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://erikjohannes.no/posts/20200307-rondane/20200307-rondane-4.jpg&#34; alt=&#34;&#34;&gt;
+De to Midtrondene i sikte.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://erikjohannes.no/posts/20200307-rondane/20200307-rondane-5.jpg&#34; alt=&#34;&#34;&gt;
+Flanken til høyre hadde jeg opprinnelig tenkt å stå ned, men der var det&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://erikjohannes.no/posts/20200307-rondane/20200307-rondane-6.jpg&#34; alt=&#34;&#34;&gt;
+På toppen av Midtronden Aust, med utsikt mot Midtronden Vest.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://erikjohannes.no/posts/20200307-rondane/20200307-rondane-9.jpg&#34; alt=&#34;&#34;&gt;
+Sola nærmer seg horisonten, rett over Rondeslottet.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://erikjohannes.no/posts/20200307-rondane/20200307-rondane-10.jpg&#34; alt=&#34;&#34;&gt;
+Nede igjen ved Gammelgarden.&lt;/p&gt;
+
+
+&lt;video id=&#34;video&#34; width=&#34;640&#34; height=&#34;480&#34; controls&gt;
+    &lt;source src=&#34;https://erikjohannes.no/posts/20200307-rondane/20200307-rondane-video.mp4&#34; type=&#34;video/mp4&#34;&gt;
+    Your browser does not support the video tag.
+&lt;/video&gt;</description>
+    </item>
+    
+    <item>
+      <title>Skyline Scotland</title>
+      <link>https://erikjohannes.no/posts/20190920-scotland/</link>
+      <pubDate>Fri, 20 Sep 2019 13:27:23 +0200</pubDate>
+      
+      <guid>https://erikjohannes.no/posts/20190920-scotland/</guid>
+      <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;https://erikjohannes.no/js/leaflet/leaflet.css&#34; /&gt;
+&lt;script src=&#34;https://erikjohannes.no/js/leaflet/leaflet.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://erikjohannes.no/js/gpx.js&#34;&gt;&lt;/script&gt;
+
+&lt;div id=&#34;map&#34; style=&#34;height: 400px; width: 100%;&#34;&gt;&lt;/div&gt;
+&lt;figcaption&gt;Map of the Glen Coe Skyline route.&lt;/figcaption&gt;
+
+&lt;script&gt;
+        var map = L.map(&#39;map&#39;);//.setView([60.14, 10.25], 11);
+        L.tileLayer(&#39;https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png&#39;, {
+            maxZoom: 17,
+            attribution: &#39;Map data: &amp;copy; &lt;a href=&#34;https://www.openstreetmap.org/copyright&#34;&gt;OpenStreetMap&lt;/a&gt; contributors, &lt;a href=&#34;http://viewfinderpanoramas.org&#34;&gt;SRTM&lt;/a&gt; | Map style: &amp;copy; &lt;a href=&#34;https://opentopomap.org&#34;&gt;OpenTopoMap&lt;/a&gt; (&lt;a href=&#34;https://creativecommons.org/licenses/by-sa/3.0/&#34;&gt;CC-BY-SA&lt;/a&gt;)&#39;
+        }).addTo(map);
+        var gpx = &#39;/posts/20190920-scotland/activity-20190922-glen-coe-skyline.gpx&#39;; 
+        new L.GPX(gpx, {
+            async: true,
+            marker_options: {
+                startIconUrl: &#39;img/pin-icon-start.png&#39;,
+                endIconUrl:   &#39;img/pin-icon-end.png&#39;,
+                shadowUrl:    &#39;img/pin-shadow.png&#39;,
+                //clickable: true,
+                //showRouteInfo: true
+            },
+        }).on(&#39;loaded&#39;, function(e) {
+            map.fitBounds(e.target.getBounds());
+        }).addTo(map);
+&lt;/script&gt;
+
+
+&lt;p&gt;&lt;img src=&#34;https://erikjohannes.no/posts/20190920-scotland/scotland01.jpg&#34; alt=&#34;&#34;&gt;
+View from Na Gruagaichean, the finish line of Mamores VK.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://erikjohannes.no/posts/20190920-scotland/scotland02.jpg&#34; alt=&#34;&#34;&gt;
+The final ridge of Mamores VK.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://erikjohannes.no/posts/20190920-scotland/scotland03.jpg&#34; alt=&#34;&#34;&gt;
+Scottish sunset 1.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://erikjohannes.no/posts/20190920-scotland/scotland04.jpg&#34; alt=&#34;&#34;&gt;
+Scottish sunset 2.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://erikjohannes.no/posts/20190920-scotland/scotland05.jpg&#34; alt=&#34;&#34;&gt;
+Scottish sunset 3.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://erikjohannes.no/posts/20190920-scotland/scotland06.jpg&#34; alt=&#34;&#34;&gt;
+The gear I used during Glen Coe Skyline (I brought only some of the food
+shown in the picture.)&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://erikjohannes.no/posts/20190920-scotland/scotland07.jpg&#34; alt=&#34;&#34;&gt;
+Nervous atmosphere before the start of Glen Coe Skyline.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://erikjohannes.no/posts/20190920-scotland/scotland08.jpg&#34; alt=&#34;&#34;&gt;
+I was running at the tail of the lead pack during the first kilometers
+of the race.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://erikjohannes.no/posts/20190920-scotland/scotland09.jpg&#34; alt=&#34;&#34;&gt;
+This was the last picture I took during the race. At this point I
+understood that things were going much better than expected, and I
+needed to stop fumbling around with my GoPro camera.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://erikjohannes.no/posts/20190920-scotland/scotland10.jpg&#34; alt=&#34;&#34;&gt;
+Finally done.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://erikjohannes.no/posts/20190920-scotland/scotland11.jpg&#34; alt=&#34;&#34;&gt;
+Can&#39;t describe the feelings I had at this moment.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://erikjohannes.no/posts/20190920-scotland/scotland12.jpg&#34; alt=&#34;&#34;&gt;
+A trophy and money. Best prize ever.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://erikjohannes.no/posts/20190920-scotland/scotland13.jpg&#34; alt=&#34;&#34;&gt;
+Rather happy to be on that list of names. Photo credit: Skyline
+Scotland.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Nordmarka</title>
+      <link>https://erikjohannes.no/posts/20190910-nordmarka/</link>
+      <pubDate>Tue, 10 Sep 2019 13:27:23 +0200</pubDate>
+      
+      <guid>https://erikjohannes.no/posts/20190910-nordmarka/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://erikjohannes.no/posts/20190910-nordmarka/1.jpg&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;https://erikjohannes.no/posts/20190910-nordmarka/2.jpg&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;https://erikjohannes.no/posts/20190910-nordmarka/3.jpg&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;https://erikjohannes.no/posts/20190910-nordmarka/4.jpg&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;https://erikjohannes.no/posts/20190910-nordmarka/5.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>France</title>
+      <link>https://erikjohannes.no/posts/20190705-france/</link>
+      <pubDate>Fri, 05 Jul 2019 13:27:23 +0200</pubDate>
+      
+      <guid>https://erikjohannes.no/posts/20190705-france/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://erikjohannes.no/posts/20190705-france/france01.jpg&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;https://erikjohannes.no/posts/20190705-france/france02.jpg&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;https://erikjohannes.no/posts/20190705-france/france03.jpg&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;https://erikjohannes.no/posts/20190705-france/france04.jpg&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;https://erikjohannes.no/posts/20190705-france/france05.jpg&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;https://erikjohannes.no/posts/20190705-france/france06.jpg&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;https://erikjohannes.no/posts/20190705-france/france07.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Classifying human activity using tree ensembles</title>
+      <link>https://erikjohannes.no/science/classifying-human-activity-using-tree-ensembles/</link>
+      <pubDate>Sun, 26 May 2019 21:40:08 +0200</pubDate>
+      
+      <guid>https://erikjohannes.no/science/classifying-human-activity-using-tree-ensembles/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Predicting default on credit card</title>
+      <link>https://erikjohannes.no/science/predicting-default-on-credit-card/</link>
+      <pubDate>Sun, 26 May 2019 21:40:08 +0200</pubDate>
+      
+      <guid>https://erikjohannes.no/science/predicting-default-on-credit-card/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Regression and Resampling</title>
+      <link>https://erikjohannes.no/science/regression-and-resampling/</link>
+      <pubDate>Sun, 26 May 2019 21:40:08 +0200</pubDate>
+      
+      <guid>https://erikjohannes.no/science/regression-and-resampling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Maridalen</title>
+      <link>https://erikjohannes.no/posts/20190310-maridalen/</link>
+      <pubDate>Sun, 10 Mar 2019 13:27:23 +0200</pubDate>
+      
+      <guid>https://erikjohannes.no/posts/20190310-maridalen/</guid>
+      <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;https://erikjohannes.no/js/leaflet/leaflet.css&#34; /&gt;
+&lt;script src=&#34;https://erikjohannes.no/js/leaflet/leaflet.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://erikjohannes.no/js/gpx.js&#34;&gt;&lt;/script&gt;
+
+&lt;div id=&#34;map&#34; style=&#34;height: 400px; width: 100%;&#34;&gt;&lt;/div&gt;
+
+&lt;script&gt;
+        var map = L.map(&#39;map&#39;);//.setView([60.14, 10.25], 11);
+        L.tileLayer(&#39;http://opencache.statkart.no/gatekeeper/gk/gk.open_gmaps?layers=topo4&amp;zoom={z}&amp;x={x}&amp;y={y}&#39;, {
+            attribution: &#39;&lt;a href=&#34;http://www.kartverket.no/&#34;&gt;Kartverket&lt;/a&gt;&#39;
+        }).addTo(map);
+        var gpx = &#39;/posts/20190310-maridalen/høgruta-i-maridalen.gpx&#39;; 
+        new L.GPX(gpx, {
+            async: true,
+            marker_options: {
+                startIconUrl: &#39;../images/pin-icon-start.png&#39;,
+                endIconUrl:   &#39;../images/pin-icon-end.png&#39;,
+                shadowUrl:    &#39;../images/pin-shadow.png&#39;,
+                //clickable: true,
+                //showRouteInfo: true
+            },
+        }).on(&#39;loaded&#39;, function(e) {
+            map.fitBounds(e.target.getBounds());
+        }).addTo(map);
+&lt;/script&gt;
+
+
+&lt;p&gt;&lt;img src=&#34;https://erikjohannes.no/posts/20190310-maridalen/maridalen01.jpg&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;https://erikjohannes.no/posts/20190310-maridalen/maridalen02.jpg&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;https://erikjohannes.no/posts/20190310-maridalen/maridalen03.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Grefsenkollen</title>
+      <link>https://erikjohannes.no/posts/20190217-grefsenkollen/</link>
+      <pubDate>Sun, 17 Feb 2019 13:27:23 +0200</pubDate>
+      
+      <guid>https://erikjohannes.no/posts/20190217-grefsenkollen/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://erikjohannes.no/posts/20190217-grefsenkollen/grefsenkollen1.jpg&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;https://erikjohannes.no/posts/20190217-grefsenkollen/grefsenkollen2.jpg&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;https://erikjohannes.no/posts/20190217-grefsenkollen/grefsenkollen3.jpg&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;https://erikjohannes.no/posts/20190217-grefsenkollen/grefsenkollen4.jpg&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;https://erikjohannes.no/posts/20190217-grefsenkollen/grefsenkollen5.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Storlidalen</title>
+      <link>https://erikjohannes.no/posts/20190127-storlidalen/</link>
+      <pubDate>Sun, 27 Jan 2019 13:27:23 +0200</pubDate>
+      
+      <guid>https://erikjohannes.no/posts/20190127-storlidalen/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://erikjohannes.no/posts/20190127-storlidalen/storlidalen1.jpg&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;https://erikjohannes.no/posts/20190127-storlidalen/storlidalen2.jpg&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;https://erikjohannes.no/posts/20190127-storlidalen/storlidalen3.jpg&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;https://erikjohannes.no/posts/20190127-storlidalen/storlidalen4.jpg&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;https://erikjohannes.no/posts/20190127-storlidalen/storlidalen5.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Andøya</title>
+      <link>https://erikjohannes.no/posts/20180128-andoya/</link>
+      <pubDate>Mon, 28 May 2018 13:27:23 +0200</pubDate>
+      
+      <guid>https://erikjohannes.no/posts/20180128-andoya/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://erikjohannes.no/posts/20180128-andoya/andoya01.jpg&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;https://erikjohannes.no/posts/20180128-andoya/andoya02.jpg&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;https://erikjohannes.no/posts/20180128-andoya/andoya03.jpg&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;https://erikjohannes.no/posts/20180128-andoya/andoya04.jpg&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;https://erikjohannes.no/posts/20180128-andoya/andoya05.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Svalbard</title>
+      <link>https://erikjohannes.no/posts/20160530-svalbard/</link>
+      <pubDate>Mon, 30 May 2016 13:27:23 +0200</pubDate>
+      
+      <guid>https://erikjohannes.no/posts/20160530-svalbard/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://erikjohannes.no/posts/20160530-svalbard/svalbard01.jpg&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;https://erikjohannes.no/posts/20160530-svalbard/svalbard02.jpg&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;https://erikjohannes.no/posts/20160530-svalbard/svalbard03.jpg&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;https://erikjohannes.no/posts/20160530-svalbard/svalbard04.jpg&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;https://erikjohannes.no/posts/20160530-svalbard/svalbard05.jpg&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;https://erikjohannes.no/posts/20160530-svalbard/svalbard06.jpg&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;https://erikjohannes.no/posts/20160530-svalbard/svalbard07.jpg&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;https://erikjohannes.no/posts/20160530-svalbard/svalbard08.jpg&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;https://erikjohannes.no/posts/20160530-svalbard/svalbard09.jpg&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;https://erikjohannes.no/posts/20160530-svalbard/svalbard10.jpg&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;https://erikjohannes.no/posts/20160530-svalbard/svalbard11.jpg&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;https://erikjohannes.no/posts/20160530-svalbard/svalbard12.jpg&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;https://erikjohannes.no/posts/20160530-svalbard/svalbard13.jpg&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;https://erikjohannes.no/posts/20160530-svalbard/svalbard14.jpg&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;https://erikjohannes.no/posts/20160530-svalbard/svalbard15.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Femundløpet</title>
+      <link>https://erikjohannes.no/posts/20140131-femundlopet/</link>
+      <pubDate>Sun, 02 Feb 2014 13:27:23 +0200</pubDate>
+      
+      <guid>https://erikjohannes.no/posts/20140131-femundlopet/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://erikjohannes.no/posts/20140131-femundlopet/femundlopet-1.jpg&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;https://erikjohannes.no/posts/20140131-femundlopet/femundlopet-2.jpg&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;https://erikjohannes.no/posts/20140131-femundlopet/femundlopet-3.jpg&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;https://erikjohannes.no/posts/20140131-femundlopet/femundlopet-4.jpg&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;https://erikjohannes.no/posts/20140131-femundlopet/femundlopet-5.jpg&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;https://erikjohannes.no/posts/20140131-femundlopet/femundlopet-6.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://erikjohannes.no/photography/adventure/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikjohannes.no/photography/adventure/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://erikjohannes.no/photography/landscape/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikjohannes.no/photography/landscape/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://erikjohannes.no/photography/mans-best-friend/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikjohannes.no/photography/mans-best-friend/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://erikjohannes.no/photography/plants/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikjohannes.no/photography/plants/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://erikjohannes.no/photography/urban/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikjohannes.no/photography/urban/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://erikjohannes.no/photography/wildlife/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikjohannes.no/photography/wildlife/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -476,26 +852,6 @@
 &lt;/section&gt;
 
 
-</description>
-    </item>
-    
-    <item>
-      <title>Photographies</title>
-      <link>https://erikjohannes.no/photography/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://erikjohannes.no/photography/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Social posts</title>
-      <link>https://erikjohannes.no/notes/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://erikjohannes.no/notes/</guid>
-      <description>&lt;p&gt;This is stuff I post on social media (&lt;a href=&#34;https://joinmastodon.org&#34;&gt;Mastodon&lt;/a&gt;,
-&lt;a href=&#34;https://pixelfed.org&#34;&gt;Pixelfed&lt;/a&gt; etc).&lt;/p&gt;
 </description>
     </item>
     

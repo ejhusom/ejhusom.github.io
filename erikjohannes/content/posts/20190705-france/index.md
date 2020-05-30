@@ -1,7 +1,7 @@
 ---
 title: "France"
 date: 2019-07-05T13:27:23+02:00
-type: ["posts"]
+type: "posts"
 draft: false
 tags:
     - travel

@@ -1,7 +1,7 @@
 ---
 title: "Skyline Scotland"
 date: 2019-09-20T13:27:23+02:00
-type: ["posts"]
+type: "posts"
 draft: false
 tags:
     - running
@@ -31,9 +31,9 @@ image: "posts/20190920-scotland/scotland11.jpg"
         new L.GPX(gpx, {
             async: true,
             marker_options: {
-                startIconUrl: '../images/pin-icon-start.png',
-                endIconUrl:   '../images/pin-icon-end.png',
-                shadowUrl:    '../images/pin-shadow.png',
+                startIconUrl: 'img/pin-icon-start.png',
+                endIconUrl:   'img/pin-icon-end.png',
+                shadowUrl:    'img/pin-shadow.png',
                 //clickable: true,
                 //showRouteInfo: true
             },

@@ -1,7 +1,7 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
-type: ["science"]
+type: "science"
 draft: true
 tags:
     - science

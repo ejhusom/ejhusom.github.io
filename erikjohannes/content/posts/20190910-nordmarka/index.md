@@ -1,7 +1,7 @@
 ---
 title: "Nordmarka"
 date: 2019-09-10T13:27:23+02:00
-type: ["posts"]
+type: "posts"
 draft: false
 tags:
     - outdoors

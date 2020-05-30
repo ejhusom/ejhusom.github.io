@@ -1,7 +1,7 @@
 ---
 title: "Dogs relaxing"
 date: 2020-03-25T13:27:23+02:00
-type: ["posts"]
+type: "posts"
 draft: false
 tags:
     - dogs

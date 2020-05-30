@@ -1,7 +1,7 @@
 ---
 title: "Femundløpet"
 date: 2014-02-02T13:27:23+02:00
-type: ["posts"]
+type: "posts"
 draft: false
 tags:
     - outdoors

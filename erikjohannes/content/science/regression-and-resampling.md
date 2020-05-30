@@ -1,7 +1,7 @@
 ---
 title: "Regression and Resampling"
 date: 2019-05-26T21:40:08+02:00
-type: ["science"]
+type: "science"
 draft: false
 tags:
     - machinelearning

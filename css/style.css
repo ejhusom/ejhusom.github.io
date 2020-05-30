@@ -38,6 +38,10 @@ header h1 {
   text-align: center;
   padding-top: 1em;
 }
+
+article.post header {
+  padding-bottom: 1em;
+}
 /*}}}*/
 
 /*Nav{{{*/
@@ -212,6 +216,9 @@ footer {
   margin-top: 2rem;
   padding: 0.5rem;
   text-align: center;
+}
+
+footer article {
   font-size: 0.7rem;
 }
 /*}}}*/
@@ -257,3 +264,10 @@ video {
 }
 /* }}} */
 
+/* Blockquote{{{ */
+blockquote {
+  font-style: italic;
+  border-left: 2px solid #ccc;
+  padding-left: 15px;
+}
+/* }}} */

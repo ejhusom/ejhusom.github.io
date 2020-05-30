@@ -3,6 +3,7 @@
 <!-- <h2>Recent <a href="/posts">blog posts</a></h2> -->
 {{- range ( where site.RegularPages "Type" "in" site.Params.mainSections | first 80 ) }}
 <!-- <li><a href="{{ .Permalink }}">{{ .Date.Format "2006-01-02"}} {{ .Title }}</a></li> -->
+    <!-- <div class="type">{{ .Params.type }}</div> -->
     {{ .Render "summary"}}
     <hr>
 {{- end}}

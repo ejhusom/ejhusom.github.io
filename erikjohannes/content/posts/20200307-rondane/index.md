@@ -1,7 +1,7 @@
 ---
 title: "Rondane"
 date: 2020-03-07T13:27:23+02:00
-type: ["posts"]
+type: "posts"
 draft: false
 tags:
     - outdoors
@@ -39,9 +39,9 @@ Nederst på sida ligger en video fra turen.
         new L.GPX(gpx, {
             async: true,
             marker_options: {
-                startIconUrl: '../images/pin-icon-start.png',
-                endIconUrl:   '../images/pin-icon-end.png',
-                shadowUrl:    '../images/pin-shadow.png',
+                startIconUrl: 'img/pin-icon-start.png',
+                endIconUrl:   'img/pin-icon-end.png',
+                shadowUrl:    'img/pin-shadow.png',
                 //clickable: true,
                 //showRouteInfo: true
             },

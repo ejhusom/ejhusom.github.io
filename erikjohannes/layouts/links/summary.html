@@ -1,0 +1,17 @@
+<article class="post">
+  <header>
+    <a class="ghost post-title" href="{{.Permalink}}">{{.Date.Format "2006-01-02"}} | Discover: {{.Title}}</a>
+  </header>
+
+    {{ with .Params.image }}
+    <p> <img src="{{ . }}" alt="" class="summary-image"> </p>
+    {{ end }}
+
+  {{ .Content }}
+
+  <p>Read <a href="{{ .Params.linkurl }}">{{ .Params.linktitle }}</a> from {{ .Params.source }}.
+  </p>
+  <!-- <footer> -->
+  <!-- <a href='{{ .Permalink }}'><nobr>Read more →</nobr></a> -->
+  <!-- </footer> -->
+</article>

@@ -7,6 +7,14 @@
           <h4 id="date"> {{ .Date.Format "Mon Jan 2, 2006" }} </h4>
           <!-- <h5 id="wordcount"> {{ .WordCount }} Words </h5> -->
         </section>
+        {{ with .Params.topics }}
+        <ul id="topics">
+          {{ range . }}
+            <li><a href="{{ "topics" | absURL}}{{ . | urlize }}">{{ . }}</a> </li>
+          {{ end }}
+        </ul>
+        {{ end }}
+        {{ with .Params.tags }}
         <h5>Tags:</h5>
         <ul id="tags">
           {{ range . }}
@@ -15,11 +23,22 @@
         </ul>
         {{ end }}
         </div>
+        <!-- <div> -->
+        <!--     {{ with .PrevInSection }} -->
+        <!--       <a class="previous" href="{{.Permalink}}"> {{.Title}}</a> -->
+        <!--     {{ end }} -->
+        <!--     {{ with .NextInSection }} -->
+        <!--       <a class="next" href="{{.Permalink}}"> {{.Title}}</a> -->
+        <!--     {{ end }} -->
+        <!-- </div> -->
     </aside>
 
       <div>
         <article id="content">
            {{ .Content }}
+
+           <h5>Link to the article/website:</h5>
+            <a href="{{ .Params.linkurl }}">{{ .Params.linktitle }}</a>
         </article>
   </div>
 </section>

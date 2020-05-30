@@ -2,48 +2,48 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Erik Johannes Husom</title>
-    <link>https://ejhusom.github.io/</link>
+    <link>https://erikjohannes.no/</link>
     <description>Recent content on Erik Johannes Husom</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 26 Mar 2020 21:40:08 +0200</lastBuildDate>
     
-	<atom:link href="https://ejhusom.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://erikjohannes.no/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>DeepVentilation</title>
-      <link>https://ejhusom.github.io/science/deepventilation/</link>
+      <link>https://erikjohannes.no/science/deepventilation/</link>
       <pubDate>Thu, 26 Mar 2020 21:40:08 +0200</pubDate>
       
-      <guid>https://ejhusom.github.io/science/deepventilation/</guid>
+      <guid>https://erikjohannes.no/science/deepventilation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>RespiratoryPatterns</title>
-      <link>https://ejhusom.github.io/science/respiratorypatterns/</link>
+      <link>https://erikjohannes.no/science/respiratorypatterns/</link>
       <pubDate>Thu, 26 Mar 2020 21:40:08 +0200</pubDate>
       
-      <guid>https://ejhusom.github.io/science/respiratorypatterns/</guid>
+      <guid>https://erikjohannes.no/science/respiratorypatterns/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Dogs relaxing</title>
-      <link>https://ejhusom.github.io/posts/20200325-dogs-relaxing/</link>
+      <link>https://erikjohannes.no/posts/20200325-dogs-relaxing/</link>
       <pubDate>Wed, 25 Mar 2020 13:27:23 +0200</pubDate>
       
-      <guid>https://ejhusom.github.io/posts/20200325-dogs-relaxing/</guid>
+      <guid>https://erikjohannes.no/posts/20200325-dogs-relaxing/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Rondane</title>
-      <link>https://ejhusom.github.io/posts/20200307-rondane/</link>
+      <link>https://erikjohannes.no/posts/20200307-rondane/</link>
       <pubDate>Sat, 07 Mar 2020 13:27:23 +0200</pubDate>
       
-      <guid>https://ejhusom.github.io/posts/20200307-rondane/</guid>
+      <guid>https://erikjohannes.no/posts/20200307-rondane/</guid>
       <description>&lt;p&gt;Tidlig i mars hadde det kommet unormalt mye snø i Rondane, og jeg
 utnytta muligheten til å dra på topptur i området. Planen var egentlig å
 få gått en runde over noen av toppene over 2000 moh, men mye dyp snø og
@@ -54,182 +54,182 @@ tilbake.&lt;/p&gt;
     
     <item>
       <title>Skyline Scotland</title>
-      <link>https://ejhusom.github.io/posts/20190920-scotland/</link>
+      <link>https://erikjohannes.no/posts/20190920-scotland/</link>
       <pubDate>Fri, 20 Sep 2019 13:27:23 +0200</pubDate>
       
-      <guid>https://ejhusom.github.io/posts/20190920-scotland/</guid>
+      <guid>https://erikjohannes.no/posts/20190920-scotland/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Nordmarka</title>
-      <link>https://ejhusom.github.io/posts/20190910-nordmarka/</link>
+      <link>https://erikjohannes.no/posts/20190910-nordmarka/</link>
       <pubDate>Tue, 10 Sep 2019 13:27:23 +0200</pubDate>
       
-      <guid>https://ejhusom.github.io/posts/20190910-nordmarka/</guid>
+      <guid>https://erikjohannes.no/posts/20190910-nordmarka/</guid>
       <description></description>
     </item>
     
     <item>
       <title>France</title>
-      <link>https://ejhusom.github.io/posts/20190705-france/</link>
+      <link>https://erikjohannes.no/posts/20190705-france/</link>
       <pubDate>Fri, 05 Jul 2019 13:27:23 +0200</pubDate>
       
-      <guid>https://ejhusom.github.io/posts/20190705-france/</guid>
+      <guid>https://erikjohannes.no/posts/20190705-france/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Classifying human activity using tree ensembles</title>
-      <link>https://ejhusom.github.io/science/classifying-human-activity-using-tree-ensembles/</link>
+      <link>https://erikjohannes.no/science/classifying-human-activity-using-tree-ensembles/</link>
       <pubDate>Sun, 26 May 2019 21:40:08 +0200</pubDate>
       
-      <guid>https://ejhusom.github.io/science/classifying-human-activity-using-tree-ensembles/</guid>
+      <guid>https://erikjohannes.no/science/classifying-human-activity-using-tree-ensembles/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Predicting default on credit card</title>
-      <link>https://ejhusom.github.io/science/predicting-default-on-credit-card/</link>
+      <link>https://erikjohannes.no/science/predicting-default-on-credit-card/</link>
       <pubDate>Sun, 26 May 2019 21:40:08 +0200</pubDate>
       
-      <guid>https://ejhusom.github.io/science/predicting-default-on-credit-card/</guid>
+      <guid>https://erikjohannes.no/science/predicting-default-on-credit-card/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Regression and Resampling</title>
-      <link>https://ejhusom.github.io/science/regression-and-resampling/</link>
+      <link>https://erikjohannes.no/science/regression-and-resampling/</link>
       <pubDate>Sun, 26 May 2019 21:40:08 +0200</pubDate>
       
-      <guid>https://ejhusom.github.io/science/regression-and-resampling/</guid>
+      <guid>https://erikjohannes.no/science/regression-and-resampling/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Maridalen</title>
-      <link>https://ejhusom.github.io/posts/20190310-maridalen/</link>
+      <link>https://erikjohannes.no/posts/20190310-maridalen/</link>
       <pubDate>Sun, 10 Mar 2019 13:27:23 +0200</pubDate>
       
-      <guid>https://ejhusom.github.io/posts/20190310-maridalen/</guid>
+      <guid>https://erikjohannes.no/posts/20190310-maridalen/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Grefsenkollen</title>
-      <link>https://ejhusom.github.io/posts/20190217-grefsenkollen/</link>
+      <link>https://erikjohannes.no/posts/20190217-grefsenkollen/</link>
       <pubDate>Sun, 17 Feb 2019 13:27:23 +0200</pubDate>
       
-      <guid>https://ejhusom.github.io/posts/20190217-grefsenkollen/</guid>
+      <guid>https://erikjohannes.no/posts/20190217-grefsenkollen/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Storlidalen</title>
-      <link>https://ejhusom.github.io/posts/20190127-storlidalen/</link>
+      <link>https://erikjohannes.no/posts/20190127-storlidalen/</link>
       <pubDate>Sun, 27 Jan 2019 13:27:23 +0200</pubDate>
       
-      <guid>https://ejhusom.github.io/posts/20190127-storlidalen/</guid>
+      <guid>https://erikjohannes.no/posts/20190127-storlidalen/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Andøya</title>
-      <link>https://ejhusom.github.io/posts/20180128-andoya/</link>
+      <link>https://erikjohannes.no/posts/20180128-andoya/</link>
       <pubDate>Mon, 28 May 2018 13:27:23 +0200</pubDate>
       
-      <guid>https://ejhusom.github.io/posts/20180128-andoya/</guid>
+      <guid>https://erikjohannes.no/posts/20180128-andoya/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Svalbard</title>
-      <link>https://ejhusom.github.io/posts/20160530-svalbard/</link>
+      <link>https://erikjohannes.no/posts/20160530-svalbard/</link>
       <pubDate>Mon, 30 May 2016 13:27:23 +0200</pubDate>
       
-      <guid>https://ejhusom.github.io/posts/20160530-svalbard/</guid>
+      <guid>https://erikjohannes.no/posts/20160530-svalbard/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Femundløpet</title>
-      <link>https://ejhusom.github.io/posts/20140131-femundlopet/</link>
+      <link>https://erikjohannes.no/posts/20140131-femundlopet/</link>
       <pubDate>Sun, 02 Feb 2014 13:27:23 +0200</pubDate>
       
-      <guid>https://ejhusom.github.io/posts/20140131-femundlopet/</guid>
+      <guid>https://erikjohannes.no/posts/20140131-femundlopet/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://ejhusom.github.io/photography/adventure/</link>
+      <link>https://erikjohannes.no/photography/adventure/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ejhusom.github.io/photography/adventure/</guid>
+      <guid>https://erikjohannes.no/photography/adventure/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://ejhusom.github.io/photography/landscape/</link>
+      <link>https://erikjohannes.no/photography/landscape/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ejhusom.github.io/photography/landscape/</guid>
+      <guid>https://erikjohannes.no/photography/landscape/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://ejhusom.github.io/photography/mans-best-friend/</link>
+      <link>https://erikjohannes.no/photography/mans-best-friend/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ejhusom.github.io/photography/mans-best-friend/</guid>
+      <guid>https://erikjohannes.no/photography/mans-best-friend/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://ejhusom.github.io/photography/plants/</link>
+      <link>https://erikjohannes.no/photography/plants/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ejhusom.github.io/photography/plants/</guid>
+      <guid>https://erikjohannes.no/photography/plants/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://ejhusom.github.io/photography/urban/</link>
+      <link>https://erikjohannes.no/photography/urban/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ejhusom.github.io/photography/urban/</guid>
+      <guid>https://erikjohannes.no/photography/urban/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://ejhusom.github.io/photography/wildlife/</link>
+      <link>https://erikjohannes.no/photography/wildlife/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ejhusom.github.io/photography/wildlife/</guid>
+      <guid>https://erikjohannes.no/photography/wildlife/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cycling hills</title>
-      <link>https://ejhusom.github.io/cycling-hills/</link>
+      <link>https://erikjohannes.no/cycling-hills/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ejhusom.github.io/cycling-hills/</guid>
+      <guid>https://erikjohannes.no/cycling-hills/</guid>
       <description>On this page you will find a collection of hills that are perfect for testing your bike climbing skills.
  Use the overlay menu in the top right corner of the map to select/deselect the routes you want to see. Click on the start marker to get info about the route. GPX-files can be download from this link. If you have suggestions for hills to be added, send them to me using my contact info.</description>
     </item>
     
     <item>
       <title>Mountain conditions</title>
-      <link>https://ejhusom.github.io/mountain-conditions/</link>
+      <link>https://erikjohannes.no/mountain-conditions/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ejhusom.github.io/mountain-conditions/</guid>
+      <guid>https://erikjohannes.no/mountain-conditions/</guid>
       <description>This page provides a collection of webcameras from various sources and weather forecasts from yr.no for some of the most popular alpine/mountain areas in southern Norway. The page is under development. Areas:  Dovrefjell Folldal Jotunheimen - Sognefjellet Jotunheimen - Valdresflye Meråker Oslo Romsdal Rondane Sunndalsøra Sylan Todalen Trollheimen Trondheim   Other useful tools:   Varsom - avalanche forecast regObs - avalanche observations yr.no - weather forecast senorge.</description>
     </item>
     

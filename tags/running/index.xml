@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>running on Erik Johannes Husom</title>
-    <link>https://ejhusom.github.io/tags/running/</link>
+    <link>https://erikjohannes.no/tags/running/</link>
     <description>Recent content in running on Erik Johannes Husom</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 20 Sep 2019 13:27:23 +0200</lastBuildDate>
     
-	<atom:link href="https://ejhusom.github.io/tags/running/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://erikjohannes.no/tags/running/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Skyline Scotland</title>
-      <link>https://ejhusom.github.io/posts/20190920-scotland/</link>
+      <link>https://erikjohannes.no/posts/20190920-scotland/</link>
       <pubDate>Fri, 20 Sep 2019 13:27:23 +0200</pubDate>
       
-      <guid>https://ejhusom.github.io/posts/20190920-scotland/</guid>
+      <guid>https://erikjohannes.no/posts/20190920-scotland/</guid>
       <description></description>
     </item>
     

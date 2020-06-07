@@ -4,6 +4,7 @@
 {{- range ( where site.RegularPages "Type" "in" site.Params.mainSections | first 80 ) }}
 <!-- <li><a href="{{ .Permalink }}">{{ .Date.Format "2006-01-02"}} {{ .Title }}</a></li> -->
     <!-- <div class="type">{{ .Params.type }}</div> -->
+    <a class="ghost post-date" href="{{.Permalink}}">{{.Date.Format "2006-01-02"}}</a>
     {{ .Render "summary"}}
     <hr>
 {{- end}}

@@ -3,17 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://erikjohannes.no/links/</loc>
+    <lastmod>2020-05-30T15:28:52+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://erikjohannes.no/</loc>
     <lastmod>2020-05-30T15:28:52+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://erikjohannes.no/tags/facebook/</loc>
-    <lastmod>2020-05-30T15:28:52+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://erikjohannes.no/links/</loc>
     <lastmod>2020-05-30T15:28:52+02:00</lastmod>
   </url>
   
@@ -158,36 +158,6 @@
   </url>
   
   <url>
-    <loc>https://erikjohannes.no/photography/adventure/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://erikjohannes.no/photography/landscape/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://erikjohannes.no/photography/mans-best-friend/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://erikjohannes.no/photography/plants/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://erikjohannes.no/photography/urban/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://erikjohannes.no/photography/wildlife/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://erikjohannes.no/categories/</loc>
   </url>
   
@@ -197,10 +167,6 @@
   
   <url>
     <loc>https://erikjohannes.no/mountain-conditions/</loc>
-  </url>
-  
-  <url>
-    <loc>https://erikjohannes.no/photography/</loc>
   </url>
   
   <url>

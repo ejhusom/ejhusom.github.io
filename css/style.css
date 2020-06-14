@@ -88,7 +88,7 @@ hr {
 /* Post feed{{{ */
 article header {
   /* padding: 0.1em; */
-  padding: 0.9em 0.1em 0.1em 0.1em;
+  padding: 0.1em 0.1em 0.1em 0.1em;
 }
 
 .post-meta {
@@ -101,6 +101,11 @@ article header {
 .post-title {
   font-size: 1.2em;
   font-weight: 600;
+}
+
+.post-date {
+  font-size: 90%;
+  font-style: italic;
 }
 
 .more {

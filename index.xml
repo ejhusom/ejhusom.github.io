@@ -466,6 +466,7 @@ Scotland.&lt;/p&gt;</description>
       <guid>https://erikjohannes.no/mountain-conditions/</guid>
       <description>
 
+&lt;base href=&#34;http://localhost:1313/&#34;&gt;
 &lt;p&gt; 
     This page provides a collection of webcameras from various
     sources and weather forecasts from &lt;a
@@ -477,19 +478,19 @@ Scotland.&lt;/p&gt;</description>
 &lt;nav id=&#34;fixedMenu&#34;&gt;
     &lt;h3&gt;Areas:&lt;/h3&gt;
     &lt;ul&gt;
-        &lt;li&gt;&lt;a href=&#34;#Dovrefjell&#34;&gt;Dovrefjell&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;#Folldal&#34;&gt;Folldal&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;#Jotunheimen-Sognefjellet&#34;&gt;Jotunheimen - Sognefjellet&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;#Jotunheimen-Valdresflye&#34;&gt;Jotunheimen - Valdresflye&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;#Meråker&#34;&gt;Meråker&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;#Oslo&#34;&gt;Oslo&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;#Romsdal&#34;&gt;Romsdal&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;#Rondane&#34;&gt;Rondane&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;#Sunndalsøra&#34;&gt;Sunndalsøra&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;#Sylan&#34;&gt;Sylan&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;#Todalen&#34;&gt;Todalen&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;#Trollheimen&#34;&gt;Trollheimen&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;#Trondheim&#34;&gt;Trondheim&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;mountain-conditions/#Dovrefjell&#34;&gt;Dovrefjell&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;mountain-conditions/#Folldal&#34;&gt;Folldal&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;mountain-conditions/#Jotunheimen-Sognefjellet&#34;&gt;Jotunheimen - Sognefjellet&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;mountain-conditions/#Jotunheimen-Valdresflye&#34;&gt;Jotunheimen - Valdresflye&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;mountain-conditions/#Meråker&#34;&gt;Meråker&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;mountain-conditions/#Oslo&#34;&gt;Oslo&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;mountain-conditions/#Romsdal&#34;&gt;Romsdal&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;mountain-conditions/#Rondane&#34;&gt;Rondane&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;mountain-conditions/#Sunndalsøra&#34;&gt;Sunndalsøra&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;mountain-conditions/#Sylan&#34;&gt;Sylan&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;mountain-conditions/#Todalen&#34;&gt;Todalen&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;mountain-conditions/#Trollheimen&#34;&gt;Trollheimen&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;mountain-conditions/#Trondheim&#34;&gt;Trondheim&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
 &lt;/nav&gt;
 

@@ -3,12 +3,47 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://erikjohannes.no/links/</loc>
-    <lastmod>2020-05-30T15:28:52+02:00</lastmod>
+    <loc>https://erikjohannes.no/posts/</loc>
+    <lastmod>2020-06-27T20:02:16+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://erikjohannes.no/</loc>
+    <lastmod>2020-06-27T20:02:16+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://erikjohannes.no/tags/fkt/</loc>
+    <lastmod>2020-06-27T20:02:16+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://erikjohannes.no/tags/outdoors/</loc>
+    <lastmod>2020-06-27T20:02:16+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://erikjohannes.no/tags/rondane/</loc>
+    <lastmod>2020-06-27T20:02:16+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://erikjohannes.no/posts/20200627-rondane/</loc>
+    <lastmod>2020-06-27T20:02:16+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://erikjohannes.no/tags/running/</loc>
+    <lastmod>2020-06-27T20:02:16+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://erikjohannes.no/tags/</loc>
+    <lastmod>2020-06-27T20:02:16+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://erikjohannes.no/links/</loc>
     <lastmod>2020-05-30T15:28:52+02:00</lastmod>
   </url>
   
@@ -19,11 +54,6 @@
   
   <url>
     <loc>https://erikjohannes.no/tags/mass-surveillance/</loc>
-    <lastmod>2020-05-30T15:28:52+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://erikjohannes.no/tags/</loc>
     <lastmod>2020-05-30T15:28:52+02:00</lastmod>
   </url>
   
@@ -58,11 +88,6 @@
   </url>
   
   <url>
-    <loc>https://erikjohannes.no/posts/</loc>
-    <lastmod>2020-03-25T13:27:23+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://erikjohannes.no/tags/dogs/</loc>
     <lastmod>2020-03-25T13:27:23+02:00</lastmod>
   </url>
@@ -73,11 +98,6 @@
   </url>
   
   <url>
-    <loc>https://erikjohannes.no/tags/outdoors/</loc>
-    <lastmod>2020-03-07T13:27:23+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://erikjohannes.no/posts/20200307-rondane/</loc>
     <lastmod>2020-03-07T13:27:23+02:00</lastmod>
   </url>
@@ -85,11 +105,6 @@
   <url>
     <loc>https://erikjohannes.no/tags/skimo/</loc>
     <lastmod>2020-03-07T13:27:23+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://erikjohannes.no/tags/running/</loc>
-    <lastmod>2019-09-20T13:27:23+02:00</lastmod>
   </url>
   
   <url>

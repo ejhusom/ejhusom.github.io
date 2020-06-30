@@ -1,5 +1,5 @@
 ---
-title: Blog posts
+title: All posts
 ---
 
-Here are some stuff I have written and some photos I have taken.
+Here is the archive of all my posts.

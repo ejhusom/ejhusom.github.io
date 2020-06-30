@@ -20,8 +20,8 @@ body {
     box-sizing: border-box;
     max-width: var(--max-body-width);
     margin: auto;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 13%;
+    padding-right: 13%;
 }
 /*}}}*/
 
@@ -84,6 +84,7 @@ hr {
   border: 0.1rem solid rgb(233, 233, 233);
 }
 /*}}}*/
+
 
 /* Post feed{{{ */
 article header {
@@ -274,5 +275,28 @@ blockquote {
   font-style: italic;
   border-left: 2px solid #ccc;
   padding-left: 15px;
+}
+/* }}} */
+
+/* Content{{{ */
+#content {
+  line-height: 1.4;
+  font-size: 15px;
+}
+#content li {
+  list-style-type: disc;
+}
+#content h1 {
+  text-transform: none;
+}
+#content p a {
+  text-decoration: underline;
+}
+#content ul a {
+  text-decoration: underline;
+}
+#content p {
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
 }
 /* }}} */

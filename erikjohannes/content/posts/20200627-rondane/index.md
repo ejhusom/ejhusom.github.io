@@ -12,7 +12,7 @@ mastodonurl: ""
 twitterurl: ""
 instagramurl: ""
 pixelfedurl: ""
-image: "posts/20200627-rondane/05-høgronden.jpeg"
+image: "posts/20200627-rondane/05-hogronden.jpeg"
 ---
 
 Det er omtrent 10 år siden jeg første gang hørte om konseptet "Rondane Rundt".
@@ -76,7 +76,7 @@ før, og jeg klarte dessverre å havne for langt øst, slik at jeg måtte løpe 
 opp igjen for å komme på rett side av et gjel som går ned i Storbotn.
 
 ![Stien opp til Storronden.](/posts/20200627-rondane/02-storronden.jpeg)
-*Stien topp til Storronden.*
+*Stien opp til Storronden.*
 
 ![Mot Vinjeronden.](/posts/20200627-rondane/03-vinjeronden.jpeg)
 *Mot Vinjeronden.*
@@ -98,7 +98,7 @@ Rondeslottet.](/posts/20200627-rondane/04-rondeslottet.jpeg)
 *Utsikt mot Høgronden fra Rondeslottet.*
 
 ![Utsikt fra Høgronden. Her ser man tydelig snøfonna jeg fulgte ned i
-dalen.](/posts/20200627-rondane/05-høgronden.jpeg) 
+dalen.](/posts/20200627-rondane/05-hogronden.jpeg) 
 *Utsikt fra Høgronden. Her ser man tydelig snøfonna jeg fulgte ned i
 dalen.*
 

@@ -32,7 +32,7 @@ senere ankom jeg Dalsnibba (1476 moh).
 *Utsikt fra Dalsnibba.*
 
 Jeg hadde løpesko med meg, stroppet under sykkelsetet, så turen kunne gå videre
-i delvis snødekt terreng opp til Fossfjellet, på 1574 moh. Opp hit er det morsom
+i delvis snødekt terreng opp til Fossfjellet, på 1574 moh. Opp dit er det morsom
 kravling i steinur. Sørover kan man lange ut i slake nedoverbakker, både på snø
 og isskurt berg, før det går oppover til Rundegga (1615 moh). 
 
@@ -51,8 +51,8 @@ og isskurt berg, før det går oppover til Rundegga (1615 moh).
 Fra Rundegga gikk turen tilbake til Dalsnibba, og derfra trillet jeg ned til
 Djupvasshytta og kjøpte meg en svele. 
 
-![Fortsatt brukbare brøytekanter opp Nibbevegen.](posts/20200704-geiranger/08.jpeg)
-*Fortsatt brukbare brøytekanter opp Nibbevegen.*
+![Fortsatt fotogene brøytekanter opp Nibbevegen.](posts/20200704-geiranger/08.jpeg)
+*Fortsatt fotogene brøytekanter opp Nibbevegen.*
 
 På vei ned igjen til Geiranger ble det en liten stopp for å utforske
 Kvanndalssætra, en samling av gamle seterbygninger som ligger idyllisk til i

@@ -16,8 +16,11 @@
               <a class="fa fa-github fa-lg" href="{{ .Site.Params.mastodon }}">mastodon</a>
             {{ end }}
 
-            {{ if isset .Site.Params "pixelfed" }}
-              <a class="fa fa-github fa-lg" href="{{ .Site.Params.pixelfed }}">pixelfed</a>
+            <!-- {{ if isset .Site.Params "pixelfed" }} -->
+            <!--   <a class="fa fa-github fa-lg" href="{{ .Site.Params.pixelfed }}">pixelfed</a> -->
+            <!-- {{ end }} -->
+            {{ if isset .Site.Params "instagram" }}
+              <a class="fa fa-github fa-lg" href="{{ .Site.Params.instagram }}">instagram</a>
             {{ end }}
 
             <a class="fa fa-rss fa-lg" href="/index.xml">RSS</a>

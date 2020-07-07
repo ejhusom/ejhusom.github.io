@@ -12,7 +12,7 @@ mastodonurl: ""
 twitterurl: ""
 instagramurl: ""
 pixelfedurl: ""
-image: "posts/20200704-geiranger/06.jpeg"
+image: "posts/20200704-geiranger/07.jpeg"
 ---
 
 
@@ -41,9 +41,6 @@ og isskurt berg, før det går oppover til Rundegga (1615 moh).
 
 ![Utsikt fra Fossfjellet.](posts/20200704-geiranger/05.jpeg)
 *Utsikt fra Fossfjellet.*
-
-![Drømmeforhold.](posts/20200704-geiranger/06.jpeg)
-*Drømmeforhold.*
 
 ![Snøløping.](posts/20200704-geiranger/07.jpeg)
 *Snøløping på Rundegga.*

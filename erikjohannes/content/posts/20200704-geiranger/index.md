@@ -15,7 +15,6 @@ pixelfedurl: ""
 image: "posts/20200704-geiranger/07.jpeg"
 ---
 
-
 På Strynefjellet og i fjellene over Geiranger er det fortsatt mye snø for tiden,
 og det var mange som var ute og fikk lufta randoskiene sine opp til Blåtind
 (1663 moh) i dag. Ikke fullt så mange var det som brukte sykkelen oppover fra
@@ -46,7 +45,7 @@ og isskurt berg, før det går oppover til Rundegga (1615 moh).
 *Snøløping på Rundegga.*
 
 Fra Rundegga gikk turen tilbake til Dalsnibba, og derfra trillet jeg ned til
-Djupvasshytta og kjøpte meg en svele. 
+Djupvasshytta.
 
 ![Fortsatt fotogene brøytekanter opp Nibbevegen.](posts/20200704-geiranger/08.jpeg)
 *Fortsatt fotogene brøytekanter opp Nibbevegen.*

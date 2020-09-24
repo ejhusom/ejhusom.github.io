@@ -1,5 +1,5 @@
 ---
-title: "Keychain Bit Holder and keychain multitool"
+title: "Keychain bit holder"
 type: "posts"
 date: 2020-09-24T17:58:42+02:00
 draft: false
@@ -31,7 +31,8 @@ and suddenly I realized that the shell of that pen was the perfect size for
 housing a couple of bits.
 
 ![](/posts/20200924-keychain-bit-holder/04.JPG)
-*The original pen alongside the finished bit holder.*
+*An identical pen to the one I used for making the bit holder, alongside the
+finished bit holder.*
 
 After gently sawing the plastic of the pen in the appropriate plazes, using a
 serrated knife blade, the remaining cylinder could fit the two bits I want to

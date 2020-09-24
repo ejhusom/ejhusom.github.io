@@ -32,14 +32,15 @@ housing a couple of bits.
 
 ![](/posts/20200924-keychain-bit-holder/04.JPG)
 *An identical pen to the one I used for making the bit holder, alongside the
-finished bit holder.*
+finished "product". The two items are aligned, so you can see where I cut off
+the top and bottom of the pen.*
 
 After gently sawing the plastic of the pen in the appropriate plazes, using a
 serrated knife blade, the remaining cylinder could fit the two bits I want to
 carry around. In one end I fastened a keychain ring with some duct tape, and
-the other end is closed by screwing the bottom part of the pen into place. The
-bottom part of the bit holder is actually open, but the hole is to small for
-the bits to fall out. 
+the other end is closed by screwing the small remaining piece of the bottom
+part of the pen into place. The bottom part of the bit holder is actually open,
+but the hole is to small for the bits to fall out. 
 
 ![](/posts/20200924-keychain-bit-holder/05.JPG)
 ![](/posts/20200924-keychain-bit-holder/06.JPG)

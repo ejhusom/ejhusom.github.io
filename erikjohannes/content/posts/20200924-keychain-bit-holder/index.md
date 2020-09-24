@@ -2,7 +2,7 @@
 title: "Keychain Bit Holder and keychain multitool"
 type: "posts"
 date: 2020-09-24T17:58:42+02:00
-draft: true
+draft: false
 tags: ["diy"]
 image: "posts/20200924-keychain-bit-holder/01.JPG"
 ---

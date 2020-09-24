@@ -68,11 +68,6 @@
   </url>
   
   <url>
-    <loc>https://erikjohannes.no/links/</loc>
-    <lastmod>2020-05-30T15:28:52+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://erikjohannes.no/tags/facebook/</loc>
     <lastmod>2020-05-30T15:28:52+02:00</lastmod>
   </url>
@@ -83,7 +78,7 @@
   </url>
   
   <url>
-    <loc>https://erikjohannes.no/links/20200530-facebook-targeted-advertising/</loc>
+    <loc>https://erikjohannes.no/posts/20200530-facebook-targeted-advertising/</loc>
     <lastmod>2020-05-30T15:28:52+02:00</lastmod>
   </url>
   
@@ -203,6 +198,10 @@
   
   <url>
     <loc>https://erikjohannes.no/cycling-hills/</loc>
+  </url>
+  
+  <url>
+    <loc>https://erikjohannes.no/links/</loc>
   </url>
   
   <url>

@@ -5,6 +5,8 @@ date: 2019-02-17T13:27:23+02:00
 type: "posts"
 draft: false
 tags:
+    - nordmarka
+categories:
     - outdoors
 mastodonurl: ""
 twitterurl: ""

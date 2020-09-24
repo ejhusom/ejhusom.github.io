@@ -5,6 +5,8 @@ type: ["posts"]
 draft: true
 tags:
     - draft
+categories:
+    - outdoors
 mastodonurl: ""
 twitterurl: ""
 instagramurl: ""

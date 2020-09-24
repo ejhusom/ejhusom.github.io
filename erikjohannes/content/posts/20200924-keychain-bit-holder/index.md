@@ -3,7 +3,11 @@ title: "Keychain bit holder"
 type: "posts"
 date: 2020-09-24T17:58:42+02:00
 draft: false
-tags: ["diy"]
+tags:
+    - multitool
+categories:
+    - diy
+    - gear
 image: "posts/20200924-keychain-bit-holder/01.JPG"
 ---
 

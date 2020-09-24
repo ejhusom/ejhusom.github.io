@@ -4,10 +4,11 @@ date: 2020-07-04T15:50:05+02:00
 type: ["posts"]
 draft: false
 tags:
+    - geiranger
+categories:
     - outdoors
     - cycling
     - running
-    - geiranger
 mastodonurl: ""
 twitterurl: ""
 instagramurl: ""

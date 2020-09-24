@@ -12,20 +12,11 @@
     
     
     <item>
-      <title>diy</title>
-      <link>https://erikjohannes.no/tags/diy/</link>
+      <title>multitool</title>
+      <link>https://erikjohannes.no/tags/multitool/</link>
       <pubDate>Thu, 24 Sep 2020 17:58:42 +0200</pubDate>
       
-      <guid>https://erikjohannes.no/tags/diy/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>cycling</title>
-      <link>https://erikjohannes.no/tags/cycling/</link>
-      <pubDate>Sat, 04 Jul 2020 15:50:05 +0200</pubDate>
-      
-      <guid>https://erikjohannes.no/tags/cycling/</guid>
+      <guid>https://erikjohannes.no/tags/multitool/</guid>
       <description></description>
     </item>
     
@@ -35,24 +26,6 @@
       <pubDate>Sat, 04 Jul 2020 15:50:05 +0200</pubDate>
       
       <guid>https://erikjohannes.no/tags/geiranger/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>outdoors</title>
-      <link>https://erikjohannes.no/tags/outdoors/</link>
-      <pubDate>Sat, 04 Jul 2020 15:50:05 +0200</pubDate>
-      
-      <guid>https://erikjohannes.no/tags/outdoors/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>running</title>
-      <link>https://erikjohannes.no/tags/running/</link>
-      <pubDate>Sat, 04 Jul 2020 15:50:05 +0200</pubDate>
-      
-      <guid>https://erikjohannes.no/tags/running/</guid>
       <description></description>
     </item>
     
@@ -120,20 +93,29 @@
     </item>
     
     <item>
-      <title>skimo</title>
-      <link>https://erikjohannes.no/tags/skimo/</link>
-      <pubDate>Sat, 07 Mar 2020 13:27:23 +0200</pubDate>
+      <title>race</title>
+      <link>https://erikjohannes.no/tags/race/</link>
+      <pubDate>Fri, 20 Sep 2019 13:27:23 +0200</pubDate>
       
-      <guid>https://erikjohannes.no/tags/skimo/</guid>
+      <guid>https://erikjohannes.no/tags/race/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>travel</title>
-      <link>https://erikjohannes.no/tags/travel/</link>
-      <pubDate>Fri, 05 Jul 2019 13:27:23 +0200</pubDate>
+      <title>scotland</title>
+      <link>https://erikjohannes.no/tags/scotland/</link>
+      <pubDate>Fri, 20 Sep 2019 13:27:23 +0200</pubDate>
       
-      <guid>https://erikjohannes.no/tags/travel/</guid>
+      <guid>https://erikjohannes.no/tags/scotland/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nordmarka</title>
+      <link>https://erikjohannes.no/tags/nordmarka/</link>
+      <pubDate>Sun, 10 Mar 2019 13:27:23 +0200</pubDate>
+      
+      <guid>https://erikjohannes.no/tags/nordmarka/</guid>
       <description></description>
     </item>
     

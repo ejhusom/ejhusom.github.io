@@ -4,6 +4,9 @@ date: 2019-09-20T13:27:23+02:00
 type: "posts"
 draft: false
 tags:
+    - race
+    - scotland
+categories:
     - running
 mastodonurl: ""
 twitterurl: ""

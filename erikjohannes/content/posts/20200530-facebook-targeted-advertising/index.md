@@ -4,6 +4,8 @@ linktitle: "Want to Find a Misinformed Public? Facebook's Already Done It"
 date: 2020-05-30T15:28:52+02:00
 type: "posts"
 tags: ["facebook", "mass-surveillance"]
+categories:
+    - articles
 draft: false
 linkurl: "https://themarkup.org/coronavirus/2020/04/23/want-to-find-a-misinformed-public-facebooks-already-done-it"
 writer: "Aaron Sankin"

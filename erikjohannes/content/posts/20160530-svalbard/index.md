@@ -5,6 +5,7 @@ date: 2016-05-30T13:27:23+02:00
 type: "posts"
 draft: false
 tags:
+categories:
     - outdoors
     - travel
 mastodonurl: ""

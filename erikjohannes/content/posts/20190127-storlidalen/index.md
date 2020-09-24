@@ -4,6 +4,7 @@ date: 2019-01-27T13:27:23+02:00
 type: "posts"
 draft: false
 tags:
+categories:
     - outdoors
     - skimo
 mastodonurl: ""

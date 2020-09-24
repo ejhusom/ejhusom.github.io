@@ -4,6 +4,8 @@ date: 2014-02-02T13:27:23+02:00
 type: "posts"
 draft: false
 tags:
+    - dogs
+categories:
     - outdoors
 mastodonurl: ""
 twitterurl: ""

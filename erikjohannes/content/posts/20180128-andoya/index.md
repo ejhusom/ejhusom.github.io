@@ -3,7 +3,7 @@ title: "Andøya"
 date: 2018-05-28T13:27:23+02:00
 type: "posts"
 draft: false
-tags:
+categories:
     - outdoors
     - travel
 mastodonurl: ""

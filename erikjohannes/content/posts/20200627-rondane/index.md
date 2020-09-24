@@ -5,8 +5,9 @@ type: ["posts"]
 draft: false
 tags:
     - rondane
-    - outdoors
     - fkt
+categories:
+    - outdoors
     - running
 mastodonurl: ""
 twitterurl: ""

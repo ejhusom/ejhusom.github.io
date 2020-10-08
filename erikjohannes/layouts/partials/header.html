@@ -12,9 +12,9 @@
               <a class="fa fa-github fa-lg" href="{{ .Site.Params.github }}">github</a>
             {{ end }}
 
-            {{ if isset .Site.Params "mastodon" }}
-              <a class="fa fa-github fa-lg" href="{{ .Site.Params.mastodon }}">mastodon</a>
-            {{ end }}
+            <!-- {{ if isset .Site.Params "mastodon" }} -->
+            <!--   <a class="fa fa-github fa-lg" href="{{ .Site.Params.mastodon }}">mastodon</a> -->
+            <!-- {{ end }} -->
 
             <!-- {{ if isset .Site.Params "pixelfed" }} -->
             <!--   <a class="fa fa-github fa-lg" href="{{ .Site.Params.pixelfed }}">pixelfed</a> -->
@@ -35,17 +35,19 @@
                 <h1 class="p-name" rel="me">Erik Johannes Husom</h1>
             </a>
         <nav class="main-nav">
-
+            <a href="photography">photography</a>
+            <a href="peakbase">peakbase</a>
+            <a href="cycling-hills">cycling hills</a>
+            <a href="mountain-conditions">mountain conditions</a>
+        </nav>
+        <!-- <h2>Navigate posts:</h2> -->
+        <nav class="main-nav">
             <a href="posts">all posts</a>
             <!-- <a href="notes">social posts</a> -->
             <!-- <a href="links">discover</a> -->
             <!-- <a href="science">science projects</a> -->
             <a href="categories">categories</a>
             <a href="tags">tags</a>
-            <a href="peakbase">peakbase</a>
-            <a href="cycling-hills">cycling hills</a>
-            <a href="mountain-conditions">mountain conditions</a>
-
         </nav>
         </div>
     </header>

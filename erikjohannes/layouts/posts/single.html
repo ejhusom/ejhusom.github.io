@@ -7,6 +7,12 @@
           <h4 id="date"> {{ .Date.Format "Mon Jan 2, 2006" }} </h4>
           <!-- <h5 id="wordcount"> {{ .WordCount }} Words </h5> -->
         </section>
+        {{ with .Params.categories }}
+        <h5 style="display:inline;">Categories:</h5>
+          {{ range . }}
+            <span> <a href="{{ "categories" | absURL }}/{{ . | urlize }}">{{ . }}</a></span>
+          {{ end }}
+        {{ end }}
         {{ with .Params.tags }}
         <h5 style="display:inline;">Tags:</h5>
           {{ range . }}

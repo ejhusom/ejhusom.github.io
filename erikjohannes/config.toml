@@ -9,7 +9,7 @@ publishDir = ".."
   mastodon = "https://mastodon.social/@erikjohannes"
   pixelfed = "https://pixelfed.social/erikjohannes"
   instagram = "https://instagram.com/erikjohannes.husom"
-  mainSections = ["posts", "links"]
+  mainSections = ["posts"]
   sourceURL = "https://github.com/ejhusom/ejhusom.github.io/"
 
 

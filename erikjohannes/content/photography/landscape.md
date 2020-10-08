@@ -1,6 +1,7 @@
 ---
 title: Landscape
 type: ["pages"]
+image: "photography/landscape/Alps-mountain.jpg"
 ---
 
 {{< rawhtml >}}

@@ -1,6 +1,7 @@
 ---
 title: Wildlife
 type: ["pages"]
+image: "photography/wildlife/Chamois.jpg"
 ---
 
 {{< rawhtml >}}

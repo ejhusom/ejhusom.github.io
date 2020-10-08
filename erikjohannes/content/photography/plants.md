@@ -1,6 +1,7 @@
 ---
 title: Plants
 type: ["pages"]
+image: "photography/plants/Dovre-lyng.jpg"
 ---
 
 {{< rawhtml >}}

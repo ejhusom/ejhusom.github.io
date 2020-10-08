@@ -1,6 +1,7 @@
 ---
 title: Adventure
 type: ["pages"]
+image: "photography/adventure/Styggebrean-crossing.jpg"
 ---
 
 {{< rawhtml >}}

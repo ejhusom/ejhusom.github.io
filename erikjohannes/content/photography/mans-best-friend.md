@@ -1,6 +1,7 @@
 ---
 title: Man's best friend
 type: ["pages"]
+image: "photography/mans-best-friend/Border-collie-winter-2.jpg"
 ---
 
 {{< rawhtml >}}

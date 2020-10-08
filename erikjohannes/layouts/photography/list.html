@@ -18,14 +18,13 @@ body {
 
     <section class=gallerymasonry>
     {{ range .Pages }}
-        <!-- Title of gallery -->
-        <!-- <a href="{{.Permalink}}">{{.Title}}</a> -->
 
             <section class=galleryitem>
-                <!-- Title image, defined in 'image' tag in .md file -->
+                <!-- Title of gallery -->
                 <a class="ghost gallery-title" href="{{.Permalink}}">{{.Title}}</a>
                 <a href="{{.Permalink}}">
                     {{ with .Params.image }}
+                        <!-- Title image, defined in 'image' tag in .md file -->
                         <img src="{{ . }}" alt="" class="image-thumb">
                     {{ end }}
                 </a>

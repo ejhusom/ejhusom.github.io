@@ -1,6 +1,21 @@
 {{ define "main" }}
 
-<!-- <h2>Recent <a href="/posts">blog posts</a></h2> -->
+
+    <!-- <section class=gallerymasonry> -->
+    <!--         <section class=galleryitem> -->
+    <!--             <1!-- Title image, defined in 'image' tag in .md file --1> -->
+    <!--             <a class="ghost gallery-title" href="/">Blog</a> -->
+    <!--             <1!-- <a href="{{.Permalink}}"> --1> -->
+    <!--                 <1!-- <img src="{{ . }}" alt="" class="image-thumb"> --1> -->
+    <!--             <1!-- </a> --1> -->
+    <!--         </section> -->
+
+    <!-- </section> -->
+
+
+<!-- The code below creates a classic blog feed -->
+
+
 {{- range ( where site.RegularPages "Type" "in" site.Params.mainSections | first 80 ) }}
 <!-- <li><a href="{{ .Permalink }}">{{ .Date.Format "2006-01-02"}} {{ .Title }}</a></li> -->
     <!-- <div class="type">{{ .Params.type }}</div> -->
@@ -10,12 +25,5 @@
     <br>
 {{- end}}
 
-<!-- <h2>Recent <a href="/notes">social posts</a></h2> -->
-<!-- {{- range ( where site.RegularPages "Section" "notes" | first 3 ) }} -->
-<!-- <li> -->
-    <!-- <a href="{{ .Permalink }}">{{ .Date.Format "2006-01-02"}} {{ .Title }}</a> -->
-    <!-- {{ .Render "summary"}} -->
-<!-- </li> -->
-<!-- {{- end}} -->
 
 {{ end }}

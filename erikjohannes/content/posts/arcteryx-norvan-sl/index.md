@@ -24,3 +24,9 @@ In this review I will go through the following list:
 - Fit
 - Durability
 - Conclusion
+
+
+
+## Conclusion
+
+For me, this is the ultimate shoe.

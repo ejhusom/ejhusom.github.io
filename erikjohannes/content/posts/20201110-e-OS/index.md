@@ -1,14 +1,14 @@
 ---
 title: "Testing /e/ OS - an alternative to iOS and Google's Android"
 date: 2020-11-10T15:12:48+01:00
-draft: false
+draft: true
 tags:
     - eOS
     - privacy
     - ethicaltechnology
 categories:
     - technology
-image: "posts/20201110-e-OS/homescreen.png"
+image: "/posts/20201110-e-OS/homescreen.png"
 ---
 
 The smartphone market is largely dominated by to major operating systems: iOS
@@ -22,7 +22,7 @@ time that we get a viable alternative iOS and Android from Google.
 
 ## Installation
 
-![/e/ OS startup screen.](posts/20201110-e-OS/phone.png)
+![/e/ OS startup screen.](/posts/20201110-e-OS/phone.png)
 */e/ OS startup screen.*
 
 The installation of /e/ OS might seem complex for those who do not have
@@ -38,7 +38,7 @@ step-by-step procedure
 
 ## Usage
 
-![/e/ OS home screen.](posts/20201110-e-OS/homescreen.png)
+![/e/ OS home screen.](/posts/20201110-e-OS/homescreen.png)
 */e/ OS home screen.*
 
 The home screen seems very inspired by the iOS home screen, but apart from
@@ -47,7 +47,7 @@ Settings-app for example, uses a typical Android layout, so I had some trouble
 finding my way through all the settings and options initially (I have been an
 iPhone-user for the last years) 
 
-![/e/ OS settings screen.](posts/20201110-e-OS/settingsscreen.png)
+![/e/ OS settings screen.](/posts/20201110-e-OS/settingsscreen.png)
 */e/ OS settings screen.*
 
 The /e/ OS comes with its own app store called "Apps". If the app you want does
@@ -56,7 +56,7 @@ which contains only free and open source apps, or "Aurora", which contains more
 mainstream apps that you would usually find in Google Play Store or Apple's App
 Store.
 
-![Examples of app stores available in /e/ OS.](posts/20201110-e-OS/appstores.png)
+![Examples of app stores available in /e/ OS.](/posts/20201110-e-OS/appstores.png)
 *Examples of app stores available in /e/ OS.*
 
 There is not much more to say about the general usage, because everything works

@@ -29,8 +29,9 @@ case with fans](https://thepihut.com/products/cluster-case-for-raspberry-pi) in
 order to reduce the temperature, but I was unsure of how much it would help,
 and also whether the fan was as quiet as the product description claimed.
 The delivery of the items took some weeks, so in the meantime I used a stack of
-coins placed on the processing unit, which worked remarkably well. The
-temperature was reduced with about 15-20 degrees Celsius.
+coins placed on top of the processing unit, which worked remarkably well (at
+least compared to my expectations): The temperature was reduced with about
+15-20 degrees Celsius.
 
 ![Using a coin stack as a heat sink.](/posts/20201110-raspberry-pi-temperature/coin-stack.jpeg)
 *Using a coin stack as a heat sink.*

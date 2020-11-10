@@ -74,30 +74,28 @@
     </header>
 <div id="content">
 <section id="main">
-  <h1 id="title">Keychain bit holder</h1>
+  <h1 id="title">Reducing the temperature on a Raspberry Pi</h1>
     <aside id="meta">
         <div>
         <section>
-          <h4 id="date"> Thu Sep 24, 2020 </h4>
+          <h4 id="date"> Tue Nov 10, 2020 </h4>
           
         </section>
         
         <h5 style="display:inline;">Categories:</h5>
           
-            <span> <a href="https://erikjohannes.no/categories/diy">diy</a></span>
-          
             <span> <a href="https://erikjohannes.no/categories/gear">gear</a></span>
+          
+            <span> <a href="https://erikjohannes.no/categories/technology">technology</a></span>
           
         
         
         <h5 style="display:inline;">Tags:</h5>
           
-            <span> <a href="https://erikjohannes.no/tags/multitool">multitool</a></span>
+            <span> <a href="https://erikjohannes.no/tags/raspberrypi">raspberrypi</a></span>
           
         
         </div>
-        
-        
         
         
         
@@ -108,41 +106,34 @@
 
       <div>
         <article id="content">
-           <p>I recently got a small keychain multitool called True Utility Fishface, which
-amongst other things has a bit driver on it. It is basically just a hex-formed
-hole in the multitool, and can be used to drive any sort of standard
-screwdriver bit. The Fishface also comes with special <em>dual bit</em>, which is
-fastened to the multitool with to small rubber bands, and consists of two sizes
-of the cross-point/Phillips screwdriver head.</p>
-<p><img src="/posts/20200924-keychain-bit-holder/02.JPG" alt="">
-<em>The True Utility Fishface.</em></p>
-<p><img src="/posts/20200924-keychain-bit-holder/03.JPG" alt="">
-<em>The Fishface with the dual bit in the driver.</em></p>
-<p>One of the main advantages of carrying a multitool with a bit driver is that it
-can be adapted for your specific needs. For me it is very useful to carry hex
-bits, specifically the 4mm and 5mm, since those are commonly used on just about
-everything on bikes. But how to carry the extra bits I need? One nifty solution
-would be to drill a hole in the bits, and then they could be fastened directly
-on the keychain ring, but I do not have the kind of tools needed for that
-operation. While doing some brainstorming, my eyes landed on a pen on my desk,
-and suddenly I realized that the shell of that pen was the perfect size for
-housing a couple of bits.</p>
-<p><img src="/posts/20200924-keychain-bit-holder/04.JPG" alt="">
-<em>An identical pen to the one I used for making the bit holder, alongside the
-finished &ldquo;product&rdquo;. The two items are aligned, so you can see where I cut off
-the top and bottom of the pen.</em></p>
-<p>After gently sawing the plastic of the pen in the appropriate plazes, using a
-serrated knife blade, the remaining cylinder could fit the two bits I want to
-carry around. In one end I fastened a keychain ring with some duct tape, and
-the other end is closed by screwing the small remaining piece of the bottom
-part of the pen into place. The bottom part of the bit holder is actually open,
-but the hole is to small for the bits to fall out.</p>
-<p><img src="/posts/20200924-keychain-bit-holder/05.JPG" alt="">
-<img src="/posts/20200924-keychain-bit-holder/06.JPG" alt=""></p>
-<p>The exact process of making the bit holder will differ
-slightly depending on the pen you are using, but it is anyway a quick and cheap
-way of making a small bit holder with things you most likely already have in
-your house.</p>
+           <p>I have for several months been hosting my own cloud services using
+<a href="https://nextcloud.com/">Nextcloud</a> on a <a href="https://www.raspberrypi.org/products/raspberry-pi-4-model-b/">Raspberry Pi
+4</a>. At first I
+was using a plastic case for the Pi, but I quickly figured out that I had to
+use something else, as the temperature was constantly in the range of 70-75
+degrees Celsius, which I figured was too high when it is supposed to be an
+always-on system.</p>
+<p>I purchased an <a href="https://thepihut.com/products/xl-raspberry-pi-4-heatsink">extra large heat
+sink</a> and a <a href="https://thepihut.com/products/cluster-case-for-raspberry-pi">cluster
+case with fans</a> in
+order to reduce the temperature, but I was unsure of how much it would help,
+and also whether the fan was as quiet as the product description claimed.
+The delivery of the items took some weeks, so in the meantime I used a stack of
+coins placed on the processing unit, which worked remarkably well. The
+temperature was reduced with about 15-20 degrees Celsius.</p>
+<p><img src="/posts/20201110-raspberry-pi-temperature/coin-stack.jpeg" alt="Using a coin stack as a heat sink.">
+<em>Using a coin stack as a heat sink.</em></p>
+<p>After attaching the heat sink to the Pi, and then installing the Pi in the
+cluster case and mounting the fan, the temperature of the Pi dropped to the
+range of 30-35 degrees Celsius when running a Nextcloud server. This was much
+better than I expected, and the fans hardly make any noise at all!</p>
+<p><img src="/posts/20201110-raspberry-pi-temperature/cluster.jpeg" alt="Two Raspberry Pis installed in a cluster case, with the old plastic case nextto it.">
+<em>Two Raspberry Pis installed in a cluster case, with the old plastic case next
+to it.</em></p>
+<p>I have also tried a <a href="https://thepihut.com/products/aluminium-armour-heatsink-case-for-raspberry-pi-4">heatsink
+case</a>
+for another one of my Pis, and the temperature is reduced by about 20-25
+degrees Celsius, so that is not a bad option either.</p>
 
         </article>
   </div>

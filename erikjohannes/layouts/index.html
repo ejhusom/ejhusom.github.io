@@ -14,13 +14,9 @@
 
 <img src="img/tournette.jpg">
 
-<br>
-<br>
-<article>
-    <header>
-        <h1>Blog feed</h1>
-    </header>
-</article>
+<header>
+    <h1>Blog feed</h1>
+</header>
 <hr>
 
 <!-- The code below creates a classic blog feed -->
@@ -29,8 +25,10 @@
 {{- range ( where site.RegularPages "Type" "in" site.Params.mainSections | first 80 ) }}
 <!-- <li><a href="{{ .Permalink }}">{{ .Date.Format "2006-01-02"}} {{ .Title }}</a></li> -->
     <!-- <div class="type">{{ .Params.type }}</div> -->
-    <a class="ghost post-date" href="{{.Permalink}}">{{.Date.Format "2 Jan 2006"}}</a>
-    {{ .Render "summary"}}
+    <!-- <a class="ghost post-date" href="{{.Permalink}}">{{.Date.Format "2 Jan 2006"}}</a> -->
+    <!-- {{ .Render "summary"}} -->
+    <a href="{{.Permalink}}">{{.Date.Format "2 Jan 2006"}}</a>
+    <p><a class="ghost post-title" href="{{.Permalink}}">{{.Title}}</a></p>
     <hr>
     <br>
 {{- end}}

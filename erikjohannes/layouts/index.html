@@ -14,10 +14,12 @@
 
 <img src="img/tournette.jpg">
 
-<header>
-    <h1>Blog feed</h1>
-</header>
-<hr>
+<!-- <header> -->
+<!--     <h1>Blog feed</h1> -->
+<!-- </header> -->
+<!-- <hr> -->
+<br>
+<br>
 
 <!-- The code below creates a classic blog feed -->
 
@@ -27,9 +29,11 @@
     <!-- <div class="type">{{ .Params.type }}</div> -->
     <!-- <a class="ghost post-date" href="{{.Permalink}}">{{.Date.Format "2 Jan 2006"}}</a> -->
     <!-- {{ .Render "summary"}} -->
-    <a href="{{.Permalink}}">{{.Date.Format "2 Jan 2006"}}</a>
-    <p><a class="ghost post-title" href="{{.Permalink}}">{{.Title}}</a></p>
-    <hr>
+    <!-- <span class="post-date">{{.Date.Format "02 Jan 2006"}}</span> -->
+    <div class="post-date">{{.Date.Format "02 Jan 2006"}}</div>
+    <a class="post-title ghost" href="{{.Permalink}}">{{.Title}}</a>
+    <!-- <hr> -->
+    <br>
     <br>
 {{- end}}
 

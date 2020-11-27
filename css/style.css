@@ -11,7 +11,6 @@
 
 /*Body{{{*/
 body {
-    /* text-rendering: optimizeLegibility; */
     font-family: "Arial", sans-serif;
     font-size: 90%;
     /* font-family: 'IBM Plex Mono', 'Menlo', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', Courier, monospace; */
@@ -29,7 +28,7 @@ header {
     top: 0;
     right: 0;
     left: 0;
-    padding-top: 5rem;
+    padding-top: 2rem;
     padding-bottom: 2rem;
 }
 
@@ -99,12 +98,15 @@ article header {
 
 .post-title {
   font-size: 1.2em;
-  font-weight: 600;
+  font-weight: 400;
+  padding-bottom: 20em;
 }
 
 .post-date {
   font-size: 90%;
   font-style: italic;
+  /* width: 100px; */
+  /* display: inline-block; */
 }
 
 .more {

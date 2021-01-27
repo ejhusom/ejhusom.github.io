@@ -1,0 +1,114 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Erik Johannes Husom</title>
+        <!-- <base href="https://erikjohannes.no/"> -->
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <meta name="author" content="Erik Johannes Husom">
+        <meta name="description" content="Personal website.">
+
+        
+        
+        <link href="style.css" rel="stylesheet" type="text/css" title="Stylesheet">
+        <!-- <link rel="icon" href="https://erikjohannes.no/img/favicon-32.png" sizes="32x32"> -->
+
+    </head>
+    <header>
+        <nav class=main-nav>
+            <a href="index.html">home</a>
+            <a href="photography.html">photography</a>
+            <!-- <a href="blog">blog</a> -->
+            <a href="peakbase">peakbase</a>
+            <a href="mountain-conditions.html">mountain conditions</a>
+            <a href="cycling-hills.html">cycling hills</a>
+        <nav>
+    </header>
+    <body>
+<h1>Cycling hills</h1>
+<link rel="stylesheet" href="js/leaflet/leaflet.css" />
+<script src="js/leaflet/leaflet.js"></script>
+<script src="js/gpx.js"></script>
+  
+<p>On this page you will find a collection of hills that are perfect for testing your bike climbing skills.</p>
+<ul>
+    <li>Use the overlay menu in the top right corner of the map to select/deselect the routes you want to see.</li>
+    <li>Click on the start marker to get info about the route.</li>
+    <li>GPX-files can be download from <a href="https://github.com/ejhusom/ejhusom.github.io/tree/master/cycling-hills">this link</a>.</li>
+    <li>If you have suggestions for hills to be added, send them to me using my <a href="index.html#about">contact info</a>.</li>
+</ul>
+
+<nav id="fixedMenu">
+    <h3>Areas:</h3>
+    <ul>
+        <li><a href="#Norway">Norway</a></li>
+        <li><a href="#France">France</a></li>
+    </ul>
+</nav>
+
+<br>
+<hr>
+
+<h3 class=space id="Norway">Cycling hills in Norway</h3>
+<div id="norwayMap" style="height: 600px; width: 100%;"></div>
+<br>
+
+<hr>
+<h3 class=space id="France">Cycling hills in France</h3>
+<div id="franceMap" style="height: 600px; width: 100%;"></div>
+
+<script>
+    var norwayMap = L.map('norwayMap').setView([65.50, 13.00], 4);
+    L.tileLayer('https://opencache.statkart.no/gatekeeper/gk/gk.open_gmaps?layers=topo4&zoom={z}&x={x}&y={y}', {
+        attribution: '<a href="http://www.kartverket.no/">Kartverket</a>'
+    }).addTo(norwayMap);
+    var norwayControl = L.control.layers(null, null).addTo(norwayMap);
+
+    var franceMap = L.map('franceMap').setView([48.00, 1.90], 5);
+    L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png', {
+        maxZoom: 17,
+        attribution: 'Map data: &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, <a href="http://viewfinderpanoramas.org">SRTM</a> | Map style: &copy; <a href="https://opentopomap.org">OpenTopoMap</a> (<a href="https://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>)'
+    }).addTo(franceMap);
+    var franceControl = L.control.layers(null, null).addTo(franceMap);
+
+    function plotGPX(map, control, url) {
+        var yo = new L.GPX(url, {
+            async: true,
+            marker_options: {
+                startIconUrl: 'img/pin-icon-start.png',
+                endIconUrl:   'img/pin-icon-end.png',
+                shadowUrl:    'img/pin-shadow.png',
+                //iconSize: [16, 25],
+                //shadowSize: [25, 25],
+                //iconAnchor: [32, 90],
+                //shadowAnchor: [32, 94],
+                clickable: true,
+                showRouteInfo: true
+            },
+        }).on('loaded', function(e) {
+            control.addOverlay(
+                e.target, e.target.get_name() 
+                + ": " + (e.target.get_distance()/1000).toFixed(2) + " km"
+                + ", elev. gain: " + e.target.get_elevation_gain().toFixed(0) + " m"
+                + " (" + e.target.get_elevation_min().toFixed(0) + "/"
+                + e.target.get_elevation_max().toFixed(0) + " masl)."
+            );
+        }).addTo(map);
+    }
+
+    var dir = "/cycling-hills/"
+    plotGPX(norwayMap, norwayControl, dir + "Gressbanen-Tryvann.gpx");
+    plotGPX(norwayMap, norwayControl, dir + "Kvål-Vassfjellet.gpx");
+    plotGPX(norwayMap, norwayControl, dir + "Vengedalen.gpx");
+    plotGPX(norwayMap, norwayControl, dir + "Ljabrubakken.gpx");
+    plotGPX(norwayMap, norwayControl, dir + "Skeidbanen-Grefsenkollen.gpx");
+    plotGPX(norwayMap, norwayControl, dir + "Stavne-LilleGråkallen.gpx");
+    plotGPX(norwayMap, norwayControl, dir + "Trollstigen.gpx");
+    plotGPX(franceMap, franceControl, dir + "AlpedHuez.gpx");
+</script>
+    </body>
+    <footer>
+        Copyright: &copy;2018-2021 Erik Johannes Husom. All rights reserved.
+        </br>
+        No tracking.
+    </footer>
+</html>

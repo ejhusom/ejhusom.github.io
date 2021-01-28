@@ -1,175 +1,77 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Erik Johannes Husom</title>
-    <link>https://erikjohannes.no/</link>
-    <description>Recent content on Erik Johannes Husom</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Tue, 10 Nov 2020 13:23:21 +0100</lastBuildDate>
-    
-	<atom:link href="https://erikjohannes.no/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Reducing the temperature on a Raspberry Pi</title>
-      <link>https://erikjohannes.no/posts/20201110-raspberry-pi-temperature/</link>
-      <pubDate>Tue, 10 Nov 2020 13:23:21 +0100</pubDate>
-      
-      <guid>https://erikjohannes.no/posts/20201110-raspberry-pi-temperature/</guid>
-      <description>&lt;p&gt;I have for several months been hosting my own cloud services using
-&lt;a href=&#34;https://nextcloud.com/&#34;&gt;Nextcloud&lt;/a&gt; on a &lt;a href=&#34;https://www.raspberrypi.org/products/raspberry-pi-4-model-b/&#34;&gt;Raspberry Pi
-4&lt;/a&gt;. At first I
-was using a plastic case for the Pi, but I quickly figured out that I had to
-use something else, as the temperature was constantly in the range of 70-75
-degrees Celsius, which I figured was too high when it is supposed to be an
-always-on system.&lt;/p&gt;
-&lt;p&gt;I purchased an &lt;a href=&#34;https://thepihut.com/products/xl-raspberry-pi-4-heatsink&#34;&gt;extra large heat
-sink&lt;/a&gt; and a &lt;a href=&#34;https://thepihut.com/products/cluster-case-for-raspberry-pi&#34;&gt;cluster
-case with fans&lt;/a&gt; in
-order to reduce the temperature, but I was unsure of how much it would help,
-and also whether the fan was as quiet as the product description claimed.
-The delivery of the items took some weeks, so in the meantime I used a stack of
-coins placed on top of the processing unit, which worked remarkably well (at
-least compared to my expectations): The temperature was reduced with about
-15-20 degrees Celsius.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://erikjohannes.no/posts/20201110-raspberry-pi-temperature/coin-stack.jpeg&#34; alt=&#34;Using a coin stack as a heat sink.&#34;&gt;
-&lt;em&gt;Using a coin stack as a heat sink.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;After attaching the heat sink to the Pi, and then installing the Pi in the
-cluster case and mounting the fan, the temperature of the Pi dropped to the
-range of 30-35 degrees Celsius when running a Nextcloud server. This was much
-better than I expected, and the fans hardly make any noise at all!&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://erikjohannes.no/posts/20201110-raspberry-pi-temperature/cluster.jpeg&#34; alt=&#34;Two Raspberry Pis installed in a cluster case, with the old plastic case nextto it.&#34;&gt;
-&lt;em&gt;Two Raspberry Pis installed in a cluster case, with the old plastic case next
-to it.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;I have also tried a &lt;a href=&#34;https://thepihut.com/products/aluminium-armour-heatsink-case-for-raspberry-pi-4&#34;&gt;heatsink
-case&lt;/a&gt;
-for another one of my Pis, and the temperature is reduced by about 20-25
-degrees Celsius, so that is not a bad option either.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Keychain bit holder</title>
-      <link>https://erikjohannes.no/posts/20200924-keychain-bit-holder/</link>
-      <pubDate>Thu, 24 Sep 2020 17:58:42 +0200</pubDate>
-      
-      <guid>https://erikjohannes.no/posts/20200924-keychain-bit-holder/</guid>
-      <description>&lt;p&gt;I recently got a small keychain multitool called True Utility Fishface, which
-amongst other things has a bit driver on it. It is basically just a hex-formed
-hole in the multitool, and can be used to drive any sort of standard
-screwdriver bit. The Fishface also comes with special &lt;em&gt;dual bit&lt;/em&gt;, which is
-fastened to the multitool with to small rubber bands, and consists of two sizes
-of the cross-point/Phillips screwdriver head.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://erikjohannes.no/posts/20200924-keychain-bit-holder/02.JPG&#34; alt=&#34;&#34;&gt;
-&lt;em&gt;The True Utility Fishface.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://erikjohannes.no/posts/20200924-keychain-bit-holder/03.JPG&#34; alt=&#34;&#34;&gt;
-&lt;em&gt;The Fishface with the dual bit in the driver.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;One of the main advantages of carrying a multitool with a bit driver is that it
-can be adapted for your specific needs. For me it is very useful to carry hex
-bits, specifically the 4mm and 5mm, since those are commonly used on just about
-everything on bikes. But how to carry the extra bits I need? One nifty solution
-would be to drill a hole in the bits, and then they could be fastened directly
-on the keychain ring, but I do not have the kind of tools needed for that
-operation. While doing some brainstorming, my eyes landed on a pen on my desk,
-and suddenly I realized that the shell of that pen was the perfect size for
-housing a couple of bits.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://erikjohannes.no/posts/20200924-keychain-bit-holder/04.JPG&#34; alt=&#34;&#34;&gt;
-&lt;em&gt;An identical pen to the one I used for making the bit holder, alongside the
-finished &amp;ldquo;product&amp;rdquo;. The two items are aligned, so you can see where I cut off
-the top and bottom of the pen.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;After gently sawing the plastic of the pen in the appropriate plazes, using a
-serrated knife blade, the remaining cylinder could fit the two bits I want to
-carry around. In one end I fastened a keychain ring with some duct tape, and
-the other end is closed by screwing the small remaining piece of the bottom
-part of the pen into place. The bottom part of the bit holder is actually open,
-but the hole is to small for the bits to fall out.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://erikjohannes.no/posts/20200924-keychain-bit-holder/05.JPG&#34; alt=&#34;&#34;&gt;
-&lt;img src=&#34;https://erikjohannes.no/posts/20200924-keychain-bit-holder/06.JPG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;The exact process of making the bit holder will differ
-slightly depending on the pen you are using, but it is anyway a quick and cheap
-way of making a small bit holder with things you most likely already have in
-your house.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Geiranger, Dalsnibba, Fossfjellet og Rundegga</title>
-      <link>https://erikjohannes.no/posts/20200704-geiranger/</link>
-      <pubDate>Sat, 04 Jul 2020 15:50:05 +0200</pubDate>
-      
-      <guid>https://erikjohannes.no/posts/20200704-geiranger/</guid>
-      <description>&lt;p&gt;På Strynefjellet og i fjellene over Geiranger er det fortsatt mye snø for tiden,
-og det var mange som var ute og fikk lufta randoskiene sine opp til Blåtind
-(1663 moh) i dag. Ikke fullt så mange var det som brukte sykkelen oppover fra
-Geiranger, men vi var ihvertfall tre stykker som stod klar på fergekaia i morges
-for å bryne oss på stigningen opp til Dalsnibba. For min del ble det en litt
-tidligere stopp enn planlagt med punktering etter å ha passert Knuten, men med
-ekstraslange i sadeltaska kom jeg relativt raskt videre, og mange hårnålssvinger
-senere ankom jeg Dalsnibba (1476 moh).&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;posts/20200704-geiranger/03.jpeg&#34; alt=&#34;Endelig oppe.&#34;&gt;
-&lt;em&gt;Endelig oppe.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;posts/20200704-geiranger/02.jpeg&#34; alt=&#34;Utsikt fra Dalsnibba.&#34;&gt;
-&lt;em&gt;Utsikt fra Dalsnibba.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Jeg hadde løpesko med meg, stroppet under sykkelsetet, så turen kunne gå videre
-i delvis snødekt terreng opp til Fossfjellet, på 1574 moh. Opp dit er det morsom
-kravling i steinur. Sørover kan man lange ut i slake nedoverbakker, både på snø
-og isskurt berg, før det går oppover til Rundegga (1615 moh).&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;posts/20200704-geiranger/04.jpeg&#34; alt=&#34;Rundegga over Fossvatnet.&#34;&gt;
-&lt;em&gt;Rundegga over Fossvatnet.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;posts/20200704-geiranger/05.jpeg&#34; alt=&#34;Utsikt fra Fossfjellet.&#34;&gt;
-&lt;em&gt;Utsikt fra Fossfjellet.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;posts/20200704-geiranger/07.jpeg&#34; alt=&#34;Snøløping.&#34;&gt;
-&lt;em&gt;Snøløping på Rundegga.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Fra Rundegga gikk turen tilbake til Dalsnibba, og derfra trillet jeg ned til
-Djupvasshytta.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;posts/20200704-geiranger/08.jpeg&#34; alt=&#34;Fortsatt fotogene brøytekanter opp Nibbevegen.&#34;&gt;
-&lt;em&gt;Fortsatt fotogene brøytekanter opp Nibbevegen.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;På vei ned igjen til Geiranger ble det en liten stopp for å utforske
-Kvanndalssætra, en samling av gamle seterbygninger som ligger idyllisk til i
-Kvanndalsbotn, nord for Dalsnibba.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;posts/20200704-geiranger/09.jpeg&#34; alt=&#34;Kvanndalssætra.&#34;&gt;
-&lt;em&gt;Kvanndalssætra.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;posts/20200704-geiranger/01.jpeg&#34; alt=&#34;Kveldssol over Geiranger.&#34;&gt;
-&lt;em&gt;Kveldssol over Geiranger.&lt;/em&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Rondane Rundt / Rondane 2K-maraton</title>
-      <link>https://erikjohannes.no/posts/20200627-rondane/</link>
-      <pubDate>Sat, 27 Jun 2020 20:02:16 +0200</pubDate>
-      
-      <guid>https://erikjohannes.no/posts/20200627-rondane/</guid>
-      <description>&lt;p&gt;Det er omtrent 10 år siden jeg første gang hørte om konseptet &amp;ldquo;Rondane Rundt&amp;rdquo;.
-Navnet har flere betydninger; for syklister er det først og fremst snakk om
-&lt;a href=&#34;https://vegtur.cc/sider/rondane-rundt&#34;&gt;ruta rundt Rondane&lt;/a&gt; gjennom Grimsdalen
-og Atnadalen, over Venabygdsfjellet og opp Gudbrandsdalen. For min del er det
-først og fremst snakk om den beryktede turen over Rondanes ti topper over 2000
-moh (med &lt;a href=&#34;https://snl.no/prim%C3%A6rfaktor&#34;&gt;primærfaktor&lt;/a&gt; på minst 50 meter), en
-tur som har blitt mer kjent som &amp;ldquo;Rondane 2K-maraton&amp;rdquo;.&lt;/p&gt;
-&lt;p&gt;Opp gjennom åra har mange gjennomført turen i ulikt tempo, og flere har
-gjennomført på &lt;a href=&#34;https://www.fjellforum.no/topic/7017-fjellrute-rondane-2k-maraton/&#34;&gt;under 12
-timer&lt;/a&gt;. Den
-raskeste tida på en slik rute er ikke alltid like lett å fastslå, men det har de
-siste åra dukket opp mer organiserte prosjekter for å registrere denne type
-rekorder, som på engelsk kalles &lt;em&gt;fastest known times&lt;/em&gt; (FKT). Et slikt prosjekt
-er &lt;a href=&#34;https://fastestknowntime.com/&#34;&gt;fastestknowntime.com&lt;/a&gt;, hvor også Rondane
-Rundt ligger inne under navnet &lt;a href=&#34;https://fastestknowntime.com/route/rondane-2k-marathon-norway&#34;&gt;Rondane 2K
-Marathon&lt;/a&gt;.
-Rekorden har sunket gradvis de siste åra, og så vidt meg bekjent er det tre
-stykker som har klart å presse tida under 10 timer:&lt;/p&gt;
+    <channel>
+        <title>Erik Johannes Husom</title>
+        <link>https://erikjohannes.no/blog/</link>
+        <description>Recent content on Erik Johannes Husom's blog</description>
+        <generator>EJs fabolous Python-script</generator>
+        <language>en-us</language>
+        <lastBuildDate>Thu, 28 Jan 2021 14:07:06 -0000</lastBuildDate>
+        <atom:link href="https://erikjohannes.no/index.xml" rel="self" type="application/rss+xml"/>
+                    <item>
+            <title>Reducing the temperature on a Raspberry Pi
+</title>
+            <link>https://erikjohannes.no/posts/20201110-raspberry-pi-temperature/index.html</link>
+            <pubDate>Tue, 10 Nov 2020 00:00:00 -0000</pubDate>
+            <guid>https://erikjohannes.no/posts/20201110-raspberry-pi-temperature/index.html</guid>
+            <description>&lt;p&gt;I have for several months been hosting my own cloud services using &lt;a href=&quot;https://nextcloud.com/&quot;&gt;Nextcloud&lt;/a&gt; on a &lt;a href=&quot;https://www.raspberrypi.org/products/raspberry-pi-4-model-b/&quot;&gt;Raspberry Pi 4&lt;/a&gt;. At first I was using a plastic case for the Pi, but I quickly figured out that I had to use something else, as the temperature was constantly in the range of 70-75 degrees Celsius, which I figured was too high when it is supposed to be an always-on system.&lt;/p&gt;
+&lt;p&gt;I purchased an &lt;a href=&quot;https://thepihut.com/products/xl-raspberry-pi-4-heatsink&quot;&gt;extra large heat sink&lt;/a&gt; and a &lt;a href=&quot;https://thepihut.com/products/cluster-case-for-raspberry-pi&quot;&gt;cluster case with fans&lt;/a&gt; in order to reduce the temperature, but I was unsure of how much it would help, and also whether the fan was as quiet as the product description claimed. The delivery of the items took some weeks, so in the meantime I used a stack of coins placed on top of the processing unit, which worked remarkably well (at least compared to my expectations): The temperature was reduced with about 15-20 degrees Celsius.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://erikjohannes.no/posts/20201110-raspberry-pi-temperature/coin-stack.jpeg&quot; alt=&quot;Using a coin stack as a heat sink.&quot; /&gt; &lt;em&gt;Using a coin stack as a heat sink.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;After attaching the heat sink to the Pi, and then installing the Pi in the cluster case and mounting the fan, the temperature of the Pi dropped to the range of 30-35 degrees Celsius when running a Nextcloud server. This was much better than I expected, and the fans hardly make any noise at all!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://erikjohannes.no/posts/20201110-raspberry-pi-temperature/cluster.jpeg&quot; alt=&quot;Two Raspberry Pis installed in a cluster case, with the old plastic case next to it.&quot; /&gt; &lt;em&gt;Two Raspberry Pis installed in a cluster case, with the old plastic case next to it.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;I have also tried a &lt;a href=&quot;https://thepihut.com/products/aluminium-armour-heatsink-case-for-raspberry-pi-4&quot;&gt;heatsink case&lt;/a&gt; for another one of my Pis, and the temperature is reduced by about 20-25 degrees Celsius, so that is not a bad option either.&lt;/p&gt;
+ </description>
+        </item>
+        <item>
+            <title>Keychain bit holder
+</title>
+            <link>https://erikjohannes.no/posts/20200924-keychain-bit-holder/index.html</link>
+            <pubDate>Thu, 24 Sep 2020 00:00:00 -0000</pubDate>
+            <guid>https://erikjohannes.no/posts/20200924-keychain-bit-holder/index.html</guid>
+            <description>&lt;p&gt;I recently got a small keychain multitool called True Utility Fishface, which amongst other things has a bit driver on it. It is basically just a hex-formed hole in the multitool, and can be used to drive any sort of standard screwdriver bit. The Fishface also comes with special &lt;em&gt;dual bit&lt;/em&gt;, which is fastened to the multitool with to small rubber bands, and consists of two sizes of the cross-point/Phillips screwdriver head.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://erikjohannes.no/posts/20200924-keychain-bit-holder/02.JPG&quot; /&gt; &lt;em&gt;The True Utility Fishface.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://erikjohannes.no/posts/20200924-keychain-bit-holder/03.JPG&quot; /&gt; &lt;em&gt;The Fishface with the dual bit in the driver.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;One of the main advantages of carrying a multitool with a bit driver is that it can be adapted for your specific needs. For me it is very useful to carry hex bits, specifically the 4mm and 5mm, since those are commonly used on just about everything on bikes. But how to carry the extra bits I need? One nifty solution would be to drill a hole in the bits, and then they could be fastened directly on the keychain ring, but I do not have the kind of tools needed for that operation. While doing some brainstorming, my eyes landed on a pen on my desk, and suddenly I realized that the shell of that pen was the perfect size for housing a couple of bits.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://erikjohannes.no/posts/20200924-keychain-bit-holder/04.JPG&quot; /&gt; &lt;em&gt;An identical pen to the one I used for making the bit holder, alongside the finished “product”. The two items are aligned, so you can see where I cut off the top and bottom of the pen.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;After gently sawing the plastic of the pen in the appropriate plazes, using a serrated knife blade, the remaining cylinder could fit the two bits I want to carry around. In one end I fastened a keychain ring with some duct tape, and the other end is closed by screwing the small remaining piece of the bottom part of the pen into place. The bottom part of the bit holder is actually open, but the hole is to small for the bits to fall out.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://erikjohannes.no/posts/20200924-keychain-bit-holder/05.JPG&quot; /&gt; &lt;img src=&quot;https://erikjohannes.no/posts/20200924-keychain-bit-holder/06.JPG&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;The exact process of making the bit holder will differ slightly depending on the pen you are using, but it is anyway a quick and cheap way of making a small bit holder with things you most likely already have in your house.&lt;/p&gt;
+ </description>
+        </item>
+        <item>
+            <title>Geiranger, Dalsnibba, Fossfjellet og Rundegga
+</title>
+            <link>https://erikjohannes.no/posts/20200704-geiranger/index.html</link>
+            <pubDate>Sat, 04 Jul 2020 00:00:00 -0000</pubDate>
+            <guid>https://erikjohannes.no/posts/20200704-geiranger/index.html</guid>
+            <description>&lt;p&gt;På Strynefjellet og i fjellene over Geiranger er det fortsatt mye snø for tiden, og det var mange som var ute og fikk lufta randoskiene sine opp til Blåtind (1663 moh) i dag. Ikke fullt så mange var det som brukte sykkelen oppover fra Geiranger, men vi var ihvertfall tre stykker som stod klar på fergekaia i morges for å bryne oss på stigningen opp til Dalsnibba. For min del ble det en litt tidligere stopp enn planlagt med punktering etter å ha passert Knuten, men med ekstraslange i sadeltaska kom jeg relativt raskt videre, og mange hårnålssvinger senere ankom jeg Dalsnibba (1476 moh).&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://erikjohannes.no/posts/20200704-geiranger/03.jpeg&quot; alt=&quot;Endelig oppe.&quot; /&gt; &lt;em&gt;Endelig oppe.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://erikjohannes.no/posts/20200704-geiranger/02.jpeg&quot; alt=&quot;Utsikt fra Dalsnibba.&quot; /&gt; &lt;em&gt;Utsikt fra Dalsnibba.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Jeg hadde løpesko med meg, stroppet under sykkelsetet, så turen kunne gå videre i delvis snødekt terreng opp til Fossfjellet, på 1574 moh. Opp dit er det morsom kravling i steinur. Sørover kan man lange ut i slake nedoverbakker, både på snø og isskurt berg, før det går oppover til Rundegga (1615 moh).&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://erikjohannes.no/posts/20200704-geiranger/04.jpeg&quot; alt=&quot;Rundegga over Fossvatnet.&quot; /&gt; &lt;em&gt;Rundegga over Fossvatnet.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://erikjohannes.no/posts/20200704-geiranger/05.jpeg&quot; alt=&quot;Utsikt fra Fossfjellet.&quot; /&gt; &lt;em&gt;Utsikt fra Fossfjellet.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://erikjohannes.no/posts/20200704-geiranger/07.jpeg&quot; alt=&quot;Snøløping.&quot; /&gt; &lt;em&gt;Snøløping på Rundegga.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Fra Rundegga gikk turen tilbake til Dalsnibba, og derfra trillet jeg ned til Djupvasshytta.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://erikjohannes.no/posts/20200704-geiranger/08.jpeg&quot; alt=&quot;Fortsatt fotogene brøytekanter opp Nibbevegen.&quot; /&gt; &lt;em&gt;Fortsatt fotogene brøytekanter opp Nibbevegen.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;På vei ned igjen til Geiranger ble det en liten stopp for å utforske Kvanndalssætra, en samling av gamle seterbygninger som ligger idyllisk til i Kvanndalsbotn, nord for Dalsnibba.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://erikjohannes.no/posts/20200704-geiranger/09.jpeg&quot; alt=&quot;Kvanndalssætra.&quot; /&gt; &lt;em&gt;Kvanndalssætra.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://erikjohannes.no/posts/20200704-geiranger/01.jpeg&quot; alt=&quot;Kveldssol over Geiranger.&quot; /&gt; &lt;em&gt;Kveldssol over Geiranger.&lt;/em&gt;&lt;/p&gt;
+ </description>
+        </item>
+        <item>
+            <title>Rondane Rundt / Rondane 2K-maraton
+</title>
+            <link>https://erikjohannes.no/posts/20200627-rondane/index.html</link>
+            <pubDate>Sat, 27 Jun 2020 00:00:00 -0000</pubDate>
+            <guid>https://erikjohannes.no/posts/20200627-rondane/index.html</guid>
+            <description>&lt;p&gt;Det er omtrent 10 år siden jeg første gang hørte om konseptet “Rondane Rundt”. Navnet har flere betydninger; for syklister er det først og fremst snakk om &lt;a href=&quot;https://vegtur.cc/sider/rondane-rundt&quot;&gt;ruta rundt Rondane&lt;/a&gt; gjennom Grimsdalen og Atnadalen, over Venabygdsfjellet og opp Gudbrandsdalen. For min del er det først og fremst snakk om den beryktede turen over Rondanes ti topper over 2000 moh (med &lt;a href=&quot;https://snl.no/prim%C3%A6rfaktor&quot;&gt;primærfaktor&lt;/a&gt; på minst 50 meter), en tur som har blitt mer kjent som “Rondane 2K-maraton”.&lt;/p&gt;
+&lt;p&gt;Opp gjennom åra har mange gjennomført turen i ulikt tempo, og flere har gjennomført på &lt;a href=&quot;https://www.fjellforum.no/topic/7017-fjellrute-rondane-2k-maraton/&quot;&gt;under 12 timer&lt;/a&gt;. Den raskeste tida på en slik rute er ikke alltid like lett å fastslå, men det har de siste åra dukket opp mer organiserte prosjekter for å registrere denne type rekorder, som på engelsk kalles &lt;em&gt;fastest known times&lt;/em&gt; (FKT). Et slikt prosjekt er &lt;a href=&quot;https://fastestknowntime.com/&quot;&gt;fastestknowntime.com&lt;/a&gt;, hvor også Rondane Rundt ligger inne under navnet &lt;a href=&quot;https://fastestknowntime.com/route/rondane-2k-marathon-norway&quot;&gt;Rondane 2K Marathon&lt;/a&gt;. Rekorden har sunket gradvis de siste åra, og så vidt meg bekjent er det tre stykker som har klart å presse tida under 10 timer:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;2014-04-10: &lt;a href=&#34;https://peakbook.org/no/tour/92982/Rondane+2k-marathon.html&#34;&gt;09:15 - Ola Hovdenak&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;2018-02-06: &lt;a href=&#34;https://www.friflyt.no/topptur/ny-rekord-paa-rondane-2k-maraton&#34;&gt;09:00 - Gjermund
-Nordskar&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;2018-07-17: &lt;a href=&#34;https://fastestknowntime.com/fkt/vegard-fredheim-rondane-2k-marathon-norway-2018-07-17&#34;&gt;08:48:13 - Vegard
-Fredheim&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2014-04-10: &lt;a href=&quot;https://peakbook.org/no/tour/92982/Rondane+2k-marathon.html&quot;&gt;09:15 - Ola Hovdenak&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2018-02-06: &lt;a href=&quot;https://www.friflyt.no/topptur/ny-rekord-paa-rondane-2k-maraton&quot;&gt;09:00 - Gjermund Nordskar&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2018-07-17: &lt;a href=&quot;https://fastestknowntime.com/fkt/vegard-fredheim-rondane-2k-marathon-norway-2018-07-17&quot;&gt;08:48:13 - Vegard Fredheim&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Rutevalg har variert, men det har utviklet seg en slags enighet om at start og
-mål er Rondvassbu (som også er det mest naturlige stedet å ha som utgangspunkt).
-I tillegg gjelder det at man skal ha tatt på toppvarden på hver topp, og ikke
-motta noen støtte underveis.  Den tradisjonelle rekkefølgen på toppene er&lt;/p&gt;
+&lt;p&gt;Rutevalg har variert, men det har utviklet seg en slags enighet om at start og mål er Rondvassbu (som også er det mest naturlige stedet å ha som utgangspunkt). I tillegg gjelder det at man skal ha tatt på toppvarden på hver topp, og ikke motta noen støtte underveis. Den tradisjonelle rekkefølgen på toppene er&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Veslesmeden (2015)&lt;/li&gt;
 &lt;li&gt;Storsmeden (2016)&lt;/li&gt;
@@ -182,1169 +84,192 @@ motta noen støtte underveis.  Den tradisjonelle rekkefølgen på toppene er&lt;
 &lt;li&gt;Vinjeronden (2044 moh)&lt;/li&gt;
 &lt;li&gt;Storronden (2138 moh)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Fredheim tok en alternativ rute i 2018, og forkortet distansen med noen
-kilometer ved å løpe ut til Trolltinden først, og deretter tilbake igjen og over
-Stor- og Veslesmeden, før han fortsatte over Digerronden og de andre toppene i
-tradisjonell rekkefølge.  Da jeg endelig fikk tid og mulighet til å gjennomføre
-turen selv, valgte jeg å ta samme rute som Fredheim, for å unngå det lange
-partiet mellom Trolltinden og Digerronden, men jeg ville løpe motsatt vei, slik
-at jeg kunne skli på snøen ned fra Rondeslottet.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://erikjohannes.no/posts/20200627-rondane/01-jutulhogget.jpeg&#34; alt=&#34;På vei opp fra Rondvassbu.&#34;&gt;
-&lt;em&gt;På vei opp fra Rondvassbu.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Jeg syklet inn til Rondvassbu fra Spranget lørdag 27. juni, og kl 8:10 la jeg i
-vei østover. Opp til Storronden er det tydelig sti hele veien, men jeg prøvde å
-ta en litt rettere linje noen steder opp langs ryggen. Etter 52 minutter var jeg
-på toppen, og skulle så ned i skaret mot Vinjeronden. Her hadde jeg aldri vært
-før, og jeg klarte dessverre å havne for langt øst, slik at jeg måtte løpe litt
-opp igjen for å komme på rett side av et gjel som går ned i Storbotn.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://erikjohannes.no/posts/20200627-rondane/02-storronden.jpeg&#34; alt=&#34;Stien opp til Storronden.&#34;&gt;
-&lt;em&gt;Stien opp til Storronden.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://erikjohannes.no/posts/20200627-rondane/03-vinjeronden.jpeg&#34; alt=&#34;Mot Vinjeronden.&#34;&gt;
-&lt;em&gt;Mot Vinjeronden.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Vinjeronden og Rondeslottet ble unnagjort raskere enn planlagt, og varmen var
-heller ikke så slitsom som jeg hadde fryktet. Jeg hadde fått tips på forhånd om
-at det lå snø omtrent helt ned til Langglupdalen fra Rondeslottet, men det ble
-litt vinglete rutevalg ned den første biten, da jeg ikke klarte å se hvor
-snøfonna startet. Etter å løpt noen hundre meter fra toppen, fant jeg en liten
-bekk hvor jeg fikk fylt ei vannflaske, og like etter på kom jeg endelig inn på
-snøfonna.  Her kunne jeg både skli og løpe nedover, så jeg kom jeg veldig
-effektivt ned i dalen. Fylte to flasker til i Langglupbekken, før jeg startet på
-skråningen opp mot Høgronden. Her er det lyng i starten, som kanskje kan
-oppleves som et kjærkomment avbrekk fra steinura, men jeg synes det var tungt å
-gå i, da man hele tida synker litt ned for hvert steg.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://erikjohannes.no/posts/20200627-rondane/04-rondeslottet.jpeg&#34; alt=&#34;Utsikt mot Høgronden fraRondeslottet.&#34;&gt;
-&lt;em&gt;Utsikt mot Høgronden fra Rondeslottet.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://erikjohannes.no/posts/20200627-rondane/05-hogronden.jpeg&#34; alt=&#34;Utsikt fra Høgronden. Her ser man tydelig snøfonna jeg fulgte ned idalen.&#34;&gt;
-&lt;em&gt;Utsikt fra Høgronden. Her ser man tydelig snøfonna jeg fulgte ned i
-dalen.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;På toppen av Høgronden kjente jeg vinden for første gang den dagen, og det var
-deilig å få litt avkjøling. Over til Midtrondene og til Digerronden var beina
-fortsatt gode, men i steinura ned fra Digerronden begynte det å bli litt tungt.
-På forhånd hadde jeg planlagt å ta rettest mulig linje ned fra toppen og mot
-Veslesmeden, men det er såpass mye bratt ur at jeg følte det ble lettere å løpe
-i en liten bue nedover. Nede i Bergedalen var det deilig å få løpt litt i lyng
-og på sti, og jeg fylte flaskene flere ganger i bekkene jeg passerte. I tillegg
-måtte jeg stoppe opp å helle ut stein og grus som hadde samlet seg i skoene på
-vei ned fra den forrige toppen.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://erikjohannes.no/posts/20200627-rondane/06-midtronden.jpeg&#34; alt=&#34;Utsikt fra Høgronden mot Midtrondene.&#34;&gt;
-&lt;em&gt;Utsikt fra Høgronden mot Midtrondene.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Etter å ha passert på sørsida av den sydligste Bergedalstjønna, bega jeg meg
-oppover skråningen som leder opp til ryggen mot Veslesmeden. Farta var ikke like
-høy som tidligere, men jeg fokuserte på å holde jevn og stabil intensitet.  Den
-siste biten opp mot Veslesmeden innebar litt kravling og lett klyving, og
-kryssing av et lite bratt snøparti, før jeg kom inn på stien fra Rondvassbu noen
-timeter fra toppen. Her var det en god del folk, og det hjalp på motivasjonen.
-Nå gjenstod det bare to topper, men det var også de eneste toppene jeg ikke
-hadde vært på tidligere, og dessuten de som krever litt mer konsentrasjon for å
-bestige. Jeg hadde holdt et øye med snittfarta mi, og så vidt jeg kunne se, lå
-jeg foran skjema til å slå rekorden.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://erikjohannes.no/posts/20200627-rondane/07-veslesmeden.jpeg&#34; alt=&#34;Et lite snøparti rett underVeslesmeden.&#34;&gt;
-&lt;em&gt;Et lite snøparti rett under Veslesmeden.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Jeg kunne holde grei fart ned i skaret mot Storsmeden, og klyvingen begynte
-ganske umiddelbart etter at det begynte å gå oppover igjen. Jeg hadde hørt på
-forhånd at det skulle være noen små varder oppover som viste vei, men jeg var
-likevel litt usikker på hvor lang tid jeg kom til å bruke opp denne ryggen. Det
-viste seg å være ganske greit, men jeg brukte litt ekstra tid på å vurdere hvert
-veivalg for å være sikker på at jeg ikke kastet bort tid på klyve opp feil
-sted. Akkurat i det jeg kom opp det siste klyvepartiet, kjente jeg de første
-dråpene. Regnjakka kom raskt på, men det gikk ikke raskt ned fra Storsmeden;
-skoa mistet helt grepet på steinene. Flere ganger skled jeg i ura, og en av
-gangene slo jeg siden av hodet i en stein. Etter en liten pause konkluderte jeg
-med at det hadde gått fint, men det ble en påminnelse på hvor lite som skal til
-før det kan gå ordentlig galt!&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://erikjohannes.no/posts/20200627-rondane/08-storsmeden.jpeg&#34; alt=&#34;Fra Veslesmeden mot Storsmeden.&#34;&gt;
-&lt;em&gt;Fra Veslesmeden mot Storsmeden.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Ut mot toppen på 1897 prøvde jeg å holde meg litt nede i fjellsida for å slippe
-å gå opp unødvendige høydemeter. Her bestod terrenget av små, skråstilte sva,
-som var svært glatte å forsere når det hadde blitt bløtt. Jeg angra på
-rutevalget, og tenkte at på vei tilbake skulle jeg gå lengre opp, hvor jeg kunne
-holde høyere fart.  Ryggen utover var ganske morsom, men jeg var spent på
-hvordan den siste biten kom til å være, da jeg hadde lest noen sprikende
-turrapporter på nettet i forkant. Det er sikkert mulig å ta flere forskjellige
-opp langs ryggen, men den mest brukte stien var veldig tydelig, og også merket
-med små varder. Jeg møtte et par stykker i det siste skaret på ryggen, som
-tipset meg om at det kunne være litt vanskelig å finne veien ned igjen, da det
-er flere grusrenner som kan se ut som stier. Dette var nyttig informasjon, og
-jeg fulgte ekstra godt med hvor vardene befant seg, slik at jeg effektivt kunne
-løpe ned igjen uten å måtte stoppe og vurdere veivalg.&lt;/p&gt;
-&lt;p&gt;Oppe på Trolltinden kunne jeg meget fornøyd konstatere at dette var dagens siste
-topp, men jeg kjente på at det fortsatt var en del kilometer igjen. Jeg så på
-snittfarta mi, og begynte å ane at rekorden hang i en meget tynn tråd. Tilbake
-over ryggen var det vanskelig å presse farta opp noe særlig, da jeg først og
-fremst måtte fokusere på å komme meg trygt fram på slitne bein. Men da jeg
-skulle ned i skaret over Kaldbekkbotn kom jeg inn på en snøfonn, og håpet om
-å ta rekorden kom tilbake. Fra Kaldbekkbotn og til Rondvassbu er det sti hele veien,
-og jeg fikk endelig strekke ut beina litt. Minuttene gikk kjapt, og jeg skjønte
-etterhvert at dette kom til å bli utrolig jevnt. Motivasjonen var høy de siste
-par kilometerne, men samtidig var beina veldig tunge. I det jeg kom inn på
-grusveien mot Rondvassbu, var tida 8:47, men GPS-klokka viste bare timer og
-minutter, så jeg hadde ikke oversikt over hvor lang tid jeg hadde på meg. Jeg
-spurta det jeg klarte, og lettelsen var stor da jeg stoppa klokka idet jeg ankom
-hovedinngangen på Rondvassbu, og så at tida var på 8:47:52.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://erikjohannes.no/posts/20200627-rondane/09-rondvassbu.jpeg&#34; alt=&#34;Fremme ved Rondvassbu etter 8 timer og nesten 48 minutter.&#34;&gt;
-&lt;em&gt;Fremme ved Rondvassbu etter 8 timer og nesten 48 minutter.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Utafor hytta satt det noen vennlige sjeler som hentet et stort glass vann til
-meg mens jeg fikk igjen pusten. Jeg fikk ikke med meg navnene deres, men tusen
-takk for hjelpen! Etter å ha summet meg litt, gikk turen tilbake til Spranget på
-sykkel.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://erikjohannes.no/posts/20200627-rondane/10-ferdig.jpeg&#34; alt=&#34;Digg å være ferdig.&#34;&gt;
-&lt;em&gt;Digg å være ferdig.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Under ligger et kart over ruta jeg tok. Oversikt over både &lt;a href=&#34;https://fastestknowntime.com/route/rondane-2k-marathon-norway&#34;&gt;dame- og herrerekord
-finnes her&lt;/a&gt;, og
-link til &lt;a href=&#34;https://connect.garmin.com/modern/activity/5153596238&#34;&gt;økta finnes
-her&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://erikjohannes.no/posts/20200627-rondane/00-kart.png&#34; alt=&#34;Kart over ruta.&#34;&gt;
-&lt;em&gt;Kart over ruta.&lt;/em&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Article on Facebook&#39;s targeted advertising</title>
-      <link>https://erikjohannes.no/posts/20200530-facebook-targeted-advertising/</link>
-      <pubDate>Sat, 30 May 2020 15:28:52 +0200</pubDate>
-      
-      <guid>https://erikjohannes.no/posts/20200530-facebook-targeted-advertising/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://themarkup.org/coronavirus/2020/04/23/want-to-find-a-misinformed-public-facebooks-already-done-it&#34;&gt;Some interesting revelations on Facebook&amp;rsquo;s targeted advertising.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Fredheim tok en alternativ rute i 2018, og forkortet distansen med noen kilometer ved å løpe ut til Trolltinden først, og deretter tilbake igjen og over Stor- og Veslesmeden, før han fortsatte over Digerronden og de andre toppene i tradisjonell rekkefølge. Da jeg endelig fikk tid og mulighet til å gjennomføre turen selv, valgte jeg å ta samme rute som Fredheim, for å unngå det lange partiet mellom Trolltinden og Digerronden, men jeg ville løpe motsatt vei, slik at jeg kunne skli på snøen ned fra Rondeslottet.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://erikjohannes.no/posts/20200627-rondane/01-jutulhogget.jpeg&quot; alt=&quot;På vei opp fra Rondvassbu.&quot; /&gt; &lt;em&gt;På vei opp fra Rondvassbu.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Jeg syklet inn til Rondvassbu fra Spranget lørdag 27. juni, og kl 8:10 la jeg i vei østover. Opp til Storronden er det tydelig sti hele veien, men jeg prøvde å ta en litt rettere linje noen steder opp langs ryggen. Etter 52 minutter var jeg på toppen, og skulle så ned i skaret mot Vinjeronden. Her hadde jeg aldri vært før, og jeg klarte dessverre å havne for langt øst, slik at jeg måtte løpe litt opp igjen for å komme på rett side av et gjel som går ned i Storbotn.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://erikjohannes.no/posts/20200627-rondane/02-storronden.jpeg&quot; alt=&quot;Stien opp til Storronden.&quot; /&gt; &lt;em&gt;Stien opp til Storronden.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://erikjohannes.no/posts/20200627-rondane/03-vinjeronden.jpeg&quot; alt=&quot;Mot Vinjeronden.&quot; /&gt; &lt;em&gt;Mot Vinjeronden.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Vinjeronden og Rondeslottet ble unnagjort raskere enn planlagt, og varmen var heller ikke så slitsom som jeg hadde fryktet. Jeg hadde fått tips på forhånd om at det lå snø omtrent helt ned til Langglupdalen fra Rondeslottet, men det ble litt vinglete rutevalg ned den første biten, da jeg ikke klarte å se hvor snøfonna startet. Etter å løpt noen hundre meter fra toppen, fant jeg en liten bekk hvor jeg fikk fylt ei vannflaske, og like etter på kom jeg endelig inn på snøfonna. Her kunne jeg både skli og løpe nedover, så jeg kom jeg veldig effektivt ned i dalen. Fylte to flasker til i Langglupbekken, før jeg startet på skråningen opp mot Høgronden. Her er det lyng i starten, som kanskje kan oppleves som et kjærkomment avbrekk fra steinura, men jeg synes det var tungt å gå i, da man hele tida synker litt ned for hvert steg.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://erikjohannes.no/posts/20200627-rondane/04-rondeslottet.jpeg&quot; alt=&quot;Utsikt mot Høgronden fra Rondeslottet.&quot; /&gt; &lt;em&gt;Utsikt mot Høgronden fra Rondeslottet.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://erikjohannes.no/posts/20200627-rondane/05-hogronden.jpeg&quot; alt=&quot;Utsikt fra Høgronden. Her ser man tydelig snøfonna jeg fulgte ned i dalen.&quot; /&gt; &lt;em&gt;Utsikt fra Høgronden. Her ser man tydelig snøfonna jeg fulgte ned i dalen.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;På toppen av Høgronden kjente jeg vinden for første gang den dagen, og det var deilig å få litt avkjøling. Over til Midtrondene og til Digerronden var beina fortsatt gode, men i steinura ned fra Digerronden begynte det å bli litt tungt. På forhånd hadde jeg planlagt å ta rettest mulig linje ned fra toppen og mot Veslesmeden, men det er såpass mye bratt ur at jeg følte det ble lettere å løpe i en liten bue nedover. Nede i Bergedalen var det deilig å få løpt litt i lyng og på sti, og jeg fylte flaskene flere ganger i bekkene jeg passerte. I tillegg måtte jeg stoppe opp å helle ut stein og grus som hadde samlet seg i skoene på vei ned fra den forrige toppen.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://erikjohannes.no/posts/20200627-rondane/06-midtronden.jpeg&quot; alt=&quot;Utsikt fra Høgronden mot Midtrondene.&quot; /&gt; &lt;em&gt;Utsikt fra Høgronden mot Midtrondene.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Etter å ha passert på sørsida av den sydligste Bergedalstjønna, bega jeg meg oppover skråningen som leder opp til ryggen mot Veslesmeden. Farta var ikke like høy som tidligere, men jeg fokuserte på å holde jevn og stabil intensitet. Den siste biten opp mot Veslesmeden innebar litt kravling og lett klyving, og kryssing av et lite bratt snøparti, før jeg kom inn på stien fra Rondvassbu noen timeter fra toppen. Her var det en god del folk, og det hjalp på motivasjonen. Nå gjenstod det bare to topper, men det var også de eneste toppene jeg ikke hadde vært på tidligere, og dessuten de som krever litt mer konsentrasjon for å bestige. Jeg hadde holdt et øye med snittfarta mi, og så vidt jeg kunne se, lå jeg foran skjema til å slå rekorden.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://erikjohannes.no/posts/20200627-rondane/07-veslesmeden.jpeg&quot; alt=&quot;Et lite snøparti rett under Veslesmeden.&quot; /&gt; &lt;em&gt;Et lite snøparti rett under Veslesmeden.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Jeg kunne holde grei fart ned i skaret mot Storsmeden, og klyvingen begynte ganske umiddelbart etter at det begynte å gå oppover igjen. Jeg hadde hørt på forhånd at det skulle være noen små varder oppover som viste vei, men jeg var likevel litt usikker på hvor lang tid jeg kom til å bruke opp denne ryggen. Det viste seg å være ganske greit, men jeg brukte litt ekstra tid på å vurdere hvert veivalg for å være sikker på at jeg ikke kastet bort tid på klyve opp feil sted. Akkurat i det jeg kom opp det siste klyvepartiet, kjente jeg de første dråpene. Regnjakka kom raskt på, men det gikk ikke raskt ned fra Storsmeden; skoa mistet helt grepet på steinene. Flere ganger skled jeg i ura, og en av gangene slo jeg siden av hodet i en stein. Etter en liten pause konkluderte jeg med at det hadde gått fint, men det ble en påminnelse på hvor lite som skal til før det kan gå ordentlig galt!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://erikjohannes.no/posts/20200627-rondane/08-storsmeden.jpeg&quot; alt=&quot;Fra Veslesmeden mot Storsmeden.&quot; /&gt; &lt;em&gt;Fra Veslesmeden mot Storsmeden.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Ut mot toppen på 1897 prøvde jeg å holde meg litt nede i fjellsida for å slippe å gå opp unødvendige høydemeter. Her bestod terrenget av små, skråstilte sva, som var svært glatte å forsere når det hadde blitt bløtt. Jeg angra på rutevalget, og tenkte at på vei tilbake skulle jeg gå lengre opp, hvor jeg kunne holde høyere fart. Ryggen utover var ganske morsom, men jeg var spent på hvordan den siste biten kom til å være, da jeg hadde lest noen sprikende turrapporter på nettet i forkant. Det er sikkert mulig å ta flere forskjellige opp langs ryggen, men den mest brukte stien var veldig tydelig, og også merket med små varder. Jeg møtte et par stykker i det siste skaret på ryggen, som tipset meg om at det kunne være litt vanskelig å finne veien ned igjen, da det er flere grusrenner som kan se ut som stier. Dette var nyttig informasjon, og jeg fulgte ekstra godt med hvor vardene befant seg, slik at jeg effektivt kunne løpe ned igjen uten å måtte stoppe og vurdere veivalg.&lt;/p&gt;
+&lt;p&gt;Oppe på Trolltinden kunne jeg meget fornøyd konstatere at dette var dagens siste topp, men jeg kjente på at det fortsatt var en del kilometer igjen. Jeg så på snittfarta mi, og begynte å ane at rekorden hang i en meget tynn tråd. Tilbake over ryggen var det vanskelig å presse farta opp noe særlig, da jeg først og fremst måtte fokusere på å komme meg trygt fram på slitne bein. Men da jeg skulle ned i skaret over Kaldbekkbotn kom jeg inn på en snøfonn, og håpet om å ta rekorden kom tilbake. Fra Kaldbekkbotn og til Rondvassbu er det sti hele veien, og jeg fikk endelig strekke ut beina litt. Minuttene gikk kjapt, og jeg skjønte etterhvert at dette kom til å bli utrolig jevnt. Motivasjonen var høy de siste par kilometerne, men samtidig var beina veldig tunge. I det jeg kom inn på grusveien mot Rondvassbu, var tida 8:47, men GPS-klokka viste bare timer og minutter, så jeg hadde ikke oversikt over hvor lang tid jeg hadde på meg. Jeg spurta det jeg klarte, og lettelsen var stor da jeg stoppa klokka idet jeg ankom hovedinngangen på Rondvassbu, og så at tida var på 8:47:52.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://erikjohannes.no/posts/20200627-rondane/09-rondvassbu.jpeg&quot; alt=&quot;Fremme ved Rondvassbu etter 8 timer og nesten 48 minutter.&quot; /&gt; &lt;em&gt;Fremme ved Rondvassbu etter 8 timer og nesten 48 minutter.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Utafor hytta satt det noen vennlige sjeler som hentet et stort glass vann til meg mens jeg fikk igjen pusten. Jeg fikk ikke med meg navnene deres, men tusen takk for hjelpen! Etter å ha summet meg litt, gikk turen tilbake til Spranget på sykkel.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://erikjohannes.no/posts/20200627-rondane/10-ferdig.jpeg&quot; alt=&quot;Digg å være ferdig.&quot; /&gt; &lt;em&gt;Digg å være ferdig.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Under ligger et kart over ruta jeg tok. Oversikt over både &lt;a href=&quot;https://fastestknowntime.com/route/rondane-2k-marathon-norway&quot;&gt;dame- og herrerekord finnes her&lt;/a&gt;, og link til &lt;a href=&quot;https://connect.garmin.com/modern/activity/5153596238&quot;&gt;økta finnes her&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://erikjohannes.no/posts/20200627-rondane/00-kart.png&quot; alt=&quot;Kart over ruta.&quot; /&gt; &lt;em&gt;Kart over ruta.&lt;/em&gt;&lt;/p&gt;
+ </description>
+        </item>
+        <item>
+            <title>Article on Facebook's targeted advertising
+</title>
+            <link>https://erikjohannes.no/posts/20200530-facebook-targeted-advertising/index.html</link>
+            <pubDate>Sat, 30 May 2020 00:00:00 -0000</pubDate>
+            <guid>https://erikjohannes.no/posts/20200530-facebook-targeted-advertising/index.html</guid>
+            <description>&lt;p&gt;&lt;a href=&quot;https://themarkup.org/coronavirus/2020/04/23/want-to-find-a-misinformed-public-facebooks-already-done-it&quot;&gt;Some interesting revelations on Facebook’s targeted advertising.&lt;/a&gt;&lt;/p&gt;
+&lt;!--more--&gt;
 &lt;blockquote&gt;
-&lt;p&gt;This isn’t the first time Facebook has faced scrutiny for the ways its ad tool can target conspiracy-minded people. A 2019 Guardian investigation found that advertisers could reach people interested in “vaccine controversies.” In 2017, ProPublica reporters (two of whom are now at The Markup) found that advertisers could target people who were interested in terms like “Jew hater,” and “History of ‘why jews ruin the world.’ ”&lt;/p&gt;
+&lt;p&gt;This isn’t the first time Facebook has faced scrutiny for the ways its ad tool can target conspiracy-minded people. A 2019 Guardian investigation found that advertisers could reach people interested in “vaccine controversies.” In 2017, ProPublica reporters (two of whom are now at The Markup) found that advertisers could target people who were interested in terms like “Jew hater,” and “History of ‘why jews ruin the world.’”&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;Read &lt;a href=&#34;https://themarkup.org/coronavirus/2020/04/23/want-to-find-a-misinformed-public-facebooks-already-done-it&#34;&gt;Want To Find A Misinformed Public? Facebook&amp;rsquo;s Already Done It&lt;/a&gt;.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>DeepVentilation</title>
-      <link>https://erikjohannes.no/science/deepventilation/</link>
-      <pubDate>Thu, 26 Mar 2020 21:40:08 +0200</pubDate>
-      
-      <guid>https://erikjohannes.no/science/deepventilation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>RespiratoryPatterns</title>
-      <link>https://erikjohannes.no/science/respiratorypatterns/</link>
-      <pubDate>Thu, 26 Mar 2020 21:40:08 +0200</pubDate>
-      
-      <guid>https://erikjohannes.no/science/respiratorypatterns/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Dogs relaxing</title>
-      <link>https://erikjohannes.no/posts/20200325-dogs-relaxing/</link>
-      <pubDate>Wed, 25 Mar 2020 13:27:23 +0200</pubDate>
-      
-      <guid>https://erikjohannes.no/posts/20200325-dogs-relaxing/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://erikjohannes.no/posts/20200325-dogs-relaxing/1.jpg&#34; alt=&#34;&#34;&gt;
-&lt;img src=&#34;https://erikjohannes.no/posts/20200325-dogs-relaxing/2.jpg&#34; alt=&#34;&#34;&gt;
-&lt;img src=&#34;https://erikjohannes.no/posts/20200325-dogs-relaxing/3.jpg&#34; alt=&#34;&#34;&gt;
-&lt;img src=&#34;https://erikjohannes.no/posts/20200325-dogs-relaxing/4.jpg&#34; alt=&#34;&#34;&gt;
-&lt;img src=&#34;https://erikjohannes.no/posts/20200325-dogs-relaxing/5.jpg&#34; alt=&#34;&#34;&gt;
-&lt;img src=&#34;https://erikjohannes.no/posts/20200325-dogs-relaxing/6.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Rondane</title>
-      <link>https://erikjohannes.no/posts/20200307-rondane/</link>
-      <pubDate>Sat, 07 Mar 2020 13:27:23 +0200</pubDate>
-      
-      <guid>https://erikjohannes.no/posts/20200307-rondane/</guid>
-      <description>&lt;p&gt;Tidlig i mars hadde det kommet unormalt mye snø i Rondane, og jeg
-utnytta muligheten til å dra på topptur i området. Planen var egentlig å
-få gått en runde over noen av toppene over 2000 moh, men mye dyp snø og
-skredfare gjorde at jeg snudde ved Midtronden, og gikk samme vei
-tilbake.&lt;/p&gt;
+&lt;p&gt;Read &lt;a href=&quot;https://themarkup.org/coronavirus/2020/04/23/want-to-find-a-misinformed-public-facebooks-already-done-it&quot;&gt;Want To Find A Misinformed Public? Facebook’s Already Done It&lt;/a&gt;.&lt;/p&gt;
+ </description>
+        </item>
+        <item>
+            <title>Dogs relaxing
+</title>
+            <link>https://erikjohannes.no/posts/20200325-dogs-relaxing/index.html</link>
+            <pubDate>Wed, 25 Mar 2020 00:00:00 -0000</pubDate>
+            <guid>https://erikjohannes.no/posts/20200325-dogs-relaxing/index.html</guid>
+            <description>&lt;p&gt;&lt;img src=&quot;https://erikjohannes.no/posts/20200325-dogs-relaxing/1.jpg&quot; /&gt; &lt;img src=&quot;https://erikjohannes.no/posts/20200325-dogs-relaxing/2.jpg&quot; /&gt; &lt;img src=&quot;https://erikjohannes.no/posts/20200325-dogs-relaxing/3.jpg&quot; /&gt; &lt;img src=&quot;https://erikjohannes.no/posts/20200325-dogs-relaxing/4.jpg&quot; /&gt; &lt;img src=&quot;https://erikjohannes.no/posts/20200325-dogs-relaxing/5.jpg&quot; /&gt; &lt;img src=&quot;https://erikjohannes.no/posts/20200325-dogs-relaxing/6.jpg&quot; /&gt;&lt;/p&gt;
+ </description>
+        </item>
+        <item>
+            <title>Rondane
+</title>
+            <link>https://erikjohannes.no/posts/20200307-rondane/index.html</link>
+            <pubDate>Sat, 07 Mar 2020 00:00:00 -0000</pubDate>
+            <guid>https://erikjohannes.no/posts/20200307-rondane/index.html</guid>
+            <description>&lt;p&gt;Tidlig i mars hadde det kommet unormalt mye snø i Rondane, og jeg utnytta muligheten til å dra på topptur i området. Planen var egentlig å få gått en runde over noen av toppene over 2000 moh, men mye dyp snø og skredfare gjorde at jeg snudde ved Midtronden, og gikk samme vei tilbake.&lt;/p&gt;
 &lt;p&gt;Nederst på sida ligger en video fra turen.&lt;/p&gt;
-&lt;link rel=&#34;stylesheet&#34; href=&#34;https://erikjohannes.no/js/leaflet/leaflet.css&#34; /&gt;
-&lt;script src=&#34;https://erikjohannes.no/js/leaflet/leaflet.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;https://erikjohannes.no/js/gpx.js&#34;&gt;&lt;/script&gt;
-
-&lt;div id=&#34;map&#34; style=&#34;height: 400px; width: 100%;&#34;&gt;&lt;/div&gt;
-
-&lt;script&gt;
-        var map = L.map(&#39;map&#39;);//.setView([60.14, 10.25], 11);
-        L.tileLayer(&#39;https://opencache.statkart.no/gatekeeper/gk/gk.open_gmaps?layers=topo4&amp;zoom={z}&amp;x={x}&amp;y={y}&#39;, {
-            attribution: &#39;&lt;a href=&#34;http://www.kartverket.no/&#34;&gt;Kartverket&lt;/a&gt;&#39;
-        }).addTo(map);
-        var gpx = &#39;/posts/20200307-rondane/activity-20200307.gpx&#39;; 
-        new L.GPX(gpx, {
-            async: true,
-            marker_options: {
-                startIconUrl: &#39;img/pin-icon-start.png&#39;,
-                endIconUrl:   &#39;img/pin-icon-end.png&#39;,
-                shadowUrl:    &#39;img/pin-shadow.png&#39;,
-                //clickable: true,
-                //showRouteInfo: true
-            },
-        }).on(&#39;loaded&#39;, function(e) {
-            map.fitBounds(e.target.getBounds());
-        }).addTo(map);
-&lt;/script&gt;
+&lt;!--more--&gt;
+ 
 
 
-&lt;p&gt;&lt;img src=&#34;https://erikjohannes.no/posts/20200307-rondane/20200307-rondane-1.jpg&#34; alt=&#34;&#34;&gt;
-På vei oppover bjørkeskogen.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://erikjohannes.no/posts/20200307-rondane/20200307-rondane-3.jpg&#34; alt=&#34;&#34;&gt;
-På toppen av Høgronden med utsikt mot Rondeslottet.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://erikjohannes.no/posts/20200307-rondane/20200307-rondane-4.jpg&#34; alt=&#34;&#34;&gt;
-De to Midtrondene i sikte.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://erikjohannes.no/posts/20200307-rondane/20200307-rondane-5.jpg&#34; alt=&#34;&#34;&gt;
-Flanken til høyre hadde jeg opprinnelig tenkt å stå ned, men der var det&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://erikjohannes.no/posts/20200307-rondane/20200307-rondane-6.jpg&#34; alt=&#34;&#34;&gt;
-På toppen av Midtronden Aust, med utsikt mot Midtronden Vest.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://erikjohannes.no/posts/20200307-rondane/20200307-rondane-9.jpg&#34; alt=&#34;&#34;&gt;
-Sola nærmer seg horisonten, rett over Rondeslottet.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://erikjohannes.no/posts/20200307-rondane/20200307-rondane-10.jpg&#34; alt=&#34;&#34;&gt;
-Nede igjen ved Gammelgarden.&lt;/p&gt;
+&lt;div id=&quot;map&quot; style=&quot;height: 400px; width: 100%;&quot;&gt;
 
-
-&lt;video id=&#34;video&#34; width=&#34;640&#34; height=&#34;480&#34; controls&gt;
-    &lt;source src=&#34;https://erikjohannes.no/posts/20200307-rondane/20200307-rondane-video.mp4&#34; type=&#34;video/mp4&#34;&gt;
-    Your browser does not support the video tag.
-&lt;/video&gt;</description>
-    </item>
-    
-    <item>
-      <title>Skyline Scotland</title>
-      <link>https://erikjohannes.no/posts/20190920-scotland/</link>
-      <pubDate>Fri, 20 Sep 2019 13:27:23 +0200</pubDate>
-      
-      <guid>https://erikjohannes.no/posts/20190920-scotland/</guid>
-      <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;https://erikjohannes.no/js/leaflet/leaflet.css&#34; /&gt;
-&lt;script src=&#34;https://erikjohannes.no/js/leaflet/leaflet.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;https://erikjohannes.no/js/gpx.js&#34;&gt;&lt;/script&gt;
-
-&lt;div id=&#34;map&#34; style=&#34;height: 400px; width: 100%;&#34;&gt;&lt;/div&gt;
-&lt;figcaption&gt;Map of the Glen Coe Skyline route.&lt;/figcaption&gt;
-
-&lt;script&gt;
-        var map = L.map(&#39;map&#39;);//.setView([60.14, 10.25], 11);
-        L.tileLayer(&#39;https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png&#39;, {
-            maxZoom: 17,
-            attribution: &#39;Map data: &amp;copy; &lt;a href=&#34;https://www.openstreetmap.org/copyright&#34;&gt;OpenStreetMap&lt;/a&gt; contributors, &lt;a href=&#34;http://viewfinderpanoramas.org&#34;&gt;SRTM&lt;/a&gt; | Map style: &amp;copy; &lt;a href=&#34;https://opentopomap.org&#34;&gt;OpenTopoMap&lt;/a&gt; (&lt;a href=&#34;https://creativecommons.org/licenses/by-sa/3.0/&#34;&gt;CC-BY-SA&lt;/a&gt;)&#39;
-        }).addTo(map);
-        var gpx = &#39;/posts/20190920-scotland/activity-20190922-glen-coe-skyline.gpx&#39;; 
-        new L.GPX(gpx, {
-            async: true,
-            marker_options: {
-                startIconUrl: &#39;img/pin-icon-start.png&#39;,
-                endIconUrl:   &#39;img/pin-icon-end.png&#39;,
-                shadowUrl:    &#39;img/pin-shadow.png&#39;,
-                //clickable: true,
-                //showRouteInfo: true
-            },
-        }).on(&#39;loaded&#39;, function(e) {
-            map.fitBounds(e.target.getBounds());
-        }).addTo(map);
-&lt;/script&gt;
-
-
-&lt;p&gt;&lt;img src=&#34;https://erikjohannes.no/posts/20190920-scotland/scotland01.jpg&#34; alt=&#34;&#34;&gt;
-View from Na Gruagaichean, the finish line of Mamores VK.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://erikjohannes.no/posts/20190920-scotland/scotland02.jpg&#34; alt=&#34;&#34;&gt;
-The final ridge of Mamores VK.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://erikjohannes.no/posts/20190920-scotland/scotland03.jpg&#34; alt=&#34;&#34;&gt;
-Scottish sunset 1.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://erikjohannes.no/posts/20190920-scotland/scotland04.jpg&#34; alt=&#34;&#34;&gt;
-Scottish sunset 2.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://erikjohannes.no/posts/20190920-scotland/scotland05.jpg&#34; alt=&#34;&#34;&gt;
-Scottish sunset 3.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://erikjohannes.no/posts/20190920-scotland/scotland06.jpg&#34; alt=&#34;&#34;&gt;
-The gear I used during Glen Coe Skyline (I brought only some of the food
-shown in the picture.)&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://erikjohannes.no/posts/20190920-scotland/scotland07.jpg&#34; alt=&#34;&#34;&gt;
-Nervous atmosphere before the start of Glen Coe Skyline.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://erikjohannes.no/posts/20190920-scotland/scotland08.jpg&#34; alt=&#34;&#34;&gt;
-I was running at the tail of the lead pack during the first kilometers
-of the race.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://erikjohannes.no/posts/20190920-scotland/scotland09.jpg&#34; alt=&#34;&#34;&gt;
-This was the last picture I took during the race. At this point I
-understood that things were going much better than expected, and I
-needed to stop fumbling around with my GoPro camera.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://erikjohannes.no/posts/20190920-scotland/scotland10.jpg&#34; alt=&#34;&#34;&gt;
-Finally done.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://erikjohannes.no/posts/20190920-scotland/scotland11.jpg&#34; alt=&#34;&#34;&gt;
-Can&#39;t describe the feelings I had at this moment.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://erikjohannes.no/posts/20190920-scotland/scotland12.jpg&#34; alt=&#34;&#34;&gt;
-A trophy and money. Best prize ever.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://erikjohannes.no/posts/20190920-scotland/scotland13.jpg&#34; alt=&#34;&#34;&gt;
-Rather happy to be on that list of names. Photo credit: Skyline
-Scotland.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Nordmarka</title>
-      <link>https://erikjohannes.no/posts/20190910-nordmarka/</link>
-      <pubDate>Tue, 10 Sep 2019 13:27:23 +0200</pubDate>
-      
-      <guid>https://erikjohannes.no/posts/20190910-nordmarka/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://erikjohannes.no/posts/20190910-nordmarka/1.jpg&#34; alt=&#34;&#34;&gt;
-&lt;img src=&#34;https://erikjohannes.no/posts/20190910-nordmarka/2.jpg&#34; alt=&#34;&#34;&gt;
-&lt;img src=&#34;https://erikjohannes.no/posts/20190910-nordmarka/3.jpg&#34; alt=&#34;&#34;&gt;
-&lt;img src=&#34;https://erikjohannes.no/posts/20190910-nordmarka/4.jpg&#34; alt=&#34;&#34;&gt;
-&lt;img src=&#34;https://erikjohannes.no/posts/20190910-nordmarka/5.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>France</title>
-      <link>https://erikjohannes.no/posts/20190705-france/</link>
-      <pubDate>Fri, 05 Jul 2019 13:27:23 +0200</pubDate>
-      
-      <guid>https://erikjohannes.no/posts/20190705-france/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://erikjohannes.no/posts/20190705-france/france01.jpg&#34; alt=&#34;&#34;&gt;
-&lt;img src=&#34;https://erikjohannes.no/posts/20190705-france/france02.jpg&#34; alt=&#34;&#34;&gt;
-&lt;img src=&#34;https://erikjohannes.no/posts/20190705-france/france03.jpg&#34; alt=&#34;&#34;&gt;
-&lt;img src=&#34;https://erikjohannes.no/posts/20190705-france/france04.jpg&#34; alt=&#34;&#34;&gt;
-&lt;img src=&#34;https://erikjohannes.no/posts/20190705-france/france05.jpg&#34; alt=&#34;&#34;&gt;
-&lt;img src=&#34;https://erikjohannes.no/posts/20190705-france/france06.jpg&#34; alt=&#34;&#34;&gt;
-&lt;img src=&#34;https://erikjohannes.no/posts/20190705-france/france07.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Classifying human activity using tree ensembles</title>
-      <link>https://erikjohannes.no/science/classifying-human-activity-using-tree-ensembles/</link>
-      <pubDate>Sun, 26 May 2019 21:40:08 +0200</pubDate>
-      
-      <guid>https://erikjohannes.no/science/classifying-human-activity-using-tree-ensembles/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Predicting default on credit card</title>
-      <link>https://erikjohannes.no/science/predicting-default-on-credit-card/</link>
-      <pubDate>Sun, 26 May 2019 21:40:08 +0200</pubDate>
-      
-      <guid>https://erikjohannes.no/science/predicting-default-on-credit-card/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Regression and Resampling</title>
-      <link>https://erikjohannes.no/science/regression-and-resampling/</link>
-      <pubDate>Sun, 26 May 2019 21:40:08 +0200</pubDate>
-      
-      <guid>https://erikjohannes.no/science/regression-and-resampling/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Maridalen</title>
-      <link>https://erikjohannes.no/posts/20190310-maridalen/</link>
-      <pubDate>Sun, 10 Mar 2019 13:27:23 +0200</pubDate>
-      
-      <guid>https://erikjohannes.no/posts/20190310-maridalen/</guid>
-      <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;https://erikjohannes.no/js/leaflet/leaflet.css&#34; /&gt;
-&lt;script src=&#34;https://erikjohannes.no/js/leaflet/leaflet.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;https://erikjohannes.no/js/gpx.js&#34;&gt;&lt;/script&gt;
-
-&lt;div id=&#34;map&#34; style=&#34;height: 400px; width: 100%;&#34;&gt;&lt;/div&gt;
-
-&lt;script&gt;
-        var map = L.map(&#39;map&#39;);//.setView([60.14, 10.25], 11);
-        L.tileLayer(&#39;http://opencache.statkart.no/gatekeeper/gk/gk.open_gmaps?layers=topo4&amp;zoom={z}&amp;x={x}&amp;y={y}&#39;, {
-            attribution: &#39;&lt;a href=&#34;http://www.kartverket.no/&#34;&gt;Kartverket&lt;/a&gt;&#39;
-        }).addTo(map);
-        var gpx = &#39;/posts/20190310-maridalen/høgruta-i-maridalen.gpx&#39;; 
-        new L.GPX(gpx, {
-            async: true,
-            marker_options: {
-                startIconUrl: &#39;../images/pin-icon-start.png&#39;,
-                endIconUrl:   &#39;../images/pin-icon-end.png&#39;,
-                shadowUrl:    &#39;../images/pin-shadow.png&#39;,
-                //clickable: true,
-                //showRouteInfo: true
-            },
-        }).on(&#39;loaded&#39;, function(e) {
-            map.fitBounds(e.target.getBounds());
-        }).addTo(map);
-&lt;/script&gt;
-
-
-&lt;p&gt;&lt;img src=&#34;https://erikjohannes.no/posts/20190310-maridalen/maridalen01.jpg&#34; alt=&#34;&#34;&gt;
-&lt;img src=&#34;https://erikjohannes.no/posts/20190310-maridalen/maridalen02.jpg&#34; alt=&#34;&#34;&gt;
-&lt;img src=&#34;https://erikjohannes.no/posts/20190310-maridalen/maridalen03.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Grefsenkollen</title>
-      <link>https://erikjohannes.no/posts/20190217-grefsenkollen/</link>
-      <pubDate>Sun, 17 Feb 2019 13:27:23 +0200</pubDate>
-      
-      <guid>https://erikjohannes.no/posts/20190217-grefsenkollen/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://erikjohannes.no/posts/20190217-grefsenkollen/grefsenkollen1.jpg&#34; alt=&#34;&#34;&gt;
-&lt;img src=&#34;https://erikjohannes.no/posts/20190217-grefsenkollen/grefsenkollen2.jpg&#34; alt=&#34;&#34;&gt;
-&lt;img src=&#34;https://erikjohannes.no/posts/20190217-grefsenkollen/grefsenkollen3.jpg&#34; alt=&#34;&#34;&gt;
-&lt;img src=&#34;https://erikjohannes.no/posts/20190217-grefsenkollen/grefsenkollen4.jpg&#34; alt=&#34;&#34;&gt;
-&lt;img src=&#34;https://erikjohannes.no/posts/20190217-grefsenkollen/grefsenkollen5.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Storlidalen</title>
-      <link>https://erikjohannes.no/posts/20190127-storlidalen/</link>
-      <pubDate>Sun, 27 Jan 2019 13:27:23 +0200</pubDate>
-      
-      <guid>https://erikjohannes.no/posts/20190127-storlidalen/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://erikjohannes.no/posts/20190127-storlidalen/storlidalen1.jpg&#34; alt=&#34;&#34;&gt;
-&lt;img src=&#34;https://erikjohannes.no/posts/20190127-storlidalen/storlidalen2.jpg&#34; alt=&#34;&#34;&gt;
-&lt;img src=&#34;https://erikjohannes.no/posts/20190127-storlidalen/storlidalen3.jpg&#34; alt=&#34;&#34;&gt;
-&lt;img src=&#34;https://erikjohannes.no/posts/20190127-storlidalen/storlidalen4.jpg&#34; alt=&#34;&#34;&gt;
-&lt;img src=&#34;https://erikjohannes.no/posts/20190127-storlidalen/storlidalen5.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Andøya</title>
-      <link>https://erikjohannes.no/posts/20180128-andoya/</link>
-      <pubDate>Mon, 28 May 2018 13:27:23 +0200</pubDate>
-      
-      <guid>https://erikjohannes.no/posts/20180128-andoya/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://erikjohannes.no/posts/20180128-andoya/andoya01.jpg&#34; alt=&#34;&#34;&gt;
-&lt;img src=&#34;https://erikjohannes.no/posts/20180128-andoya/andoya02.jpg&#34; alt=&#34;&#34;&gt;
-&lt;img src=&#34;https://erikjohannes.no/posts/20180128-andoya/andoya03.jpg&#34; alt=&#34;&#34;&gt;
-&lt;img src=&#34;https://erikjohannes.no/posts/20180128-andoya/andoya04.jpg&#34; alt=&#34;&#34;&gt;
-&lt;img src=&#34;https://erikjohannes.no/posts/20180128-andoya/andoya05.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Svalbard</title>
-      <link>https://erikjohannes.no/posts/20160530-svalbard/</link>
-      <pubDate>Mon, 30 May 2016 13:27:23 +0200</pubDate>
-      
-      <guid>https://erikjohannes.no/posts/20160530-svalbard/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://erikjohannes.no/posts/20160530-svalbard/svalbard01.jpg&#34; alt=&#34;&#34;&gt;
-&lt;img src=&#34;https://erikjohannes.no/posts/20160530-svalbard/svalbard02.jpg&#34; alt=&#34;&#34;&gt;
-&lt;img src=&#34;https://erikjohannes.no/posts/20160530-svalbard/svalbard03.jpg&#34; alt=&#34;&#34;&gt;
-&lt;img src=&#34;https://erikjohannes.no/posts/20160530-svalbard/svalbard04.jpg&#34; alt=&#34;&#34;&gt;
-&lt;img src=&#34;https://erikjohannes.no/posts/20160530-svalbard/svalbard05.jpg&#34; alt=&#34;&#34;&gt;
-&lt;img src=&#34;https://erikjohannes.no/posts/20160530-svalbard/svalbard06.jpg&#34; alt=&#34;&#34;&gt;
-&lt;img src=&#34;https://erikjohannes.no/posts/20160530-svalbard/svalbard07.jpg&#34; alt=&#34;&#34;&gt;
-&lt;img src=&#34;https://erikjohannes.no/posts/20160530-svalbard/svalbard08.jpg&#34; alt=&#34;&#34;&gt;
-&lt;img src=&#34;https://erikjohannes.no/posts/20160530-svalbard/svalbard09.jpg&#34; alt=&#34;&#34;&gt;
-&lt;img src=&#34;https://erikjohannes.no/posts/20160530-svalbard/svalbard10.jpg&#34; alt=&#34;&#34;&gt;
-&lt;img src=&#34;https://erikjohannes.no/posts/20160530-svalbard/svalbard11.jpg&#34; alt=&#34;&#34;&gt;
-&lt;img src=&#34;https://erikjohannes.no/posts/20160530-svalbard/svalbard12.jpg&#34; alt=&#34;&#34;&gt;
-&lt;img src=&#34;https://erikjohannes.no/posts/20160530-svalbard/svalbard13.jpg&#34; alt=&#34;&#34;&gt;
-&lt;img src=&#34;https://erikjohannes.no/posts/20160530-svalbard/svalbard14.jpg&#34; alt=&#34;&#34;&gt;
-&lt;img src=&#34;https://erikjohannes.no/posts/20160530-svalbard/svalbard15.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Femundløpet</title>
-      <link>https://erikjohannes.no/posts/20140131-femundlopet/</link>
-      <pubDate>Sun, 02 Feb 2014 13:27:23 +0200</pubDate>
-      
-      <guid>https://erikjohannes.no/posts/20140131-femundlopet/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://erikjohannes.no/posts/20140131-femundlopet/femundlopet-1.jpg&#34; alt=&#34;&#34;&gt;
-&lt;img src=&#34;https://erikjohannes.no/posts/20140131-femundlopet/femundlopet-2.jpg&#34; alt=&#34;&#34;&gt;
-&lt;img src=&#34;https://erikjohannes.no/posts/20140131-femundlopet/femundlopet-3.jpg&#34; alt=&#34;&#34;&gt;
-&lt;img src=&#34;https://erikjohannes.no/posts/20140131-femundlopet/femundlopet-4.jpg&#34; alt=&#34;&#34;&gt;
-&lt;img src=&#34;https://erikjohannes.no/posts/20140131-femundlopet/femundlopet-5.jpg&#34; alt=&#34;&#34;&gt;
-&lt;img src=&#34;https://erikjohannes.no/posts/20140131-femundlopet/femundlopet-6.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Adventure</title>
-      <link>https://erikjohannes.no/photography/adventure/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://erikjohannes.no/photography/adventure/</guid>
-      <description>
-
-
-&lt;style&gt;
-body {
-    max-width: 1500px;
-}
-&lt;/style&gt;
-
-    &lt;section class=imagemasonry&gt;
-        &lt;section class=imageitem&gt;
-            &lt;a href=https://erikjohannes.no/photography/adventure/Styggebrean-crossing.jpg&gt;&lt;img class=&#34;image_thumb&#34; src=&#39;https://erikjohannes.no/photography/adventure/Styggebrean-crossing.jpg&#39; title=&#34;People crossing Styggebrean, Jotunheimen, Norway.&#34;/&gt;&lt;/a&gt;
-        &lt;/section&gt;
-        &lt;section class=imageitem&gt;
-            &lt;a href=https://erikjohannes.no/photography/adventure/Grefsenkollen-skimo.jpg&gt;&lt;img class=&#34;image_thumb&#34; src=&#39;https://erikjohannes.no/photography/adventure/Grefsenkollen-skimo.jpg&#39; title=&#34;Urban skimo-workout during sundown at Grefsenkollen, Norway.&#34;/&gt;&lt;/a&gt;
-        &lt;/section&gt;
-        &lt;section class=imageitem&gt;
-            &lt;a href=https://erikjohannes.no/photography/adventure/Kråkvasstind-skin-tracks.jpg&gt;&lt;img class=&#34;image_thumb&#34; src=&#39;https://erikjohannes.no/photography/adventure/Kråkvasstind-skin-tracks.jpg&#39; title=&#34;Skin tracks past Kråkvasstind, Norway.&#34;/&gt;&lt;/a&gt;
-        &lt;/section&gt;
-        &lt;section class=imageitem&gt;
-            &lt;a href=https://erikjohannes.no/photography/adventure/Larstind-run.jpg&gt;&lt;img class=&#34;image_thumb&#34; src=&#39;https://erikjohannes.no/photography/adventure/Larstind-run.jpg&#39; title=&#34;On the trail to Larstind, Dovrefjell, Norway.&#34;/&gt;&lt;/a&gt;
-        &lt;/section&gt;
-    &lt;/section&gt;
-
-
-
-</description>
-    </item>
-    
-    <item>
-      <title>Cycling hills</title>
-      <link>https://erikjohannes.no/cycling-hills/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://erikjohannes.no/cycling-hills/</guid>
-      <description>
-
-&lt;link rel=&#34;stylesheet&#34; href=&#34;https://erikjohannes.no/js/leaflet/leaflet.css&#34; /&gt;
-&lt;script src=&#34;https://erikjohannes.no/js/leaflet/leaflet.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;https://erikjohannes.no/js/gpx.js&#34;&gt;&lt;/script&gt;
-  
-&lt;p&gt;On this page you will find a collection of hills that are perfect for testing your bike climbing skills.&lt;/p&gt;
-&lt;ul&gt;
-    &lt;li&gt;Use the overlay menu in the top right corner of the map to select/deselect the routes you want to see.&lt;/li&gt;
-    &lt;li&gt;Click on the start marker to get info about the route.&lt;/li&gt;
-    &lt;li&gt;GPX-files can be download from &lt;a href=&#34;https://github.com/ejhusom/ejhusom.github.io/tree/master/cycling-hills&#34;&gt;this link&lt;/a&gt;.&lt;/li&gt;
-    &lt;li&gt;If you have suggestions for hills to be added, send them to me using my &lt;a href=&#34;index.html#about&#34;&gt;contact info&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;nav id=&#34;fixedMenu&#34;&gt;
-    &lt;h3&gt;Areas:&lt;/h3&gt;
-    &lt;ul&gt;
-        &lt;li&gt;&lt;a href=&#34;#Norway&#34;&gt;Norway&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;#France&#34;&gt;France&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-&lt;/nav&gt;
-
-&lt;br&gt;
-&lt;hr&gt;
-
-&lt;h3 class=space id=&#34;Norway&#34;&gt;Cycling hills in Norway&lt;/h3&gt;
-&lt;div id=&#34;norwayMap&#34; style=&#34;height: 600px; width: 100%;&#34;&gt;&lt;/div&gt;
-&lt;br&gt;
-
-&lt;hr&gt;
-&lt;h3 class=space id=&#34;France&#34;&gt;Cycling hills in France&lt;/h3&gt;
-&lt;div id=&#34;franceMap&#34; style=&#34;height: 600px; width: 100%;&#34;&gt;&lt;/div&gt;
-
-&lt;script&gt;
-    var norwayMap = L.map(&#39;norwayMap&#39;).setView([65.50, 13.00], 4);
-    L.tileLayer(&#39;https://opencache.statkart.no/gatekeeper/gk/gk.open_gmaps?layers=topo4&amp;zoom={z}&amp;x={x}&amp;y={y}&#39;, {
-        attribution: &#39;&lt;a href=&#34;http://www.kartverket.no/&#34;&gt;Kartverket&lt;/a&gt;&#39;
-    }).addTo(norwayMap);
-    var norwayControl = L.control.layers(null, null).addTo(norwayMap);
-
-    var franceMap = L.map(&#39;franceMap&#39;).setView([48.00, 1.90], 5);
-    L.tileLayer(&#39;https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png&#39;, {
-        maxZoom: 17,
-        attribution: &#39;Map data: &amp;copy; &lt;a href=&#34;https://www.openstreetmap.org/copyright&#34;&gt;OpenStreetMap&lt;/a&gt; contributors, &lt;a href=&#34;http://viewfinderpanoramas.org&#34;&gt;SRTM&lt;/a&gt; | Map style: &amp;copy; &lt;a href=&#34;https://opentopomap.org&#34;&gt;OpenTopoMap&lt;/a&gt; (&lt;a href=&#34;https://creativecommons.org/licenses/by-sa/3.0/&#34;&gt;CC-BY-SA&lt;/a&gt;)&#39;
-    }).addTo(franceMap);
-    var franceControl = L.control.layers(null, null).addTo(franceMap);
-
-    function plotGPX(map, control, url) {
-        var yo = new L.GPX(url, {
-            async: true,
-            marker_options: {
-                startIconUrl: &#39;img/pin-icon-start.png&#39;,
-                endIconUrl:   &#39;img/pin-icon-end.png&#39;,
-                shadowUrl:    &#39;img/pin-shadow.png&#39;,
-                //iconSize: [16, 25],
-                //shadowSize: [25, 25],
-                //iconAnchor: [32, 90],
-                //shadowAnchor: [32, 94],
-                clickable: true,
-                showRouteInfo: true
-            },
-        }).on(&#39;loaded&#39;, function(e) {
-            control.addOverlay(
-                e.target, e.target.get_name() 
-                + &#34;: &#34; + (e.target.get_distance()/1000).toFixed(2) + &#34; km&#34;
-                + &#34;, elev. gain: &#34; + e.target.get_elevation_gain().toFixed(0) + &#34; m&#34;
-                + &#34; (&#34; + e.target.get_elevation_min().toFixed(0) + &#34;/&#34;
-                + e.target.get_elevation_max().toFixed(0) + &#34; masl).&#34;
-            );
-        }).addTo(map);
-    }
-
-    var dir = &#34;/cycling-hills/&#34;
-    plotGPX(norwayMap, norwayControl, dir + &#34;Gressbanen-Tryvann.gpx&#34;);
-    plotGPX(norwayMap, norwayControl, dir + &#34;Kvål-Vassfjellet.gpx&#34;);
-    plotGPX(norwayMap, norwayControl, dir + &#34;Vengedalen.gpx&#34;);
-    plotGPX(norwayMap, norwayControl, dir + &#34;Ljabrubakken.gpx&#34;);
-    plotGPX(norwayMap, norwayControl, dir + &#34;Skeidbanen-Grefsenkollen.gpx&#34;);
-    plotGPX(norwayMap, norwayControl, dir + &#34;Stavne-LilleGråkallen.gpx&#34;);
-    plotGPX(norwayMap, norwayControl, dir + &#34;Trollstigen.gpx&#34;);
-    plotGPX(franceMap, franceControl, dir + &#34;AlpedHuez.gpx&#34;);
-&lt;/script&gt;
-
-
-
-
-</description>
-    </item>
-    
-    <item>
-      <title>Landscape</title>
-      <link>https://erikjohannes.no/photography/landscape/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://erikjohannes.no/photography/landscape/</guid>
-      <description>
-
-
-&lt;style&gt;
-body {
-    max-width: 1500px;
-}
-&lt;/style&gt;
-
-    &lt;section class=imagemasonry&gt;
-        &lt;section class=imageitem&gt; &lt;a href=https://erikjohannes.no/photography/landscape/Barre-des-Écrins.jpg&gt;&lt;img
-                class=&#34;image_thumb&#34; src=&#39;https://erikjohannes.no/photography/landscape/Barre-des-Écrins.jpg&#39;
-                title=&#34;View from Refuge des Écrins towards Barre des Écrins (4102 masl.), France.&#34;/&gt;&lt;/a&gt; &lt;/section&gt;
-        &lt;section class=imageitem&gt;
-            &lt;a href=https://erikjohannes.no/photography/landscape/Annecy-mountains.jpg&gt;&lt;img class=&#34;image_thumb&#34; src=&#39;https://erikjohannes.no/photography/landscape/Annecy-mountains.jpg&#39; title=&#34;View from Pointe de Banc Plat, Annecy, France.&#34;/&gt;&lt;/a&gt;
-        &lt;/section&gt;
-        &lt;section class=imageitem&gt;
-            &lt;a href=https://erikjohannes.no/photography/landscape/Forest-sun-light.jpg&gt;&lt;img class=&#34;image_thumb&#34; src=&#39;https://erikjohannes.no/photography/landscape/Forest-sun-light.jpg&#39; title=&#34;Morning has broken in Nordmarka, Oslo, Norway.&#34;/&gt;&lt;/a&gt;
-        &lt;/section&gt;
-        &lt;section class=imageitem&gt;
-            &lt;a href=https://erikjohannes.no/photography/landscape/Andøya-aurora.jpg&gt;&lt;img class=&#34;image_thumb&#34;
-                src=&#39;https://erikjohannes.no/photography/landscape/Andøya-aurora.jpg&#39; title=&#34;Northern lights at Andøya, Norway.&#34;/&gt;&lt;/a&gt;
-        &lt;/section&gt;
-        &lt;section class=imageitem&gt;
-            &lt;a href=https://erikjohannes.no/photography/landscape/Dovre-autumn-2.jpg&gt;&lt;img class=&#34;image_thumb&#34; src=&#39;https://erikjohannes.no/photography/landscape/Dovre-autumn-2.jpg&#39; title=&#34;Autumn in Dovrefjell, Norway.&#34;/&gt;&lt;/a&gt;
-        &lt;/section&gt;
-        &lt;section class=imageitem&gt;
-            &lt;a href=&#39;https://erikjohannes.no/photography/landscape/Svalbard-mountain.jpg&#39;&gt;&lt;img class=&#34;image_thumb&#34; src=&#39;https://erikjohannes.no/photography/landscape/Svalbard-mountain.resized.jpg&#39; title=&#39;Mountain landscape at Svalbard.&#39;/&gt;&lt;/a&gt;
-        &lt;/section&gt;
-        &lt;section class=imageitem&gt;
-            &lt;a href=https://erikjohannes.no/photography/landscape/Mont-Blanc.jpg&gt;&lt;img class=&#34;image_thumb&#34; src=&#39;https://erikjohannes.no/photography/landscape/Mont-Blanc.jpg&#39; title=&#34;Mont Blanc.&#34;/&gt;&lt;/a&gt;
-        &lt;/section&gt;
-        &lt;section class=imageitem&gt;
-            &lt;a href=&#39;https://erikjohannes.no/photography/landscape/Alps-mountain.jpg&#39;&gt;&lt;img class=&#34;image_thumb&#34; src=&#39;https://erikjohannes.no/photography/landscape/Alps-mountain.jpg&#39; title=&#39;Mountain landscape in Berchtesgaden, Germany.&#39;/&gt;&lt;/a&gt;
-        &lt;/section&gt;
-        &lt;section class=imageitem&gt;
-            &lt;a href=https://erikjohannes.no/photography/landscape/Folldal-landscape.jpg&gt;&lt;img class=&#34;image_thumb&#34; src=&#39;https://erikjohannes.no/photography/landscape/Folldal-landscape.jpg&#39; title=&#34;View towards Rondane, taken in Folldal, Norway.&#34;/&gt;&lt;/a&gt;
-        &lt;/section&gt;
-        &lt;section class=imageitem&gt;
-            &lt;a href=https://erikjohannes.no/photography/landscape/Alps-cross.jpg&gt;&lt;img class=&#34;image_thumb&#34; src=&#39;https://erikjohannes.no/photography/landscape/Alps-cross.jpg&#39; title=&#34;A cross in the Alps.&#34;/&gt;&lt;/a&gt;
-        &lt;/section&gt;
-        &lt;section class=imageitem&gt;
-            &lt;a href=https://erikjohannes.no/photography/landscape/Dovre-autumn.jpg&gt;&lt;img class=&#34;image_thumb&#34; src=&#39;https://erikjohannes.no/photography/landscape/Dovre-autumn.jpg&#39; title=&#34;Autumn in Dovrefjell, Norway.&#34;/&gt;&lt;/a&gt;
-        &lt;/section&gt;
-        &lt;section class=imageitem&gt;
-            &lt;a href=https://erikjohannes.no/photography/landscape/Andøya-mountains-people.jpg&gt;&lt;img class=&#34;image_thumb&#34;
-                src=&#39;https://erikjohannes.no/photography/landscape/Andøya-mountains-people.jpg&#39; title=&#34;Standing
-                beneath the mountains of Andøya, Norway.&#34;/&gt;&lt;/a&gt;
-        &lt;/section&gt;
-    &lt;/section&gt;
-
-&lt;!--
-&lt;div class=&#34;responsive&#34;&gt;
-  &lt;div class=&#34;gallery&#34;&gt;
-    &lt;a target=&#34;_blank&#34; href=&#34;https://erikjohannes.no/photography/landscape/Alps-mountain.jpg&#34;&gt;
-      &lt;img src=&#34;https://erikjohannes.no/photography/landscape/Alps-mountain.jpg&#34; alt=&#34;Peak near Hochkalter, Berchtesgaden, Germany.&#34;&gt;
-    &lt;/a&gt;
-    &lt;div class=&#34;desc&#34;&gt;Peak near Hochkalter, Berchtesgaden, Germany.&lt;/div&gt;
-  &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div class=&#34;responsive&#34;&gt;
-  &lt;div class=&#34;gallery&#34;&gt;
-    &lt;a target=&#34;_blank&#34; href=&#34;https://erikjohannes.no/photography/landscape/Alps-cross.jpg&#34;&gt;
-      &lt;img src=&#34;https://erikjohannes.no/photography/landscape/Alps-cross.jpg&#34; alt=&#34;Peak near Höher Göll, Berchtesgaden, Germany.&#34;&gt;
-    &lt;/a&gt;
-    &lt;div class=&#34;desc&#34;&gt;Peak near Höher Göll, Berchtesgaden, Germany.&lt;/div&gt;
-  &lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://erikjohannes.no/posts/20200307-rondane/20200307-rondane-1.jpg&quot; /&gt; På vei oppover bjørkeskogen.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://erikjohannes.no/posts/20200307-rondane/20200307-rondane-3.jpg&quot; /&gt; På toppen av Høgronden med utsikt mot Rondeslottet.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://erikjohannes.no/posts/20200307-rondane/20200307-rondane-4.jpg&quot; /&gt; De to Midtrondene i sikte.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://erikjohannes.no/posts/20200307-rondane/20200307-rondane-5.jpg&quot; /&gt; Flanken til høyre hadde jeg opprinnelig tenkt å stå ned, men der var det&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://erikjohannes.no/posts/20200307-rondane/20200307-rondane-6.jpg&quot; /&gt; På toppen av Midtronden Aust, med utsikt mot Midtronden Vest.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://erikjohannes.no/posts/20200307-rondane/20200307-rondane-9.jpg&quot; /&gt; Sola nærmer seg horisonten, rett over Rondeslottet.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://erikjohannes.no/posts/20200307-rondane/20200307-rondane-10.jpg&quot; /&gt; Nede igjen ved Gammelgarden.&lt;/p&gt;
+&lt;p&gt; &lt;video id=&quot;video&quot; width=&quot;640&quot; height=&quot;480&quot; controls&gt; &lt;source src=&quot;https://erikjohannes.no/posts/20200307-rondane/20200307-rondane-video.mp4&quot; type=&quot;video/mp4&quot;&gt; Your browser does not support the video tag. &lt;/video&gt; &lt;/p&gt;
+ </description>
+        </item>
+        <item>
+            <title>Skyline Scotland
+</title>
+            <link>https://erikjohannes.no/posts/20190920-scotland/index.html</link>
+            <pubDate>Fri, 20 Sep 2019 00:00:00 -0000</pubDate>
+            <guid>https://erikjohannes.no/posts/20190920-scotland/index.html</guid>
+            <description>&lt;!--more--&gt;
+
+
+
+&lt;div id=&quot;map&quot; style=&quot;height: 400px; width: 100%;&quot;&gt;
+
+&lt;/div&gt;
+&lt;figcaption&gt;
+Map of the Glen Coe Skyline route.
+&lt;/figcaption&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://erikjohannes.no/posts/20190920-scotland/scotland01.jpg&quot; /&gt; View from Na Gruagaichean, the finish line of Mamores VK.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://erikjohannes.no/posts/20190920-scotland/scotland02.jpg&quot; /&gt; The final ridge of Mamores VK.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://erikjohannes.no/posts/20190920-scotland/scotland03.jpg&quot; /&gt; Scottish sunset 1.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://erikjohannes.no/posts/20190920-scotland/scotland04.jpg&quot; /&gt; Scottish sunset 2.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://erikjohannes.no/posts/20190920-scotland/scotland05.jpg&quot; /&gt; Scottish sunset 3.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://erikjohannes.no/posts/20190920-scotland/scotland06.jpg&quot; /&gt; The gear I used during Glen Coe Skyline (I brought only some of the food shown in the picture.)&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://erikjohannes.no/posts/20190920-scotland/scotland07.jpg&quot; /&gt; Nervous atmosphere before the start of Glen Coe Skyline.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://erikjohannes.no/posts/20190920-scotland/scotland08.jpg&quot; /&gt; I was running at the tail of the lead pack during the first kilometers of the race.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://erikjohannes.no/posts/20190920-scotland/scotland09.jpg&quot; /&gt; This was the last picture I took during the race. At this point I understood that things were going much better than expected, and I needed to stop fumbling around with my GoPro camera.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://erikjohannes.no/posts/20190920-scotland/scotland10.jpg&quot; /&gt; Finally done.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://erikjohannes.no/posts/20190920-scotland/scotland11.jpg&quot; /&gt; Can&#x27;t describe the feelings I had at this moment.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://erikjohannes.no/posts/20190920-scotland/scotland12.jpg&quot; /&gt; A trophy and money. Best prize ever.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://erikjohannes.no/posts/20190920-scotland/scotland13.jpg&quot; /&gt; Rather happy to be on that list of names. Photo credit: Skyline Scotland.&lt;/p&gt;
+ </description>
+        </item>
+        <item>
+            <title>Nordmarka
+</title>
+            <link>https://erikjohannes.no/posts/20190910-nordmarka/index.html</link>
+            <pubDate>Tue, 10 Sep 2019 00:00:00 -0000</pubDate>
+            <guid>https://erikjohannes.no/posts/20190910-nordmarka/index.html</guid>
+            <description>&lt;p&gt;&lt;img src=&quot;https://erikjohannes.no/posts/20190910-nordmarka/1.jpg&quot; /&gt; &lt;img src=&quot;https://erikjohannes.no/posts/20190910-nordmarka/2.jpg&quot; /&gt; &lt;img src=&quot;https://erikjohannes.no/posts/20190910-nordmarka/3.jpg&quot; /&gt; &lt;img src=&quot;https://erikjohannes.no/posts/20190910-nordmarka/4.jpg&quot; /&gt; &lt;img src=&quot;https://erikjohannes.no/posts/20190910-nordmarka/5.jpg&quot; /&gt;&lt;/p&gt;
+ </description>
+        </item>
+        <item>
+            <title>France
+</title>
+            <link>https://erikjohannes.no/posts/20190705-france/index.html</link>
+            <pubDate>Fri, 05 Jul 2019 00:00:00 -0000</pubDate>
+            <guid>https://erikjohannes.no/posts/20190705-france/index.html</guid>
+            <description>&lt;p&gt;&lt;img src=&quot;https://erikjohannes.no/posts/20190705-france/france01.jpg&quot; /&gt; &lt;img src=&quot;https://erikjohannes.no/posts/20190705-france/france02.jpg&quot; /&gt; &lt;img src=&quot;https://erikjohannes.no/posts/20190705-france/france03.jpg&quot; /&gt; &lt;img src=&quot;https://erikjohannes.no/posts/20190705-france/france04.jpg&quot; /&gt; &lt;img src=&quot;https://erikjohannes.no/posts/20190705-france/france05.jpg&quot; /&gt; &lt;img src=&quot;https://erikjohannes.no/posts/20190705-france/france06.jpg&quot; /&gt; &lt;img src=&quot;https://erikjohannes.no/posts/20190705-france/france07.jpg&quot; /&gt;&lt;/p&gt;
+ </description>
+        </item>
+        <item>
+            <title>Maridalen
+</title>
+            <link>https://erikjohannes.no/posts/20190310-maridalen/index.html</link>
+            <pubDate>Sun, 10 Mar 2019 00:00:00 -0000</pubDate>
+            <guid>https://erikjohannes.no/posts/20190310-maridalen/index.html</guid>
+            <description>&lt;!--more--&gt;
+ 
+
+
+&lt;div id=&quot;map&quot; style=&quot;height: 400px; width: 100%;&quot;&gt;
+
 &lt;/div&gt;
 
-&lt;div class=&#34;responsive&#34;&gt;
-  &lt;div class=&#34;gallery&#34;&gt;
-    &lt;a target=&#34;_blank&#34; href=&#34;https://erikjohannes.no/photography/landscape/Andøya-aurora.jpg&#34;&gt;
-      &lt;img src=&#34;https://erikjohannes.no/photography/landscape/Andøya-aurora.jpg&#34; alt=&#34;Aurora over Andøya, Norway.&#34;&gt;
-    &lt;/a&gt;
-    &lt;div class=&#34;desc&#34;&gt;Aurora over Anødya, Norway.&lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;responsive&#34;&gt;
-  &lt;div class=&#34;gallery&#34;&gt;
-    &lt;a target=&#34;_blank&#34; href=&#34;https://erikjohannes.no/photography/landscape/Andøya-mountains-people.jpg&#34;&gt;
-      &lt;img src=&#34;https://erikjohannes.no/photography/landscape/Andøya-mountains-people.jpg&#34; alt=&#34;Mountains at Andøya&#34;&gt;
-    &lt;/a&gt;
-    &lt;div class=&#34;desc&#34;&gt;Mountains at Andøya.&lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;responsive&#34;&gt;
-  &lt;div class=&#34;gallery&#34;&gt;
-    &lt;a target=&#34;_blank&#34; href=&#34;https://erikjohannes.no/photography/landscape/Annecy-mountains.jpg&#34;&gt;
-      &lt;img src=&#34;https://erikjohannes.no/photography/landscape/Annecy-mountains.jpg&#34; alt=&#34;Mountains in Annecy, France.&#34;&gt;
-    &lt;/a&gt;
-    &lt;div class=&#34;desc&#34;&gt;Mountains in Annecy, France.&lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;responsive&#34;&gt;
-  &lt;div class=&#34;gallery&#34;&gt;
-    &lt;a target=&#34;_blank&#34; href=&#34;https://erikjohannes.no/photography/landscape/Barre-des-Écrins.jpg&#34;&gt;
-      &lt;img src=&#34;https://erikjohannes.no/photography/landscape/Barre-des-Écrins.jpg&#34; alt=&#34;Barre des Écrins, France.&#34;&gt;
-    &lt;/a&gt;
-    &lt;div class=&#34;desc&#34;&gt;Barre des Ècrins, France&lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;responsive&#34;&gt;
-  &lt;div class=&#34;gallery&#34;&gt;
-    &lt;a target=&#34;_blank&#34; href=&#34;https://erikjohannes.no/photography/landscape/Dovre-autumn.jpg&#34;&gt;
-      &lt;img src=&#34;https://erikjohannes.no/photography/landscape/Dovre-autumn.jpg&#34; alt=&#34;Dovrefjell,
-      Norway&#34;&gt;
-    &lt;/a&gt;
-    &lt;div class=&#34;desc&#34;&gt;Dovrefjell, Norway.&lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
---&gt;
-
-
-</description>
-    </item>
-    
-    <item>
-      <title>Man&#39;s best friend</title>
-      <link>https://erikjohannes.no/photography/mans-best-friend/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://erikjohannes.no/photography/mans-best-friend/</guid>
-      <description>
-
-
-&lt;style&gt;
-body {
-    max-width: 1500px;
-}
-&lt;/style&gt;
-
-    &lt;section class=imagemasonry&gt;
-        &lt;section class=imageitem&gt;
-            &lt;a href=&#39;https://erikjohannes.no/photography/mans-best-friend/Border-collie-winter-2.jpg&#39;&gt;&lt;img class=&#34;image_thumb&#34; src=&#39;https://erikjohannes.no/photography/mans-best-friend/Border-collie-winter-2.jpg&#39; title=&#39;Grefsekollen, Norway.&#39;/&gt;&lt;/a&gt;
-        &lt;/section&gt;
-        &lt;section class=imageitem&gt;
-            &lt;a href=&#39;https://erikjohannes.no/photography/mans-best-friend/Husky.jpg&#39;&gt;&lt;img class=&#34;image_thumb&#34; src=&#39;https://erikjohannes.no/photography/mans-best-friend/Husky.resized.jpg&#39; title=&#39;On our way to Hestbrepiggan, Jotunheimen, Norway.&#39;/&gt;&lt;/a&gt;
-        &lt;/section&gt;
-    &lt;/section&gt;
-
-
-
-
-
-</description>
-    </item>
-    
-    <item>
-      <title>Mountain conditions</title>
-      <link>https://erikjohannes.no/mountain-conditions/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://erikjohannes.no/mountain-conditions/</guid>
-      <description>
-
-&lt;base href=&#34;http://localhost:1313/&#34;&gt;
-&lt;p&gt; 
-    This page provides a collection of webcameras from various
-    sources and weather forecasts from &lt;a
-    href=&#34;https://www.yr.no/&#34;&gt;yr.no&lt;/a&gt; for some of the most popular
-    alpine/mountain areas in southern Norway. The page is under
-    development.
-&lt;/p&gt;
-
-&lt;nav id=&#34;fixedMenu&#34;&gt;
-    &lt;h3&gt;Areas:&lt;/h3&gt;
-    &lt;ul&gt;
-        &lt;li&gt;&lt;a href=&#34;mountain-conditions/#Dovrefjell&#34;&gt;Dovrefjell&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;mountain-conditions/#Folldal&#34;&gt;Folldal&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;mountain-conditions/#Jotunheimen-Sognefjellet&#34;&gt;Jotunheimen - Sognefjellet&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;mountain-conditions/#Jotunheimen-Valdresflye&#34;&gt;Jotunheimen - Valdresflye&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;mountain-conditions/#Meråker&#34;&gt;Meråker&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;mountain-conditions/#Oslo&#34;&gt;Oslo&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;mountain-conditions/#Romsdal&#34;&gt;Romsdal&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;mountain-conditions/#Rondane&#34;&gt;Rondane&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;mountain-conditions/#Sunndalsøra&#34;&gt;Sunndalsøra&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;mountain-conditions/#Sylan&#34;&gt;Sylan&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;mountain-conditions/#Todalen&#34;&gt;Todalen&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;mountain-conditions/#Trollheimen&#34;&gt;Trollheimen&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;mountain-conditions/#Trondheim&#34;&gt;Trondheim&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-&lt;/nav&gt;
-
-&lt;h3&gt;Other useful tools:&lt;/h3&gt;
-&lt;nav&gt;
-    &lt;ul&gt;
-        &lt;li&gt;&lt;a href=&#34;https://www.varsom.no/snoskredvarsling/&#34;&gt;Varsom - avalanche forecast&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://www.regobs.no/Avalanche/SearchObservations/#/Map/?SelectedNumberOfDays=3&#34;&gt;regObs - avalanche observations&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://www.yr.no/&#34;&gt;yr.no - weather forecast&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://www.senorge.no/index.html?p=senorgeny&amp;st=snow&#34;&gt;senorge.no - snow conditions&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://geodata.ngi.no/arcgisportal/apps/webappviewer/index.html?id=fd597e0179fe479b9274d95a90b00931&#34;&gt;geodata.ngi.no - slopes and topography (bratthetskart)&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-&lt;/nav&gt;
-
-
-&lt;section&gt;
-    &lt;hr&gt;
-    &lt;h3 class=space id=&#34;Dovrefjell&#34;&gt;Dovrefjell&lt;/h3&gt;
-    &lt;hr&gt;
-
-    &lt;section&gt;
-        &lt;h4&gt;Grønbakken&lt;/h4&gt;
-        &lt;a href=&#34;http://www.vegvesen.no/public/webkamera/kamera?id=109026&#34;&gt;&lt;img src=&#34;http://www.vegvesen.no/public/webkamera/kamera?id=109026&#34; data-src=&#34;http://www.vegvesen.no/public/webkamera/kamera?id=109026&#34; class=webcam alt=&#34;https://www.vegvesen.no/public/webkamera/kamera?id=109026&#34;&gt;&lt;/a&gt;
-    &lt;/section&gt;
-    &lt;section&gt;
-        &lt;h4&gt;E6 Hjerkinn&lt;/h4&gt;
-        &lt;a href=&#34;http://webkamera.vegvesen.no/kamera?id=298294&#34; &gt;&lt;img src=&#34;http://webkamera.vegvesen.no/kamera?id=298294&#34; alt=&#34;http://webkamera.vegvesen.no/kamera?id=298294&#34; class=webcam&gt;&lt;/a&gt;
-        &lt;img src=&#34;https://www.yr.no/place/Norway/Oppland/Dovre/Hjerkinn/meteogram.png&#34; class=webcam&gt;
-    &lt;/section&gt;
-
-&lt;/section&gt;
-
-&lt;section&gt;
-    &lt;hr&gt;
-    &lt;h3 class=space id=&#34;Folldal&#34;&gt;Folldal&lt;/h3&gt;
-    &lt;hr&gt;
-
-    &lt;section&gt;
-        &lt;img src=&#34;https://www.yr.no/place/Norway/Innlandet/Folldal/Folldal/meteogram.png&#34; class=webcam&gt;
-   &lt;/section&gt;
-
-&lt;/section&gt;
-
-&lt;section&gt;
-    &lt;hr&gt;
-    &lt;h3 class=space id=&#34;Jotunheimen-Sognefjellet&#34;&gt;Jotunheimen - Sognefjellet&lt;/h3&gt;
-    &lt;hr&gt;
-    &lt;section&gt;
-        &lt;h4&gt;Turtagrø&lt;/h4&gt;
-        &lt;img class=&#39;webcam&#39; src=&#34;https://www.mkit.no/images/image_00001.jpg&#34;&gt;
-    &lt;!-- &lt;a name=&#34;lkr-timelapse-player&#34; data-id=&#34;1315029812&#34; data-play=&#34;day&#34; href=&#34;https://lookr.com/1315029812&#34; target=&#34;_blank&#34;&gt;Bjørk: Turtagrø&lt;/a&gt;&lt;script async type=&#34;text/javascript&#34; src=&#34;https://api.lookr.com/embed/script/player.js&#34;&gt;&lt;/script&gt; --&gt;
-        &lt;img src=&#34;https://www.yr.no/place/Norway/Sogn_og_Fjordane/Luster/Turtagr%C3%B8_hotell/meteogram.png&#34; class=webcam&gt;
-    &lt;/section&gt;
-    &lt;hr&gt;
-    &lt;section&gt;
-        &lt;h4&gt;Sognefjellshytta (retning Lom)&lt;/h4&gt;
-            &lt;!-- &lt;a name=&#34;lkr-timelapse-player&#34; data-id=&#34;1479077020&#34; data-play=&#34;day&#34; href=&#34;https://lookr.com/1479077020&#34; target=&#34;_blank&#34;&gt;Bøverkinnhalsen: F55 Sognefjellet (Retning mot Lom)&lt;/a&gt;&lt;script async type=&#34;text/javascript&#34; src=&#34;https://api.lookr.com/embed/script/player.js&#34;&gt;&lt;/script&gt;
-            --&gt;
-            &lt;a href=&#34;https://www.vegvesen.no/Trafikkinformasjon/Reiseinformasjon/Trafikkmeldinger/Webkamera?kamera=1608508&amp;zoom=7&#34; target=&#34;_blank&#34; &gt;&lt;img class=&#39;webcam&#39; src=&#34;http://www.vegvesen.no/public/webkamera/kamera?id=1608508&#34; alt=&#34;https://www.vegvesen.no/public/webkamera/kamera?id=1608508&#34;&gt;&lt;/a&gt;
-            &lt;img src=&#34;https://www.yr.no/place/Norway/Oppland/Lom/Sognefjellshytta/meteogram.png&#34; class=webcam&gt;
-    &lt;/section&gt;
-    &lt;hr&gt;
-    &lt;section&gt;
-        &lt;h4&gt;Leirvassbu&lt;/h4&gt;
-        &lt;!-- &lt;a name=&#34;lkr-timelapse-player&#34; data-id=&#34;1309791419&#34; data-play=&#34;day&#34; href=&#34;https://lookr.com/1309791419&#34; target=&#34;_blank&#34;&gt;Leirvassbu&lt;/a&gt;&lt;script async type=&#34;text/javascript&#34; src=&#34;https://api.lookr.com/embed/script/player.js&#34;&gt;&lt;/script&gt;
-        --&gt;
-        &lt;img alt=&#34;&#34; src=&#34;http://kamera.leirvassbu.no/bilde/bilde.jpg&#34; class=webcam&gt;
-        &lt;img src=&#34;https://www.yr.no/place/Norway/Oppland/Lom/Leirvassbu/meteogram.png&#34; class=webcam&gt;
-    &lt;/section&gt;
-
-    &lt;hr&gt;
-    &lt;section&gt;
-        &lt;h4&gt;Spiterstulen&lt;/h4&gt;
-        &lt;img alt=&#34;&#34; src=&#34;https://www.spiterstulen.no/weather/video.jpg&#34; class=webcam&gt;
-        &lt;!-- &lt;img src=&#34;https://www.yr.no/place/Norway/Oppland/Lom/Leirvassbu/meteogram.png&#34; class=webcam&gt; --&gt;
-    &lt;/section&gt;
-    &lt;hr&gt;
-    &lt;section&gt;
-        &lt;h4&gt;Galdhøpiggen skisenter&lt;/h4&gt;
-        &lt;img alt=&#34;&#34; src=&#34;https://gpss.no/foto/image.jpg&#34; class=webcam&gt;
-        &lt;!-- &lt;img src=&#34;https://www.yr.no/place/Norway/Oppland/Lom/Leirvassbu/meteogram.png&#34; class=webcam&gt; --&gt;
-    &lt;/section&gt;
-&lt;/section&gt;
-
-&lt;section&gt;
-    &lt;hr&gt;
-    &lt;h3 class=space id=&#34;Jotunheimen-Valdresflye&#34;&gt;Jotunheimen - Valdresflye&lt;/h3&gt;
-    &lt;hr&gt;
-
-    &lt;section&gt;
-        &lt;h4&gt;Gjendesheim (retning Besseggen)&lt;/h4&gt;
-        &lt;!--
-        &lt;section class=webcam&gt;
-            &lt;a name=&#34;lkr-timelapse-player&#34; data-id=&#34;1386180161&#34; data-play=&#34;day&#34; href=&#34;https://lookr.com/1386180161&#34; target=&#34;_blank&#34;&gt;Gjende: Vågå&lt;/a&gt;&lt;script async type=&#34;text/javascript&#34; src=&#34;https://api.lookr.com/embed/script/player.js&#34;&gt;&lt;/script&gt;
-        &lt;/section&gt;
-        --&gt;
-        &lt;a href=&#34;https://www.vaga.kommune.no/sjolvbetening/webkamera/&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://webfile.regiondata.no/vaga/webcam/gjende.jpg&#34; alt=&#34;https://webfile.regiondata.no/vaga/webcam/gjende.jpg&#34; class=&#34;webcam&#34;&gt;&lt;/a&gt;
-        &lt;img src=&#34;https://www.yr.no/place/Norway/Oppland/V%C3%A5g%C3%A5/Gjendesheim/meteogram.png&#34; class=webcam&gt;
-    &lt;/section&gt;
-    &lt;hr&gt;
-    &lt;section&gt;
-        &lt;h4&gt;Valdresflye&lt;/h4&gt;
-        &lt;a href=&#34;https://www.vegvesen.no/Trafikkinformasjon/Reiseinformasjon/Trafikkmeldinger/Webkamera?kamera=2072869&amp;zoom=7&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://www.vegvesen.no/public/webkamera/kamera?id=2072869&#34; alt=&#34;Fv. 51 Valdresflye&#34; class=webcam&gt;&lt;/a&gt;
-        &lt;img src=&#34;https://www.yr.no/place/Norway/Oppland/%C3%98ystre_Slidre/Valdresflye/meteogram.png&#34; class=webcam&gt;
-    &lt;/section&gt;
-&lt;/section&gt;
-
-&lt;section&gt;
-    &lt;hr&gt;
-    &lt;h3 class=space id=&#34;Meråker&#34;&gt;Meråker&lt;/h3&gt;
-    &lt;hr&gt;
-
-    &lt;section&gt;
-        &lt;h4&gt;Meråker alpinsenter&lt;/h4&gt;
-        &lt;a href=&#34;https://embed.metnet.no/?dash=MeTQuTvYKf&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://metnet.no/custcams/merakeralpin1/laget/webcam_semihd.jpg?t=1584125300500&#34; data-src=&#34;https://metnet.no/custcams/merakeralpin1/laget/webcam_semihd.jpg?t=1584125300500&#34; class=webcam&gt;&lt;/a&gt;
-        &lt;img src=&#34;https://www.yr.no/place/Norway/Tr%C3%B8ndelag/Mer%C3%A5ker/Mer%C3%A5ker_alpinsenter/meteogram.png&#34; class=webcam&gt;
-    &lt;/section&gt;
-    &lt;hr&gt;
-
-    &lt;section&gt;
-        &lt;h4&gt;Grova skisenter (Knutbukjølen)&lt;/h4&gt;
-        &lt;a href=&#34;https://embed.metnet.no/?dash=Fh62OYQaAI&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://metnet.no/custcams/grova2/laget/webcam_hd.jpg&#34; data-src=&#34;https://metnet.no/custcams/grova2/laget/webcam_hd.jpg&#34; class=webcam&gt;&lt;/a&gt;
-        &lt;img src=&#34;https://www.yr.no/place/Norway/Tr%C3%B8ndelag/Mer%C3%A5ker/Knutbukj%C3%B8len/meteogram.png&#34; class=webcam&gt;
-    &lt;/section&gt;
-    &lt;hr&gt;
-&lt;/section&gt;
-
-&lt;section&gt;
-    &lt;hr&gt;
-    &lt;h3 class=space id=&#34;Oslo&#34;&gt;Oslo&lt;/h3&gt;
-    &lt;hr&gt;
-
-    &lt;section&gt;
-        &lt;h4&gt;Holmenkollen&lt;/h4&gt;
-        &lt;a href=&#34;https://www.skiforeningen.no/img/publish/346.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://www.skiforeningen.no/img/publish/346.jpg&#34; data-src=&#34;https://www.skiforeningen.no/img/publish/346.jpg&#34; class=webcam&gt;&lt;/a&gt;
-        &lt;img src=&#34;https://www.yr.no/place/Norway/Oslo/Oslo/Holmenkollen/meteogram.png&#34; class=webcam&gt;
-    &lt;/section&gt;
-    &lt;hr&gt;
-
-    &lt;section&gt;
-        &lt;h4&gt;Kikutstua&lt;/h4&gt;
-        &lt;a href=&#34;https://www.skiforeningen.no/img/publish/8166.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://www.skiforeningen.no/img/publish/8166.jpg&#34; data-src=&#34;https://www.skiforeningen.no/img/publish/8166.jpg&#34; class=webcam&gt;&lt;/a&gt;
-        &lt;img src=&#34;https://www.yr.no/place/Norway/Oslo/Oslo/Kikutstua/meteogram.png&#34; class=webcam&gt;
-    &lt;/section&gt;
-    &lt;hr&gt;
-&lt;/section&gt;
-
-&lt;section&gt;
-    &lt;hr&gt;
-    &lt;h3 class=space id=&#34;Romsdal&#34;&gt;Romsdal&lt;/h3&gt;
-    &lt;hr&gt;
-
-    &lt;p&gt;&lt;a href=&#34;https://romsdal.com/romsdal/romsdal2010.nsf/webcam.xsp&#34;&gt;Link til oversikt over flere webkamera i Romsdal&lt;/a&gt;&lt;/p&gt;
-
-    &lt;section&gt;
-        &lt;h4&gt;Kyrkjetaket&lt;/h4&gt;
-           &lt;img src=&#34;https://romsdal.com/kamera/0036A8BC/$File/RH-Kavli.jpg&#34; class=webcam&gt;
-           &lt;img src=&#34;https://www.yr.no/place/Norway/M%C3%B8re_og_Romsdal/Rauma/Isfjorden/meteogram.png&#34; class=webcam&gt;
-    &lt;/section&gt;
-    &lt;hr&gt;
-
-    &lt;section&gt;
-        &lt;h4&gt;Soggemoen (mot Kongen, Dronninga og Bispen)&lt;/h4&gt;
-        &lt;img src=&#34;https://78.31.82.215/mjpg/video.mjpg&#34; class=webcam&gt;
-        &lt;img src=&#34;https://www.yr.no/place/Norway/M%C3%B8re_og_Romsdal/Rauma/Trollstigen/meteogram.png&#34; class=webcam&gt;
-    &lt;/section&gt;
-    &lt;hr&gt;
-
-    &lt;section&gt;
-        &lt;h4&gt;Vengedalen&lt;/h4&gt;
-        &lt;img src=&#34;https://78.31.81.211:2245/img/video.mjpeg&#34; class=&#34;webcam&#34; alt=&#34;live image&#34;&gt;
-        &lt;img src=&#34;https://www.yr.no/place/Norway/M%C3%B8re_og_Romsdal/Rauma/Venjesdalen/meteogram.png&#34; class=webcam&gt;
-    &lt;/section&gt;
-    &lt;hr&gt;
-
-    &lt;section&gt;
-        &lt;h4&gt;Berillvatnet mot Alnestinden/Finnan&lt;/h4&gt;
-        &lt;img src=&#34;https://romsdal.com/kamera/003B7EDC/$File/BS-Berdalen.jpg&#34; class=&#34;webcam&#34; alt=&#34;live image&#34;&gt;
-        &lt;img src=&#34;https://www.yr.no/place/Norway/M%C3%B8re_og_Romsdal/Rauma/Finnan/meteogram.png&#34; class=webcam&gt;
-    &lt;/section&gt;
-&lt;/section&gt;
-
-&lt;section&gt;
-    &lt;hr&gt;
-    &lt;h3 class=space id=&#34;Rondane&#34;&gt;Rondane&lt;/h3&gt;
-    &lt;hr&gt;
-
-    &lt;section&gt;
-        &lt;h4&gt;Sollia mot Rondane&lt;/h4&gt;
-
-        &lt;img id=&#34;img1_17&#34; src=&#34;https://webcam.sollia.net/image.jpg?t=0.059994813142290604&#34; style=&#34;&#34; alt=&#34;Netcam&#34; class=webcam&gt;
-        &lt;img src=&#34;https://www.yr.no/place/Norway/Oppland/Dovre/Rondane/meteogram.png&#34; class=webcam&gt;
-   &lt;/section&gt;
-
-&lt;/section&gt;
-
-&lt;section&gt;
-    &lt;hr&gt;
-    &lt;h3 class=space id=&#34;Sunndalsøra&#34;&gt;Sunndalsøra&lt;/h3&gt;
-    &lt;hr&gt;
-
-    &lt;section&gt;
-        &lt;h4&gt;Vinnu airfield&lt;/h4&gt;
-        &lt;a href=&#34;http://www.sunndalflyklubb.no/Webkamera/East-10.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;http://www.sunndalflyklubb.no/Webkamera/East-10.jpg&#34; data-src=&#34;https://www.sunndalflyklubb.no/Webkamera/East-10.jpg&#34; class=webcam alt=&#34;http://www.sunndalflyklubb.no/Webkamera/East-10.jpg&#34;&gt;&lt;/a&gt;
-        &lt;img src=&#34;https://www.yr.no/place/Norway/M%C3%B8re_og_Romsdal/Sunndal/Sunndals%C3%B8ra/meteogram.png&#34; class=webcam&gt;
-    &lt;/section&gt;
-    &lt;hr&gt;
-
-&lt;/section&gt;
-
-&lt;section&gt;
-    &lt;hr&gt;
-    &lt;h3 class=space id=&#34;Sylan&#34;&gt;Sylan&lt;/h3&gt;
-    &lt;hr&gt;
-
-    &lt;section&gt;
-        &lt;h4&gt;Nedalshytta&lt;/h4&gt;
-        &lt;a href=&#34;https://embed.metnet.no/?dash=W8ekncjFyL&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://metnet.no/custcams/nedalshytta/laget/webcam_hd.jpg?t=1584124243100&#34; data-src=&#34;https://metnet.no/custcams/nedalshytta/laget/webcam_hd.jpg?t=1584124243100&#34; class=webcam&gt;&lt;/a&gt;
-        &lt;img src=&#34;https://www.yr.no/place/Norway/Tr%C3%B8ndelag/Tydal/Nedalshytta/meteogram.png&#34; class=webcam&gt;
-    &lt;/section&gt;
-    &lt;hr&gt;
-
-&lt;/section&gt;
-
-&lt;section&gt;
-    &lt;hr&gt;
-    &lt;h3 class=space id=&#34;Todalen&#34;&gt;Todalen&lt;/h3&gt;
-    &lt;hr&gt;
-
-    &lt;section&gt;
-        &lt;h4&gt;Kårvatn - View towards Kårvatn from Talgøsetra (Reiret)&lt;/h4&gt;
-        &lt;a href=&#34;https://svorka.no/webcam/kaarvatn/kaarvatn000M.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://svorka.no/webcam/kaarvatn/kaarvatn000M.jpg&#34; data-src=&#34;https://svorka.no/webcam/kaarvatn/kaarvatn000M.jpg&#34; class=webcam&gt;&lt;/a&gt;
-        &lt;img src=&#34;https://www.yr.no/place/Norway/M%C3%B8re_og_Romsdal/Aure/Todalen/meteogram.png&#34; class=webcam&gt;
-    &lt;/section&gt;
-    &lt;hr&gt;
-
-&lt;/section&gt;
-
-&lt;section&gt;
-    &lt;hr&gt;
-    &lt;h3 class=space id=&#34;Trollheimen&#34;&gt;Trollheimen&lt;/h3&gt;
-    &lt;hr&gt;
-
-    &lt;section&gt;
-        &lt;h4&gt;Gjevilvasshytta&lt;/h4&gt;
-        &lt;img src=&#34;https://metnet.no/custcams/gjevillvasshytta1/laget/webcam_hd.jpg?t=1548865059500&#34; data-src=&#34;https://metnet.no/custcams/gjevillvasshytta1/laget/webcam_hd.jpg?t=1548865059500&#34; class=webcam&gt;
-        &lt;img src=&#34;https://www.yr.no/place/Norway/Tr%C3%B8ndelag/Oppdal/Gjevilvasshytta/meteogram.png&#34; class=webcam&gt;
-    &lt;/section&gt;
-    &lt;hr&gt;
-
-    &lt;section&gt;
-        &lt;h4&gt;Oppdal sentrum&lt;/h4&gt;
-        &lt;img src=&#34;http://moldewebcams.net/____impro/1/oppdal/002.jpg?etag=%222c89b-5afc067f%22&amp;sourceContentType=image%2Fjpeg&amp;quality=85&amp;ignoreAspectRatio&amp;resize=1500,844&#34; data-src=&#34;http://moldewebcams.net/____impro/1/oppdal/002.jpg?etag=%222c89b-5afc067f%22&amp;sourceContentType=image%2Fjpeg&amp;quality=85&amp;ignoreAspectRatio&amp;resize=1500,844&#34; class=&#34;webcam&#34;&gt;
-    &lt;/section&gt;
-
-    &lt;section&gt;
-        &lt;h4&gt;Oppdal skisenter - Stølen&lt;/h4&gt;
-        &lt;img src=&#34;http://www.norwaysafari.no/webcam/oppdal/rockoss-webcam.jpg&#34; data-src=&#34;http://www.norwaysafari.no/webcam/oppdal/rockoss-webcam.jpg&#34; class=&#34;webcam&#34;&gt;
-        &lt;img src=&#34;https://www.yr.no/place/Norway/Tr%C3%B8ndelag/Oppdal/Oppdal_skisenter/meteogram.png&#34; class=webcam&gt;
-    &lt;/section&gt;
-
-    &lt;section&gt;
-        &lt;h4&gt;E6 Oppdal&lt;/h4&gt;
-        &lt;img src=&#34;http://webkamera.vegvesen.no/kamera?id=112296&#34; data-src=&#34;http://webkamera.vegvesen.no/kamera?id=112296&#34; class=&#34;webcam&#34;&gt;
-    &lt;/section&gt;
-&lt;/section&gt;
-
-
-&lt;section&gt;
-    &lt;hr&gt;
-    &lt;h3 class=space id=&#34;Trondheim&#34;&gt;Trondheim&lt;/h3&gt;
-    &lt;hr&gt;
-
-    &lt;p&gt;&lt;a href=&#34;https://www.adressa.no/kamera/&#34;&gt;Link to overview over several other webcams in the Trondheim/Trøndelag area.&lt;/a&gt;&lt;/p&gt;
-    &lt;hr&gt;
-
-    &lt;img src=&#34;https://www.yr.no/place/Norway/Tr%C3%B8ndelag/Trondheim/Trondheim/meteogram.png&#34; class=webcam&gt;
-    &lt;hr&gt;
-
-    &lt;section&gt;
-        &lt;h4&gt;Granåsen/Søremshallan&lt;/h4&gt;
-        &lt;a href=&#34;https://embed.metnet.no/?dash=otItgiNuM5&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://metnet.no/custcams/granasen1/laget/webcam_hd.jpg&#34; data-src=&#34;https://metnet.no/custcams/granasen1/laget/webcam_hd.jpg&#34; class=webcam&gt;&lt;/a&gt;
-        &lt;img src=&#34;https://www.yr.no/sted/Norge/Tr%C3%B8ndelag/Trondheim/S%C3%B8remshallan/meteogram.png&#34; class=webcam&gt;
-    &lt;/section&gt;
-    &lt;hr&gt;
-
-    &lt;section&gt;
-        &lt;h4&gt;Rønningen (Bymarka)&lt;/h4&gt;
-        &lt;a href=&#34;https://embed.metnet.no/?dash=uYKrFdCYqd&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://metnet.no/custcams/ronningen2/laget/webcam_hd.jpg&#34; data-src=&#34;https://metnet.no/custcams/ronningen2/laget/webcam_hd.jpg&#34; class=webcam&gt;&lt;/a&gt;
-        &lt;img src=&#34;https://www.yr.no/place/Norway/Tr%C3%B8ndelag/Trondheim/R%C3%B8nningen/meteogram.png&#34; class=webcam&gt;
-    &lt;/section&gt;
-    &lt;hr&gt;
-
-    &lt;section&gt;
-        &lt;h4&gt;Skistua (Bymarka)&lt;/h4&gt;
-        &lt;a href=&#34;https://embed.metnet.no/?dash=wvNtBWvFXm&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://metnet.no/custcams/skiklubben1/laget/webcam_semihd.jpg?t=1584123868700&#34; data-src=&#34;https://metnet.no/custcams/skiklubben1/laget/webcam_semihd.jpg?t=1584123868700&#34; class=webcam&gt;&lt;/a&gt;
-        &lt;img src=&#34;https://www.yr.no/place/Norway/Tr%C3%B8ndelag/Trondheim/Skistua/meteogram.png&#34; class=webcam&gt;
-    &lt;/section&gt;
-    &lt;hr&gt;
-
-    &lt;section&gt;
-        &lt;h4&gt;Vassfjellet&lt;/h4&gt;
-        &lt;a href=&#34;https://www.adressa.no/kamera/2015/12/18/Vassfjellet-Skisenter-11938457.ece&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://metnet.no/custcams/vassfjellet1/laget/webcam_hd.jpg&#34; data-src=&#34;https://metnet.no/custcams/vassfjellet1/laget/webcam_hd.jpg&#34; class=webcam&gt;&lt;/a&gt;
-        &lt;img src=&#34;https://www.yr.no/place/Norway/Tr%C3%B8ndelag/Trondheim/Vassfjellet_skisenter/meteogram.png&#34; class=webcam&gt;
-    &lt;/section&gt;
-    &lt;hr&gt;
-&lt;/section&gt;
-
-
-</description>
-    </item>
-    
-    <item>
-      <title>Plants</title>
-      <link>https://erikjohannes.no/photography/plants/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://erikjohannes.no/photography/plants/</guid>
-      <description>
-
-
-&lt;style&gt;
-body {
-    max-width: 1500px;
-}
-&lt;/style&gt;
-
-    &lt;section class=imagemasonry&gt;
-       &lt;section class=imageitem&gt;
-            &lt;a href=&#39;https://erikjohannes.no/photography/plants/Worm-fern.jpg&#39;&gt;&lt;img class=&#34;image_thumb&#34; src=&#39;https://erikjohannes.no/photography/plants/Worm-fern.jpg&#39; title=&#39;Worm fern.&#39;/&gt;&lt;/a&gt;
-        &lt;/section&gt;
-        &lt;section class=imageitem&gt;
-            &lt;a href=&#39;https://erikjohannes.no/photography/plants/Dovre-lyng.jpg&#39;&gt;&lt;img class=&#34;image_thumb&#34; src=&#39;https://erikjohannes.no/photography/plants/Dovre-lyng.jpg&#39; title=&#39;Dovrefjell, Norway.&#39;/&gt;&lt;/a&gt;
-        &lt;/section&gt;
-        &lt;section class=imageitem&gt;
-            &lt;a href=&#39;https://erikjohannes.no/photography/plants/Flower-river-Annecy.jpg&#39;&gt;&lt;img class=&#34;image_thumb&#34; src=&#39;https://erikjohannes.no/photography/plants/Flower-river-Annecy.jpg&#39; title=&#39;Flower over a river in Annecy, France.&#39;/&gt;&lt;/a&gt;
-        &lt;/section&gt;
-    &lt;/section&gt;
-
-
-
-
-
-</description>
-    </item>
-    
-    <item>
-      <title>Wildlife</title>
-      <link>https://erikjohannes.no/photography/wildlife/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://erikjohannes.no/photography/wildlife/</guid>
-      <description>
-
-
-&lt;style&gt;
-body {
-    max-width: 1500px;
-}
-&lt;/style&gt;
-
-    &lt;section class=imagemasonry&gt;
-        &lt;section class=imageitem&gt;
-            &lt;a href=&#39;https://erikjohannes.no/photography/wildlife/Svalbard-reindeer.jpg&#39;&gt;&lt;img class=&#34;image_thumb&#34; src=&#39;https://erikjohannes.no/photography/wildlife/Svalbard-reindeer.jpg&#39; title=&#39;Reindeer in Svalbard, Norway.&#39;/&gt;&lt;/a&gt;
-        &lt;/section&gt;
-        &lt;section class=imageitem&gt;
-            &lt;a href=&#39;https://erikjohannes.no/photography/wildlife/Chamois.jpg&#39;&gt;&lt;img class=&#34;image_thumb&#34; src=&#39;https://erikjohannes.no/photography/wildlife/Chamois.jpg&#39; title=&#39;Chamois in the German Alps.&#39;/&gt;&lt;/a&gt;
-        &lt;/section&gt;
-    &lt;/section&gt;
-
-&lt;/html&gt;
-
-
-</description>
-    </item>
-    
-  </channel>
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://erikjohannes.no/posts/20190310-maridalen/maridalen01.jpg&quot; /&gt; &lt;img src=&quot;https://erikjohannes.no/posts/20190310-maridalen/maridalen02.jpg&quot; /&gt; &lt;img src=&quot;https://erikjohannes.no/posts/20190310-maridalen/maridalen03.jpg&quot; /&gt;&lt;/p&gt;
+ </description>
+        </item>
+        <item>
+            <title>Grefsenkollen
+</title>
+            <link>https://erikjohannes.no/posts/20190217-grefsenkollen/index.html</link>
+            <pubDate>Sun, 17 Feb 2019 00:00:00 -0000</pubDate>
+            <guid>https://erikjohannes.no/posts/20190217-grefsenkollen/index.html</guid>
+            <description>&lt;p&gt;&lt;img src=&quot;https://erikjohannes.no/posts/20190217-grefsenkollen/grefsenkollen1.jpg&quot; /&gt; &lt;img src=&quot;https://erikjohannes.no/posts/20190217-grefsenkollen/grefsenkollen2.jpg&quot; /&gt; &lt;img src=&quot;https://erikjohannes.no/posts/20190217-grefsenkollen/grefsenkollen3.jpg&quot; /&gt; &lt;img src=&quot;https://erikjohannes.no/posts/20190217-grefsenkollen/grefsenkollen4.jpg&quot; /&gt; &lt;img src=&quot;https://erikjohannes.no/posts/20190217-grefsenkollen/grefsenkollen5.jpg&quot; /&gt;&lt;/p&gt;
+ </description>
+        </item>
+        <item>
+            <title>Storlidalen
+</title>
+            <link>https://erikjohannes.no/posts/20190127-storlidalen/index.html</link>
+            <pubDate>Sun, 27 Jan 2019 00:00:00 -0000</pubDate>
+            <guid>https://erikjohannes.no/posts/20190127-storlidalen/index.html</guid>
+            <description>&lt;p&gt;&lt;img src=&quot;https://erikjohannes.no/posts/20190127-storlidalen/storlidalen1.jpg&quot; /&gt; &lt;img src=&quot;https://erikjohannes.no/posts/20190127-storlidalen/storlidalen2.jpg&quot; /&gt; &lt;img src=&quot;https://erikjohannes.no/posts/20190127-storlidalen/storlidalen3.jpg&quot; /&gt; &lt;img src=&quot;https://erikjohannes.no/posts/20190127-storlidalen/storlidalen4.jpg&quot; /&gt; &lt;img src=&quot;https://erikjohannes.no/posts/20190127-storlidalen/storlidalen5.jpg&quot; /&gt;&lt;/p&gt;
+ </description>
+        </item>
+        <item>
+            <title>Andøya
+</title>
+            <link>https://erikjohannes.no/posts/20180128-andoya/index.html</link>
+            <pubDate>Mon, 28 May 2018 00:00:00 -0000</pubDate>
+            <guid>https://erikjohannes.no/posts/20180128-andoya/index.html</guid>
+            <description>&lt;p&gt;&lt;img src=&quot;https://erikjohannes.no/posts/20180128-andoya/andoya01.jpg&quot; /&gt; &lt;img src=&quot;https://erikjohannes.no/posts/20180128-andoya/andoya02.jpg&quot; /&gt; &lt;img src=&quot;https://erikjohannes.no/posts/20180128-andoya/andoya03.jpg&quot; /&gt; &lt;img src=&quot;https://erikjohannes.no/posts/20180128-andoya/andoya04.jpg&quot; /&gt; &lt;img src=&quot;https://erikjohannes.no/posts/20180128-andoya/andoya05.jpg&quot; /&gt;&lt;/p&gt;
+ </description>
+        </item>
+        <item>
+            <title>Svalbard
+</title>
+            <link>https://erikjohannes.no/posts/20160530-svalbard/index.html</link>
+            <pubDate>Mon, 30 May 2016 00:00:00 -0000</pubDate>
+            <guid>https://erikjohannes.no/posts/20160530-svalbard/index.html</guid>
+            <description>&lt;p&gt;&lt;img src=&quot;https://erikjohannes.no/posts/20160530-svalbard/svalbard01.jpg&quot; /&gt; &lt;img src=&quot;https://erikjohannes.no/posts/20160530-svalbard/svalbard02.jpg&quot; /&gt; &lt;img src=&quot;https://erikjohannes.no/posts/20160530-svalbard/svalbard03.jpg&quot; /&gt; &lt;img src=&quot;https://erikjohannes.no/posts/20160530-svalbard/svalbard04.jpg&quot; /&gt; &lt;img src=&quot;https://erikjohannes.no/posts/20160530-svalbard/svalbard05.jpg&quot; /&gt; &lt;img src=&quot;https://erikjohannes.no/posts/20160530-svalbard/svalbard06.jpg&quot; /&gt; &lt;img src=&quot;https://erikjohannes.no/posts/20160530-svalbard/svalbard07.jpg&quot; /&gt; &lt;img src=&quot;https://erikjohannes.no/posts/20160530-svalbard/svalbard08.jpg&quot; /&gt; &lt;img src=&quot;https://erikjohannes.no/posts/20160530-svalbard/svalbard09.jpg&quot; /&gt; &lt;img src=&quot;https://erikjohannes.no/posts/20160530-svalbard/svalbard10.jpg&quot; /&gt; &lt;img src=&quot;https://erikjohannes.no/posts/20160530-svalbard/svalbard11.jpg&quot; /&gt; &lt;img src=&quot;https://erikjohannes.no/posts/20160530-svalbard/svalbard12.jpg&quot; /&gt; &lt;img src=&quot;https://erikjohannes.no/posts/20160530-svalbard/svalbard13.jpg&quot; /&gt; &lt;img src=&quot;https://erikjohannes.no/posts/20160530-svalbard/svalbard14.jpg&quot; /&gt; &lt;img src=&quot;https://erikjohannes.no/posts/20160530-svalbard/svalbard15.jpg&quot; /&gt;&lt;/p&gt;
+ </description>
+        </item>
+        <item>
+            <title>Femundløpet
+</title>
+            <link>https://erikjohannes.no/posts/20140131-femundlopet/index.html</link>
+            <pubDate>Sun, 02 Feb 2014 00:00:00 -0000</pubDate>
+            <guid>https://erikjohannes.no/posts/20140131-femundlopet/index.html</guid>
+            <description>&lt;p&gt;&lt;img src=&quot;https://erikjohannes.no/posts/20140131-femundlopet/femundlopet-1.jpg&quot; /&gt; &lt;img src=&quot;https://erikjohannes.no/posts/20140131-femundlopet/femundlopet-2.jpg&quot; /&gt; &lt;img src=&quot;https://erikjohannes.no/posts/20140131-femundlopet/femundlopet-3.jpg&quot; /&gt; &lt;img src=&quot;https://erikjohannes.no/posts/20140131-femundlopet/femundlopet-4.jpg&quot; /&gt; &lt;img src=&quot;https://erikjohannes.no/posts/20140131-femundlopet/femundlopet-5.jpg&quot; /&gt; &lt;img src=&quot;https://erikjohannes.no/posts/20140131-femundlopet/femundlopet-6.jpg&quot; /&gt;&lt;/p&gt;
+ </description>
+        </item>
+
+    </channel>
 </rss>

@@ -1,0 +1,14 @@
+    <head>
+        <meta charset="UTF-8">
+        <title>Erik Johannes Husom</title>
+        <base href="https://erikjohannes.no/">
+        <!-- <base href="file:///Users/erikjohannes/Documents/ejhusom.github.io/"> -->
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <meta name="author" content="Erik Johannes Husom">
+        <meta name="description" content="Personal website.">
+
+        
+        
+        <link rel="icon" href="data:,">
+        <link href="style.css" rel="stylesheet" type="text/css" title="Stylesheet">
+    </head>

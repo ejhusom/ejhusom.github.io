@@ -1,0 +1,7 @@
+        <item>
+            <title>{}</title>
+            <link>{}</link>
+            <pubDate>{}</pubDate>
+            <guid>{}</guid>
+            <description>{} </description>
+        </item>

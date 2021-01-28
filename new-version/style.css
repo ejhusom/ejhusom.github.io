@@ -5,14 +5,14 @@
     --hlc: #384;
 }
 
-/* @media (prefers-color-scheme: dark) { */
-/*     * { */
-/*         --txc: #f5f5f5; */
-/*         --txc2: rgb(200, 200, 200); */
-/*         --bgc: #1c1c1c; */
-/*         --hlc: #fb0; */
-/*     } */
-/* } */
+@media (prefers-color-scheme: dark) {
+    * {
+        --txc: #f5f5f5;
+        --txc2: rgb(200, 200, 200);
+        --bgc: #1c1c1c;
+        --hlc: #fb0;
+    }
+}
 
 body {
     color: var(--txc);
@@ -35,6 +35,8 @@ header {
 footer{
     margin-top: 2em;
     text-align: center;
+    font-size: 80%;
+    padding: 0.5rem;
 } 
 
 /*Links{{{*/

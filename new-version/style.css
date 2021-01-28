@@ -19,7 +19,6 @@ body {
     background: var(--bgc);
     font-family: "Arial", sans-serif;
     /* font-family: monospace; */
-    /* font-size: 14px; */
     font-size: 90%;
     max-width: 70em;
     margin: 2em auto;
@@ -29,7 +28,7 @@ body {
 }
 
 header {
-    padding: 0em 0em 3em 0em;
+    padding-bottom: 3em;
 }
 
 footer{
@@ -59,7 +58,7 @@ nav.header-nav{
 }
 
 h1, h2, h3 {
-  text-transform: lowercase;
+    text-transform: lowercase;
 }
 
 article h2, h3 {
@@ -85,7 +84,6 @@ ul.contact {
     text-align: center;
 }
 
-/* li.contactlink { */
 .contact li {
     list-style-type: none;
     display: inline;

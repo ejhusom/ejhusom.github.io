@@ -85,7 +85,8 @@ ul.contact {
     text-align: center;
 }
 
-li.contactlink {
+/* li.contactlink { */
+.contact li {
     list-style-type: none;
     display: inline;
     font-weight: 600;

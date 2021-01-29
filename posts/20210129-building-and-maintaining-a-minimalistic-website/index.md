@@ -77,5 +77,6 @@ To round off, here are some minimalistic websites that I find interesting
 - [slashdev.space](https://slashdev.space/)
 - [simbly.me](https://simbly.me/)
 - [drewdevault.com](https://drewdevault.com/)
-- [lawzava](https://lawzava.com/)
+- [cri.dev](https://cri.dev/)
+- [lawzava.com](https://lawzava.com/)
 - [tokiesan.github.io](https://tokiesan.github.io/index.html)

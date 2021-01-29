@@ -61,10 +61,10 @@ needlessly) enormous many websites are, and that it's perfectly possible to
 make good-looking websites without many MBs of data.
 
 My own main page has a size of 1.6 kB at the time of writing, but of course,
-there's not much there. Some of the blog posts contain a lot of images, and are
-certainly higher, but the point is that it's totally fine accessing the website
-on old browsers and with slow internet speed. I wish that were the case for
-most websites.
+there's not much there. Some of the blog posts contain a lot of images, and
+those pages are certainly bigger in size, but the point is that it's totally fine
+accessing the website on old browsers and with slow internet speed. I wish that
+were the case for most websites.
 
 Finally, I see this website as my online "profile page", in the same way that
 many people have a Facebook-profile as an online presence. Maintaining a

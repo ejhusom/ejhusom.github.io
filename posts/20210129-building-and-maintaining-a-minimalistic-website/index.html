@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Erik Johannes Husom</title>
+        <base href="https://erikjohannes.no/">
+        <!-- <base href="file:///Users/erikjohannes/Documents/ejhusom.github.io/"> -->
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <meta name="author" content="Erik Johannes Husom">
+        <meta name="description" content="Personal website.">
+        
+        <link rel="icon" href="data:,">
+        <link href="css/style.css" rel="stylesheet" type="text/css" title="Stylesheet">
+        <!-- <link href="css/experimental.css" rel="alternate stylesheet" type="text/css" title="Experimental"> -->
+    </head>
+    <body>
+    <header>
+        <nav class=header-nav>
+            <a href="index.html">home</a>
+            <a href="blog.html">blog</a>
+            <a href="photography.html">photography</a>
+        </nav>
+        <h1 class=p-name rel="me">Erik Johannes Husom</h1>
+        <ul class=contact>
+            <li><a href="mailto:erikjohannes@protonmail.com">email</a></li>
+            <li><a href="https://mastodon.social/@erikjohannes">mastodon</a></li>
+            <!-- <li><a href="https://instagram.com/erikjohannes.husom">instagram</a></li> -->
+            <li><a href="https://github.com/ejhusom">github</a></li>
+        </ul>
+    </header>
+<article>
+<h2>Building and maintaining a minimalistic website
+</h2>
+<h3>29 Jan 2021</h3><p>When I first started making my own website, I wrote everything manually, from scratch. This type of approach is very fun and instructional, and probably the best way if one wants to learn how a website functions.</p>
+<p>After a while though, this approach gets quite tedious, because the total number of pages piles up (mostly blog posts) and it gets hard to manually update all of them when you want to make changes. This is one of the perfect use cases for a Static Site Generator, which is a tool that uses templates to build the static HTML pages for you. You are able to define the “rules” and layouts for how the page should look independently of the content, and gives you a lot of flexibility with regards to what you want to automate and what you want to do manually.</p>
+<p>I resisted the temptation of using an SSG for a while, since I enjoyed writing everything from scratch and having a minimalistic approach. But, when I wanted to add an RSS feed to my site, I figured that I couldn’t be bothered with writing an <code>feed.xml</code> file manually. I chose to try out <a href="https://gohugo.io/">Hugo</a>, since I didn’t really need to install anything, I could just have a binary executable in the folder where I edit my website, and then build it there. There was a lot of syntax to learn in order to get everything working as I wanted, but it was also nice to have RSS feed, tags on blog posts and blog feed being built automatically.</p>
+<p>Even though Hugo worked fine, I felt like it was to bloated and complex for what I wanted. I can certainly recommend Hugo in general, but I want a workflow that has as few dependencies as possible, and is sustainable for a long, long time, with very little maintainance. Keeping it purely HTML+CSS, without a complex build process, would be preferable. I read an article called <a href="https://erikwinter.nl/articles/2020/why-i-built-my-own-shitty-static-site-generator/">Why I Built My Own Shitty Static Site Generator</a>, which expressed some of the same thoughts I was having, and I was inspired to stop using Hugo, and restructure this website. I could still use most of what I had written from before, but I wrote my own small script for adding head, header and footer (the elements that are the same on every page) and building the blog feed. After that, the only thing missing was generating an RSS feed. This is probably the most complex part of my build script, but I made it work in the end.</p>
+<p>There are some people who are even more hardcore (check out <a href="https://blog.steren.fr/2020/my-stack-will-outlive-yours/">My stack will outlive yours</a>), who avoids having a build step at all. I would like to eliminate the need for a build script, just to keep things even simpler, but I appreciate having the option of easily changing some elements in a template-file rather than on every page. It’s also very convinient to write blog posts in Markdown instead of HTML (my build script does this conversion as well). The build script is still quite small and I know exactly what it does and does not, and I prefer that over a more complex SSG for my use case.</p>
+<p>After further delving into the world of minimalistic web development, I discovered the <a href="https://512kb.club/">512k.club</a>, the <a href="https://250kb.club/">250kb.club</a> and the <a href="https://10kbclub.com/">10kclub.com</a>. Those are collections of websites that have a size below a certain (quite small) threshold. I think the goal is just to make a point of how (often needlessly) enormous many websites are, and that it’s perfectly possible to make good-looking websites without many MBs of data.</p>
+<p>My own main page has a size of 1.6 kB at the time of writing, but of course, there’s not much there. Some of the blog posts contain a lot of images, and are certainly higher, but the point is that it’s totally fine accessing the website on old browsers and with slow internet speed. I wish that were the case for most websites.</p>
+<p>Finally, I see this website as my online “profile page”, in the same way that many people have a Facebook-profile as an online presence. Maintaining a website is a little bit harder than making a Facebook-profile, but it gives you much more control and flexibility.</p>
+<p>To round off, here are some minimalistic websites that I find interesting (regarding design, content or both):</p>
+<ul>
+<li><a href="https://slashdev.space/">slashdev.space</a></li>
+<li><a href="https://simbly.me/">simbly.me</a></li>
+<li><a href="https://drewdevault.com/">drewdevault.com</a></li>
+<li><a href="https://lawzava.com/">lawzava</a></li>
+<li><a href="https://tokiesan.github.io/index.html">tokiesan.github.io</a></li>
+</ul>
+</article>
+    <footer>
+        No tracking. No cookies. No visit logs.
+        <br>
+        Website is built through self-made scripts and manual writing.
+        <br>
+        Get updates via <a href="index.xml">RSS</a>.
+        <br>
+        Copyright: &copy;2018-2021 Erik Johannes Husom. All rights reserved.
+    </footer>
+    </body>
+</html>

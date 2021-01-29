@@ -9,8 +9,8 @@
     * {
         --txc: #f5f5f5;
         --txc2: #70b4d5;
-        --bgc: #1c1c1c;
-        --hlc: #1183b9;
+        --bgc: #212121;
+        --hlc: #1183b10;
     }
 }
 
@@ -18,7 +18,7 @@ body {
     color: var(--txc);
     background: var(--bgc);
     font-family: "Arial", sans-serif;
-    font-size: 1.0em;
+    font-size: 1.05em;
     max-width: 60em;
     margin: 2em auto;
     padding-left: 13%;

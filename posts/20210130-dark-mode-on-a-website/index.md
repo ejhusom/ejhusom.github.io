@@ -1,7 +1,6 @@
 ---
 title: Dark mode on a website
 date: 2021-01-30
-draft: true
 ---
 
 I just discovered that it is quite easy to make a website adjust the style to

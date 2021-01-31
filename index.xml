@@ -6,9 +6,35 @@
         <description>Recent content on Erik Johannes Husom's blog</description>
         <generator>EJs fabolous Python-script</generator>
         <language>en-us</language>
-        <lastBuildDate>Fri, 29 Jan 2021 12:41:58 -0000</lastBuildDate>
+        <lastBuildDate>Sun, 31 Jan 2021 21:25:18 -0000</lastBuildDate>
         <atom:link href="https://erikjohannes.no/index.xml" rel="self" type="application/rss+xml"/>
                     <item>
+            <title>Dark mode on a website
+</title>
+            <link>https://erikjohannes.no/posts/20210130-dark-mode-on-a-website/index.html</link>
+            <pubDate>Sat, 30 Jan 2021 00:00:00 -0000</pubDate>
+            <guid>https://erikjohannes.no/posts/20210130-dark-mode-on-a-website/index.html</guid>
+            <description>&lt;p&gt;I just discovered that it is quite easy to make a website adjust the style to whether the client is using dark mode or not. Take a look at a snippet of my CSS for this website:&lt;/p&gt;
+&lt;div class=&quot;sourceCode&quot; id=&quot;cb1&quot;&gt;&lt;pre class=&quot;sourceCode css&quot;&gt;&lt;code class=&quot;sourceCode css&quot;&gt;&lt;span id=&quot;cb1-1&quot;&gt;&lt;a href=&quot;#cb1-1&quot;&gt;&lt;/a&gt;&lt;span class=&quot;op&quot;&gt;*&lt;/span&gt; {&lt;/span&gt;
+&lt;span id=&quot;cb1-2&quot;&gt;&lt;a href=&quot;#cb1-2&quot;&gt;&lt;/a&gt;    &lt;span class=&quot;va&quot;&gt;--txc&lt;/span&gt;: &lt;span class=&quot;cn&quot;&gt;#393838&lt;/span&gt;&lt;span class=&quot;op&quot;&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span id=&quot;cb1-3&quot;&gt;&lt;a href=&quot;#cb1-3&quot;&gt;&lt;/a&gt;    &lt;span class=&quot;va&quot;&gt;--lc&lt;/span&gt;: &lt;span class=&quot;cn&quot;&gt;#1183b9&lt;/span&gt;&lt;span class=&quot;op&quot;&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span id=&quot;cb1-4&quot;&gt;&lt;a href=&quot;#cb1-4&quot;&gt;&lt;/a&gt;    &lt;span class=&quot;va&quot;&gt;--bgc&lt;/span&gt;: &lt;span class=&quot;cn&quot;&gt;#fff&lt;/span&gt;&lt;span class=&quot;op&quot;&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span id=&quot;cb1-5&quot;&gt;&lt;a href=&quot;#cb1-5&quot;&gt;&lt;/a&gt;    &lt;span class=&quot;va&quot;&gt;--hlc&lt;/span&gt;: &lt;span class=&quot;cn&quot;&gt;#70b4d5&lt;/span&gt;&lt;span class=&quot;op&quot;&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span id=&quot;cb1-6&quot;&gt;&lt;a href=&quot;#cb1-6&quot;&gt;&lt;/a&gt;}&lt;/span&gt;
+&lt;span id=&quot;cb1-7&quot;&gt;&lt;a href=&quot;#cb1-7&quot;&gt;&lt;/a&gt;&lt;/span&gt;
+&lt;span id=&quot;cb1-8&quot;&gt;&lt;a href=&quot;#cb1-8&quot;&gt;&lt;/a&gt;&lt;span class=&quot;im&quot;&gt;@media&lt;/span&gt; (&lt;span class=&quot;kw&quot;&gt;prefers-color-scheme&lt;/span&gt;: dark) {&lt;/span&gt;
+&lt;span id=&quot;cb1-9&quot;&gt;&lt;a href=&quot;#cb1-9&quot;&gt;&lt;/a&gt;    &lt;span class=&quot;op&quot;&gt;*&lt;/span&gt; {&lt;/span&gt;
+&lt;span id=&quot;cb1-10&quot;&gt;&lt;a href=&quot;#cb1-10&quot;&gt;&lt;/a&gt;        &lt;span class=&quot;va&quot;&gt;--txc&lt;/span&gt;: &lt;span class=&quot;cn&quot;&gt;#f5f5f5&lt;/span&gt;&lt;span class=&quot;op&quot;&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span id=&quot;cb1-11&quot;&gt;&lt;a href=&quot;#cb1-11&quot;&gt;&lt;/a&gt;        &lt;span class=&quot;va&quot;&gt;--lc&lt;/span&gt;: &lt;span class=&quot;cn&quot;&gt;#70b4d5&lt;/span&gt;&lt;span class=&quot;op&quot;&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span id=&quot;cb1-12&quot;&gt;&lt;a href=&quot;#cb1-12&quot;&gt;&lt;/a&gt;        &lt;span class=&quot;va&quot;&gt;--bgc&lt;/span&gt;: &lt;span class=&quot;cn&quot;&gt;#212121&lt;/span&gt;&lt;span class=&quot;op&quot;&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span id=&quot;cb1-13&quot;&gt;&lt;a href=&quot;#cb1-13&quot;&gt;&lt;/a&gt;        &lt;span class=&quot;va&quot;&gt;--hlc&lt;/span&gt;: &lt;span class=&quot;cn&quot;&gt;#1183b10&lt;/span&gt;&lt;span class=&quot;op&quot;&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span id=&quot;cb1-14&quot;&gt;&lt;a href=&quot;#cb1-14&quot;&gt;&lt;/a&gt;    }&lt;/span&gt;
+&lt;span id=&quot;cb1-15&quot;&gt;&lt;a href=&quot;#cb1-15&quot;&gt;&lt;/a&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The first block defines the default values for two text colors, the background and a highlight color. With the second block, those variables are redefined if the user is using a dark system theme.&lt;/p&gt;
+&lt;p&gt;This might be common knowledge for a lot of people, but have not seen this functionality much “in the wild”. Maybe some people prefer to keep the same colors anyway, but I think it is very comfortable that websites dynamically adapt to the system theme, especially when there are lots of articles.&lt;/p&gt;
+ </description>
+        </item>
+        <item>
             <title>Building and maintaining a minimalistic website
 </title>
             <link>https://erikjohannes.no/posts/20210129-building-and-maintaining-a-minimalistic-website/index.html</link>

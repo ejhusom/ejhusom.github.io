@@ -2,6 +2,7 @@
     --txc: #393838;
     --txc2: #1183b9;
     --bgc: #fff;
+    --bcg2: #f1f1f1;
     --hlc: #70b4d5;
 }
 
@@ -10,7 +11,8 @@
         --txc: #f5f5f5;
         --txc2: #70b4d5;
         --bgc: #212121;
-        --hlc: #1183b10;
+        --bcg2: #313131;
+        --hlc: #1183b1;
     }
 }
 
@@ -116,6 +118,10 @@ section.gallerymasonry h2 {
 
 #contact {
     list-style-type: none;
+}
+
+.sourceCode {
+    background: var(--bcg2);
 }
 
 /* Tablets and mobile devices{{{ */

@@ -12,10 +12,10 @@ downloading by just browsing the web.
 
 There seems to be a gaining interest in text-only/low-bandwith websites, as you
 can read more about in [this
-article](https://www.poynter.org/tech-tools/2017/text-only-news-sites-are-slowly-making-a-comeback-heres-why/), 
-and this has several advantages, especially for people that live under
-conditions with severe limitations on bandwidth. I think it's very cool to see
-that two major news sites offer low-bandwith versions of their sites:
+article](https://www.poynter.org/tech-tools/2017/text-only-news-sites-are-slowly-making-a-comeback-heres-why/).
+This has several advantages, especially for people that live under conditions
+with severe limitations on bandwidth. I think it's very cool to see that two
+major news sites offer low-bandwith versions of their sites:
 
 - [NPR](https://text.npr.org/)
 - [CNN](https://lite.cnn.com/en)

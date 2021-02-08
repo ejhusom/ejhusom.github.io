@@ -20,9 +20,9 @@ body {
     color: var(--txc);
     background: var(--bgc);
     font-family: "Arial", sans-serif;
-    font-size: 1.05em;
+    font-size: 1.02em;
     max-width: 60em;
-    margin: 2em auto;
+    margin: 1.2em auto 0.3em auto;
     padding-left: 13%;
     padding-right: 13%;
     box-sizing: border-box;
@@ -32,6 +32,7 @@ body {
 header {
     padding-bottom: 3em;
 }
+
 
 footer{
     margin-top: 2em;
@@ -57,6 +58,10 @@ h1, nav.header-nav {
 
 nav.header-nav{
     padding-bottom: 1em;
+}
+
+h1 {
+    margin-bottom: 0.0em;
 }
 
 h1, h2, h3 {

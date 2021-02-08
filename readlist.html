@@ -19,8 +19,6 @@
             <a href="index.html">home</a>
             <a href="blog.html">blog</a>
             <a href="photography.html">photography</a>
-            <a href="blogroll.html">blogroll</a>
-            <a href="bookmarks.html">bookmarks</a>
         </nav>
         <h1 class=p-name rel="me">Erik Johannes Husom</h1>
         <ul class=contact>
@@ -31,36 +29,14 @@
         </ul>
     </header>
 <article>
-<h2>Maridalen
-</h2>
-<h3>10 Mar 2019</h3><!--more-->
- <link rel="stylesheet" href="js/leaflet/leaflet.css" />
-<script src="js/leaflet/leaflet.js"></script>
-<script src="js/gpx.js"></script>
-<div id="map" style="height: 400px; width: 100%;">
+<h2>Read list</h2>
 
-</div>
-<script>
-        var map = L.map('map');//.setView([60.14, 10.25], 11);
-        L.tileLayer('http://opencache.statkart.no/gatekeeper/gk/gk.open_gmaps?layers=topo4&zoom={z}&x={x}&y={y}', {
-            attribution: '<a href="http://www.kartverket.no/">Kartverket</a>'
-        }).addTo(map);
-        var gpx = 'posts/20190310-maridalen/høgruta-i-maridalen.gpx'; 
-        new L.GPX(gpx, {
-            async: true,
-            marker_options: {
-                startIconUrl: '../images/pin-icon-start.png',
-                endIconUrl:   '../images/pin-icon-end.png',
-                shadowUrl:    '../images/pin-shadow.png',
-                //clickable: true,
-                //showRouteInfo: true
-            },
-        }).on('loaded', function(e) {
-            map.fitBounds(e.target.getBounds());
-        }).addTo(map);
-</script>
-<p></p>
-<p><img src="posts/20190310-maridalen/maridalen01.jpg" /> <img src="posts/20190310-maridalen/maridalen02.jpg" /> <img src="posts/20190310-maridalen/maridalen03.jpg" /></p>
+<p>On this page I regularly post articles I have read and find worth sharing.</p>
+
+<ul>
+    <li><a href="https://slashdev.space/posts/2021-01-18-reasons-the-fediverse-is-better">6 reasons the Fediverse is better than regular social media (slashdev.space)</a></li> 
+</ul>
+
 </article>
     <footer>
         No tracking. No cookies. No visit logs.

@@ -2,7 +2,6 @@
 public
 
 # compiled files:
-build*
 *.o
 *.so
 *.a

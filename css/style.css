@@ -50,6 +50,11 @@ a:link, a:visited {
 a:hover {
   color: var(--hlc);
 }
+
+a.ghost:link, a.ghost:visited, a.ghost:hover {
+  color: var(--txc);
+  text-decoration: none;
+}
 /*}}}*/
 
 h1, nav.header-nav {

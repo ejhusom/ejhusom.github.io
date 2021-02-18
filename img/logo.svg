@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0 (4035a4f, 2020-05-01)"
+   inkscape:export-ydpi="256.56601"
+   inkscape:export-xdpi="256.56601"
+   inkscape:export-filename="/Users/erikjohannes/Documents/ejhusom.github.io/img/logo.png"
+   sodipodi:docname="logo.svg"
+   id="svg16"
+   height="720px"
+   width="1380px"
+   style="fill: none;"
+   version="1.1">
+  <metadata
+     id="metadata22">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs20" />
+  <sodipodi:namedview
+     inkscape:current-layer="svg16"
+     inkscape:window-maximized="0"
+     inkscape:window-y="0"
+     inkscape:window-x="0"
+     inkscape:cy="360"
+     inkscape:cx="690"
+     inkscape:zoom="0.79492754"
+     showgrid="false"
+     id="namedview18"
+     inkscape:window-height="878"
+     inkscape:window-width="1440"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff" />
+  <path
+     id="path10"
+     d=""
+     style="stroke-width: 15px; stroke-linecap: round; stroke-linejoin: round; stroke: rgb(106, 106, 106); fill: none;" />
+  <path
+     id="path12"
+     d=""
+     style="stroke-width: 15px; stroke-linecap: round; stroke-linejoin: round; stroke: rgb(74, 74, 74); fill: none;" />
+  <path
+     id="path14"
+     d="M465,195 L465,195 L360,405 L600,420 L465,195 Z "
+     style="stroke-width: 13px; stroke-linecap: round; stroke-linejoin: round; stroke: rgb(10, 10, 10); fill: none;" />
+</svg>

@@ -119,62 +119,6 @@ a.ghost:link, a.ghost:visited, a.ghost:hover {
 }
 /*}}}*/
 
-/*Gallery{{{*/
-.image_thumb {
-  display: inline-block;
-  position: relative;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-}
-
-.image_logo {
-    width: 30%;
-}
-
-.imagemasonry {
-  column-count: 1;
-  column-gap: 0.2rem;
-  margin-right: 3%;
-}
-
-.imagemasonry2 {
-  column-count: 1;
-  column-gap: 0.2rem;
-  margin-right: 3%;
-}
-
-.imagemasonry4 {
-  column-count: 2;
-  column-gap: 0.2rem;
-  margin-right: 3%;
-}
-
-.item {
-  font-size: 0.8em;
-  display: inline-block;
-  margin: 0 0 1em;
-  padding: 0.6rem;
-  width: 100%;
-  box-shadow: 1px 1px 10px  1px rgb(193, 193, 193);
-}
-
-.imageitem {
-  font-size: 0.8em;
-  display: inline-block;
-  position: relative;
-  width: 100%;
-}
-
-.imageheader {
-  width: 100%;
-}
-
-figcaption {
-  padding: 0.5em 0em 2.5em 0em;
-  text-align: center;
-}
-/*}}}*/
 
 /*Webcam{{{*/
 .webcam {
@@ -214,13 +158,6 @@ figcaption {
     display: block;
   }
 }
-/* ======== Tablets ========= */
-/* @media screen and (min-width: 481px) and (max-width: 991px) { */
-/*     .imagemasonry4 { */
-/*         column-count: 2; */
-/*     } */
-/* } */
-/*}}}*/
 
 /*Laptops and large screens{{{*/
 @media screen and (min-width: 992px) {
@@ -245,53 +182,6 @@ figcaption {
 }
 /*}}}*/
 
-/*Code boxes{{{*/
-
-.masonry {
-  column-count: 1;
-  column-gap: 3em;
-  margin-right: 3%;
-}
-
-li.codelist {
-  border-bottom: 0.05rem solid rgb(233, 233, 233);
-}
-
-.entry {
-  font-size: 0.85rem;
-  color: rgb(0, 0, 0,);
-  font-weight: 550;
-  margin-right: 0.4rem;
-  margin-bottom: 0.2rem;
-}
-
-pre {
-  border-top: 0.05rem solid rgb(233, 233, 233);
-  border-bottom: 0.05rem solid rgb(233, 233, 233);
-  padding-top: 0.5rem;
-  overflow: auto;
-  /* white-space: pre-wrap; */
-}
-
-
- pre code {
-  font-size: 0.8em;
-  color: rgb(0, 0, 0,);
-}
-
-
-.definition {
-  font-size: 0.7rem;
-  color: rgb(122, 122, 122);
-}
-
-.description {
-  display: block;
-  font-size: 0.7rem;
-  color: rgb(122, 122, 122);
-}
-/*}}}*/
-
 /*Footer{{{*/
 footer {
   right: 0;
@@ -301,24 +191,6 @@ footer {
   padding: 0.5rem;
   text-align: center;
   font-size: 0.6rem;
-}
-/*}}}*/
-
-/*Defintion/description{{{*/
-dl {
-    background: white;
-}
-
-dd {
-    display: none;
-}
-
-dt:active + dd{
-    display: block;
-}
-
-dt:hover + dd{
-    display: block;
 }
 /*}}}*/
 
@@ -344,34 +216,4 @@ video {
   width: 100%;
 }
 /* }}} */
-
-/* Not sure why I wrote this code{{{
-
-.notes h1 {
-  font-size: 2em;
-}
-
-.notes h2 {
-  display: block;
-  font-size: 1.8em;
-}
-
-.notes h3 {
-  display: block;
-}
-
-.notes h4 {
-  display: block;
-}
-
-.notes ul {
-  list-style-type: disc;
-  padding-left: 2em;
-}
-
-.notes li {
-  padding-top: 0.1rem;
-}
-*/
-/*}}}*/
 

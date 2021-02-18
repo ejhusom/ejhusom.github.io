@@ -20,7 +20,7 @@ body {
     color: var(--txc);
     background: var(--bgc);
     font-family: "Arial", sans-serif;
-    font-size: 1.02em;
+    font-size: 1.00em;
     max-width: 60em;
     margin: 1.2em auto 0.3em auto;
     padding-left: 13%;

@@ -21,7 +21,7 @@ body {
     background: var(--bgc);
     font-family: "Arial", sans-serif;
     font-size: 1.00em;
-    max-width: 70em;
+    max-width: 700px;
     margin: 1.2em auto 0.3em auto;
     padding-left: 13%;
     padding-right: 13%;

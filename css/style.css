@@ -149,11 +149,11 @@ section.gallerymasonry h2 {
 
 /*Laptops and large screens{{{*/
 @media screen and (min-width: 900px) {
-    .gallerymasonry {
+    .maingallerymasonry {
         column-count: 2;
     }
     .maingalleryitem {
-      max-height: 200px;
+      max-height: 280px;
     }
 }
 /*}}}*/

@@ -32,6 +32,7 @@ class Website():
         self.layouts_folder = "layouts"
         self.posts_folder = "posts"
         self.pages_folder = "pages"
+        self.standalone_folder = "standalone"
         self.photography_folder = "photography"
         self.posts_folder = "posts"
 
@@ -81,6 +82,19 @@ class Website():
             page = self.combine_layouts(body)
 
             self.save_page(page, f)
+
+        for f in os.listdir(self.standalone_folder):
+
+            # Check that the page is a .html file
+            if os.path.splitext(f)[1] != ".html":
+                continue
+
+            # Read the content for this specific page
+            with open(self.standalone_folder + "/" + f, "r") as infile:
+                body = infile.read()
+
+            self.save_page(body, f)
+
 
     def build_blog(self):
 

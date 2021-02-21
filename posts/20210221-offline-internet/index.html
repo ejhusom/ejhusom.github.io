@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Erik Johannes Husom</title>
+        <base href="https://erikjohannes.no/">
+        <!-- <base href="file:///Users/erikjohannes/Documents/ejhusom.github.io/"> -->
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <meta name="author" content="Erik Johannes Husom">
+        <meta name="description" content="Personal website.">
+        
+        <link rel="icon" href="data:,">
+        <link href="css/style.css" rel="stylesheet" type="text/css" title="Stylesheet">
+        <!-- <link href="css/experimental.css" rel="alternate stylesheet" type="text/css" title="Experimental"> -->
+    </head>
+    <body>
+    <header>
+        <nav class=header-nav>
+            <a href="index.html">home</a>
+            <a href="blog.html">blog</a>
+            <a href="photography.html">photography</a>
+            <a href="stuff.html">stuff</a>
+            <!-- <a href="blogroll.html">blogroll</a> -->
+            <!-- <a href="bookmarks.html">bookmarks</a> -->
+            <!-- <a href="technology.html">technology</a> -->
+        </nav>
+        <h1 class=p-name rel="me"><a href="https://erikjohannes.no/" class=ghost>Erik Johannes Husom</a></h1>
+        <ul class=contact>
+            <li><a href="mailto:erikjohannes@protonmail.com">email</a></li>
+            <!-- <li><a href="https://mastodon.social/@erikjohannes">mastodon</a></li> -->
+            <li><a href="social.html">social</a></li>
+            <!-- <li><a href="https://instagram.com/erikjohannes.husom">instagram</a></li> -->
+            <li><a href="https://github.com/ejhusom">github</a></li>
+        </ul>
+    </header>
+<article>
+<h2>Offline Internet
+</h2>
+<h3>21 Feb 2021</h3><p>A project I have wanted to for a long time is setting up an “offline Internet”, or <a href="https://en.wikipedia.org/wiki/Internet-in-a-Box">“Internet-in-a-box”</a>, which is an offline “library” and a wireless access point that nearby devices can connect to. To do this I used only a Raspberry Pi 4 with the official <a href="https://www.raspberrypi.org/software/operating-systems/">Raspberry Pi OS</a> installed.</p>
+<p>The main steps in creating this “Internet-in-a-box” is:</p>
+<ol type="1">
+<li><a href="#download-the-desired-content">Download the desired content</a></li>
+<li><a href="#install-software-for-serving-content">Install software for serving content</a></li>
+<li><a href="#setting-up-the-pi-to-broadcast-its-own-wifi-network">Setting up the Pi to broadcast its own WiFi-network</a></li>
+</ol>
+<p>I assume that the operating system already is installed on the Raspberry Pi (or any similar device).</p>
+<h3 id="download-the-desired-content">Download the desired content</h3>
+<p>Many types of static content (HTML, plain text, pictures etc) can be served from the Raspberry Pi. For me, the most useful content is this:</p>
+<ul>
+<li><strong>Wikipedia</strong> (English). On <a href="https://download.kiwix.org/zim/wikipedia/">this link</a> you can find several versions of Wikipedia, in various languages and topics. If you want the complete English Wikipedia, download <a href="https://download.kiwix.org/zim/wikipedia/wikipedia_en_all_maxi_2020-12.zim">this version</a> (it is 79 GB).</li>
+<li><strong>Project Gutenberg</strong>. This is a large collection of books from the public domain, which means that it can be downloaded for free. Different version can be found <a href="https://download.kiwix.org/zim/gutenberg/">here</a>.</li>
+<li><strong>Code documentation</strong>. I also have downloaded the documentation for the main programming languages and frameworks I use on a daily basis. This type of content can usually be downloaded in a variety of formats. I choose HTML-format if it is available, since I find it easiest to access in a browser (and some documentation in HTML-format also include a search engine). Examples:
+<ul>
+<li><a href="https://docs.python.org/3/">Python</a></li>
+<li><a href="https://numpy.org/doc/">NumPy</a></li>
+<li><a href="https://pandas.pydata.org/docs/">Pandas</a></li>
+</ul></li>
+</ul>
+<p>Other content can be found <a href="https://download.kiwix.org/zim/">here</a>.</p>
+<h3 id="install-software-for-serving-content">Install software for serving content</h3>
+<p>I use two different ways of serving the content wirelessly to other devices, one for the <code>.zim</code>-files, and another one for other file types.</p>
+<h4 id="serving-.zim-files">Serving .zim-files</h4>
+<p>For serving <code>.zim</code>-files, I use software called Kiwix. First I download Kiwix from <a href="https://www.kiwix.org/en/downloads/kiwix-serve/">this link</a> (if you use a Raspberry Pi like me, choose the version called “GNU/Linux ARM 32-bits”). Unpack the zipped file with</p>
+<pre><code>tar -xvzf kiwix-tools_linux-armhf-3.1.2-4.tar.gz</code></pre>
+<p>Your version number might be different though. The contents are unpacked to a folder with the same name as the zipped file. I rename this folder <code>kiwix</code> to make things easier, and then move all my downloaded <code>.zim</code>-files to this folder. If you for example download a file called <code>wikipedia.zom</code> and another file called <code>gutenberg.zim</code>, the folder should look like</p>
+<pre><code>kiwix/
+├── gutenberg.zim
+├── kiwix-manage
+├── kiwix-read
+├── kiwix-search
+├── kiwix-serve
+└── wikipedia.zim</code></pre>
+<p>First you need to make a library containing your <code>.zim</code>-files:</p>
+<pre><code>./kiwix-manage library.xml add gutenberg.zim
+./kiwix-manage library.xml add wikipedia.zim</code></pre>
+<p>This library can now be served by running:</p>
+<pre><code>./kiwix-serve --port=8080 --library library.xml </code></pre>
+<p>Go to <code>localhost:8080</code> in the browser of the Raspberry Pi to see the content. If the Raspberry Pi is connected to a WiFi-network, you can view the content from other devices by going to <code>[Local IP of the Pi]:8080</code> in the browser (first you need to find the local IP address of the Pi).</p>
+<h4 id="serving-other-type-of-content">Serving other type of content</h4>
+<p>For all other file formats I use a Python webserver to serve the content (which of course requires that you have Python installed on your system). This simply means that I run the following command in the folder containing the files I want to serve:</p>
+<pre><code>python3 -m http.server 8081</code></pre>
+<p>In this case I have chosen to serve on port 8081, but this can be any other port (if you omit the port number, it will be set to 8000) as long it’s not the same as the other servers you have set up.</p>
+<p>Go to <code>localhost:8081</code> in the browser of the Raspberry Pi to see the content. If the Raspberry Pi is connected to a WiFi-network, you can view the content from other devices by going to <code>[Local IP of the Pi]:8081</code> in the browser (first you need to find the local IP address of the Pi).</p>
+<h4 id="make-server-start-automatically">Make server start automatically</h4>
+<p>In order to make the file serving start automatically when I boot the Pi, I simply add cronjobs. Add cronjobs by editing the crontab file:</p>
+<pre><code>crontab -e</code></pre>
+<p>Add the following files to the bottom:</p>
+<pre><code>@reboot /path/to/kiwix/kiwix-serve --port=8080 --library /path/to/kiwix/library.xml
+@reboot python3 -m http.server --directory /path/to/files/ 8081</code></pre>
+<p>Now these commands will run every time you boot up the Pi.</p>
+<h3 id="setting-up-the-pi-to-broadcast-its-own-wifi-network">Setting up the Pi to broadcast its own WiFi-network</h3>
+<p>(The instructions in this section were found in the Raspberry Pi documentation for using the <a href="https://www.raspberrypi.org/documentation/configuration/wireless/access-point-routed.md">Pi as a routed wireless access point</a>).</p>
+<p>After the content is ready to be served from the Pi, one has to make the Pi broadcast its own WiFi. By doing this, any device nearby can connect to the WiFi and access the Pi’s content. If you already have a router that all your devices are connected to (including the Pi), you can skip this step.</p>
+<p>I used the following commands to make the Raspberry Pi broadcast its own WiFi network:</p>
+<pre><code># Access point software:
+sudo apt install hostapd
+# Enable the accesspoint service and make it start on boot:
+sudo systemctl unmask hostapd
+sudo systemctl enable hostapd
+# Provide network management services:
+sudo apt install dnsmasq
+# Utility for firewall rules:
+sudo DEBIAN_FRONTEND=noninteractive apt install -y netfilter-persistent iptables-persistent</code></pre>
+<p>After installing the software above, I edited the configuration file for <code>dhcpcd</code>:</p>
+<pre><code>sudo vim /etc/dhcpcd.conf</code></pre>
+<p>These lines were added to the end:</p>
+<pre><code>interface wlan0
+    static ip_address=192.168.4.1/24
+    nohook wpa_supplicant</code></pre>
+<p>The Pi will be reachable in the IP address <code>192.168.4.1</code> after the setup process is complete, and you are connected to the WiFi of the Pi.</p>
+<p>Then I created the <code>hostapd</code> configuration file:</p>
+<pre><code>sudo vim /etc/hostapd/hostapd.conf</code></pre>
+<pre><code>country_code=&lt;COUNTRY CODE&gt;
+interface=wlan0
+ssid=&lt;NAME OF NETWORK&gt;
+hw_mode=g
+channel=7
+macaddr_acl=0
+auth_algs=1
+ignore_broadcast_ssid=0
+wpa=2
+wpa_passphrase=&lt;PASSWORD&gt;
+wpa_key_mgmt=WPA-PSK
+wpa_pairwise=TKIP
+rsn_pairwise=CCMP</code></pre>
+<p>In my case, <code>&lt;COUNTRY CODE&gt;</code> was <code>NO</code> because I live in Norway, and one also have to fill in a name for the network and password.</p>
+<p>After a reboot (<code>sudo systemctl reboot</code>) the Raspberry Pi will broadcast its own WiFi network, and you can connect to it using the name and password specified in the <code>hostapd.conf</code> file.</p>
+<h3 id="conclusion">Conclusion</h3>
+<p>After these tree steps are done, you can connect to the Pi’s network using WiFi, and access the content on <code>192.168.4.1:8080</code> or any other port number that you have chosen to serve your files on. I find this useful both to limit data usage, but also because I like to work offline if I do not strictly need to do specific things online.</p>
+<p>Screenshot from how Kiwix serves <code>.zim</code>-files:</p>
+<figure>
+<img src="posts/20210221-offline-internet/01.png" alt="" /><figcaption>Screenshot from how Kiwix serves .zim-files</figcaption>
+</figure>
+<p>Screenshot from how Python serves files:</p>
+<figure>
+<img src="posts/20210221-offline-internet/02.png" alt="" /><figcaption>Screenshot from how Python serves files</figcaption>
+</figure>
+</article>
+    <footer>
+        No tracking. No cookies. No visit logs.
+        <br>
+        Get updates via <a href="index.xml">RSS</a>.
+        <br>
+        If you got comments or feedback, feel free to send me an e-mail: <a href="mailto:erikjohannes@protonmail.com">erikjohannes@protonmail.com</a> :)
+        <br>
+        Website is built through self-made scripts and manual writing.
+        <br>
+        Copyright: &copy;2018-2021 Erik Johannes Husom. All rights reserved.
+    </footer>
+    </body>
+</html>

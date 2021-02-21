@@ -153,7 +153,7 @@ section.gallerymasonry h2 {
         column-count: 2;
     }
     .maingalleryitem {
-      max-height: 280px;
+      max-height: 220px;
     }
 }
 /*}}}*/

@@ -6,7 +6,7 @@
         <description>Recent content on Erik Johannes Husom's blog</description>
         <generator>EJs fabolous Python-script</generator>
         <language>en-us</language>
-        <lastBuildDate>Sun, 21 Feb 2021 17:41:48 -0000</lastBuildDate>
+        <lastBuildDate>Sun, 21 Feb 2021 17:43:49 -0000</lastBuildDate>
         <atom:link href="https://erikjohannes.no/index.xml" rel="self" type="application/rss+xml"/>
                     <item>
             <title>Offline Internet
@@ -39,7 +39,7 @@
 &lt;p&gt;I use two different ways of serving the content wirelessly to other devices, one for the &lt;code&gt;.zim&lt;/code&gt;-files, and another one for other file types.&lt;/p&gt;
 &lt;h4 id=&quot;serving-.zim-files&quot;&gt;Serving .zim-files&lt;/h4&gt;
 &lt;p&gt;For serving &lt;code&gt;.zim&lt;/code&gt;-files, I use software called Kiwix. First I download Kiwix from &lt;a href=&quot;https://www.kiwix.org/en/downloads/kiwix-serve/&quot;&gt;this link&lt;/a&gt; (if you use a Raspberry Pi like me, choose the version called “GNU/Linux ARM 32-bits”). Unpack the zipped file with&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;tar -xvzf kiwix-tools_linux-armhf-3.1.2-4.tar.gz&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&quot;sourceCode&quot; id=&quot;cb1&quot;&gt;&lt;pre class=&quot;sourceCode sh&quot;&gt;&lt;code class=&quot;sourceCode bash&quot;&gt;&lt;span id=&quot;cb1-1&quot;&gt;&lt;a href=&quot;#cb1-1&quot;&gt;&lt;/a&gt;&lt;span class=&quot;fu&quot;&gt;tar&lt;/span&gt; -xvzf kiwix-tools_linux-armhf-3.1.2-4.tar.gz&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Your version number might be different though. The contents are unpacked to a folder with the same name as the zipped file. I rename this folder &lt;code&gt;kiwix&lt;/code&gt; to make things easier, and then move all my downloaded &lt;code&gt;.zim&lt;/code&gt;-files to this folder. If you for example download a file called &lt;code&gt;wikipedia.zom&lt;/code&gt; and another file called &lt;code&gt;gutenberg.zim&lt;/code&gt;, the folder should look like&lt;/p&gt;
 &lt;div class=&quot;sourceCode&quot; id=&quot;cb2&quot;&gt;&lt;pre class=&quot;sourceCode sh&quot;&gt;&lt;code class=&quot;sourceCode bash&quot;&gt;&lt;span id=&quot;cb2-1&quot;&gt;&lt;a href=&quot;#cb2-1&quot;&gt;&lt;/a&gt;&lt;span class=&quot;ex&quot;&gt;kiwix/&lt;/span&gt;&lt;/span&gt;
 &lt;span id=&quot;cb2-2&quot;&gt;&lt;a href=&quot;#cb2-2&quot;&gt;&lt;/a&gt;├── &lt;span class=&quot;ex&quot;&gt;gutenberg.zim&lt;/span&gt;&lt;/span&gt;

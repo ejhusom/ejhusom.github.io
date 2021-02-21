@@ -57,7 +57,7 @@ from [this link](https://www.kiwix.org/en/downloads/kiwix-serve/) (if you use a
 Raspberry Pi like me, choose the version called "GNU/Linux ARM 32-bits").
 Unpack the zipped file with
 
-```
+```sh
 tar -xvzf kiwix-tools_linux-armhf-3.1.2-4.tar.gz
 ```
 

@@ -61,7 +61,7 @@
 <p>I use two different ways of serving the content wirelessly to other devices, one for the <code>.zim</code>-files, and another one for other file types.</p>
 <h4 id="serving-.zim-files">Serving .zim-files</h4>
 <p>For serving <code>.zim</code>-files, I use software called Kiwix. First I download Kiwix from <a href="https://www.kiwix.org/en/downloads/kiwix-serve/">this link</a> (if you use a Raspberry Pi like me, choose the version called “GNU/Linux ARM 32-bits”). Unpack the zipped file with</p>
-<pre><code>tar -xvzf kiwix-tools_linux-armhf-3.1.2-4.tar.gz</code></pre>
+<div class="sourceCode" id="cb1"><pre class="sourceCode sh"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1"></a><span class="fu">tar</span> -xvzf kiwix-tools_linux-armhf-3.1.2-4.tar.gz</span></code></pre></div>
 <p>Your version number might be different though. The contents are unpacked to a folder with the same name as the zipped file. I rename this folder <code>kiwix</code> to make things easier, and then move all my downloaded <code>.zim</code>-files to this folder. If you for example download a file called <code>wikipedia.zom</code> and another file called <code>gutenberg.zim</code>, the folder should look like</p>
 <div class="sourceCode" id="cb2"><pre class="sourceCode sh"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1"></a><span class="ex">kiwix/</span></span>
 <span id="cb2-2"><a href="#cb2-2"></a>├── <span class="ex">gutenberg.zim</span></span>

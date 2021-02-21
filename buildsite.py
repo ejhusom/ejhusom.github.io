@@ -40,6 +40,15 @@ class Website():
         self.layout_files = []
         self.img_exts = [".jpg", ".png"]
 
+
+        self.wide_pages = [
+                "adventure.html",
+                "landscape.html",
+                "mans-best-friend.html",
+                "plants.html",
+                "wildlife.html"
+        ]
+
         # Read the common layouts of each page
         for f in self.layout_filenames:
             with open(self.layouts_folder + "/" + f, "r") as infile:
@@ -81,7 +90,13 @@ class Website():
             # Combine the common layouts and the page content
             page = self.combine_layouts(body)
 
+            # Check if the page should have a wide body
+            if os.path.basename(f) in self.wide_pages:
+                page = page.replace("<body>", "<body class=wide>")
+
             self.save_page(page, f)
+
+
 
         for f in os.listdir(self.standalone_folder):
 

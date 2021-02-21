@@ -31,6 +31,10 @@ body {
     line-height: 1.6;
 }
 
+body.wide {
+    max-width: none;
+}
+
 header {
     padding-bottom: 3em;
 }

@@ -209,8 +209,9 @@ class Website():
         blog_rfcdates = list(reversed(list(blog_rfcdates)))
 
 
-        shortblogfeed = "<h2>Latest posts</h2>"
-        shortblogfeed += "<ul>"
+        # shortblogfeed = "<h2>Latest posts</h2>"
+        # shortblogfeed += "<ul>"
+        shortblogfeed = "<ul>"
         length = 3
         counter = 0
 

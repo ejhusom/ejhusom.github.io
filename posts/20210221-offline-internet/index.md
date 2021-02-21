@@ -6,8 +6,8 @@ date: 2021-02-21
 A project I have wanted to for a long time is setting up an "offline Internet",
 or ["Internet-in-a-box"](https://en.wikipedia.org/wiki/Internet-in-a-Box),
 which is an offline "library" and a wireless access point that nearby devices
-can connect to. To do this I used only a Raspberry Pi 4 with the official [Raspberry Pi
-OS](https://www.raspberrypi.org/software/operating-systems/) installed.
+can connect to. To do this I used a Raspberry Pi 4 with the official [Raspberry
+Pi OS](https://www.raspberrypi.org/software/operating-systems/) installed.
 
 The main steps in creating this "Internet-in-a-box" is:
 
@@ -18,6 +18,9 @@ The main steps in creating this "Internet-in-a-box" is:
 
 I assume that the operating system already is installed on the Raspberry Pi (or
 any similar device).
+
+Scroll down to the bottom of the post to see screenshots from the offline
+Internet!
 
 ### Download the desired content
 

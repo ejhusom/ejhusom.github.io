@@ -6,7 +6,7 @@
         <description>Recent content on Erik Johannes Husom's blog</description>
         <generator>EJs fabolous Python-script</generator>
         <language>en-us</language>
-        <lastBuildDate>Sun, 21 Feb 2021 17:43:49 -0000</lastBuildDate>
+        <lastBuildDate>Sun, 21 Feb 2021 19:30:24 -0000</lastBuildDate>
         <atom:link href="https://erikjohannes.no/index.xml" rel="self" type="application/rss+xml"/>
                     <item>
             <title>Offline Internet
@@ -14,7 +14,7 @@
             <link>https://erikjohannes.no/posts/20210221-offline-internet/index.html</link>
             <pubDate>Sun, 21 Feb 2021 00:00:00 -0000</pubDate>
             <guid>https://erikjohannes.no/posts/20210221-offline-internet/index.html</guid>
-            <description>&lt;p&gt;A project I have wanted to for a long time is setting up an “offline Internet”, or &lt;a href=&quot;https://en.wikipedia.org/wiki/Internet-in-a-Box&quot;&gt;“Internet-in-a-box”&lt;/a&gt;, which is an offline “library” and a wireless access point that nearby devices can connect to. To do this I used only a Raspberry Pi 4 with the official &lt;a href=&quot;https://www.raspberrypi.org/software/operating-systems/&quot;&gt;Raspberry Pi OS&lt;/a&gt; installed.&lt;/p&gt;
+            <description>&lt;p&gt;A project I have wanted to for a long time is setting up an “offline Internet”, or &lt;a href=&quot;https://en.wikipedia.org/wiki/Internet-in-a-Box&quot;&gt;“Internet-in-a-box”&lt;/a&gt;, which is an offline “library” and a wireless access point that nearby devices can connect to. To do this I used a Raspberry Pi 4 with the official &lt;a href=&quot;https://www.raspberrypi.org/software/operating-systems/&quot;&gt;Raspberry Pi OS&lt;/a&gt; installed.&lt;/p&gt;
 &lt;p&gt;The main steps in creating this “Internet-in-a-box” is:&lt;/p&gt;
 &lt;ol type=&quot;1&quot;&gt;
 &lt;li&gt;&lt;a href=&quot;posts/20210221-offline-internet/index.html#download-the-desired-content&quot;&gt;Download the desired content&lt;/a&gt;&lt;/li&gt;
@@ -22,6 +22,7 @@
 &lt;li&gt;&lt;a href=&quot;posts/20210221-offline-internet/index.html#setting-up-the-pi-to-broadcast-its-own-wifi-network&quot;&gt;Setting up the Pi to broadcast its own WiFi-network&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;I assume that the operating system already is installed on the Raspberry Pi (or any similar device).&lt;/p&gt;
+&lt;p&gt;Scroll down to the bottom of the post to see screenshots from the offline Internet!&lt;/p&gt;
 &lt;h3 id=&quot;download-the-desired-content&quot;&gt;Download the desired content&lt;/h3&gt;
 &lt;p&gt;Many types of static content (HTML, plain text, pictures etc) can be served from the Raspberry Pi. For me, the most useful content is this:&lt;/p&gt;
 &lt;ul&gt;

@@ -11,10 +11,10 @@ OS](https://www.raspberrypi.org/software/operating-systems/) installed.
 
 The main steps in creating this "Internet-in-a-box" is:
 
-1. [Download the desired content](#download-the-desired-content)
-2. [Install software for serving content](#install-software-for-serving-content)
+1. [Download the desired content](posts/20210221-offline-internet/index.html#download-the-desired-content)
+2. [Install software for serving content](posts/20210221-offline-internet/index.html#install-software-for-serving-content)
 3. [Setting up the Pi to broadcast its own
-   WiFi-network](#setting-up-the-pi-to-broadcast-its-own-wifi-network)
+   WiFi-network](posts/20210221-offline-internet/index.html#setting-up-the-pi-to-broadcast-its-own-wifi-network)
 
 I assume that the operating system already is installed on the Raspberry Pi (or
 any similar device).
@@ -67,7 +67,7 @@ make things easier, and then move all my downloaded `.zim`-files to this
 folder. If you for example download a file called `wikipedia.zom` and another
 file called `gutenberg.zim`, the folder should look like
 
-```
+```sh
 kiwix/
 ├── gutenberg.zim
 ├── kiwix-manage
@@ -79,14 +79,14 @@ kiwix/
 
 First you need to make a library containing your `.zim`-files:
 
-```
+```sh
 ./kiwix-manage library.xml add gutenberg.zim
 ./kiwix-manage library.xml add wikipedia.zim
 ```
 
 This library can now be served by running:
 
-```
+```sh
 ./kiwix-serve --port=8080 --library library.xml 
 ```
 
@@ -102,7 +102,7 @@ of course requires that you have Python installed on your system). This simply
 means that I run the following command in the folder containing the files I
 want to serve:
 
-```
+```sh
 python3 -m http.server 8081
 ```
 
@@ -120,13 +120,13 @@ from other devices by going to `[Local IP of the Pi]:8081` in the browser
 In order to make the file serving start automatically when I boot the Pi, I
 simply add cronjobs. Add cronjobs by editing the crontab file:
 
-```
+```sh
 crontab -e
 ```
 
 Add the following files to the bottom:
 
-```
+```sh
 @reboot /path/to/kiwix/kiwix-serve --port=8080 --library /path/to/kiwix/library.xml
 @reboot python3 -m http.server --directory /path/to/files/ 8081
 ```
@@ -145,31 +145,37 @@ broadcast its own WiFi. By doing this, any device nearby can connect to the
 WiFi and access the Pi's content. If you already have a router that all your
 devices are connected to (including the Pi), you can skip this step.
 
-I used the following commands to make the Raspberry Pi broadcast its own WiFi
-network:
+I used the below commands to make the Raspberry Pi broadcast its own WiFi
+network.
 
-```
-# Access point software:
+Install access point software:
+```sh
 sudo apt install hostapd
-# Enable the accesspoint service and make it start on boot:
+```
+Enable the accesspoint service and make it start on boot:
+```sh
 sudo systemctl unmask hostapd
 sudo systemctl enable hostapd
-# Provide network management services:
+```
+Provide network management services:
+```sh
 sudo apt install dnsmasq
-# Utility for firewall rules:
+```
+Utility for firewall rules:
+```sh
 sudo DEBIAN_FRONTEND=noninteractive apt install -y netfilter-persistent iptables-persistent
 ```
 
 After installing the software above, I edited the configuration file for
 `dhcpcd`:
 
-```
+```sh
 sudo vim /etc/dhcpcd.conf
 ```
 
 These  lines were added to the end:
 
-```
+```sh
 interface wlan0
     static ip_address=192.168.4.1/24
     nohook wpa_supplicant
@@ -180,11 +186,11 @@ process is complete, and you are connected to the WiFi of the Pi.
 
 Then I created the `hostapd` configuration file:
 
-```
+```sh
 sudo vim /etc/hostapd/hostapd.conf
 ```
 
-```
+```sh
 country_code=<COUNTRY CODE>
 interface=wlan0
 ssid=<NAME OF NETWORK>
@@ -216,10 +222,6 @@ that you have chosen to serve your files on. I find this useful both to limit
 data usage, but also because I like to work offline if I do not strictly need
 to do specific things online.
 
-Screenshot from how Kiwix serves `.zim`-files:
-
 ![Screenshot from how Kiwix serves .zim-files ](posts/20210221-offline-internet/01.png)
-
-Screenshot from how Python serves files:
 
 ![Screenshot from how Python serves files ](posts/20210221-offline-internet/02.png)

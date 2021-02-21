@@ -6,7 +6,7 @@
         <description>Recent content on Erik Johannes Husom's blog</description>
         <generator>EJs fabolous Python-script</generator>
         <language>en-us</language>
-        <lastBuildDate>Sun, 21 Feb 2021 17:35:41 -0000</lastBuildDate>
+        <lastBuildDate>Sun, 21 Feb 2021 17:41:48 -0000</lastBuildDate>
         <atom:link href="https://erikjohannes.no/index.xml" rel="self" type="application/rss+xml"/>
                     <item>
             <title>Offline Internet
@@ -17,9 +17,9 @@
             <description>&lt;p&gt;A project I have wanted to for a long time is setting up an “offline Internet”, or &lt;a href=&quot;https://en.wikipedia.org/wiki/Internet-in-a-Box&quot;&gt;“Internet-in-a-box”&lt;/a&gt;, which is an offline “library” and a wireless access point that nearby devices can connect to. To do this I used only a Raspberry Pi 4 with the official &lt;a href=&quot;https://www.raspberrypi.org/software/operating-systems/&quot;&gt;Raspberry Pi OS&lt;/a&gt; installed.&lt;/p&gt;
 &lt;p&gt;The main steps in creating this “Internet-in-a-box” is:&lt;/p&gt;
 &lt;ol type=&quot;1&quot;&gt;
-&lt;li&gt;&lt;a href=&quot;#download-the-desired-content&quot;&gt;Download the desired content&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#install-software-for-serving-content&quot;&gt;Install software for serving content&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#setting-up-the-pi-to-broadcast-its-own-wifi-network&quot;&gt;Setting up the Pi to broadcast its own WiFi-network&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;posts/20210221-offline-internet/index.html#download-the-desired-content&quot;&gt;Download the desired content&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;posts/20210221-offline-internet/index.html#install-software-for-serving-content&quot;&gt;Install software for serving content&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;posts/20210221-offline-internet/index.html#setting-up-the-pi-to-broadcast-its-own-wifi-network&quot;&gt;Setting up the Pi to broadcast its own WiFi-network&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;I assume that the operating system already is installed on the Raspberry Pi (or any similar device).&lt;/p&gt;
 &lt;h3 id=&quot;download-the-desired-content&quot;&gt;Download the desired content&lt;/h3&gt;
@@ -41,75 +41,73 @@
 &lt;p&gt;For serving &lt;code&gt;.zim&lt;/code&gt;-files, I use software called Kiwix. First I download Kiwix from &lt;a href=&quot;https://www.kiwix.org/en/downloads/kiwix-serve/&quot;&gt;this link&lt;/a&gt; (if you use a Raspberry Pi like me, choose the version called “GNU/Linux ARM 32-bits”). Unpack the zipped file with&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;tar -xvzf kiwix-tools_linux-armhf-3.1.2-4.tar.gz&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Your version number might be different though. The contents are unpacked to a folder with the same name as the zipped file. I rename this folder &lt;code&gt;kiwix&lt;/code&gt; to make things easier, and then move all my downloaded &lt;code&gt;.zim&lt;/code&gt;-files to this folder. If you for example download a file called &lt;code&gt;wikipedia.zom&lt;/code&gt; and another file called &lt;code&gt;gutenberg.zim&lt;/code&gt;, the folder should look like&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;kiwix/
-├── gutenberg.zim
-├── kiwix-manage
-├── kiwix-read
-├── kiwix-search
-├── kiwix-serve
-└── wikipedia.zim&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&quot;sourceCode&quot; id=&quot;cb2&quot;&gt;&lt;pre class=&quot;sourceCode sh&quot;&gt;&lt;code class=&quot;sourceCode bash&quot;&gt;&lt;span id=&quot;cb2-1&quot;&gt;&lt;a href=&quot;#cb2-1&quot;&gt;&lt;/a&gt;&lt;span class=&quot;ex&quot;&gt;kiwix/&lt;/span&gt;&lt;/span&gt;
+&lt;span id=&quot;cb2-2&quot;&gt;&lt;a href=&quot;#cb2-2&quot;&gt;&lt;/a&gt;├── &lt;span class=&quot;ex&quot;&gt;gutenberg.zim&lt;/span&gt;&lt;/span&gt;
+&lt;span id=&quot;cb2-3&quot;&gt;&lt;a href=&quot;#cb2-3&quot;&gt;&lt;/a&gt;├── &lt;span class=&quot;ex&quot;&gt;kiwix-manage&lt;/span&gt;&lt;/span&gt;
+&lt;span id=&quot;cb2-4&quot;&gt;&lt;a href=&quot;#cb2-4&quot;&gt;&lt;/a&gt;├── &lt;span class=&quot;ex&quot;&gt;kiwix-read&lt;/span&gt;&lt;/span&gt;
+&lt;span id=&quot;cb2-5&quot;&gt;&lt;a href=&quot;#cb2-5&quot;&gt;&lt;/a&gt;├── &lt;span class=&quot;ex&quot;&gt;kiwix-search&lt;/span&gt;&lt;/span&gt;
+&lt;span id=&quot;cb2-6&quot;&gt;&lt;a href=&quot;#cb2-6&quot;&gt;&lt;/a&gt;├── &lt;span class=&quot;ex&quot;&gt;kiwix-serve&lt;/span&gt;&lt;/span&gt;
+&lt;span id=&quot;cb2-7&quot;&gt;&lt;a href=&quot;#cb2-7&quot;&gt;&lt;/a&gt;└── &lt;span class=&quot;ex&quot;&gt;wikipedia.zim&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;First you need to make a library containing your &lt;code&gt;.zim&lt;/code&gt;-files:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;./kiwix-manage library.xml add gutenberg.zim
-./kiwix-manage library.xml add wikipedia.zim&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&quot;sourceCode&quot; id=&quot;cb3&quot;&gt;&lt;pre class=&quot;sourceCode sh&quot;&gt;&lt;code class=&quot;sourceCode bash&quot;&gt;&lt;span id=&quot;cb3-1&quot;&gt;&lt;a href=&quot;#cb3-1&quot;&gt;&lt;/a&gt;&lt;span class=&quot;ex&quot;&gt;./kiwix-manage&lt;/span&gt; library.xml add gutenberg.zim&lt;/span&gt;
+&lt;span id=&quot;cb3-2&quot;&gt;&lt;a href=&quot;#cb3-2&quot;&gt;&lt;/a&gt;&lt;span class=&quot;ex&quot;&gt;./kiwix-manage&lt;/span&gt; library.xml add wikipedia.zim&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;This library can now be served by running:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;./kiwix-serve --port=8080 --library library.xml &lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&quot;sourceCode&quot; id=&quot;cb4&quot;&gt;&lt;pre class=&quot;sourceCode sh&quot;&gt;&lt;code class=&quot;sourceCode bash&quot;&gt;&lt;span id=&quot;cb4-1&quot;&gt;&lt;a href=&quot;#cb4-1&quot;&gt;&lt;/a&gt;&lt;span class=&quot;ex&quot;&gt;./kiwix-serve&lt;/span&gt; --port=8080 --library library.xml &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Go to &lt;code&gt;localhost:8080&lt;/code&gt; in the browser of the Raspberry Pi to see the content. If the Raspberry Pi is connected to a WiFi-network, you can view the content from other devices by going to &lt;code&gt;[Local IP of the Pi]:8080&lt;/code&gt; in the browser (first you need to find the local IP address of the Pi).&lt;/p&gt;
 &lt;h4 id=&quot;serving-other-type-of-content&quot;&gt;Serving other type of content&lt;/h4&gt;
 &lt;p&gt;For all other file formats I use a Python webserver to serve the content (which of course requires that you have Python installed on your system). This simply means that I run the following command in the folder containing the files I want to serve:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;python3 -m http.server 8081&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&quot;sourceCode&quot; id=&quot;cb5&quot;&gt;&lt;pre class=&quot;sourceCode sh&quot;&gt;&lt;code class=&quot;sourceCode bash&quot;&gt;&lt;span id=&quot;cb5-1&quot;&gt;&lt;a href=&quot;#cb5-1&quot;&gt;&lt;/a&gt;&lt;span class=&quot;ex&quot;&gt;python3&lt;/span&gt; -m http.server 8081&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;In this case I have chosen to serve on port 8081, but this can be any other port (if you omit the port number, it will be set to 8000) as long it’s not the same as the other servers you have set up.&lt;/p&gt;
 &lt;p&gt;Go to &lt;code&gt;localhost:8081&lt;/code&gt; in the browser of the Raspberry Pi to see the content. If the Raspberry Pi is connected to a WiFi-network, you can view the content from other devices by going to &lt;code&gt;[Local IP of the Pi]:8081&lt;/code&gt; in the browser (first you need to find the local IP address of the Pi).&lt;/p&gt;
 &lt;h4 id=&quot;make-server-start-automatically&quot;&gt;Make server start automatically&lt;/h4&gt;
 &lt;p&gt;In order to make the file serving start automatically when I boot the Pi, I simply add cronjobs. Add cronjobs by editing the crontab file:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;crontab -e&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&quot;sourceCode&quot; id=&quot;cb6&quot;&gt;&lt;pre class=&quot;sourceCode sh&quot;&gt;&lt;code class=&quot;sourceCode bash&quot;&gt;&lt;span id=&quot;cb6-1&quot;&gt;&lt;a href=&quot;#cb6-1&quot;&gt;&lt;/a&gt;&lt;span class=&quot;ex&quot;&gt;crontab&lt;/span&gt; -e&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Add the following files to the bottom:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;@reboot /path/to/kiwix/kiwix-serve --port=8080 --library /path/to/kiwix/library.xml
-@reboot python3 -m http.server --directory /path/to/files/ 8081&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&quot;sourceCode&quot; id=&quot;cb7&quot;&gt;&lt;pre class=&quot;sourceCode sh&quot;&gt;&lt;code class=&quot;sourceCode bash&quot;&gt;&lt;span id=&quot;cb7-1&quot;&gt;&lt;a href=&quot;#cb7-1&quot;&gt;&lt;/a&gt;&lt;span class=&quot;ex&quot;&gt;@reboot&lt;/span&gt; /path/to/kiwix/kiwix-serve --port=8080 --library /path/to/kiwix/library.xml&lt;/span&gt;
+&lt;span id=&quot;cb7-2&quot;&gt;&lt;a href=&quot;#cb7-2&quot;&gt;&lt;/a&gt;&lt;span class=&quot;ex&quot;&gt;@reboot&lt;/span&gt; python3 -m http.server --directory /path/to/files/ 8081&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Now these commands will run every time you boot up the Pi.&lt;/p&gt;
 &lt;h3 id=&quot;setting-up-the-pi-to-broadcast-its-own-wifi-network&quot;&gt;Setting up the Pi to broadcast its own WiFi-network&lt;/h3&gt;
 &lt;p&gt;(The instructions in this section were found in the Raspberry Pi documentation for using the &lt;a href=&quot;https://www.raspberrypi.org/documentation/configuration/wireless/access-point-routed.md&quot;&gt;Pi as a routed wireless access point&lt;/a&gt;).&lt;/p&gt;
 &lt;p&gt;After the content is ready to be served from the Pi, one has to make the Pi broadcast its own WiFi. By doing this, any device nearby can connect to the WiFi and access the Pi’s content. If you already have a router that all your devices are connected to (including the Pi), you can skip this step.&lt;/p&gt;
-&lt;p&gt;I used the following commands to make the Raspberry Pi broadcast its own WiFi network:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;# Access point software:
-sudo apt install hostapd
-# Enable the accesspoint service and make it start on boot:
-sudo systemctl unmask hostapd
-sudo systemctl enable hostapd
-# Provide network management services:
-sudo apt install dnsmasq
-# Utility for firewall rules:
-sudo DEBIAN_FRONTEND=noninteractive apt install -y netfilter-persistent iptables-persistent&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;I used the below commands to make the Raspberry Pi broadcast its own WiFi network.&lt;/p&gt;
+&lt;p&gt;Install access point software:&lt;/p&gt;
+&lt;div class=&quot;sourceCode&quot; id=&quot;cb8&quot;&gt;&lt;pre class=&quot;sourceCode sh&quot;&gt;&lt;code class=&quot;sourceCode bash&quot;&gt;&lt;span id=&quot;cb8-1&quot;&gt;&lt;a href=&quot;#cb8-1&quot;&gt;&lt;/a&gt;&lt;span class=&quot;fu&quot;&gt;sudo&lt;/span&gt; apt install hostapd&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Enable the accesspoint service and make it start on boot:&lt;/p&gt;
+&lt;div class=&quot;sourceCode&quot; id=&quot;cb9&quot;&gt;&lt;pre class=&quot;sourceCode sh&quot;&gt;&lt;code class=&quot;sourceCode bash&quot;&gt;&lt;span id=&quot;cb9-1&quot;&gt;&lt;a href=&quot;#cb9-1&quot;&gt;&lt;/a&gt;&lt;span class=&quot;fu&quot;&gt;sudo&lt;/span&gt; systemctl unmask hostapd&lt;/span&gt;
+&lt;span id=&quot;cb9-2&quot;&gt;&lt;a href=&quot;#cb9-2&quot;&gt;&lt;/a&gt;&lt;span class=&quot;fu&quot;&gt;sudo&lt;/span&gt; systemctl enable hostapd&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Provide network management services:&lt;/p&gt;
+&lt;div class=&quot;sourceCode&quot; id=&quot;cb10&quot;&gt;&lt;pre class=&quot;sourceCode sh&quot;&gt;&lt;code class=&quot;sourceCode bash&quot;&gt;&lt;span id=&quot;cb10-1&quot;&gt;&lt;a href=&quot;#cb10-1&quot;&gt;&lt;/a&gt;&lt;span class=&quot;fu&quot;&gt;sudo&lt;/span&gt; apt install dnsmasq&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Utility for firewall rules:&lt;/p&gt;
+&lt;div class=&quot;sourceCode&quot; id=&quot;cb11&quot;&gt;&lt;pre class=&quot;sourceCode sh&quot;&gt;&lt;code class=&quot;sourceCode bash&quot;&gt;&lt;span id=&quot;cb11-1&quot;&gt;&lt;a href=&quot;#cb11-1&quot;&gt;&lt;/a&gt;&lt;span class=&quot;fu&quot;&gt;sudo&lt;/span&gt; DEBIAN_FRONTEND=noninteractive apt install -y netfilter-persistent iptables-persistent&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;After installing the software above, I edited the configuration file for &lt;code&gt;dhcpcd&lt;/code&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;sudo vim /etc/dhcpcd.conf&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&quot;sourceCode&quot; id=&quot;cb12&quot;&gt;&lt;pre class=&quot;sourceCode sh&quot;&gt;&lt;code class=&quot;sourceCode bash&quot;&gt;&lt;span id=&quot;cb12-1&quot;&gt;&lt;a href=&quot;#cb12-1&quot;&gt;&lt;/a&gt;&lt;span class=&quot;fu&quot;&gt;sudo&lt;/span&gt; vim /etc/dhcpcd.conf&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;These lines were added to the end:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;interface wlan0
-    static ip_address=192.168.4.1/24
-    nohook wpa_supplicant&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&quot;sourceCode&quot; id=&quot;cb13&quot;&gt;&lt;pre class=&quot;sourceCode sh&quot;&gt;&lt;code class=&quot;sourceCode bash&quot;&gt;&lt;span id=&quot;cb13-1&quot;&gt;&lt;a href=&quot;#cb13-1&quot;&gt;&lt;/a&gt;&lt;span class=&quot;ex&quot;&gt;interface&lt;/span&gt; wlan0&lt;/span&gt;
+&lt;span id=&quot;cb13-2&quot;&gt;&lt;a href=&quot;#cb13-2&quot;&gt;&lt;/a&gt;    &lt;span class=&quot;ex&quot;&gt;static&lt;/span&gt; ip_address=192.168.4.1/24&lt;/span&gt;
+&lt;span id=&quot;cb13-3&quot;&gt;&lt;a href=&quot;#cb13-3&quot;&gt;&lt;/a&gt;    &lt;span class=&quot;ex&quot;&gt;nohook&lt;/span&gt; wpa_supplicant&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;The Pi will be reachable in the IP address &lt;code&gt;192.168.4.1&lt;/code&gt; after the setup process is complete, and you are connected to the WiFi of the Pi.&lt;/p&gt;
 &lt;p&gt;Then I created the &lt;code&gt;hostapd&lt;/code&gt; configuration file:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;sudo vim /etc/hostapd/hostapd.conf&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;country_code=&amp;lt;COUNTRY CODE&amp;gt;
-interface=wlan0
-ssid=&amp;lt;NAME OF NETWORK&amp;gt;
-hw_mode=g
-channel=7
-macaddr_acl=0
-auth_algs=1
-ignore_broadcast_ssid=0
-wpa=2
-wpa_passphrase=&amp;lt;PASSWORD&amp;gt;
-wpa_key_mgmt=WPA-PSK
-wpa_pairwise=TKIP
-rsn_pairwise=CCMP&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&quot;sourceCode&quot; id=&quot;cb14&quot;&gt;&lt;pre class=&quot;sourceCode sh&quot;&gt;&lt;code class=&quot;sourceCode bash&quot;&gt;&lt;span id=&quot;cb14-1&quot;&gt;&lt;a href=&quot;#cb14-1&quot;&gt;&lt;/a&gt;&lt;span class=&quot;fu&quot;&gt;sudo&lt;/span&gt; vim /etc/hostapd/hostapd.conf&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;sourceCode&quot; id=&quot;cb15&quot;&gt;&lt;pre class=&quot;sourceCode sh&quot;&gt;&lt;code class=&quot;sourceCode bash&quot;&gt;&lt;span id=&quot;cb15-1&quot;&gt;&lt;a href=&quot;#cb15-1&quot;&gt;&lt;/a&gt;&lt;span class=&quot;va&quot;&gt;country_code=&lt;/span&gt;&lt;span class=&quot;op&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;ex&quot;&gt;COUNTRY&lt;/span&gt; CODE&lt;span class=&quot;op&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span id=&quot;cb15-2&quot;&gt;&lt;a href=&quot;#cb15-2&quot;&gt;&lt;/a&gt;&lt;span class=&quot;va&quot;&gt;interface=&lt;/span&gt;wlan0&lt;/span&gt;
+&lt;span id=&quot;cb15-3&quot;&gt;&lt;a href=&quot;#cb15-3&quot;&gt;&lt;/a&gt;&lt;span class=&quot;va&quot;&gt;ssid=&lt;/span&gt;&lt;span class=&quot;op&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;ex&quot;&gt;NAME&lt;/span&gt; OF NETWORK&lt;span class=&quot;op&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span id=&quot;cb15-4&quot;&gt;&lt;a href=&quot;#cb15-4&quot;&gt;&lt;/a&gt;&lt;span class=&quot;va&quot;&gt;hw_mode=&lt;/span&gt;g&lt;/span&gt;
+&lt;span id=&quot;cb15-5&quot;&gt;&lt;a href=&quot;#cb15-5&quot;&gt;&lt;/a&gt;&lt;span class=&quot;va&quot;&gt;channel=&lt;/span&gt;7&lt;/span&gt;
+&lt;span id=&quot;cb15-6&quot;&gt;&lt;a href=&quot;#cb15-6&quot;&gt;&lt;/a&gt;&lt;span class=&quot;va&quot;&gt;macaddr_acl=&lt;/span&gt;0&lt;/span&gt;
+&lt;span id=&quot;cb15-7&quot;&gt;&lt;a href=&quot;#cb15-7&quot;&gt;&lt;/a&gt;&lt;span class=&quot;va&quot;&gt;auth_algs=&lt;/span&gt;1&lt;/span&gt;
+&lt;span id=&quot;cb15-8&quot;&gt;&lt;a href=&quot;#cb15-8&quot;&gt;&lt;/a&gt;&lt;span class=&quot;va&quot;&gt;ignore_broadcast_ssid=&lt;/span&gt;0&lt;/span&gt;
+&lt;span id=&quot;cb15-9&quot;&gt;&lt;a href=&quot;#cb15-9&quot;&gt;&lt;/a&gt;&lt;span class=&quot;va&quot;&gt;wpa=&lt;/span&gt;2&lt;/span&gt;
+&lt;span id=&quot;cb15-10&quot;&gt;&lt;a href=&quot;#cb15-10&quot;&gt;&lt;/a&gt;&lt;span class=&quot;va&quot;&gt;wpa_passphrase=&lt;/span&gt;&lt;span class=&quot;op&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;ex&quot;&gt;PASSWORD&lt;/span&gt;&lt;span class=&quot;op&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span id=&quot;cb15-11&quot;&gt;&lt;a href=&quot;#cb15-11&quot;&gt;&lt;/a&gt;&lt;span class=&quot;va&quot;&gt;wpa_key_mgmt=&lt;/span&gt;WPA-PSK&lt;/span&gt;
+&lt;span id=&quot;cb15-12&quot;&gt;&lt;a href=&quot;#cb15-12&quot;&gt;&lt;/a&gt;&lt;span class=&quot;va&quot;&gt;wpa_pairwise=&lt;/span&gt;TKIP&lt;/span&gt;
+&lt;span id=&quot;cb15-13&quot;&gt;&lt;a href=&quot;#cb15-13&quot;&gt;&lt;/a&gt;&lt;span class=&quot;va&quot;&gt;rsn_pairwise=&lt;/span&gt;CCMP&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;In my case, &lt;code&gt;&amp;lt;COUNTRY CODE&amp;gt;&lt;/code&gt; was &lt;code&gt;NO&lt;/code&gt; because I live in Norway, and one also have to fill in a name for the network and password.&lt;/p&gt;
 &lt;p&gt;After a reboot (&lt;code&gt;sudo systemctl reboot&lt;/code&gt;) the Raspberry Pi will broadcast its own WiFi network, and you can connect to it using the name and password specified in the &lt;code&gt;hostapd.conf&lt;/code&gt; file.&lt;/p&gt;
 &lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
 &lt;p&gt;After these tree steps are done, you can connect to the Pi’s network using WiFi, and access the content on &lt;code&gt;192.168.4.1:8080&lt;/code&gt; or any other port number that you have chosen to serve your files on. I find this useful both to limit data usage, but also because I like to work offline if I do not strictly need to do specific things online.&lt;/p&gt;
-&lt;p&gt;Screenshot from how Kiwix serves &lt;code&gt;.zim&lt;/code&gt;-files:&lt;/p&gt;
 &lt;figure&gt;
 &lt;img src=&quot;https://erikjohannes.no/posts/20210221-offline-internet/01.png&quot; alt=&quot;&quot; /&gt;&lt;figcaption&gt;Screenshot from how Kiwix serves .zim-files&lt;/figcaption&gt;
 &lt;/figure&gt;
-&lt;p&gt;Screenshot from how Python serves files:&lt;/p&gt;
 &lt;figure&gt;
 &lt;img src=&quot;https://erikjohannes.no/posts/20210221-offline-internet/02.png&quot; alt=&quot;&quot; /&gt;&lt;figcaption&gt;Screenshot from how Python serves files&lt;/figcaption&gt;
 &lt;/figure&gt;

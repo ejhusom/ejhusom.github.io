@@ -1,6 +1,7 @@
 * {
     --txc: #393838;
-    --txc2: #1183b9;
+    /* --txc2: #1183b9; */
+    --txc2: #393838;
     --bgc: #fff;
     --bcg2: #f1f1f1;
     --hlc: #70b4d5;
@@ -9,7 +10,8 @@
 @media (prefers-color-scheme: dark) {
     * {
         --txc: #f5f5f5;
-        --txc2: #70b4d5;
+        /* --txc2: #70b4d5; */
+        --txc2: #f5f5f5;
         --bgc: #212121;
         --bcg2: #313131;
         --hlc: #1183b1;
@@ -44,7 +46,7 @@ footer{
 /*Links{{{*/
 a:link, a:visited {
   color:  var(--txc2);
-  text-decoration: none;
+  /* text-decoration: none; */
 }
 
 a:hover {

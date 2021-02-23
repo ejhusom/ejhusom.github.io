@@ -140,6 +140,10 @@ section.gallerymasonry h2 {
     background: var(--bcg2);
 }
 
+figcaption {
+    margin-bottom: 2em;
+}
+
 /* Tablets and mobile devices{{{ */
 @media screen and (max-width: 900px) {
     body {

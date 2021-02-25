@@ -246,6 +246,135 @@ class Website():
 
         with open("index.html", "w") as f:
             f.write(index)
+            
+    def read_photo_feed(self):
+
+        photofeed_links = []
+        photofeed_titles = []
+        photofeed_dates = []
+        photofeed_rfcdates = []
+        photofeed_contents = []
+
+        # for f in os.listdir(self.photography_folder):
+        #     if "photofeed" in f:
+
+        #         for img in os.listdir(self.photography_folder + "/" + f):
+
+        #         if "index.md" in os.listdir(self.posts_folder + "/" + f):
+
+        #             with open(self.posts_folder + "/" + f + "/" + "index.md",
+        #                     "r") as infile:
+        #                 lines = infile.readlines()
+
+        #             title = ""
+        #             date = ""
+
+        #             for line in lines:
+        #                 if line.startswith("title:"):
+        #                     title = line.replace("title: ", "")
+        #                 if line.startswith("date:"):
+        #                     date = line.replace("date: ", "")
+        #                 if line.startswith("draft:"):
+        #                     draft = line.replace("draft: ", "")
+        #                     draft = draft.replace('"', "")
+        #                     draft = draft.strip()
+
+        #             if draft == "true":
+        #                 continue
+
+        #             title = title.replace('"', "")
+        #             date = datetime.datetime.strptime(date[:10], "%Y-%m-%d")
+        #             rfcdate = utils.format_datetime(date)
+        #             print_date = datetime.datetime.strftime(date, "%d %b %Y")
+
+        #             os.system(
+        #                     "pandoc {}/{}/index.md -o {}/{}/index.html".format(
+        #                         self.posts_folder, f, self.posts_folder, f
+        #             ))
+                    
+        #             # body = "<h2>blog</h2>"
+        #             # body += "\n"
+        #             body = "<article>"
+        #             body += "\n"
+        #             body += "<h2>" + title + "</h2>"
+        #             body += "\n"
+        #             body += "<h3>" + print_date + "</h3>"
+
+        #             blog_link = self.posts_folder + "/" + f + "/" + "index.html"
+
+        #             with open(blog_link, "r") as infile:
+        #                 content = infile.read()
+
+        #             content = content.replace("{{&lt; rawhtml &gt;}}", "")
+        #             content = content.replace("{{&lt; /rawhtml &gt;}}", "")
+
+        #             body += content
+
+        #             body += "</article>"
+        #             body += "\n"
+
+
+        #             page = self.combine_layouts(body)
+
+        #             self.save_page(page, blog_link)
+
+        #             date = datetime.datetime.strftime(date, "%Y-%m-%d")
+        #             blog_links.append(blog_link)
+        #             blog_titles.append(title)
+        #             blog_dates.append(date)
+        #             blog_rfcdates.append(rfcdate)
+        #             blog_contents.append(content)
+
+        # body = "<article>"
+        # body += "<h2>blog</h2>"
+        # body += "\n"
+        # body += "\n"
+        # body += "<ul>"
+        # body += "\n"
+
+        # blog_dates, blog_titles, blog_links, blog_contents, blog_rfcdates = zip(
+        #         *sorted(zip(blog_dates, blog_titles, blog_links, blog_contents,
+        #             blog_rfcdates))
+        # )
+
+
+        # blog_dates = list(reversed(list(blog_dates)))
+        # blog_links = list(reversed(list(blog_links)))
+        # blog_titles = list(reversed(list(blog_titles)))
+        # blog_contents = list(reversed(list(blog_contents)))
+        # blog_rfcdates = list(reversed(list(blog_rfcdates)))
+
+
+        # # shortblogfeed = "<h2>Latest posts</h2>"
+        # # shortblogfeed += "<ul>"
+        # shortblogfeed = "<ul>"
+        # length = 3
+        # counter = 0
+
+        # for l, t, d in zip(blog_links, blog_titles, blog_dates):
+            
+
+        #     if counter < length:
+        #         shortblogfeed += f"<li><span class=date>{d}</span><a href='{l}'>{t}</a></li>"
+        #         counter += 1
+
+
+        #     # d = datetime.datetime.strftime(d, "%d %b %Y")
+        #     # d = datetime.datetime.strftime(d, "%Y-%m-%d")
+        #     body += f"<li><span class=date>{d}</span><a href='{l}'>{t}</a></li>"
+                    
+        # body += "</ul>"
+        # shortblogfeed += "</ul>"
+
+        # page = self.combine_layouts(body)
+        # self.save_page(page, "blog.html")
+
+        # self.blog_dates = blog_dates
+        # self.blog_links = blog_links
+        # self.blog_titles = blog_titles
+        # self.blog_contents = blog_contents
+        # self.blog_rfcdates = blog_rfcdates
+
 
     def generate_rss(self):
 

@@ -7,7 +7,7 @@ Example:
     >>> python3 buildsite.py
 
 TODO:
-    - Generate RSS feed.
+    - Generate RSS feed for photofeed.
 
 
 Author:   
@@ -345,19 +345,12 @@ class Website():
         # blog_rfcdates = list(reversed(list(blog_rfcdates)))
 
 
-        # # shortblogfeed = "<h2>Latest posts</h2>"
-        # # shortblogfeed += "<ul>"
         # shortblogfeed = "<ul>"
         # length = 3
         # counter = 0
 
         # for l, t, d in zip(blog_links, blog_titles, blog_dates):
             
-
-        #     if counter < length:
-        #         shortblogfeed += f"<li><span class=date>{d}</span><a href='{l}'>{t}</a></li>"
-        #         counter += 1
-
 
         #     # d = datetime.datetime.strftime(d, "%d %b %Y")
         #     # d = datetime.datetime.strftime(d, "%Y-%m-%d")

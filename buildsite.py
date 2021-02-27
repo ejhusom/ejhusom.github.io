@@ -318,7 +318,9 @@ class Website():
 
         photofeed_pages = []
 
-        for month in set(photofeed_months):
+        month_set = list(set(photofeed_months))[::-1]
+
+        for month in month_set:
 
             body = "<article>"
             body += f"<h2>Photofeed {month}</h2>"

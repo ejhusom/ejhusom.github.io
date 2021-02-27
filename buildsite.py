@@ -7,7 +7,7 @@ Example:
     >>> python3 buildsite.py
 
 TODO:
-    - Generate RSS feed.
+    - Generate RSS feed for photofeed.
 
 
 Author:   
@@ -258,6 +258,7 @@ class Website():
         photofeed_months = []
 
         for img_name in os.listdir(self.photofeed_folder):
+            print(img_name)
 
             if not os.path.splitext(img_name)[1].lower() in self.img_exts:
                 continue
@@ -315,6 +316,7 @@ class Website():
         self.blog_rfcdates = list(reversed(list(self.blog_rfcdates)))
         self.blog_image_links = list(reversed(list(self.blog_image_links)))
 
+        photofeed_pages = []
 
         for month in set(photofeed_months):
 
@@ -329,7 +331,7 @@ class Website():
                     photofeed_dates, photofeed_months):
 
                 if m != month:
-                    break
+                    continue
 
                 
                 body += "<section class=galleryitem>"
@@ -353,7 +355,24 @@ class Website():
             page = self.combine_layouts(body)
             self.save_page(page, f"photofeed-{month}.html")
 
+            photofeed_pages.append([f"photofeed-{month}.html", month])
 
+
+        body = "<article>"
+        body += "<h2>Photofeed</h2>"
+        body += "\n"
+        body += "\n"
+        body += "<ul>"
+        body += "\n"
+
+        for p in photofeed_pages:
+
+            body += f"<li><a href='{p[0]}'>{p[1]}</a></li>"
+                    
+        body += "</ul>"
+
+        page = self.combine_layouts(body)
+        self.save_page(page, "photofeed.html")
 
 
     def generate_rss(self):

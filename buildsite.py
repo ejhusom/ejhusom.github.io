@@ -34,11 +34,12 @@ class Website():
         self.pages_folder = "pages"
         self.standalone_folder = "standalone"
         self.photography_folder = "photography"
+        self.photofeed_folder = "photography/photofeed"
         self.posts_folder = "posts"
 
         self.layout_filenames = ["head.html", "header.html", "footer.html"]
         self.layout_files = []
-        self.img_exts = [".jpg", ".png"]
+        self.img_exts = [".jpg", ".png", ".PNG", ".JPG", ".jpeg", ".JPEG"]
 
 
         self.wide_pages = [
@@ -118,6 +119,7 @@ class Website():
         blog_dates = []
         blog_rfcdates = []
         blog_contents = []
+        blog_image_links = []
 
         for f in os.listdir(self.posts_folder):
             # if os.path.isdir(f) and "index.md" in os.listdir(f):
@@ -188,6 +190,7 @@ class Website():
                     blog_dates.append(date)
                     blog_rfcdates.append(rfcdate)
                     blog_contents.append(content)
+                    blog_image_links.append(blog_link)
 
         body = "<article>"
         body += "<h2>blog</h2>"
@@ -196,9 +199,9 @@ class Website():
         body += "<ul>"
         body += "\n"
 
-        blog_dates, blog_titles, blog_links, blog_contents, blog_rfcdates = zip(
+        blog_dates, blog_titles, blog_links, blog_contents, blog_rfcdates, blog_image_links = zip(
                 *sorted(zip(blog_dates, blog_titles, blog_links, blog_contents,
-                    blog_rfcdates))
+                    blog_rfcdates, blog_image_links))
         )
 
 
@@ -207,10 +210,9 @@ class Website():
         blog_titles = list(reversed(list(blog_titles)))
         blog_contents = list(reversed(list(blog_contents)))
         blog_rfcdates = list(reversed(list(blog_rfcdates)))
+        blog_image_links= list(reversed(list(blog_image_links)))
 
 
-        # shortblogfeed = "<h2>Latest posts</h2>"
-        # shortblogfeed += "<ul>"
         shortblogfeed = "<ul>"
         length = 3
         counter = 0
@@ -238,6 +240,7 @@ class Website():
         self.blog_titles = blog_titles
         self.blog_contents = blog_contents
         self.blog_rfcdates = blog_rfcdates
+        self.blog_image_links = blog_image_links
 
 
         with open("index.html", "r") as f:
@@ -252,128 +255,105 @@ class Website():
         photofeed_links = []
         photofeed_titles = []
         photofeed_dates = []
-        photofeed_rfcdates = []
-        photofeed_contents = []
+        photofeed_months = []
 
-        # for f in os.listdir(self.photography_folder):
-        #     if "photofeed" in f:
+        for img_name in os.listdir(self.photofeed_folder):
 
-        #         for img in os.listdir(self.photography_folder + "/" + f):
+            if not os.path.splitext(img_name)[1].lower() in self.img_exts:
+                continue
 
-        #         if "index.md" in os.listdir(self.posts_folder + "/" + f):
+            date = datetime.datetime.strptime(img_name[:10], "%Y-%m-%d")
+            year_and_month = img_name[:7]
+            rfcdate = utils.format_datetime(date)
+            print_date = datetime.datetime.strftime(date, "%d %b %Y")
 
-        #             with open(self.posts_folder + "/" + f + "/" + "index.md",
-        #                     "r") as infile:
-        #                 lines = infile.readlines()
+            # Take the second part of filename (after the date) and
+            # split at the extension. Replace dashes with space.
+            title = img_name[11:].split(".")[0]
+            title = title.replace("-", " ")
 
-        #             title = ""
-        #             date = ""
+            link = "photofeed-" + year_and_month + ".html"
+            image_link = self.photofeed_folder + "/" + img_name
 
-        #             for line in lines:
-        #                 if line.startswith("title:"):
-        #                     title = line.replace("title: ", "")
-        #                 if line.startswith("date:"):
-        #                     date = line.replace("date: ", "")
-        #                 if line.startswith("draft:"):
-        #                     draft = line.replace("draft: ", "")
-        #                     draft = draft.replace('"', "")
-        #                     draft = draft.strip()
+            content = f"<img src=\"{image_link}\" alt=''/><figcaption>{title}</figcaption>"
 
-        #             if draft == "true":
-        #                 continue
+            date = datetime.datetime.strftime(date, "%Y-%m-%d")
+            self.blog_links.append(link)
+            self.blog_titles.append(title)
+            self.blog_dates.append(date)
+            self.blog_rfcdates.append(rfcdate)
+            self.blog_contents.append(content)
+            self.blog_image_links.append(image_link)
 
-        #             title = title.replace('"', "")
-        #             date = datetime.datetime.strptime(date[:10], "%Y-%m-%d")
-        #             rfcdate = utils.format_datetime(date)
-        #             print_date = datetime.datetime.strftime(date, "%d %b %Y")
-
-        #             os.system(
-        #                     "pandoc {}/{}/index.md -o {}/{}/index.html".format(
-        #                         self.posts_folder, f, self.posts_folder, f
-        #             ))
-                    
-        #             # body = "<h2>blog</h2>"
-        #             # body += "\n"
-        #             body = "<article>"
-        #             body += "\n"
-        #             body += "<h2>" + title + "</h2>"
-        #             body += "\n"
-        #             body += "<h3>" + print_date + "</h3>"
-
-        #             blog_link = self.posts_folder + "/" + f + "/" + "index.html"
-
-        #             with open(blog_link, "r") as infile:
-        #                 content = infile.read()
-
-        #             content = content.replace("{{&lt; rawhtml &gt;}}", "")
-        #             content = content.replace("{{&lt; /rawhtml &gt;}}", "")
-
-        #             body += content
-
-        #             body += "</article>"
-        #             body += "\n"
+            photofeed_links.append(image_link)
+            photofeed_titles.append(title)
+            photofeed_dates.append(date)
+            photofeed_months.append(year_and_month)
 
 
-        #             page = self.combine_layouts(body)
+        photofeed_dates, photofeed_links, photofeed_titles, photofeed_months = zip(
+                *sorted(zip(photofeed_dates, photofeed_links, photofeed_titles,
+                    photofeed_months))
+        )
 
-        #             self.save_page(page, blog_link)
+        photofeed_dates = list(reversed(list(photofeed_dates)))
+        photofeed_links = list(reversed(list(photofeed_links)))
+        photofeed_titles = list(reversed(list(photofeed_titles)))
+        photofeed_months = list(reversed(list(photofeed_months)))
 
-        #             date = datetime.datetime.strftime(date, "%Y-%m-%d")
-        #             blog_links.append(blog_link)
-        #             blog_titles.append(title)
-        #             blog_dates.append(date)
-        #             blog_rfcdates.append(rfcdate)
-        #             blog_contents.append(content)
-
-        # body = "<article>"
-        # body += "<h2>blog</h2>"
-        # body += "\n"
-        # body += "\n"
-        # body += "<ul>"
-        # body += "\n"
-
-        # blog_dates, blog_titles, blog_links, blog_contents, blog_rfcdates = zip(
-        #         *sorted(zip(blog_dates, blog_titles, blog_links, blog_contents,
-        #             blog_rfcdates))
-        # )
+        self.blog_dates, self.blog_titles, self.blog_links, self.blog_contents, self.blog_rfcdates, self.blog_image_links = zip(
+                *sorted(zip(self.blog_dates, self.blog_titles, self.blog_links,
+                    self.blog_contents, self.blog_rfcdates,
+                    self.blog_image_links))
+        )
 
 
-        # blog_dates = list(reversed(list(blog_dates)))
-        # blog_links = list(reversed(list(blog_links)))
-        # blog_titles = list(reversed(list(blog_titles)))
-        # blog_contents = list(reversed(list(blog_contents)))
-        # blog_rfcdates = list(reversed(list(blog_rfcdates)))
+        self.blog_dates = list(reversed(list(self.blog_dates)))
+        self.blog_links = list(reversed(list(self.blog_links)))
+        self.blog_titles = list(reversed(list(self.blog_titles)))
+        self.blog_contents = list(reversed(list(self.blog_contents)))
+        self.blog_rfcdates = list(reversed(list(self.blog_rfcdates)))
+        self.blog_image_links = list(reversed(list(self.blog_image_links)))
 
 
-        # # shortblogfeed = "<h2>Latest posts</h2>"
-        # # shortblogfeed += "<ul>"
-        # shortblogfeed = "<ul>"
-        # length = 3
-        # counter = 0
+        for month in set(photofeed_months):
 
-        # for l, t, d in zip(blog_links, blog_titles, blog_dates):
-            
+            body = "<article>"
+            body += f"<h2>Photofeed {month}</h2>"
+            body += "\n"
+            body += "\n"
+            body += "<section class=gallerymasonry>"
+            body += "\n"
 
-        #     if counter < length:
-        #         shortblogfeed += f"<li><span class=date>{d}</span><a href='{l}'>{t}</a></li>"
-        #         counter += 1
+            for l, t, d, m in zip(photofeed_links, photofeed_titles,
+                    photofeed_dates, photofeed_months):
+
+                if m != month:
+                    break
+
+                
+                body += "<section class=galleryitem>"
+                body += "\n"
+                body += f"<a href=\"{l}\">"
+                body += f"<img src=\"{l}\" title=\"{t}\"/>"
+                body += "</a>"
+                body += "\n"
+                body += f"<figcaption>{d}: {t}</figcaption>"
+                body += "\n"
+                body += "</section>"
+                body += "\n"
+
+            body += "</section>"
+            body += "\n"
+            body += "</article>"
+            body += "\n"
+
+                        
+
+            page = self.combine_layouts(body)
+            self.save_page(page, f"photofeed-{month}.html")
 
 
-        #     # d = datetime.datetime.strftime(d, "%d %b %Y")
-        #     # d = datetime.datetime.strftime(d, "%Y-%m-%d")
-        #     body += f"<li><span class=date>{d}</span><a href='{l}'>{t}</a></li>"
-                    
-        # body += "</ul>"
-        # shortblogfeed += "</ul>"
-
-        # page = self.combine_layouts(body)
-        # self.save_page(page, "blog.html")
-
-        # self.blog_dates = blog_dates
-        # self.blog_links = blog_links
-        # self.blog_titles = blog_titles
-        # self.blog_contents = blog_contents
-        # self.blog_rfcdates = blog_rfcdates
 
 
     def generate_rss(self):
@@ -387,18 +367,26 @@ class Website():
 
         items = ""
 
-        for l, t, d, c in zip(self.blog_links, self.blog_titles, self.blog_rfcdates, self.blog_contents):
+        for l, t, d, c, i in zip(self.blog_links, self.blog_titles, self.blog_rfcdates, self.blog_contents, self.blog_image_links):
 
             c = re.sub(r"<script(.|\n)+?script>", "", c)
             c = re.sub(r"<link(.)+?>", "", c)
             c = c.replace(
                     'src="posts', 'src="' + self.baseurl + 'posts'
             )
+
+            guid =  self.baseurl + l
+
+            if guid.startswith("https://erikjohannes.no/photofeed"):
+                guid = self.baseurl + i
+                c = c.replace(
+                        'src="', 'src="' + self.baseurl
+                )
+
             c = html.escape(c)
 
-
             item = item_template.format(
-                    t, self.baseurl + l, d, self.baseurl + l, c
+                    t, self.baseurl + l, d, guid, c
             )
 
 
@@ -440,5 +428,6 @@ if __name__ == '__main__':
     website = Website()
     website.build_pages()
     website.build_blog()
+    website.read_photo_feed()
     website.generate_rss()
 

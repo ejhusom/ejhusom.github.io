@@ -318,7 +318,7 @@ class Website():
 
         photofeed_pages = []
 
-        month_set = list(set(photofeed_months))[::-1]
+        month_set = sorted(list(set(photofeed_months)))[::-1]
 
         for month in month_set:
 
@@ -358,6 +358,7 @@ class Website():
             self.save_page(page, f"photofeed-{month}.html")
 
             photofeed_pages.append([f"photofeed-{month}.html", month])
+            print(month)
 
 
         body = "<article>"

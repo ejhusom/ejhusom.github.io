@@ -55,77 +55,77 @@
 <p>I use two different ways of serving the content wirelessly to other devices, one for the <code>.zim</code>-files, and another one for other file types.</p>
 <h4 id="serving-.zim-files">Serving .zim-files</h4>
 <p>For serving <code>.zim</code>-files, I use software called Kiwix. First I download Kiwix from <a href="https://www.kiwix.org/en/downloads/kiwix-serve/">this link</a> (if you use a Raspberry Pi like me, choose the version called “GNU/Linux ARM 32-bits”). Unpack the zipped file with</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode sh"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1"></a><span class="fu">tar</span> -xvzf kiwix-tools_linux-armhf-3.1.2-4.tar.gz</span></code></pre></div>
+<div class="sourceCode" id="cb1"><pre class="sourceCode sh"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">tar</span> <span class="at">-xvzf</span> kiwix-tools_linux-armhf-3.1.2-4.tar.gz</span></code></pre></div>
 <p>Your version number might be different though. The contents are unpacked to a folder with the same name as the zipped file. I rename this folder <code>kiwix</code> to make things easier, and then move all my downloaded <code>.zim</code>-files to this folder. If you for example download a file called <code>wikipedia.zom</code> and another file called <code>gutenberg.zim</code>, the folder should look like</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode sh"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1"></a><span class="ex">kiwix/</span></span>
-<span id="cb2-2"><a href="#cb2-2"></a>├── <span class="ex">gutenberg.zim</span></span>
-<span id="cb2-3"><a href="#cb2-3"></a>├── <span class="ex">kiwix-manage</span></span>
-<span id="cb2-4"><a href="#cb2-4"></a>├── <span class="ex">kiwix-read</span></span>
-<span id="cb2-5"><a href="#cb2-5"></a>├── <span class="ex">kiwix-search</span></span>
-<span id="cb2-6"><a href="#cb2-6"></a>├── <span class="ex">kiwix-serve</span></span>
-<span id="cb2-7"><a href="#cb2-7"></a>└── <span class="ex">wikipedia.zim</span></span></code></pre></div>
+<div class="sourceCode" id="cb2"><pre class="sourceCode sh"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">kiwix/</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="ex">├──</span> gutenberg.zim</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="ex">├──</span> kiwix-manage</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="ex">├──</span> kiwix-read</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="ex">├──</span> kiwix-search</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="ex">├──</span> kiwix-serve</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="ex">└──</span> wikipedia.zim</span></code></pre></div>
 <p>First you need to make a library containing your <code>.zim</code>-files:</p>
-<div class="sourceCode" id="cb3"><pre class="sourceCode sh"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1"></a><span class="ex">./kiwix-manage</span> library.xml add gutenberg.zim</span>
-<span id="cb3-2"><a href="#cb3-2"></a><span class="ex">./kiwix-manage</span> library.xml add wikipedia.zim</span></code></pre></div>
+<div class="sourceCode" id="cb3"><pre class="sourceCode sh"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="ex">./kiwix-manage</span> library.xml add gutenberg.zim</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="ex">./kiwix-manage</span> library.xml add wikipedia.zim</span></code></pre></div>
 <p>This library can now be served by running:</p>
-<div class="sourceCode" id="cb4"><pre class="sourceCode sh"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1"></a><span class="ex">./kiwix-serve</span> --port=8080 --library library.xml </span></code></pre></div>
+<div class="sourceCode" id="cb4"><pre class="sourceCode sh"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="ex">./kiwix-serve</span> <span class="at">--port</span><span class="op">=</span>8080 <span class="at">--library</span> library.xml </span></code></pre></div>
 <p>Go to <code>localhost:8080</code> in the browser of the Raspberry Pi to see the content. If the Raspberry Pi is connected to a WiFi-network, you can view the content from other devices by going to <code>[Local IP of the Pi]:8080</code> in the browser (first you need to find the local IP address of the Pi).</p>
 <h4 id="serving-other-type-of-content">Serving other type of content</h4>
 <p>For all other file formats I use a Python webserver to serve the content (which of course requires that you have Python installed on your system). This simply means that I run the following command in the folder containing the files I want to serve:</p>
-<div class="sourceCode" id="cb5"><pre class="sourceCode sh"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1"></a><span class="ex">python3</span> -m http.server 8081</span></code></pre></div>
+<div class="sourceCode" id="cb5"><pre class="sourceCode sh"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="ex">python3</span> <span class="at">-m</span> http.server 8081</span></code></pre></div>
 <p>In this case I have chosen to serve on port 8081, but this can be any other port (if you omit the port number, it will be set to 8000) as long it’s not the same as the other servers you have set up.</p>
 <p>Go to <code>localhost:8081</code> in the browser of the Raspberry Pi to see the content. If the Raspberry Pi is connected to a WiFi-network, you can view the content from other devices by going to <code>[Local IP of the Pi]:8081</code> in the browser (first you need to find the local IP address of the Pi).</p>
 <h4 id="make-server-start-automatically">Make server start automatically</h4>
 <p>In order to make the file serving start automatically when I boot the Pi, I simply add cronjobs. Add cronjobs by editing the crontab file:</p>
-<div class="sourceCode" id="cb6"><pre class="sourceCode sh"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1"></a><span class="ex">crontab</span> -e</span></code></pre></div>
+<div class="sourceCode" id="cb6"><pre class="sourceCode sh"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="ex">crontab</span> <span class="at">-e</span></span></code></pre></div>
 <p>Add the following files to the bottom:</p>
-<div class="sourceCode" id="cb7"><pre class="sourceCode sh"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1"></a><span class="ex">@reboot</span> /path/to/kiwix/kiwix-serve --port=8080 --library /path/to/kiwix/library.xml</span>
-<span id="cb7-2"><a href="#cb7-2"></a><span class="ex">@reboot</span> python3 -m http.server --directory /path/to/files/ 8081</span></code></pre></div>
+<div class="sourceCode" id="cb7"><pre class="sourceCode sh"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="ex">@reboot</span> /path/to/kiwix/kiwix-serve <span class="at">--port</span><span class="op">=</span>8080 <span class="at">--library</span> /path/to/kiwix/library.xml</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="ex">@reboot</span> python3 <span class="at">-m</span> http.server <span class="at">--directory</span> /path/to/files/ 8081</span></code></pre></div>
 <p>Now these commands will run every time you boot up the Pi.</p>
 <h3 id="setting-up-the-pi-to-broadcast-its-own-wifi-network">Setting up the Pi to broadcast its own WiFi-network</h3>
 <p>(The instructions in this section were found in the Raspberry Pi documentation for using the <a href="https://www.raspberrypi.org/documentation/configuration/wireless/access-point-routed.md">Pi as a routed wireless access point</a>).</p>
 <p>After the content is ready to be served from the Pi, one has to make the Pi broadcast its own WiFi. By doing this, any device nearby can connect to the WiFi and access the Pi’s content. If you already have a router that all your devices are connected to (including the Pi), you can skip this step.</p>
 <p>I used the below commands to make the Raspberry Pi broadcast its own WiFi network.</p>
 <p>Install access point software:</p>
-<div class="sourceCode" id="cb8"><pre class="sourceCode sh"><code class="sourceCode bash"><span id="cb8-1"><a href="#cb8-1"></a><span class="fu">sudo</span> apt install hostapd</span></code></pre></div>
+<div class="sourceCode" id="cb8"><pre class="sourceCode sh"><code class="sourceCode bash"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> apt install hostapd</span></code></pre></div>
 <p>Enable the accesspoint service and make it start on boot:</p>
-<div class="sourceCode" id="cb9"><pre class="sourceCode sh"><code class="sourceCode bash"><span id="cb9-1"><a href="#cb9-1"></a><span class="fu">sudo</span> systemctl unmask hostapd</span>
-<span id="cb9-2"><a href="#cb9-2"></a><span class="fu">sudo</span> systemctl enable hostapd</span></code></pre></div>
+<div class="sourceCode" id="cb9"><pre class="sourceCode sh"><code class="sourceCode bash"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> systemctl unmask hostapd</span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> systemctl enable hostapd</span></code></pre></div>
 <p>Provide network management services:</p>
-<div class="sourceCode" id="cb10"><pre class="sourceCode sh"><code class="sourceCode bash"><span id="cb10-1"><a href="#cb10-1"></a><span class="fu">sudo</span> apt install dnsmasq</span></code></pre></div>
+<div class="sourceCode" id="cb10"><pre class="sourceCode sh"><code class="sourceCode bash"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> apt install dnsmasq</span></code></pre></div>
 <p>Utility for firewall rules:</p>
-<div class="sourceCode" id="cb11"><pre class="sourceCode sh"><code class="sourceCode bash"><span id="cb11-1"><a href="#cb11-1"></a><span class="fu">sudo</span> DEBIAN_FRONTEND=noninteractive apt install -y netfilter-persistent iptables-persistent</span></code></pre></div>
+<div class="sourceCode" id="cb11"><pre class="sourceCode sh"><code class="sourceCode bash"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> DEBIAN_FRONTEND=noninteractive apt install <span class="at">-y</span> netfilter-persistent iptables-persistent</span></code></pre></div>
 <p>After installing the software above, I edited the configuration file for <code>dhcpcd</code>:</p>
-<div class="sourceCode" id="cb12"><pre class="sourceCode sh"><code class="sourceCode bash"><span id="cb12-1"><a href="#cb12-1"></a><span class="fu">sudo</span> vim /etc/dhcpcd.conf</span></code></pre></div>
+<div class="sourceCode" id="cb12"><pre class="sourceCode sh"><code class="sourceCode bash"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> vim /etc/dhcpcd.conf</span></code></pre></div>
 <p>These lines were added to the end:</p>
-<div class="sourceCode" id="cb13"><pre class="sourceCode sh"><code class="sourceCode bash"><span id="cb13-1"><a href="#cb13-1"></a><span class="ex">interface</span> wlan0</span>
-<span id="cb13-2"><a href="#cb13-2"></a>    <span class="ex">static</span> ip_address=192.168.4.1/24</span>
-<span id="cb13-3"><a href="#cb13-3"></a>    <span class="ex">nohook</span> wpa_supplicant</span></code></pre></div>
+<div class="sourceCode" id="cb13"><pre class="sourceCode sh"><code class="sourceCode bash"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="ex">interface</span> wlan0</span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>    <span class="ex">static</span> ip_address=192.168.4.1/24</span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a>    <span class="ex">nohook</span> wpa_supplicant</span></code></pre></div>
 <p>The Pi will be reachable in the IP address <code>192.168.4.1</code> after the setup process is complete, and you are connected to the WiFi of the Pi.</p>
 <p>Then I created the <code>hostapd</code> configuration file:</p>
-<div class="sourceCode" id="cb14"><pre class="sourceCode sh"><code class="sourceCode bash"><span id="cb14-1"><a href="#cb14-1"></a><span class="fu">sudo</span> vim /etc/hostapd/hostapd.conf</span></code></pre></div>
-<div class="sourceCode" id="cb15"><pre class="sourceCode sh"><code class="sourceCode bash"><span id="cb15-1"><a href="#cb15-1"></a><span class="va">country_code=</span><span class="op">&lt;</span><span class="ex">COUNTRY</span> CODE<span class="op">&gt;</span></span>
-<span id="cb15-2"><a href="#cb15-2"></a><span class="va">interface=</span>wlan0</span>
-<span id="cb15-3"><a href="#cb15-3"></a><span class="va">ssid=</span><span class="op">&lt;</span><span class="ex">NAME</span> OF NETWORK<span class="op">&gt;</span></span>
-<span id="cb15-4"><a href="#cb15-4"></a><span class="va">hw_mode=</span>g</span>
-<span id="cb15-5"><a href="#cb15-5"></a><span class="va">channel=</span>7</span>
-<span id="cb15-6"><a href="#cb15-6"></a><span class="va">macaddr_acl=</span>0</span>
-<span id="cb15-7"><a href="#cb15-7"></a><span class="va">auth_algs=</span>1</span>
-<span id="cb15-8"><a href="#cb15-8"></a><span class="va">ignore_broadcast_ssid=</span>0</span>
-<span id="cb15-9"><a href="#cb15-9"></a><span class="va">wpa=</span>2</span>
-<span id="cb15-10"><a href="#cb15-10"></a><span class="va">wpa_passphrase=</span><span class="op">&lt;</span><span class="ex">PASSWORD</span><span class="op">&gt;</span></span>
-<span id="cb15-11"><a href="#cb15-11"></a><span class="va">wpa_key_mgmt=</span>WPA-PSK</span>
-<span id="cb15-12"><a href="#cb15-12"></a><span class="va">wpa_pairwise=</span>TKIP</span>
-<span id="cb15-13"><a href="#cb15-13"></a><span class="va">rsn_pairwise=</span>CCMP</span></code></pre></div>
+<div class="sourceCode" id="cb14"><pre class="sourceCode sh"><code class="sourceCode bash"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> vim /etc/hostapd/hostapd.conf</span></code></pre></div>
+<div class="sourceCode" id="cb15"><pre class="sourceCode sh"><code class="sourceCode bash"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="va">country_code=</span><span class="op">&lt;</span>COUNTRY <span class="ex">CODE</span><span class="op">&gt;</span></span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a><span class="va">interface=</span>wlan0</span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a><span class="va">ssid=</span><span class="op">&lt;</span>NAME <span class="ex">OF</span> NETWORK<span class="op">&gt;</span></span>
+<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a><span class="va">hw_mode=</span>g</span>
+<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a><span class="va">channel=</span>7</span>
+<span id="cb15-6"><a href="#cb15-6" aria-hidden="true" tabindex="-1"></a><span class="va">macaddr_acl=</span>0</span>
+<span id="cb15-7"><a href="#cb15-7" aria-hidden="true" tabindex="-1"></a><span class="va">auth_algs=</span>1</span>
+<span id="cb15-8"><a href="#cb15-8" aria-hidden="true" tabindex="-1"></a><span class="va">ignore_broadcast_ssid=</span>0</span>
+<span id="cb15-9"><a href="#cb15-9" aria-hidden="true" tabindex="-1"></a><span class="va">wpa=</span>2</span>
+<span id="cb15-10"><a href="#cb15-10" aria-hidden="true" tabindex="-1"></a><span class="va">wpa_passphrase=</span><span class="op">&lt;</span>PASSWORD<span class="op">&gt;</span></span>
+<span id="cb15-11"><a href="#cb15-11" aria-hidden="true" tabindex="-1"></a><span class="va">wpa_key_mgmt=</span>WPA-PSK</span>
+<span id="cb15-12"><a href="#cb15-12" aria-hidden="true" tabindex="-1"></a><span class="va">wpa_pairwise=</span>TKIP</span>
+<span id="cb15-13"><a href="#cb15-13" aria-hidden="true" tabindex="-1"></a><span class="va">rsn_pairwise=</span>CCMP</span></code></pre></div>
 <p>In my case, <code>&lt;COUNTRY CODE&gt;</code> was <code>NO</code> because I live in Norway, and one also have to fill in a name for the network and password.</p>
 <p>After a reboot (<code>sudo systemctl reboot</code>) the Raspberry Pi will broadcast its own WiFi network, and you can connect to it using the name and password specified in the <code>hostapd.conf</code> file.</p>
 <h3 id="conclusion">Conclusion</h3>
 <p>After these tree steps are done, you can connect to the Pi’s network using WiFi, and access the content on <code>192.168.4.1:8080</code> or any other port number that you have chosen to serve your files on. I find this useful both to limit data usage, but also because I like to work offline if I do not strictly need to do specific things online.</p>
 <figure>
-<img src="posts/20210221-offline-internet/01.png" alt="" /><figcaption>Screenshot from how Kiwix serves .zim-files</figcaption>
+<img src="posts/20210221-offline-internet/01.png" alt="Screenshot from how Kiwix serves .zim-files" /><figcaption aria-hidden="true">Screenshot from how Kiwix serves .zim-files</figcaption>
 </figure>
 <figure>
-<img src="posts/20210221-offline-internet/02.png" alt="" /><figcaption>Screenshot from how Python serves files</figcaption>
+<img src="posts/20210221-offline-internet/02.png" alt="Screenshot from how Python serves files" /><figcaption aria-hidden="true">Screenshot from how Python serves files</figcaption>
 </figure>
 </article>
     <footer>

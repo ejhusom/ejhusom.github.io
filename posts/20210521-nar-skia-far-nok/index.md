@@ -60,7 +60,7 @@ dårligere enn det var for 4-5 år siden. Kanskje har populariteten for slike
 konkurranser gått litt ned? Den var vel kanskje ikke så stor i utgangspunktet
 heller... Jeg fant til slutt et par på tilbud til under 4000 kr: Movement Apple 65. 
 Samme mål som mine gamle ski, men litt lettere. Dessverre tok det litt tid før
-skia kom i posten, og jeg fikk endelig muligheten til å ta en tur jeg hadde
+skia kom i posten, og jeg fikk plutselig muligheten til å ta en tur jeg hadde
 planlagt en stund: Stå ned en av bekkerennene nordvest på fjellet Tron ved
 Alvdal. Dermed ble det enda en tur på mine gamle, trofaste Dynafit-ski.
 

@@ -104,7 +104,7 @@ Snøen begynner dessverre i forsvinne her i strøket, så måtte løpe et godt
 stykke opp på fjellet for å få testa brettet. 
 
 {{< rawhtml >}}
-<video id="video" width="640" height="480" controls>
+<video id="video" controls>
     <source src="posts/20210522-je-skal-laga-snobrett-i-kryssfiner/1.mp4" type="video/mp4">
     Your browser does not support the video tag.
 </video> 

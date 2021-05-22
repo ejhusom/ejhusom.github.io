@@ -129,7 +129,7 @@ section.gallerymasonry h2 {
 
 .date {
     padding: 0em 0.5em;
-    width: 100%;;
+    width: 100%;
 }
 
 #contact {
@@ -142,6 +142,10 @@ section.gallerymasonry h2 {
 
 figcaption {
     margin-bottom: 2em;
+}
+
+video {
+    width: 100%;
 }
 
 /* Tablets and mobile devices{{{ */

@@ -12,9 +12,9 @@ Bestemte meg plutselig en dag for å lage meg et hjemmelaga snøbrett.
 Forutsetningene for dette prosjektet var at det skulle være billig og lett å
 lage. Når jeg sier "lett å lage", så mener jeg ikke sånn som noen youtubere
 framstiller det:  "Dette er ekstremt lett å lage, du bare går inn i
-ditt spesialbygde verksted med alle disse spesialverktøyene som koster flere
-tusen, og så tar du dette kjempedyre materialet som er umulig å få tak i, og
-da tar det faktisk bare en ettermiddag før du er ferdig!" Duh...
+ditt spesialbygde verksted med alle disse spesialverktøyene, og så tar du dette
+kjempedyre materialet som er umulig å få tak i, og da tar det faktisk bare en
+ettermiddag før du er ferdig!" Duh...
 
 Hvis det skal være realistisk for meg å gjennomføre, så må jeg bare behøve helt
 enkle verktøy, som de fleste har liggende i boden. Slik som håndsag, hammer,

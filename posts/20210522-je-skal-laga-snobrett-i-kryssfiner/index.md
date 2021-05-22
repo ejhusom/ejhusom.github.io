@@ -92,12 +92,15 @@ forsvinner når jeg faller.
 ![Feste til sikkerhetsline](posts/20210522-je-skal-laga-snobrett-i-kryssfiner/7.jpeg)
 *Feste til sikkerhetslina henger fast i brettet ved hjelp av ei knute.*
 
+![Nesten ferdig.](posts/20210522-je-skal-laga-snobrett-i-kryssfiner/8.jpeg)
+*Nesten ferdig, mangler bare noe padding til å stå på.*
+
 På oversiden satte jeg på to biter av et skumgummiliggeunderlag, som jeg festet
 med dobbeltsidig teip.
 
-![](posts/20210522-je-skal-laga-snobrett-i-kryssfiner/8.jpeg)
+![](posts/20210522-je-skal-laga-snobrett-i-kryssfiner/9.jpeg)
 
-![Ferdig brett](posts/20210522-je-skal-laga-snobrett-i-kryssfiner/9.jpeg)
+![Ferdig brett](posts/20210522-je-skal-laga-snobrett-i-kryssfiner/10.jpeg)
 *Slik ser det ferdige brettet ut.*
 
 Snøen begynner dessverre i forsvinne her i strøket, så måtte løpe et godt
@@ -115,7 +118,7 @@ av etter noen runder, fordi de ikke festet seg godt nok til den dobbeltsidige
 teipen. Tror jeg skal prøve med en friksjonsteip i stedet (sånn man bruker på
 trappetrinn etc. for å gi friksjon).
 
-![](posts/20210522-je-skal-laga-snobrett-i-kryssfiner/10.jpeg)
+![](posts/20210522-je-skal-laga-snobrett-i-kryssfiner/11.jpeg)
 
 Alt i alt funka brettet bra. Gliden er selvfølgelig ikke like god som vanlige
 snøbrett, men det er en nok en fordel at det ikke går for fort for min del, så

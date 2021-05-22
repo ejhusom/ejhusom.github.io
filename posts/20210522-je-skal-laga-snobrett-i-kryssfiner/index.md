@@ -1,6 +1,6 @@
 ---
 title: "Je skal laga snøbrett i kryssfinér"
-date: 2021-05-24T21:47:12+02:00
+date: 2021-05-22T21:47:12+02:00
 type: ["posts"]
 draft: false
 tags:

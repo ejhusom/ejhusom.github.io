@@ -1,8 +1,8 @@
 ---
-title: "Utstyrstest: The North Face Flight Vectiv"
-date: 2021-06-06T21:47:12+02:00
+title: "Utstyrstest løpesko: The North Face Flight Vectiv"
+date: 2021-05-31T21:47:12+02:00
 type: ["posts"]
-draft: true
+draft: false
 tags:
     - shoes
 categories:
@@ -10,7 +10,7 @@ categories:
     - running
 ---
 
-![The North Face Flight Vectiv løpesko](posts/the-north-face-flight-vectiv-test/1.jpg)
+![The North Face Flight Vectiv løpesko](posts/20210531-the-north-face-flight-vectiv-test/1.jpg)
 
 For litt siden fikk jeg muligheten til å være med å teste [The North Face Flight Vectiv](https://www.thenorthface.com/shop/mens-flight-vectiv-nf0a4t3l),
 som er en ny løpesko fra The North Face med en innebygd karbonfiberplate (siden
@@ -29,7 +29,8 @@ Vectiv-skoene var mye høyere enn det jeg normalt bruker. Arc'teryx- og
 Salomon-skoene mine har ikke noen innersåle, men det har Flight Vectiv, så jeg
 begynte å lure på om den oppgitte sålehøyden kanskje ikke er målt med
 innersåle..? Uansett, det endrer ikke på at jeg opplevde Flight Vectiv-skoene
-som uegna for tekniske stier.
+som uegna for tekniske stier. Dempingen gjør at de er greie å løpe med i
+nedoverbakker på jevnt underlag.
 
 **Grepet** på skoene er ganske bra, og de sitter godt i alt bortsett fra dyp
 gjørme. Har ingen ting å utsette på yttersålen. Aner ikke hvordan den vil holde
@@ -69,3 +70,8 @@ individuelt, og passform og løpsfølelse er (ihvertfall etter min mening) de
 absolutt viktigste kriteriene, så det kan godt hende at det er mange andre som
 kommer til å digge disse skoene! Men er det virkelig verdt å bruke 2199 NOK på
 disse skoa? Tviler.
+
+Min erfaringer med skoene ble en del av en [artikkel hos Runner's
+World](https://runnersworld.no/overlegne-pa-traktorvei-og-lettlopt-sti/). De
+kuttet dessverre en del av kritikken min av skoene, så derfor valgte jeg å
+publisere denne bloggposten med en komplett tilbakemelding på hva jeg synes.

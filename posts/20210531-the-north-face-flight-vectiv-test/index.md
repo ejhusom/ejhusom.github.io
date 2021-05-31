@@ -48,8 +48,8 @@ litt for store for meg.
 Jeg veide skoa til å være **310 gram** per sko. Vanligvis løper jeg i sko som
 er rundt 200 gram per sko, og jeg synes 310 gram er ganske tungt. Det er ikke
 sikkert alle bryr seg så mye om dette, eller synes vekta er så høy, men det
-trekker ihvertfall karakteren *opp*. Jeg synes uansett det er gøy at det
-reklameres med skoa har ["lav vekt"](https://www.antonsport.no/the-north-face-117-flight-vectiv-m-p18744/tnf-white-tnf-black-41-v119189).
+trekker ihvertfall karakteren *opp*. Jeg synes uansett det er litt spesielt at det
+reklameres med at skoa har ["lav vekt"](https://www.antonsport.no/the-north-face-117-flight-vectiv-m-p18744/tnf-white-tnf-black-41-v119189).
 
 Så, til det viktigste punktet: **Karbonfiberplata**. Merker ikke noe særlig til
 denne, må jeg innrømme. Det er uansett vanskelig å måle om den har noen konkret

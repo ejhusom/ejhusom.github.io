@@ -29,7 +29,7 @@ Vectiv-skoene var mye høyere enn det jeg normalt bruker. Arc'teryx- og
 Salomon-skoene mine har ikke noen innersåle, men det har Flight Vectiv, så jeg
 begynte å lure på om den oppgitte sålehøyden kanskje ikke er målt med
 innersåle..? Uansett, det endrer ikke på at jeg opplevde Flight Vectiv-skoene
-som uegna for tekniske stier. Dempingen gjør at de er greie å løpe med i
+som uegna for tekniske stier. Dempingen gjør forøvrig at de er greie å løpe med i
 nedoverbakker på jevnt underlag.
 
 **Grepet** på skoene er ganske bra, og de sitter godt i alt bortsett fra dyp
@@ -71,7 +71,8 @@ absolutt viktigste kriteriene, så det kan godt hende at det er mange andre som
 kommer til å digge disse skoene! Men er det virkelig verdt å bruke 2199 NOK på
 disse skoa? Tviler.
 
-Min erfaringer med skoene ble en del av en [artikkel hos Runner's
+Mine erfaringer med skoene ble en del av en [artikkel hos Runner's
 World](https://runnersworld.no/overlegne-pa-traktorvei-og-lettlopt-sti/). De
 kuttet dessverre en del av kritikken min av skoene, så derfor valgte jeg å
-publisere denne bloggposten med en komplett tilbakemelding på hva jeg synes.
+publisere denne bloggposten med en komplett tilbakemelding på hva jeg synes om
+skoa.

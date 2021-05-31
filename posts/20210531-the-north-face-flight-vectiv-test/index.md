@@ -67,9 +67,9 @@ Helt ærlig så synes jeg ikke skoene var noe særlig, og ihvertfall ikke til en
 så stiv pris (2199 NOK)! Tipper at skoene uansett selger godt pga
 karbonfiberplate-hypen. Når det gjelder løpesko så er jo ting utrolig
 individuelt, og passform og løpsfølelse er (ihvertfall etter min mening) de
-absolutt viktigste kriteriene, så det kan godt hende at det er mange andre som
-kommer til å digge disse skoene! Men er det virkelig verdt å bruke 2199 NOK på
-disse skoa? Tviler.
+absolutt viktigste kriteriene. Det kan derfor godt hende at det er mange andre
+som kommer til å digge disse skoene selv om jeg ikke likte dem! Men er det
+virkelig verdt å bruke 2199 NOK på disse skoa? Tviler.
 
 Mine erfaringer med skoene ble en del av en [artikkel hos Runner's
 World](https://runnersworld.no/overlegne-pa-traktorvei-og-lettlopt-sti/). De

@@ -6,9 +6,63 @@
         <description>Recent content on Erik Johannes Husom's blog</description>
         <generator>EJs fabulous Python-script</generator>
         <language>en-us</language>
-        <lastBuildDate>Fri, 11 Jun 2021 17:00:33 -0000</lastBuildDate>
+        <lastBuildDate>Fri, 18 Jun 2021 12:33:05 -0000</lastBuildDate>
         <atom:link href="https://erikjohannes.no/index.xml" rel="self" type="application/rss+xml"/>
                     <item>
+            <title>Master thesis: Deep learning to estimate power output from breathing
+</title>
+            <link>https://erikjohannes.no/posts/20210618-master-thesis/index.html</link>
+            <pubDate>Fri, 18 Jun 2021 00:00:00 -0000</pubDate>
+            <guid>https://erikjohannes.no/posts/20210618-master-thesis/index.html</guid>
+            <description>&lt;p&gt;Yesterday I presented and defended my master thesis in “Computational Science: Physics” at the Physics Department at the University of Oslo. The title of my thesis is &lt;strong&gt;Deep learning to estimate power output from breathing&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;The main goal of the project was to use recordings of &lt;strong&gt;breathing patterns to estimate how much power (measured in watts) a person generates during cycling.&lt;/strong&gt; The motivation was to investigate whether breathing data can provide a universal and portable way of estimating physical effort/exercise intensity.&lt;/p&gt;
+&lt;p&gt;Popular methods of measuring exercise intensity include heart rate, speed measurements and power meters. Let me why we want to investigate an alternative to these traditional ways of effort gauging:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Heart rate&lt;/em&gt; has the drawback of not being as reactive as breathing is when we increase exercise intensity. It also drifts upwards during a workout, even though the workload remains constant.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Speed measurements&lt;/em&gt; (typically using GPS) are also very common, but they can’t really be used as a standalone measure of intensity when used in hilly terrain or when the external conditions dictate the speed.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Power meters&lt;/em&gt;, while giving perhaps the most accurate measure of hard you’re working during exercise, are currently mostly limited to cycling and indoor ergometers, where it’s possible to use force sensors to measure power output.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Because of this, we wanted to see whether breathing data could be used to estimate how much power a person outputs during exercise! So the summarize, the main goal of the project was to find a relationship between these parameters:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;INPUT: Respiratory inductive plethysmography (breathing)&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;OUTPUT: Power (physical effort)&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The breathing data consisted of measurements of how the ribcage and abdomen expands and contracts (this type of measurement is called &lt;a href=&quot;https://en.wikipedia.org/wiki/Respiratory_inductance_plethysmography&quot;&gt;respiratory inductive plethysmography&lt;/a&gt;, or RIP). I used two of these sensors, as shown in the picture below.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://erikjohannes.no/posts/20210618-master-thesis/01.png&quot; alt=&quot;Image of the RIP sensor to the left, and a figure showing how a person would wear two of the sensors the to right&quot; /&gt; &lt;em&gt;Image of the RIP sensor to the left, and a figure showing how a person would wear two of the sensors the to right.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;In order to find the relationship between breathing data and power output, I used &lt;a href=&quot;https://en.wikipedia.org/wiki/Neural_network&quot;&gt;neural networks&lt;/a&gt;, which is a type of machine learning.&lt;/p&gt;
+&lt;p&gt;I collected data from myself (it’s fantastic to take a workout and be able to say “I’m just working on my thesis”), by recording RIP data, heart rate and power output during a series of workouts.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://erikjohannes.no/posts/20210618-master-thesis/03.png&quot; alt=&quot;Figure showing the dataflow of the data collection&quot; /&gt; &lt;em&gt;The data flow during data collection.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;The RIP sensors contains a strain gauge that converts the mechanical strain on the belt into an electric signal, which means that the sensor outputs values measured in millivolt. An example is shown below, and it’s easy to see how the signal increases when the rib cage expands, and decreases when it contracts.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://erikjohannes.no/posts/20210618-master-thesis/08.png&quot; alt=&quot;Raw RIP data&quot; /&gt; &lt;em&gt;Raw RIP data from the sensor around the ribcage.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Even though it’s easy to recognize the breathing pattern when looking at the graph of the RIP signal above, it’s not easy to discern how it behaves with regards to exercise intensity, at least not by visual inspection. Below is a graph showing an excerpt from an interval workout. The two RIP signals (in the two top graphs) have some strange behaviour and seem to jump around a bit. This can be a result of belt slippage, or that the person for example is standing up while cycling, reaching for a water bottle, or similar. Hopefully the neural networks can help us see past such irrelevant information in the input data!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://erikjohannes.no/posts/20210618-master-thesis/04.png&quot; alt=&quot;An example of raw data&quot; /&gt; &lt;em&gt;Example of raw data from an interval workout.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;I performed many different types of workouts, various types of intervals, steady-state efforts and workouts with ramp and pyramid structure. Some examples are shown below.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://erikjohannes.no/posts/20210618-master-thesis/05.png&quot; alt=&quot;Workout categories&quot; /&gt; &lt;em&gt;The data set consisted of workouts from mainly three different categories.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;In order to enable the neural networks to make the best possible estimations, I needed to extract/engineer/derive (choose the term you feel is most understandable) some features from the raw data. To put it simply: Feature extraction means that I’m trying to find the most important information in the raw data and feed that to the neural network, so it’s easier for the neural network to learn the relationship between the input and output data. But this also means that I have to figure out what the most important information is, and in the end, that’s what I want the neural network to do… So you could say that it’s a sort of collaboration between me and the neural network!&lt;/p&gt;
+&lt;p&gt;I extracted many types of features, but three of the most important ones are shown in the figure below. To keep this blog post short and sweet, I won’t go into the details here.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://erikjohannes.no/posts/20210618-master-thesis/09.png&quot; alt=&quot;Feature extraction&quot; /&gt; &lt;em&gt;This graph visualizes three of the most important features that a extracted from the raw data. Read the thesis (link at the end of the post) for more juicy details!&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;My best performing model was obtained by using a &lt;a href=&quot;https://en.wikipedia.org/wiki/Convolutional_neural_network&quot;&gt;convolutional neural network&lt;/a&gt;, and when testing the model on unseen data it got an &lt;strong&gt;average error of 20%&lt;/strong&gt;. That may sound like a lot, but the average error is affected by the fact that the model is not very good at estimating power values above 400 watts, since most of the data set contained power values below that (which is also where most of us spend most of the time when cycling).&lt;/p&gt;
+&lt;p&gt;An example of how the power output estimation by the model looks like is shown below. The output signal (in blue) is quite noisy, but the model is able to estimate approximately the correct power level most of the time.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://erikjohannes.no/posts/20210618-master-thesis/06.png&quot; alt=&quot;Example of power output estimation&quot; /&gt; &lt;em&gt;Example of power output estimation, using extracted features from the raw data (the blue line shows the “predicted” values, which in this case is analogous to “estimated”.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;As a comparison, take a look at how the model performs when using only the raw data, without any extracted features (spoiler alert: Not well at all)!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://erikjohannes.no/posts/20210618-master-thesis/07.png&quot; alt=&quot;Results without using extracted features&quot; /&gt; &lt;em&gt;To emphasize how important feature extraction is, here is an example of power output estimation using only raw data.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Conculsion:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Deep learning shows promising results for estimating power output from breathing data.&lt;/li&gt;
+&lt;li&gt;The results of this thesis enables a non-invase, portable way of estimating physical effort.&lt;/li&gt;
+&lt;li&gt;Future research should aim at study a larger and more diverse data set, collected from multiple subjects of various age, height, fitness level etc.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If you have some questions or thoughts about my thesis, or about the subject in general, please send me an e-mail on erikjohannes@protonmail.com!&lt;/p&gt;
+&lt;p&gt;Here are some links to learn more about the research project:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Thesis: &lt;a href=&quot;https://erikjohannes.no/posts/20210618-master-thesis/husom_erik_johannes_master_thesis.pdf&quot;&gt;&lt;strong&gt;Deep learning to estimate power output from breathing (PDF)&lt;/strong&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://erikjohannes.no/posts/20210618-master-thesis/husom_erik_johannes_master_thesis_presentation.pdf&quot;&gt;Slides used in the thesis presentation (PDF)&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/ejhusom/DeepPower&quot;&gt;Source code used for producing results&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://erikjohannes.no/flow/&quot;&gt;The data acquisition tool&lt;/a&gt; and it’s &lt;a href=&quot;https://github.com/ejhusom/flow&quot;&gt;source code&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+ </description>
+        </item>
+        <item>
             <title>Utstyrstest løpesko: The North Face Flight Vectiv
 </title>
             <link>https://erikjohannes.no/posts/20210531-the-north-face-flight-vectiv-test/index.html</link>

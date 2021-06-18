@@ -415,6 +415,7 @@ class Website():
             items += item
 
         date = datetime.datetime.now()
+        date = date - datetime.timedelta(hours=3)
         rfcdate = utils.format_datetime(date)
         feed = feed.format(rfcdate, items)
 

@@ -32,7 +32,7 @@ to these traditional ways of effort gauging:
   ergometers, where it's possible to use force sensors to measure power output.
 
 Because of this, we wanted to see whether breathing data could be used to
-estimate how much power a person outputs during exercise! So the summarize, the
+estimate how much power a person outputs during exercise! So to summarize, the
 main goal of the project was to find a relationship between these parameters:
 
 - **INPUT: Respiratory inductive plethysmography (breathing)**

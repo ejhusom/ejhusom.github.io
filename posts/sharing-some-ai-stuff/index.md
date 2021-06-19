@@ -7,4 +7,5 @@ tags:
 categories:
 ---
 
-My master thesis
+I'm trying to keep up to date on what's happening in the field of artificial
+intelligence, and especially machine learning. Here's some of articles or 

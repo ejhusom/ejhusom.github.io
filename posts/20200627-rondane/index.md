@@ -36,8 +36,8 @@ Marathon](https://fastestknowntime.com/route/rondane-2k-marathon-norway).
 Rekorden har sunket gradvis de siste åra, og så vidt meg bekjent er det tre
 stykker som har klart å presse tida under 10 timer:
 
-- 2014-04-10: [09:15 - Ola Hovdenak](https://peakbook.org/no/tour/92982/Rondane+2k-marathon.html)
-- 2018-02-06: [09:00 - Gjermund
+- 2014-07-10: [09:15 - Ola Hovdenak](https://peakbook.org/no/tour/92982/Rondane+2k-marathon.html)
+- 2018-06-02: [09:00 - Gjermund
   Nordskar](https://www.friflyt.no/topptur/ny-rekord-paa-rondane-2k-maraton)
 - 2018-07-17: [08:48:13 - Vegard
   Fredheim](https://fastestknowntime.com/fkt/vegard-fredheim-rondane-2k-marathon-norway-2018-07-17)

@@ -25,8 +25,8 @@ body {
     font-size: 0.90em;
     max-width: 60em;
     margin: 1.2em auto 0.3em auto;
-    padding-left: 4em;
-    padding-right: 4em;
+    padding-left: 8em;
+    padding-right: 8em;
     box-sizing: border-box;
     line-height: 1.6;
 }
@@ -152,6 +152,8 @@ video {
 @media screen and (max-width: 900px) {
     body {
       max-width: none;
+    padding-left: 2em;
+    padding-right: 2em;
     }
     nav a {
         display: block;

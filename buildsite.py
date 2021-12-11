@@ -214,7 +214,7 @@ class Website():
 
 
         shortblogfeed = "<ul>"
-        length = 3
+        length = 5
         counter = 0
 
         for l, t, d in zip(blog_links, blog_titles, blog_dates):

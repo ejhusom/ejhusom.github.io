@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Erik Johannes Husom</title>
+        <base href="https://erikjohannes.no/">
+        <!-- <base href="file:///Users/erikjohannes/Documents/ejhusom.github.io/"> -->
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <meta name="author" content="Erik Johannes Husom">
+        <meta name="description" content="Personal website.">
+        
+        <link rel="icon" href="data:,">
+        <link href="css/style.css" rel="stylesheet" type="text/css" title="Stylesheet">
+        <!-- <link href="css/experimental.css" rel="alternate stylesheet" type="text/css" title="Experimental"> -->
+    </head>
+    <body>
+    <header>
+        <nav class=header-nav>
+            <!-- <a href="index.html">home</a> -->
+            <a href="blog.html">blog</a>
+            <a href="photofeed.html">photofeed</a>
+            <!-- <a href="mountain-conditions.html">mountain conditions</a> -->
+            <!-- <a href="https://peakbase.app">peakbase</a> -->
+            <a href="photography.html">photography</a>
+            <a href="stuff.html">stuff</a>
+            <a href="about.html">about</a>
+            <a href="index.xml">rss</a>
+        </nav>
+        <h1 class=p-name rel="me"><a href="https://erikjohannes.no/" class=ghost>Erik Johannes Husom</a></h1>
+    </header>
+<article>
+<h2>Optimizing images for the web
+</h2>
+<h3>11 Dec 2021</h3><p>When you’re crafting your own website without any website builder or tools like Wordpress, it can be a bit challenging to know how to optimize images. JPG-files from a digital camera is usually a few MBs in size. For example, an image from my Gopro, with a resolution of 4032x3024, generally amounts to at least 2 MB. If you’re uploading such files, you’re wasting bandwith, since most screens and monitors won’t show the images in their full resolution anyway. I have found it suprisingly difficult to find “best practices” for optimizing images for the web using simple tools, but after a bit of research, I’ve managed to put together a script that combines three different command line tools to reduce image size without loosing to much quality.</p>
+<p>The three command line tools are:</p>
+<ul>
+<li><a href="https://www.exiftool.org/"><code>exiftool</code></a>: Edits EXIF-information. Used to remove metadata from the image, such as geolocation, which I don’t want to share on the web.</li>
+<li><a href="https://github.com/tjko/jpegoptim"><code>jpegoptim</code></a>: Optimizes JPG-files.</li>
+<li><a href="https://imagemagick.org/"><code>imagemagick</code></a>: Used to reduce resolution of image.</li>
+</ul>
+<p>Here’s the bash script, which takes files as input:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">#!/bin/bash</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i <span class="kw">in</span> <span class="st">&quot;</span><span class="va">$@</span><span class="st">&quot;</span><span class="kw">;</span> <span class="cf">do</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Reduce all metadata, but keep orientation of image:</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>    <span class="ex">exiftool</span> <span class="at">-all:all</span><span class="op">=</span> <span class="at">-tagsFromFile</span> @ <span class="at">-exif:Orientation</span> <span class="st">&quot;</span><span class="va">$i</span><span class="st">&quot;</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Optimize image to a size of 500 kB:</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>    <span class="ex">jpegoptim</span> <span class="at">--size</span><span class="op">=</span>500k <span class="st">&quot;</span><span class="va">$i</span><span class="st">&quot;</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Reduce resolution so the width is maximum 1500 pixels (mogrify is a part of imagemagick)</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>    <span class="ex">mogrify</span> <span class="at">-resize</span> 1500 <span class="st">&quot;</span><span class="va">$i</span><span class="st">&quot;</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="cf">done</span></span></code></pre></div>
+<p>I am by no means an expert on this, but I’ve found a routine that works fine. If you have any comments or better solutions, <a href="mailto:erikjohannes@protonmail.com">let me know</a>.</p>
+</article>
+    <footer>
+        No tracking. No cookies. No visit logs.
+        <!-- <br> -->
+        <!-- Get updates via <a href="index.xml">RSS</a>. -->
+        <!-- <br> -->
+        <!-- If you got comments or feedback, feel free to send me an e-mail: <a href="mailto:erikjohannes@protonmail.com">erikjohannes@protonmail.com</a> :) -->
+        <!-- <br> -->
+        <!-- Website is built through self-made scripts and manual writing. -->
+        <br>
+        Copyright: &copy;2018-2021 Erik Johannes Husom. All rights reserved.
+    </footer>
+    </body>
+</html>

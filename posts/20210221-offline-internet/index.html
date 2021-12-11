@@ -19,6 +19,8 @@
             <!-- <a href="index.html">home</a> -->
             <a href="blog.html">blog</a>
             <a href="photofeed.html">photofeed</a>
+            <!-- <a href="mountain-conditions.html">mountain conditions</a> -->
+            <!-- <a href="https://peakbase.app">peakbase</a> -->
             <a href="photography.html">photography</a>
             <a href="stuff.html">stuff</a>
             <a href="about.html">about</a>
@@ -104,19 +106,19 @@
 <p>The Pi will be reachable in the IP address <code>192.168.4.1</code> after the setup process is complete, and you are connected to the WiFi of the Pi.</p>
 <p>Then I created the <code>hostapd</code> configuration file:</p>
 <div class="sourceCode" id="cb14"><pre class="sourceCode sh"><code class="sourceCode bash"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> vim /etc/hostapd/hostapd.conf</span></code></pre></div>
-<div class="sourceCode" id="cb15"><pre class="sourceCode sh"><code class="sourceCode bash"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="va">country_code=</span><span class="op">&lt;</span>COUNTRY <span class="ex">CODE</span><span class="op">&gt;</span></span>
-<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a><span class="va">interface=</span>wlan0</span>
-<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a><span class="va">ssid=</span><span class="op">&lt;</span>NAME <span class="ex">OF</span> NETWORK<span class="op">&gt;</span></span>
-<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a><span class="va">hw_mode=</span>g</span>
-<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a><span class="va">channel=</span>7</span>
-<span id="cb15-6"><a href="#cb15-6" aria-hidden="true" tabindex="-1"></a><span class="va">macaddr_acl=</span>0</span>
-<span id="cb15-7"><a href="#cb15-7" aria-hidden="true" tabindex="-1"></a><span class="va">auth_algs=</span>1</span>
-<span id="cb15-8"><a href="#cb15-8" aria-hidden="true" tabindex="-1"></a><span class="va">ignore_broadcast_ssid=</span>0</span>
-<span id="cb15-9"><a href="#cb15-9" aria-hidden="true" tabindex="-1"></a><span class="va">wpa=</span>2</span>
-<span id="cb15-10"><a href="#cb15-10" aria-hidden="true" tabindex="-1"></a><span class="va">wpa_passphrase=</span><span class="op">&lt;</span>PASSWORD<span class="op">&gt;</span></span>
-<span id="cb15-11"><a href="#cb15-11" aria-hidden="true" tabindex="-1"></a><span class="va">wpa_key_mgmt=</span>WPA-PSK</span>
-<span id="cb15-12"><a href="#cb15-12" aria-hidden="true" tabindex="-1"></a><span class="va">wpa_pairwise=</span>TKIP</span>
-<span id="cb15-13"><a href="#cb15-13" aria-hidden="true" tabindex="-1"></a><span class="va">rsn_pairwise=</span>CCMP</span></code></pre></div>
+<div class="sourceCode" id="cb15"><pre class="sourceCode sh"><code class="sourceCode bash"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="va">country_code</span><span class="op">=&lt;</span>COUNTRY <span class="ex">CODE</span><span class="op">&gt;</span></span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a><span class="va">interface</span><span class="op">=</span>wlan0</span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a><span class="va">ssid</span><span class="op">=&lt;</span>NAME <span class="ex">OF</span> NETWORK<span class="op">&gt;</span></span>
+<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a><span class="va">hw_mode</span><span class="op">=</span>g</span>
+<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a><span class="va">channel</span><span class="op">=</span>7</span>
+<span id="cb15-6"><a href="#cb15-6" aria-hidden="true" tabindex="-1"></a><span class="va">macaddr_acl</span><span class="op">=</span>0</span>
+<span id="cb15-7"><a href="#cb15-7" aria-hidden="true" tabindex="-1"></a><span class="va">auth_algs</span><span class="op">=</span>1</span>
+<span id="cb15-8"><a href="#cb15-8" aria-hidden="true" tabindex="-1"></a><span class="va">ignore_broadcast_ssid</span><span class="op">=</span>0</span>
+<span id="cb15-9"><a href="#cb15-9" aria-hidden="true" tabindex="-1"></a><span class="va">wpa</span><span class="op">=</span>2</span>
+<span id="cb15-10"><a href="#cb15-10" aria-hidden="true" tabindex="-1"></a><span class="va">wpa_passphrase</span><span class="op">=&lt;</span>PASSWORD<span class="op">&gt;</span></span>
+<span id="cb15-11"><a href="#cb15-11" aria-hidden="true" tabindex="-1"></a><span class="va">wpa_key_mgmt</span><span class="op">=</span>WPA-PSK</span>
+<span id="cb15-12"><a href="#cb15-12" aria-hidden="true" tabindex="-1"></a><span class="va">wpa_pairwise</span><span class="op">=</span>TKIP</span>
+<span id="cb15-13"><a href="#cb15-13" aria-hidden="true" tabindex="-1"></a><span class="va">rsn_pairwise</span><span class="op">=</span>CCMP</span></code></pre></div>
 <p>In my case, <code>&lt;COUNTRY CODE&gt;</code> was <code>NO</code> because I live in Norway, and one also have to fill in a name for the network and password.</p>
 <p>After a reboot (<code>sudo systemctl reboot</code>) the Raspberry Pi will broadcast its own WiFi network, and you can connect to it using the name and password specified in the <code>hostapd.conf</code> file.</p>
 <h3 id="conclusion">Conclusion</h3>

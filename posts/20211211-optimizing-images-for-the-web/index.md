@@ -31,7 +31,8 @@ for i in "$@"; do
     # Optimize image to a size of 500 kB:
     jpegoptim --size=500k "$i"
 
-    # Reduce resolution so the width is maximum 1500 pixels (mogrify is a part of imagemagick)
+    # Reduce resolution so the width is maximum 1500 pixels 
+    # (mogrify is a part of imagemagick)
     mogrify -resize 1500 "$i"
 done
 ```

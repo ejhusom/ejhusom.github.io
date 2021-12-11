@@ -6,7 +6,7 @@
         <description>Recent content on Erik Johannes Husom's blog</description>
         <generator>EJs fabulous Python-script</generator>
         <language>en-us</language>
-        <lastBuildDate>Sat, 11 Dec 2021 19:46:16 -0000</lastBuildDate>
+        <lastBuildDate>Sat, 11 Dec 2021 19:49:27 -0000</lastBuildDate>
         <atom:link href="https://erikjohannes.no/index.xml" rel="self" type="application/rss+xml"/>
                     <item>
             <title>Optimizing images for the web
@@ -31,9 +31,10 @@
 &lt;span id=&quot;cb1-7&quot;&gt;&lt;a href=&quot;#cb1-7&quot; aria-hidden=&quot;true&quot; tabindex=&quot;-1&quot;&gt;&lt;/a&gt;    &lt;span class=&quot;co&quot;&gt;# Optimize image to a size of 500 kB:&lt;/span&gt;&lt;/span&gt;
 &lt;span id=&quot;cb1-8&quot;&gt;&lt;a href=&quot;#cb1-8&quot; aria-hidden=&quot;true&quot; tabindex=&quot;-1&quot;&gt;&lt;/a&gt;    &lt;span class=&quot;ex&quot;&gt;jpegoptim&lt;/span&gt; &lt;span class=&quot;at&quot;&gt;--size&lt;/span&gt;&lt;span class=&quot;op&quot;&gt;=&lt;/span&gt;500k &lt;span class=&quot;st&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;va&quot;&gt;$i&lt;/span&gt;&lt;span class=&quot;st&quot;&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt;
 &lt;span id=&quot;cb1-9&quot;&gt;&lt;a href=&quot;#cb1-9&quot; aria-hidden=&quot;true&quot; tabindex=&quot;-1&quot;&gt;&lt;/a&gt;&lt;/span&gt;
-&lt;span id=&quot;cb1-10&quot;&gt;&lt;a href=&quot;#cb1-10&quot; aria-hidden=&quot;true&quot; tabindex=&quot;-1&quot;&gt;&lt;/a&gt;    &lt;span class=&quot;co&quot;&gt;# Reduce resolution so the width is maximum 1500 pixels (mogrify is a part of imagemagick)&lt;/span&gt;&lt;/span&gt;
-&lt;span id=&quot;cb1-11&quot;&gt;&lt;a href=&quot;#cb1-11&quot; aria-hidden=&quot;true&quot; tabindex=&quot;-1&quot;&gt;&lt;/a&gt;    &lt;span class=&quot;ex&quot;&gt;mogrify&lt;/span&gt; &lt;span class=&quot;at&quot;&gt;-resize&lt;/span&gt; 1500 &lt;span class=&quot;st&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;va&quot;&gt;$i&lt;/span&gt;&lt;span class=&quot;st&quot;&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt;
-&lt;span id=&quot;cb1-12&quot;&gt;&lt;a href=&quot;#cb1-12&quot; aria-hidden=&quot;true&quot; tabindex=&quot;-1&quot;&gt;&lt;/a&gt;&lt;span class=&quot;cf&quot;&gt;done&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;span id=&quot;cb1-10&quot;&gt;&lt;a href=&quot;#cb1-10&quot; aria-hidden=&quot;true&quot; tabindex=&quot;-1&quot;&gt;&lt;/a&gt;    &lt;span class=&quot;co&quot;&gt;# Reduce resolution so the width is maximum 1500 pixels &lt;/span&gt;&lt;/span&gt;
+&lt;span id=&quot;cb1-11&quot;&gt;&lt;a href=&quot;#cb1-11&quot; aria-hidden=&quot;true&quot; tabindex=&quot;-1&quot;&gt;&lt;/a&gt;    &lt;span class=&quot;co&quot;&gt;# (mogrify is a part of imagemagick)&lt;/span&gt;&lt;/span&gt;
+&lt;span id=&quot;cb1-12&quot;&gt;&lt;a href=&quot;#cb1-12&quot; aria-hidden=&quot;true&quot; tabindex=&quot;-1&quot;&gt;&lt;/a&gt;    &lt;span class=&quot;ex&quot;&gt;mogrify&lt;/span&gt; &lt;span class=&quot;at&quot;&gt;-resize&lt;/span&gt; 1500 &lt;span class=&quot;st&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;va&quot;&gt;$i&lt;/span&gt;&lt;span class=&quot;st&quot;&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt;
+&lt;span id=&quot;cb1-13&quot;&gt;&lt;a href=&quot;#cb1-13&quot; aria-hidden=&quot;true&quot; tabindex=&quot;-1&quot;&gt;&lt;/a&gt;&lt;span class=&quot;cf&quot;&gt;done&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;I am by no means an expert on this, but I’ve found a routine that works fine. If you have any comments or better solutions, &lt;a href=&quot;mailto:erikjohannes@protonmail.com&quot;&gt;let me know&lt;/a&gt;.&lt;/p&gt;
  </description>
         </item>

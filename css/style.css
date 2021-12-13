@@ -139,10 +139,15 @@ video {
 /* Tablets and mobile devices{{{ */
 @media screen and (max-width: 900px) {
     body {
-      max-width: none;
-    padding-left: 2em;
-    padding-right: 2em;
+        max-width: none;
+        padding-left: 2em;
+        padding-right: 2em;
+        font-size: 110%;
     }
+    h1, h2, h3 {
+        font-size: 1.1rem;
+    }
+
     nav a {
         display: block;
     }

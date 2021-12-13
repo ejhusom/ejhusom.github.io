@@ -193,7 +193,7 @@ class Website():
                     blog_image_links.append(blog_link)
 
         body = "<article>"
-        body += "<h2>blog</h2>"
+        body += "<h2>Blog</h2>"
         body += "\n"
         body += "\n"
         body += "<ul>"

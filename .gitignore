@@ -55,7 +55,6 @@ __pycache__
 .*~
 *.old
 tmp*
-temp*
 .#*
 \#*
 

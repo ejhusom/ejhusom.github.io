@@ -21,8 +21,8 @@
 body {
     color: var(--txc);
     background: var(--bgc);
-    /* font-family: "Arial", sans-serif; */
-    font-family: monospace;
+    font-family: "Tahoma", sans-serif;
+    /*font-family: monospace;*/
     font-size: 0.90em;
     max-width: 60em;
     margin: 1.2em auto 0.3em auto;

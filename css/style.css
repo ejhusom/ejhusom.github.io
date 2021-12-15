@@ -89,11 +89,11 @@ img {
 /* Lists{{{ */
 li {
     padding: 0.1em;
-    list-style-type: none;
+    list-style-type: circle;
 }
 
 ul {
-    padding-left: 0;
+    padding-left: 1em;
 }
 /* }}} */
 

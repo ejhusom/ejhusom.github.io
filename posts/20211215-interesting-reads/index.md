@@ -1,8 +1,8 @@
 ---
-title: "Interesting reads from the Web"
+title: "Interesting reads from the web"
 date: 2021-12-20
 type: "posts"
-draft: true
+draft: false
 tags:
 ---
 

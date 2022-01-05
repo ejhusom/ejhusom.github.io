@@ -2,7 +2,7 @@
 title: "Interesting reads from the web"
 date: 2021-12-15
 type: "posts"
-draft: false
+draft: true
 tags:
 ---
 

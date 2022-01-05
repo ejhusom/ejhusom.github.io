@@ -37,7 +37,7 @@ The paper is an especially interesting read, as the authors suggest a set of con
 The main points are to be consistent in reporting energy and carbon metrics, and using leaderboards of these metrics as incentive for reducing carbon emissions in research.
 They also write that one should consider "energy-performance trade-offs before deploying energy hungry models".
 It's also interesting to note that one of the most intuitive (at least in my opinion) ways of measuring the energy-efficiency of any computer program, namely to count the number of Floating Point Operations (FPOs), actually can be misleading (read section 5.1 of the paper for a discussion on this).
-This is one of the reasons for why there is a need for frameworks that can measure or more accurately estimate the actual carbon emission of a training or running a machine learning model.
+This is one of the reasons for why there is a need for frameworks that can measure or more accurately estimate the actual carbon emission of training or running a machine learning model.
 The authors have published an open source [Experiment impact tracker](https://github.com/Breakend/experiment-impact-tracker) that can be used for this purpose.
 
 Another paper that looks into methods for tracking energy-efficiency is this: [Quantifying the Carbon Emissions of Machine Learning](https://arxiv.org/pdf/1910.09700.pdf).

@@ -14,7 +14,7 @@ Lots is already written on the topic, but I wanted to share a few of the most in
 
 [Deep learning's carbon emissions problem](https://www.forbes.com/sites/robtoews/2020/06/17/deep-learnings-climate-change-problem/) from Forbes summarizes well some of the most problematic issues of machine learning. 
 It is mainly focused on deep learning and natural language processing (NLP), which entails developing models that consist of an enormous amounts of parameters.
-Many of the article's key points stems from a paper that in 20219 really brought awareness to the gigantic energy usage of some of the largest deep learning models: [Energy and Policy Considerations for Deep Learning in NLP](https://arxiv.org/pdf/1906.02243.pdf).
+Many of the article's key points stems from a paper that in 2019 really brought awareness to the gigantic energy usage of some of the largest deep learning models: [Energy and Policy Considerations for Deep Learning in NLP](https://arxiv.org/pdf/1906.02243.pdf).
 As a machine learning practitioner, the following quote from the article is something I'm especially concerned with:
 
 > Another factor driving AI’s massive energy draw is the extensive experimentation and tuning required to develop a model. Machine learning today remains largely an exercise in trial and error. Practitioners will often build hundreds of versions of a given model during training, experimenting with different neural architectures and hyperparameters before identifying an optimal design.
@@ -28,7 +28,7 @@ I think the article concludes with an important note:
 
 > The AI community must begin to work toward new paradigms in artificial intelligence that do not require exponentially growing datasets nor outrageously vast energy expenditures.
 
-Another article, [The drive to make machine learning greener](https://www.discovermagazine.com/technology/the-drive-to-make-machine-learning-greener) from Discover Magazine, quotes a researcher team from the University of California, Berkeley, on how reporting on carbon emissions might help reduce carbon emissions:
+Another article, [The drive to make machine learning greener](https://www.discovermagazine.com/technology/the-drive-to-make-machine-learning-greener) from Discover Magazine, quotes a researcher team from the University of California, Berkeley, on how reporting on carbon emissions might help reduce them:
 
 > Patterson and colleagues conclude by recommending that computer scientists report the energy their calculations consume and the carbon footprint associated with this, along with the time and number of processors involved. Their idea is to make it possible to directly compare computing practices and to reward the most efficient. “If the machine learning community working on computationally intensive models starts competing on training quality and carbon footprint rather than on accuracy alone, the most efficient data centers and hardware might see the highest demand,” they say. 
 

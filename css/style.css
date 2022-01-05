@@ -136,6 +136,14 @@ video {
     width: 100%;
 }
 
+blockquote {
+    font-style: italic;
+    font-size: 90%;
+    border-left: 3px solid;
+    padding-left: 1em;
+}
+
+
 /* Tablets and mobile devices{{{ */
 @media screen and (max-width: 900px) {
     body {

@@ -2,7 +2,7 @@
 title: "Machine learning and carbon emissions"
 date: 2022-01-05
 type: ["posts"]
-draft: true
+draft: false
 tags:
 categories:
 ---

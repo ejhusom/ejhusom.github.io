@@ -112,7 +112,7 @@ class Website():
             self.save_page(body, f)
 
 
-    def build_blog(self):
+    def build_blog(self, exclude_drafts=True):
 
         blog_links = []
         blog_titles = []
@@ -145,7 +145,7 @@ class Website():
                             draft = draft.replace('"', "")
                             draft = draft.strip()
 
-                    if draft == "true":
+                    if draft == "true" and exclude_drafts:
                         continue
 
                     title = title.replace('"', "")
@@ -450,7 +450,7 @@ if __name__ == '__main__':
 
     website = Website()
     website.build_pages()
-    website.build_blog()
+    website.build_blog(exclude_drafts=True)
     website.read_photo_feed()
     website.generate_rss()
 

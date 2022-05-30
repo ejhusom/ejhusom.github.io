@@ -1,20 +1,18 @@
 ---
-title: "Book recommendations"
-date: 2021-12-20
+title: "My best reads of 2021"
+date: 2022-05-31
 type: "posts"
 draft: true
 tags:
 ---
 
 
-In this post I want to share some of my best reads in 2021:
+In this post I want to share some of my best reads in 2021 (I know we are almost halfway into 2022, but I wrote this post 5 months ago and just now realized I forgot to publish it):
 
 
 ### The Age of Surveillance Capitalism by Shoshana Zuboff
 
-A very . Zuboff very succinctly articulates the problems that
-
-I highly recommend this book.
+A very well written and thoroughly researched book on surveillance capitalism. Zuboff very succinctly articulates the problems that arise from the (mis)use of modern technology and how corporations gather and use personal data. I highly recommend this book.
 
 ### Meditations by Marcus Aurelius
 
@@ -31,7 +29,7 @@ The fourth book in one of my favourite fantasy series.
 
 ### Into thin air by Jon Krakauer
 
-This was my second read-through of this book. A very captivating account of the tragic story of one of the worst accidents on Mount Everest. 
+ A very captivating account of the tragic story of one of the worst accidents on Mount Everest. 
 
 
 ### Into the wild by Jon Krakauer
@@ -39,4 +37,7 @@ This was my second read-through of this book. A very captivating account of the 
 Another classic from Krakauer, and one of my all time favourites in the outdoors genre.
 
 ### 24/7: Late capitalism and the end of sleep by Jonathan Crary
+
+A very interesting take on how modern technology and so-called late capitalism affects our lives.
+
 

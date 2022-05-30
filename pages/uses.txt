@@ -1,14 +1,32 @@
-
-
+# Uses
 
 
 ## Technology
 
+Hardware:
+
+- MacBook Pro 13"
+- Raspberry Pi 4 (8GB RAM)
 
 ## Sports
 
+Running shoes:
 
-Shoes:
-
+- Arcteryx Norvan LD 2 (allround and trail)
+- Arcteryx Norvan SL (trail)
+- Salomon S/LAB Sense 8 (trail and mountain, racing)
+- Salomon S/LAB Sense 8 SG (trail and mountain where more grip is needed, racing)
+- Salomon S/LAB XA Alpine 2 (alpine/snowy terrain)
 - Hoka Rincon 2 (road)
 - Hoka Rincon 3 (treadmill)
+
+Running gear:
+
+- Poles: Black Diamond Distance Carbon Z.
+- Vest: Salomon S/LAB Adv-skin 12L
+
+Ski mountaineering gear:
+
+- Shoes: Dynafit PDG 15/16
+- Skis: Movement Apple
+

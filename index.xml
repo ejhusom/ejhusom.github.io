@@ -6,9 +6,39 @@
         <description>Recent content on Erik Johannes Husom's blog</description>
         <generator>EJs fabulous Python-script</generator>
         <language>en-us</language>
-        <lastBuildDate>Sat, 26 Mar 2022 14:23:28 -0000</lastBuildDate>
+        <lastBuildDate>Mon, 30 May 2022 18:42:06 -0000</lastBuildDate>
         <atom:link href="https://erikjohannes.no/index.xml" rel="self" type="application/rss+xml"/>
                     <item>
+            <title>Plain text calendar
+</title>
+            <link>https://erikjohannes.no/posts/20220530-plain-text-calendar/index.html</link>
+            <pubDate>Mon, 30 May 2022 00:00:00 -0000</pubDate>
+            <guid>https://erikjohannes.no/posts/20220530-plain-text-calendar/index.html</guid>
+            <description>&lt;p&gt;The last years I have been moving towards plain text files for almost any use case where I need to store information digitally, and after reading about &lt;a href=&quot;https://terokarvinen.com/2021/calendar-txt/&quot;&gt;Calendar.txt&lt;/a&gt; I have started to use a plain text file as my calendar. I use (almost) the same template as described in the link, but I wrote my own script for generating the calendar template so I can easily make adjustments if needed. Example of the format with a few example events:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;2023-01-02 w1
+2023-01-02 w1 Mon 
+2023-01-03 w1 Tue  12:00 Meeting.
+2023-01-04 w1 Wed 
+2023-01-05 w1 Thu  18:00 Going for a run.
+2023-01-06 w1 Fri 
+2023-01-07 w1 Sat 
+2023-01-08 w1 Sun 
+2023-01-09 w2
+2023-01-09 w2 Mon 
+2023-01-10 w2 Tue 
+2023-01-11 w2 Wed 
+2023-01-12 w2 Thu  Seminar.
+2023-01-13 w2 Fri 
+2023-01-14 w2 Sat 
+2023-01-15 w2 Sun &lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;I find it quite nice since it integrates well with the rest of my very plain text-oriented workflow, and it’s easily synced and managed with git together with the rest of my plain text files (notes, todos, etc). It takes some time to adapt to since the “user interface” is quite different than normal calendar applications, but for those who are familiar with quick navigation in text files (for example using Vim), it can be much more efficient to use a plain text calendar.&lt;/p&gt;
+&lt;p&gt;I also wrote a small bash script for opening the calendar on the current date in Vim:&lt;/p&gt;
+&lt;div class=&quot;sourceCode&quot; id=&quot;cb2&quot;&gt;&lt;pre class=&quot;sourceCode sh&quot;&gt;&lt;code class=&quot;sourceCode bash&quot;&gt;&lt;span id=&quot;cb2-1&quot;&gt;&lt;a href=&quot;#cb2-1&quot; aria-hidden=&quot;true&quot; tabindex=&quot;-1&quot;&gt;&lt;/a&gt;&lt;span class=&quot;va&quot;&gt;today&lt;/span&gt;&lt;span class=&quot;op&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;kw&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;fu&quot;&gt;date&lt;/span&gt; +%Y-%m-%d&lt;span class=&quot;kw&quot;&gt;`&lt;/span&gt;&lt;/span&gt;
+&lt;span id=&quot;cb2-2&quot;&gt;&lt;a href=&quot;#cb2-2&quot; aria-hidden=&quot;true&quot; tabindex=&quot;-1&quot;&gt;&lt;/a&gt;&lt;/span&gt;
+&lt;span id=&quot;cb2-3&quot;&gt;&lt;a href=&quot;#cb2-3&quot; aria-hidden=&quot;true&quot; tabindex=&quot;-1&quot;&gt;&lt;/a&gt;&lt;span class=&quot;ex&quot;&gt;vim&lt;/span&gt; /path/to/calendar.txt &lt;span class=&quot;at&quot;&gt;-c&lt;/span&gt; &lt;span class=&quot;st&quot;&gt;&amp;quot;/&lt;/span&gt;&lt;span class=&quot;va&quot;&gt;$today&lt;/span&gt;&lt;span class=&quot;st&quot;&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+ </description>
+        </item>
+        <item>
             <title>Test av Northern Playground langermet trøye
 </title>
             <link>https://erikjohannes.no/posts/20220326-northern-playground-turtleneck-test/index.html</link>

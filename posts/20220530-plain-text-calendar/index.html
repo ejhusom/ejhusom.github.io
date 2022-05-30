@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Erik Johannes Husom</title>
+        <base href="https://erikjohannes.no/">
+        <!-- <base href="file:///Users/erikjohannes/Documents/ejhusom.github.io/"> -->
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <meta name="author" content="Erik Johannes Husom">
+        <meta name="description" content="Personal website.">
+        
+        <link rel="icon" href="data:,">
+        <link href="css/style.css" rel="stylesheet" type="text/css" title="Stylesheet">
+        <!-- <link href="css/experimental.css" rel="alternate stylesheet" type="text/css" title="Experimental"> -->
+    </head>
+    <body>
+    <header>
+        <h1 class=p-name rel="me"><a href="https://erikjohannes.no/" class=ghost>Erik Johannes</a></h1>
+        <br>
+        <nav class=header-nav>
+            <!-- <a href="index.html">home</a> -->
+            <a href="blog.html">Blog</a>
+            <a href="photofeed.html">Photofeed</a>
+            <!-- <a href="mountain-conditions.html">Mountain conditions</a> -->
+            <!-- <a href="https://peakbase.app">Peakbase</a> -->
+            <a href="photography.html">Photography</a>
+            <a href="stuff.html">Stuff</a>
+            <a href="about.html">About</a>
+            <a href="index.xml">RSS</a>
+        </nav>
+    </header>
+<article>
+<h2>Plain text calendar
+</h2>
+<h3>30 May 2022</h3><p>The last years I have been moving towards plain text files for almost any use case where I need to store information digitally, and after reading about <a href="https://terokarvinen.com/2021/calendar-txt/">Calendar.txt</a> I have started to use a plain text file as my calendar. I use (almost) the same template as described in the link, but I wrote my own script for generating the calendar template so I can easily make adjustments if needed. Example of the format with a few example events:</p>
+<pre><code>2023-01-02 w1
+2023-01-02 w1 Mon 
+2023-01-03 w1 Tue  12:00 Meeting.
+2023-01-04 w1 Wed 
+2023-01-05 w1 Thu  18:00 Going for a run.
+2023-01-06 w1 Fri 
+2023-01-07 w1 Sat 
+2023-01-08 w1 Sun 
+2023-01-09 w2
+2023-01-09 w2 Mon 
+2023-01-10 w2 Tue 
+2023-01-11 w2 Wed 
+2023-01-12 w2 Thu  Seminar.
+2023-01-13 w2 Fri 
+2023-01-14 w2 Sat 
+2023-01-15 w2 Sun </code></pre>
+<p>I find it quite nice since it integrates well with the rest of my very plain text-oriented workflow, and it’s easily synced and managed with git together with the rest of my plain text files (notes, todos, etc). It takes some time to adapt to since the “user interface” is quite different than normal calendar applications, but for those who are familiar with quick navigation in text files (for example using Vim), it can be much more efficient to use a plain text calendar.</p>
+<p>I also wrote a small bash script for opening the calendar on the current date in Vim:</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode sh"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="va">today</span><span class="op">=</span><span class="kw">`</span><span class="fu">date</span> +%Y-%m-%d<span class="kw">`</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="ex">vim</span> /path/to/calendar.txt <span class="at">-c</span> <span class="st">&quot;/</span><span class="va">$today</span><span class="st">&quot;</span></span></code></pre></div>
+</article>
+    <footer>
+        No tracking. No cookies. No visit logs.
+        <!-- <br> -->
+        <!-- Get updates via <a href="index.xml">RSS</a>. -->
+        <!-- <br> -->
+        <!-- If you got comments or feedback, feel free to send me an e-mail: <a href="mailto:erikjohannes@protonmail.com">erikjohannes@protonmail.com</a> :) -->
+        <!-- <br> -->
+        <!-- Website is built through self-made scripts and manual writing. -->
+        <br>
+        Copyright: &copy;2018-2022 Erik Johannes Husom. All rights reserved.
+    </footer>
+    </body>
+</html>

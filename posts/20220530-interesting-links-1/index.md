@@ -7,8 +7,8 @@ tags:
 categories:
 ---
 
-Sharing some links I find worth sharing:
+Some links I find worth sharing:
 
+- [On digital footprints](https://weeklymusings.net/weekly-musings-125?pk_campaign=rss-feed)
 - [Better search results](https://tdarb.org/better-search-results/index.html) by Brad Taunt.
-- [Analog Office](https://analogoffice.net)
 - [tdarb.org](https://tdarb.org/)

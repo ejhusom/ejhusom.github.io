@@ -2,7 +2,7 @@
 title: "My best reads of 2021"
 date: 2022-05-31
 type: "posts"
-draft: true
+draft: 
 tags:
 ---
 
